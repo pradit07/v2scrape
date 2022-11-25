@@ -82,20 +82,6 @@
     "remark": "github.com/freefq - 美国  27"
   },
   {
-    "vpn": "vmess",
-    "address": "8.219.173.108",
-    "port": "2083",
-    "host": "xingzidashabimeiyoumuqin.gmlovebaipiao.tech",
-    "alterId": "0",
-    "id": "9ed79552-08cf-402f-e190-91f24eda1681",
-    "network": "ws",
-    "type": "",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "path": "/GenshinMinecraft",
-    "remark": "github.com/freefq - 中国阿里云 1"
-  },
-  {
     "vpn": "trojan",
     "address": "jp.liangyuandian.top",
     "port": 443,
@@ -281,5 +267,21 @@
     "sni": "",
     "path": "/dongtaiwang.com",
     "remark": "github.com/freefq - 美国CloudFlare节点 14"
+  },
+  {
+    "vpn": "vmess",
+    "address": "51.89.100.10",
+    "port": 443,
+    "host": "",
+    "alterId": 64,
+    "id": "83a424d8-4bcb-4cee-b016-2c8f1db4a921",
+    "network": "ws",
+    "type": "auto",
+    "security": "auto",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "",
+    "path": "/path/243535322906",
+    "remark": "github.com/freefq - 法国  15"
   }
 ]
