@@ -1,5 +1,5 @@
 proxies:
-  - name: "github.com/freefq - 香港DMIT数据中心 1"
+  - name: '香港DMIT数据中心 1'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -12,10 +12,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: imports.teams.microsoft.com
-    servername: imports.teams.microsoft.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: f1f3227.v3.glados-config.net
-  - name: "github.com/freefq - 香港DMIT数据中心 2"
+  - name: '香港DMIT数据中心 2'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -31,7 +31,7 @@ proxies:
         Host: imports.teams.microsoft.com
     servername: imports.teams.microsoft.com
     server: f1f3227.v1.glados-config.net
-  - name: "github.com/freefq - 香港DMIT数据中心 3"
+  - name: '香港DMIT数据中心 3'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -44,10 +44,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: f1f3227.v4.glados-config.net
-  - name: "github.com/freefq - 法国  5"
+  - name: '法国  5'
     type: vmess
     port: 443
     uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
@@ -63,7 +63,7 @@ proxies:
         Host: imports.teams.microsoft.com
     servername: imports.teams.microsoft.com
     server: 51.89.100.10
-  - name: "github.com/freefq - 美国PacificRack机房 8"
+  - name: '美国PacificRack机房 8'
     type: vmess
     port: 443
     uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
@@ -76,10 +76,10 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: 66.212.20.3
-  - name: "github.com/freefq - 美国CloudFlare节点 9"
+  - name: '美国CloudFlare节点 9'
     type: vmess
     port: 443
     uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
@@ -95,7 +95,7 @@ proxies:
         Host: v2.chigua.tk
     servername: v2.chigua.tk
     server: main.millionaireaisle.com
-  - name: "github.com/freefq - 香港电讯盈科有限公司 10"
+  - name: '香港电讯盈科有限公司 10'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -111,7 +111,7 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: 219.76.13.169
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 12"
+  - name: '美国CloudFlare公司CDN节点 12'
     type: vmess
     port: 443
     uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -127,7 +127,7 @@ proxies:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
     server: main.millionaireaisle.com
-  - name: "github.com/freefq - 美国CloudFlare节点 13"
+  - name: '美国CloudFlare节点 13'
     type: vmess
     port: 443
     uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
@@ -143,7 +143,7 @@ proxies:
         Host: clash6.ssr-free.xyz
     servername: clash6.ssr-free.xyz
     server: main.millionaireaisle.com
-  - name: "github.com/freefq - 美国CloudFlare节点 14"
+  - name: '美国CloudFlare节点 14'
     type: vmess
     port: 443
     uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
@@ -159,7 +159,7 @@ proxies:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
     server: main.millionaireaisle.com
-  - name: "github.com/freefq - 希腊  15"
+  - name: '希腊  15'
     type: vmess
     port: 443
     uuid: a2db7c52-6c75-11ed-8d16-000017022008
@@ -172,10 +172,10 @@ proxies:
     ws-opts: 
       path: /getweather
       headers:
-        Host: imports.teams.microsoft.com
-    servername: imports.teams.microsoft.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: aop.ssfree.ru
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 16"
+  - name: '美国CloudFlare公司CDN节点 16'
     type: vmess
     port: 2083
     uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
