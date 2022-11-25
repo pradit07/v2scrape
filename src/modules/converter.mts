@@ -90,6 +90,9 @@ class Converter {
     for (const account of this.accounts) {
       const cdn = bugs.cdn;
       const sni = bugs.sni;
+
+      // Only support ws for now
+      if (account.network != "ws") continue;
       if (account.vpn == "vmess") {
         proxies.push(`  - name: "${account.remark}"`);
         proxies.push(`    type: ${account.vpn}`);
@@ -100,7 +103,7 @@ class Converter {
         proxies.push(`    tls: ${account.tls ? true : false}`);
         proxies.push(`    udp: true`);
         proxies.push(`    skip-cert-verify: ${account.skipCertVerify}`);
-        proxies.push(`    network: ${account.network}`); // Only support ws for now
+        proxies.push(`    network: ${account.network}`);
         proxies.push(`    ws-opts: `);
         proxies.push(`      path: ${account.path}`);
         proxies.push(`      headers:`);
