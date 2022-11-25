@@ -44,8 +44,8 @@ proxies:
     ws-opts: 
       path: /GenshinMinecraft
       headers:
-        Host: imports.teams.microsoft.com
-    servername: imports.teams.microsoft.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 8.219.240.162
   - name: '希腊  6'
     type: vmess
@@ -92,8 +92,8 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: imports.teams.microsoft.com
-    servername: imports.teams.microsoft.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 219.76.13.169
   - name: '美国CloudFlare节点 9'
     type: vmess
@@ -111,6 +111,22 @@ proxies:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
     server: main.millionaireaisle.com
+  - name: '中国阿里云 1'
+    type: vmess
+    port: 2083
+    uuid: 9ed79552-08cf-402f-e190-91f24eda1681
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /GenshinMinecraft
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: 8.219.173.108
   - name: '美国CloudFlare节点 10'
     type: vmess
     port: 443
@@ -172,6 +188,6 @@ proxies:
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: 51.89.100.10
