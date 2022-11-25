@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: f1f3227.v3.glados-config.net
   - name: "github.com/freefq - 香港DMIT数据中心 2"
     type: vmess
@@ -60,8 +60,8 @@ proxies:
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: 51.89.100.10
   - name: "github.com/freefq - 美国PacificRack机房 8"
     type: vmess
@@ -76,8 +76,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: 66.212.20.3
   - name: "github.com/freefq - 美国CloudFlare节点 9"
     type: vmess
@@ -191,3 +191,291 @@ proxies:
         Host: xui.mycf.ml
     servername: xui.mycf.ml
     server: main.millionaireaisle.com
+  - name: "🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧"
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: ca.0112233.xyz
+  - name: "🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧"
+    type: vmess
+    port: 443
+    uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: jparm.fineyoo.cf
+  - name: "🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧"
+    type: vmess
+    port: 443
+    uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: jparm.fineyoo.ml
+  - name: "🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧"
+    type: vmess
+    port: 443
+    uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: jpamd.fineyoo.ml
+  - name: "🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧"
+    type: vmess
+    port: 443
+    uuid: a612b67f-a79b-4a71-a82b-a46906752023
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /408
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: amdkr.ptuu.ga
+  - name: "🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧"
+    type: vmess
+    port: 443
+    uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /987
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: amdkr.ptuu.ml
+  - name: "🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2"
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: ca.0112233.xyz
+  - name: "🇰🇷 -韩国-92.223.61.21"
+    type: vmess
+    port: 443
+    uuid: 06d3d7a6-bc43-46f2-be8e-ad46c4416a27
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 92.223.61.21
+  - name: "🇯🇵 -日本-paopao.v2.jp05.paopaocloud.cyou"
+    type: vmess
+    port: 3307
+    uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: paopao.v2.jp05.paopaocloud.cyou
+  - name: "🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 3"
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: ca.0112233.xyz
+  - name: "🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2"
+    type: vmess
+    port: 443
+    uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: jparm.fineyoo.cf
+  - name: "🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2"
+    type: vmess
+    port: 443
+    uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: jparm.fineyoo.ml
+  - name: "🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2"
+    type: vmess
+    port: 443
+    uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: jpamd.fineyoo.ml
+  - name: "🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2"
+    type: vmess
+    port: 443
+    uuid: a612b67f-a79b-4a71-a82b-a46906752023
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /408
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: amdkr.ptuu.ga
+  - name: "🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2"
+    type: vmess
+    port: 443
+    uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /987
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: amdkr.ptuu.ml
+  - name: "🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2 2"
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
+    server: ca.0112233.xyz
+  - name: "🇺🇸 -美国-104.29.64.5"
+    type: vmess
+    port: 443
+    uuid: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 104.29.64.5
+  - name: "未知_1124022"
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 141.101.115.120
