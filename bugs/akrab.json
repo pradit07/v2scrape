@@ -1,4 +1,4 @@
 {
-  "sni": ["options.teams.microsoft.com", "imports.teams.microsoft.com", "click.zoom.us"],
+  "sni": ["options.teams.microsoft.com", "click.zoom.us"],
   "cdn": ["main.millionaireisle.com"]
 }
