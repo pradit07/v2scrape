@@ -60,8 +60,8 @@ proxies:
     ws-opts: 
       path: /getweather
       headers:
-        Host: imports.teams.microsoft.com
-    servername: imports.teams.microsoft.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: aop.ssfree.ru
   - name: '美国CloudFlare公司CDN节点 16'
     type: vmess
@@ -108,8 +108,8 @@ proxies:
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: 51.89.100.10
   - name: '香港电讯盈科有限公司 4'
     type: vmess
@@ -124,8 +124,8 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: 219.76.13.169
   - name: '美国CloudFlare节点 6'
     type: vmess
