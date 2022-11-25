@@ -110,7 +110,7 @@ proxies:
       headers:
         Host: clash6.ssr-free.xyz
     servername: clash6.ssr-free.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '法国  15'
     type: vmess
     port: 443
