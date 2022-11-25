@@ -95,7 +95,7 @@ class Converter {
       if (account.network != "ws") continue;
       if (!account.tls) continue;
       if (account.vpn == "vmess") {
-        proxies.push(`  - name: "${account.remark}"`);
+        proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
         proxies.push(`    type: ${account.vpn}`);
         proxies.push(`    port: ${account.port}`);
         proxies.push(`    uuid: ${account.id}`);
