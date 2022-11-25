@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: imports.teams.microsoft.com
-    servername: imports.teams.microsoft.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: f1f3227.v3.glados-config.net
   - name: "github.com/freefq - 香港DMIT数据中心 2"
     type: vmess
@@ -44,8 +44,8 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: imports.teams.microsoft.com
-    servername: imports.teams.microsoft.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: f1f3227.v4.glados-config.net
   - name: "github.com/freefq - 法国  5"
     type: vmess
@@ -60,25 +60,9 @@ proxies:
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: imports.teams.microsoft.com
-    servername: imports.teams.microsoft.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 51.89.100.10
-  - name: "github.com/freefq - 美国CloudFlare公司CDN节点 7"
-    type: vmess
-    port: 80
-    uuid: d2322443-0575-4abc-a9dd-e46fdc9c570f
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /scaleway
-      headers:
-        Host: 
-    servername: 
-    server: main.millionaireaisle.com
   - name: "github.com/freefq - 美国PacificRack机房 8"
     type: vmess
     port: 443
@@ -92,8 +76,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: imports.teams.microsoft.com
-    servername: imports.teams.microsoft.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 66.212.20.3
   - name: "github.com/freefq - 美国CloudFlare节点 9"
     type: vmess
@@ -188,8 +172,8 @@ proxies:
     ws-opts: 
       path: /getweather
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: aop.ssfree.ru
   - name: "github.com/freefq - 美国CloudFlare公司CDN节点 16"
     type: vmess
@@ -206,20 +190,4 @@ proxies:
       headers:
         Host: xui.mycf.ml
     servername: xui.mycf.ml
-    server: main.millionaireaisle.com
-  - name: "github.com/freefq - 美国CloudFlare节点 17"
-    type: vmess
-    port: 2095
-    uuid: dabdbbec-f774-41ff-a296-18026f469a97
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /fhf5hfth565fhtf
-      headers:
-        Host: king2.mmadserr.ml
-    servername: king2.mmadserr.ml
     server: main.millionaireaisle.com
