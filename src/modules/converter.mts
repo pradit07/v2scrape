@@ -93,6 +93,7 @@ class Converter {
 
       // Only support ws for now
       if (account.network != "ws") continue;
+      if (!account.tls) continue;
       if (account.vpn == "vmess") {
         proxies.push(`  - name: "${account.remark}"`);
         proxies.push(`    type: ${account.vpn}`);
