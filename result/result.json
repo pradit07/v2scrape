@@ -83,7 +83,7 @@
   },
   {
     "vpn": "vmess",
-    "address": "8.219.240.162",
+    "address": "8.219.173.108",
     "port": "2083",
     "host": "xingzidashabimeiyoumuqin.gmlovebaipiao.tech",
     "alterId": "0",
@@ -93,7 +93,7 @@
     "skipCertVerify": true,
     "tls": "tls",
     "path": "/GenshinMinecraft",
-    "remark": "github.com/freefq - 中国阿里云 3"
+    "remark": "github.com/freefq - 中国阿里云 1"
   },
   {
     "vpn": "vmess",
@@ -184,18 +184,14 @@
     "remark": "github.com/freefq - 美国CloudFlare节点 9"
   },
   {
-    "vpn": "vmess",
-    "address": "8.219.173.108",
-    "port": "2083",
-    "host": "xingzidashabimeiyoumuqin.gmlovebaipiao.tech",
-    "alterId": "0",
-    "id": "9ed79552-08cf-402f-e190-91f24eda1681",
-    "network": "ws",
+    "vpn": "trojan",
+    "address": "jp.liangyuandian.top",
+    "port": 443,
+    "alterId": 0,
+    "id": "92686865-4cda-49a9-88af-c2c811db3403",
     "type": "",
     "skipCertVerify": true,
-    "tls": "tls",
-    "path": "/GenshinMinecraft",
-    "remark": "github.com/freefq - 中国阿里云 1"
+    "remark": "github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDMicrosoft%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%202  "
   },
   {
     "vpn": "vmess",
