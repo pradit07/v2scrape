@@ -105,5 +105,4 @@ dist
 
 # Custom ignored files
 .idea/
-result/
 app/
