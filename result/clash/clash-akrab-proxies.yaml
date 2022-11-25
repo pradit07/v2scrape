@@ -1,68 +1,4 @@
 proxies:
-  - name: '希腊  6'
-    type: vmess
-    port: 443
-    uuid: 385977b6-6cda-11ed-85ee-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: aop.ssfree.ru
-  - name: '美国加利福尼亚州弗里蒙特市Linode公司 7'
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: vus4.0bad.com
-  - name: '香港电讯盈科有限公司 8'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 219.76.13.169
-  - name: '美国CloudFlare节点 9'
-    type: vmess
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-    servername: lg30.cfcdn3.xyz
-    server: main.millionaireisle.com
   - name: '美国CloudFlare节点 10'
     type: vmess
     port: 443
@@ -140,8 +76,8 @@ proxies:
     ws-opts: 
       path: /GenshinMinecraft
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 8.219.240.162
   - name: '美国CloudFlare公司CDN节点 16'
     type: vmess
@@ -236,6 +172,438 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.v9.glados-config.net
+  - name: '中国阿里云 1'
+    type: vmess
+    port: 2083
+    uuid: 9ed79552-08cf-402f-e190-91f24eda1681
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /GenshinMinecraft
+      headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: f1f3227.v9.glados-config.net
+    server: 8.219.173.108
+  - name: '美国CloudFlare公司CDN节点 22'
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/401452697/635b464921141/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    servername: sg1-v2ray.sshkit.org
+    server: main.millionaireisle.com
+  - name: '美国CloudFlare公司CDN节点 23'
+    type: vmess
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /go
+      headers:
+        Host: lu1.gogogoo.cyou
+    servername: lu1.gogogoo.cyou
+    server: main.millionaireisle.com
+  - name: '🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧'
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: ca.0112233.xyz
+  - name: '🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧'
+    type: vmess
+    port: 443
+    uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: jparm.fineyoo.cf
+  - name: '🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧'
+    type: vmess
+    port: 443
+    uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: jparm.fineyoo.ml
+  - name: '🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧'
+    type: vmess
+    port: 443
+    uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: jpamd.fineyoo.ml
+  - name: '🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧'
+    type: vmess
+    port: 443
+    uuid: a612b67f-a79b-4a71-a82b-a46906752023
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /408
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: amdkr.ptuu.ga
+  - name: '🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧'
+    type: vmess
+    port: 443
+    uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /987
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: amdkr.ptuu.ml
+  - name: '🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2'
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: ca.0112233.xyz
+  - name: '🇭🇰 -香港-ah.yd01.paopaocloud.cyou'
+    type: vmess
+    port: 10015
+    uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: ah.yd01.paopaocloud.cyou
+  - name: '🇭🇰 -香港-f1f3227.v3.glados-config.net'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.v3.glados-config.net
+  - name: '🇭🇰 -香港-f1f3227.v4.glados-config.net'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: f1f3227.v4.glados-config.net
+  - name: '🇭🇰 -香港-119.237.43.217'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 119.237.43.217
+  - name: '🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 3'
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: ca.0112233.xyz
+  - name: '🇯🇵 美国-vmess-jparm.fineyoo.cf443-被墙-中转152.70.81.66-解锁日本地区NF非自制剧 2'
+    type: vmess
+    port: 443
+    uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: jparm.fineyoo.cf
+  - name: '🇯🇵 美国-vmess-jparm.fineyoo.ml443-被墙-中转138.2.33.90-解锁日本地区NF非自制剧 2'
+    type: vmess
+    port: 443
+    uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: jparm.fineyoo.ml
+  - name: '🇯🇵 美国-vmess-jpamd.fineyoo.ml443-被墙-中转138.2.33.102-解锁日本地区NF非自制剧 2'
+    type: vmess
+    port: 443
+    uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /123
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: jpamd.fineyoo.ml
+  - name: '🇰🇷 美国-vmess-amdkr.ptuu.ga443-被墙-中转152.69.229.222-解锁韩国地区NF非自制剧 2'
+    type: vmess
+    port: 443
+    uuid: a612b67f-a79b-4a71-a82b-a46906752023
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /408
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: amdkr.ptuu.ga
+  - name: '🇰🇷 美国-vmess-amdkr.ptuu.ml443-被墙-中转146.56.96.75-解锁韩国地区NF非自制剧 2'
+    type: vmess
+    port: 443
+    uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /987
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: amdkr.ptuu.ml
+  - name: '🇸🇬 美国-vmess-ca.0112233.xyz8443-被墙-中转199.87.210.186-解锁新加坡地区NF非自制剧 2 2'
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: ca.0112233.xyz
+  - name: '🇺🇸 -美国-104.16.151.215'
+    type: vmess
+    port: 443
+    uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 104.16.151.215
+  - name: '未知_1124015'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 141.101.115.100
+  - name: '希腊  6'
+    type: vmess
+    port: 443
+    uuid: 385977b6-6cda-11ed-85ee-000017022008
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /getweather
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: aop.ssfree.ru
+  - name: '美国加利福尼亚州弗里蒙特市Linode公司 7'
+    type: vmess
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /chat
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: vus4.0bad.com
+  - name: '香港电讯盈科有限公司 8'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 219.76.13.169
+  - name: '美国CloudFlare节点 9'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: main.millionaireisle.com
