@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: f1f3227.v3.glados-config.net
   - name: "github.com/freefq - 香港DMIT数据中心 2"
     type: vmess
@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: f1f3227.v1.glados-config.net
   - name: "github.com/freefq - 香港DMIT数据中心 3"
     type: vmess
@@ -44,25 +44,9 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: f1f3227.v4.glados-config.net
-  - name: "github.com/freefq - 台湾省新北市中华电信 4"
-    type: vmess
-    port: 39999
-    uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    ws-opts: 
-      path: 
-      headers:
         Host: imports.teams.microsoft.com
     servername: imports.teams.microsoft.com
-    server: tw-tb-c.zc20200426.club
+    server: f1f3227.v4.glados-config.net
   - name: "github.com/freefq - 法国  5"
     type: vmess
     port: 443
@@ -76,8 +60,8 @@ proxies:
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: 51.89.100.10
   - name: "github.com/freefq - 美国CloudFlare公司CDN节点 7"
     type: vmess
@@ -108,8 +92,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: imports.teams.microsoft.com
+    servername: imports.teams.microsoft.com
     server: 66.212.20.3
   - name: "github.com/freefq - 美国CloudFlare节点 9"
     type: vmess
@@ -143,22 +127,6 @@ proxies:
         Host: imports.teams.microsoft.com
     servername: imports.teams.microsoft.com
     server: 219.76.13.169
-  - name: "github.com/freefq - 美国  11"
-    type: vmess
-    port: 443
-    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: tcp
-    ws-opts: 
-      path: 
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 168.138.171.65
   - name: "github.com/freefq - 美国CloudFlare公司CDN节点 12"
     type: vmess
     port: 443
