@@ -1,0 +1,4 @@
+{
+  "sni": ["news.microsoft.com"],
+  "cdn": ["news.microsoft.com", "cacerts.digicert.com"]
+}

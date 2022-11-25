@@ -1,11 +1,11 @@
 import { v2parse } from "./helper.mjs";
 import { V2Object, Vless, Vmess } from "./types.mjs";
 import fetch from "node-fetch";
-import { readFileSync, writeFileSync } from "fs";
-import { bugs } from "./bugs.mjs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
+import { Bugs } from "./bugs.mjs";
 
-class Converter {
-  private path = process.cwd();
+class V2scrape {
+  path = process.cwd();
   private sourceUrl = readFileSync(`${this.path}/source`).toString();
   private accounts: Array<V2Object> = [];
 
@@ -28,7 +28,7 @@ class Converter {
     process.stdout.write("Writing result...");
     writeFileSync(`${this.path}/result/result.json`, JSON.stringify(this.accounts, null, 2));
     process.stdout.write("done.!\n");
-    console.log(`Result saved to ${this.path}/result.json`);
+    console.log(`Result saved to ${this.path}/result/result.json`);
   }
 
   private async parse(accounts: Array<string> | string) {
@@ -83,7 +83,8 @@ class Converter {
     }
   }
 
-  toClash() {
+  toClash(bugBundle: string) {
+    const bugs = new Bugs(bugBundle);
     const proxies = ["proxies:"];
 
     // Vmess
@@ -122,9 +123,10 @@ class Converter {
       // Need some work for trojan and other
     }
 
-    writeFileSync(`${this.path}/result/clash-proxies.yaml`, proxies.join("\n"));
+    if (!existsSync(`${this.path}/result/clash`)) mkdirSync(`${this.path}/result/clash`);
+    writeFileSync(`${this.path}/result/clash/clash-${bugBundle}-proxies.yaml`, proxies.join("\n"));
   }
 }
 
-const converter = new Converter();
-export { converter };
+const v2scrape = new V2scrape();
+export { v2scrape };
