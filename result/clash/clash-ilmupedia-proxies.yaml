@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 6'
     type: vmess
     port: 443
@@ -78,7 +78,7 @@ proxies:
       headers:
         Host: clash6.ssr-free.xyz
     servername: clash6.ssr-free.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 7'
     type: vmess
     port: 443
@@ -94,7 +94,7 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国加利福尼亚州弗里蒙特市Linode公司 8'
     type: vmess
     port: 443
@@ -126,7 +126,7 @@ proxies:
       headers:
         Host: v2.chigua.tk
     servername: v2.chigua.tk
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 10'
     type: vmess
     port: 443
@@ -142,7 +142,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国CloudFlare节点 11'
     type: vmess
     port: 443
@@ -158,7 +158,7 @@ proxies:
       headers:
         Host: lu1.gogogoo.cyou
     servername: lu1.gogogoo.cyou
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国CloudFlare公司CDN节点 12'
     type: vmess
     port: 443
@@ -238,7 +238,7 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '中国阿里云 21'
     type: vmess
     port: 2083
