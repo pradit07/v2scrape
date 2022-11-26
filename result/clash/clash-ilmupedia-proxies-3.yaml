@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国CloudFlare公司CDN节点 7'
+  - name: '美国PacificRack机房 22'
     type: vmess
     port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
     alterId: 0
     cipher: auto
     tls: true
@@ -10,31 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /ray
-      headers:
-        Host: fr2.cfcdn4.xyz
-    servername: fr2.cfcdn4.xyz
-    server: cacerts.digicert.com
-  - name: '俄罗斯  8'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
+      path: /dongtaiwang.com
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: f1f3227.f3.glados-config.net
-  - name: '加拿大魁北克省博阿努瓦OVH数据中心 9'
+    server: 66.212.20.3
+  - name: '美国CloudFlare节点 24'
     type: vmess
     port: 443
-    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +26,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+      path: /sshkit/401452697/635b464921141/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    servername: sg1-v2ray.sshkit.org
+    server: news.microsoft.com
+  - name: 'kntolodon'
+    type: vmess
+    port: 443
+    uuid: 3471c408-39bb-456a-b798-d40448dc7070
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /worryfree
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 167.114.67.25
+    server: do-vip3.dnstore.my.id

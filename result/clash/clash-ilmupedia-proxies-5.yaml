@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 15'
+  - name: '台湾省中华电信(HiNet)数据中心 2'
     type: vmess
-    port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 128.14.140.254
-  - name: '美国  17'
+    server: f1f3227.v8.glados-config.net
+  - name: '美国CloudFlare节点 3'
     type: vmess
     port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
     alterId: 0
     cipher: auto
     tls: true
@@ -26,12 +26,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /sshkit/401452697/635b464921141/
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: amshare.jingledev.me
-  - name: '美国CloudFlare节点 19'
+        Host: sg1-v2ray.sshkit.org
+    servername: sg1-v2ray.sshkit.org
+    server: news.microsoft.com
+  - name: '美国CloudFlare节点 4'
     type: vmess
     port: 443
     uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com

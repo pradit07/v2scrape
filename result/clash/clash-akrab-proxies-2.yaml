@@ -1,24 +1,8 @@
 proxies:
-  - name: '希腊  4'
+  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 15'
     type: vmess
     port: 443
-    uuid: cdaf68fc-6d3e-11ed-bd89-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: aop.ssfree.ru
-  - name: '美国CloudFlare节点 5'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
     alterId: 0
     cipher: auto
     tls: true
@@ -28,13 +12,13 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: main.millionaireaisle.com
-  - name: '美国CloudFlare节点 6'
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 128.14.140.254
+  - name: '美国  17'
     type: vmess
     port: 443
-    uuid: 3dacbaa8-784b-430c-9c1e-57d33648981d
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +26,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pq/fr1?ed=2048
+      path: /pkhhvws
       headers:
-        Host: fr1.pqjca.top
-    servername: fr1.pqjca.top
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: amshare.jingledev.me
+  - name: '美国CloudFlare节点 19'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
     server: main.millionaireaisle.com
