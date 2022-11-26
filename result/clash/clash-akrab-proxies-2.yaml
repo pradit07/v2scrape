@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 34.145.145.76
   - name: '希腊  4'
     type: vmess
@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /getweather
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: aop.ssfree.ru
   - name: '美国CloudFlare节点 5'
     type: vmess
