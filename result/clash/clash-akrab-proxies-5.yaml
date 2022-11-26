@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 12'
     type: vmess
     port: 443
@@ -62,4 +62,4 @@ proxies:
       headers:
         Host: lg1.cfcdn2.xyz
     servername: lg1.cfcdn2.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
