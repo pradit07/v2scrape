@@ -146,6 +146,7 @@ class V2scrape {
         accountsCount = 1;
 
         proxies = ["proxies:"];
+        continue;
       }
 
       if (accept) {
