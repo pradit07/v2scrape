@@ -139,13 +139,13 @@ class V2scrape {
     }
 
     let providers = ["proxies:"];
-    const proxiesPerProvider = Math.round(acceptedAccount.length / 5) || 1;
+    const proxiesPerProvider = Math.floor(acceptedAccount.length / 6) || 1;
 
     let providersNumber = 1;
     for (const proxies of acceptedAccount) {
       if (!proxies) continue;
       providers.push(proxies);
-      if (providers.length >= proxiesPerProvider) {
+      if (providers.length >= proxiesPerProvider && providersNumber <= 5) {
         writeFileSync(
           `${this.path}/result/clash/clash-${bugBundle}-proxies-${providersNumber}.yaml`,
           providers.join("\n")
