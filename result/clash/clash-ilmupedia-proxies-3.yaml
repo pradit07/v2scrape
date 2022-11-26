@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 6'
+  - name: '美国CloudFlare节点 12'
     type: vmess
     port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
     alterId: 0
     cipher: auto
     tls: true
@@ -10,31 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /VHONOFZ3
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 128.14.140.254
-  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 7'
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: cacerts.digicert.com
+  - name: '澳门澳门电讯 13'
     type: vmess
     port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 128.14.162.48
-  - name: '香港电讯盈科有限公司 8'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
     alterId: 0
     cipher: auto
     tls: true
@@ -46,11 +30,11 @@ proxies:
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 219.76.13.169
-  - name: '美国CloudFlare节点 10'
+    server: 45.64.22.55
+  - name: '美国麻省理工学院 3'
     type: vmess
     port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
     alterId: 0
     cipher: auto
     tls: true
@@ -58,8 +42,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /zh-cn
       headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: cacerts.digicert.com
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sg1.sanfen001.pics

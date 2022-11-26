@@ -1,8 +1,8 @@
 proxies:
-  - name: 'kntolodon'
+  - name: '日本东京Linode数据中心 3'
     type: vmess
-    port: 443
-    uuid: 3471c408-39bb-456a-b798-d40448dc7070
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -10,44 +10,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: do-vip3.dnstore.my.id
-  - name: 'vmess'
-    type: vmess
-    port: 443
-    uuid: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /worryfree/vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: sgc1.xtls.my.id
-  - name: '香港电讯盈科有限公司 18'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 219.76.13.169
-  - name: '俄罗斯  1'
+    server: f1f3227.v8.glados-config.net
+  - name: '广东省移动 4'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -63,3 +31,19 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.f3.glados-config.net
+  - name: '美国CloudFlare节点 5'
+    type: vmess
+    port: 443
+    uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /MokonaModokiMkv2Rentry
+      headers:
+        Host: jm.jshsxxxy.top
+    servername: jm.jshsxxxy.top
+    server: cacerts.digicert.com

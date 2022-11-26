@@ -1,21 +1,5 @@
 proxies:
-  - name: '希腊  11'
-    type: vmess
-    port: 443
-    uuid: cdaf68fc-6d3e-11ed-bd89-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: aop.ssfree.ru
-  - name: '日本东京Linode数据中心 3'
+  - name: '日本东京Linode数据中心 5'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -31,7 +15,23 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v8.glados-config.net
-  - name: '广东省移动 4'
+  - name: '希腊  6'
+    type: vmess
+    port: 443
+    uuid: 62e6255a-6da3-11ed-8de2-000017022008
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /getweather
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: aop.ssfree.ru
+  - name: '广东省移动 7'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -47,19 +47,3 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.f3.glados-config.net
-  - name: '美国CloudFlare节点 5'
-    type: vmess
-    port: 443
-    uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /MokonaModokiMkv2Rentry
-      headers:
-        Host: jm.jshsxxxy.top
-    servername: jm.jshsxxxy.top
-    server: news.microsoft.com
