@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 10'
     type: vmess
     port: 443
@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 128.14.162.48
   - name: '美国CloudFlare节点 11'
     type: vmess
