@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国CloudFlare节点 6'
     type: vmess
     port: 443
@@ -142,7 +142,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 11'
     type: vmess
     port: 443
@@ -382,7 +382,7 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 17'
     type: vmess
     port: 443
@@ -430,7 +430,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国CloudFlare节点 21'
     type: vmess
     port: 443

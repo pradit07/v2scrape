@@ -188,8 +188,8 @@ proxies:
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 51.89.100.10
   - name: '澳门澳门电讯 14'
     type: vmess
@@ -252,8 +252,8 @@ proxies:
     ws-opts: 
       path: /GenshinMinecraft
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 8.219.173.108
   - name: '美国CloudFlare公司CDN节点 22'
     type: vmess
@@ -300,8 +300,8 @@ proxies:
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 51.89.100.10
   - name: '美国  8'
     type: vmess
