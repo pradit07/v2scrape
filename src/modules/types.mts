@@ -1,4 +1,5 @@
 export interface V2Object {
+  isCdn: boolean;
   vpn: string;
   address: string;
   port: number;

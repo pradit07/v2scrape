@@ -1,4 +1,4 @@
-import { v2parse } from "./helper.mjs";
+import { isCdn, v2parse } from "./helper.mjs";
 import { V2Object, Vless, Vmess } from "./types.mjs";
 import fetch from "node-fetch";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
@@ -42,6 +42,7 @@ class V2scrape {
 
         accountObj = {
           vpn,
+          isCdn: await isCdn(vmess.add, vmess.host),
           address: vmess.add,
           port: vmess.port,
           host: vmess.host,
@@ -61,6 +62,7 @@ class V2scrape {
 
         accountObj = {
           vpn,
+          isCdn: await isCdn(vless.server, vless.host),
           address: vless.server,
           port: vless.port,
           host: vless.host,
@@ -109,7 +111,7 @@ class V2scrape {
         proxies.push(`    ws-opts: `);
         proxies.push(`      path: ${account.path}`);
         proxies.push(`      headers:`);
-        if (account.remark.match(/cloudflare/i)) {
+        if (account.remark.match(/cloudflare/i) || account.isCdn) {
           proxies.push(`        Host: ${account.host}`);
           proxies.push(`    servername: ${account.sni || account.host}`);
           proxies.push(`    server: ${cdn}`);
