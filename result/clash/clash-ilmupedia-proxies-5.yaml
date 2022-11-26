@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 10'
     type: vmess
     port: 443
@@ -62,4 +62,4 @@ proxies:
       headers:
         Host: lg1.cfcdn2.xyz
     servername: lg1.cfcdn2.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
