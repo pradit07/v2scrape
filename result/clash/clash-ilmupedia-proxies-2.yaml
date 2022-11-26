@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: fr1.pqjca.top
     servername: fr1.pqjca.top
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare公司CDN节点 7'
     type: vmess
     port: 443
