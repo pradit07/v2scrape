@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '香港电讯盈科有限公司 4'
     type: vmess
     port: 443
@@ -78,7 +78,7 @@ proxies:
       headers:
         Host: clash6.ssr-free.xyz
     servername: clash6.ssr-free.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 7'
     type: vmess
     port: 443
@@ -126,7 +126,7 @@ proxies:
       headers:
         Host: v2.chigua.tk
     servername: v2.chigua.tk
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国CloudFlare节点 10'
     type: vmess
     port: 443
@@ -158,7 +158,7 @@ proxies:
       headers:
         Host: lu1.gogogoo.cyou
     servername: lu1.gogogoo.cyou
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare公司CDN节点 12'
     type: vmess
     port: 443
@@ -174,7 +174,7 @@ proxies:
       headers:
         Host: fr2.cfcdn4.xyz
     servername: fr2.cfcdn4.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '法国  13'
     type: vmess
     port: 443
@@ -238,7 +238,7 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '中国阿里云 21'
     type: vmess
     port: 2083
