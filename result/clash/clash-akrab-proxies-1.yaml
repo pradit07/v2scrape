@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 219.76.13.169
   - name: '美国CloudFlare节点 19'
     type: vmess

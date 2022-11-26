@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国PacificRack机房 22'
     type: vmess
     port: 443
