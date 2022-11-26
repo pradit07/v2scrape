@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 45.64.22.55
   - name: '美国麻省理工学院 3'
     type: vmess
