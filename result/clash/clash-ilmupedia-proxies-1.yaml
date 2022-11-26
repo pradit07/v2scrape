@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 21'
     type: vmess
     port: 443
@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: v2.chigua.tk
     servername: v2.chigua.tk
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国PacificRack机房 23'
     type: vmess
     port: 443
