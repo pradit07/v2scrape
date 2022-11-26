@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /worryfree
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: do-vip3.dnstore.my.id
   - name: 'vmess'
     type: vmess
@@ -44,8 +44,8 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 219.76.13.169
   - name: '俄罗斯  1'
     type: vmess
