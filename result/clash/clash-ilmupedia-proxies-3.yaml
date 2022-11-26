@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 6'
     type: vmess
     port: 443
