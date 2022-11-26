@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '法国  7'
     type: vmess
     port: 443
@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: fr2.cfcdn4.xyz
     servername: fr2.cfcdn4.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '法国鲁贝OVH数据中心 10'
     type: vmess
     port: 443

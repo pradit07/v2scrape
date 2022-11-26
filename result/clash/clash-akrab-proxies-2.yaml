@@ -63,3 +63,19 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: 219.76.13.169
+  - name: '美国CloudFlare节点 19'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: main.millionaireaisle.com
