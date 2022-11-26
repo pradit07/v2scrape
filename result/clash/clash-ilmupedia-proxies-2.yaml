@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 10'
     type: vmess
     port: 443
@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: cacerts.digicert.com
+    server: news.microsoft.com
