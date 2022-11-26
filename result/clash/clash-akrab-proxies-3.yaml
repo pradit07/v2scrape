@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国CloudFlare节点 21'
+  - name: '俄罗斯  8'
     type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -10,44 +10,44 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshkit/401452697/635b464921141/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-    servername: sg1-v2ray.sshkit.org
-    server: main.millionaireaisle.com
-  - name: '美国CloudFlare节点 22'
-    type: vmess
-    port: 443
-    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: v2.chigua.tk
-    servername: v2.chigua.tk
-    server: main.millionaireaisle.com
-  - name: '美国PacificRack机房 23'
-    type: vmess
-    port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: 66.212.20.3
-  - name: '美国得克萨斯州 24'
+    server: f1f3227.f3.glados-config.net
+  - name: '加拿大魁北克省博阿努瓦OVH数据中心 9'
+    type: vmess
+    port: 443
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 167.114.67.25
+  - name: '美国CloudFlare节点 12'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: main.millionaireaisle.com
+  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 13'
     type: vmess
     port: 443
     uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
@@ -60,6 +60,22 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 34.145.145.76
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 128.14.162.48
+  - name: '美国CloudFlare节点 14'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: main.millionaireaisle.com
