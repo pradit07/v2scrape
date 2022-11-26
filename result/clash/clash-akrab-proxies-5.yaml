@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.cfcdn2.xyz
     servername: lg1.cfcdn2.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '香港电讯盈科有限公司 9'
     type: vmess
     port: 443
@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 219.76.13.169
   - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 11'
     type: vmess
