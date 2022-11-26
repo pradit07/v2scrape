@@ -95,15 +95,14 @@ class V2scrape {
   toClash(bugBundle: string) {
     if (!existsSync(`${this.path}/result/clash`)) mkdirSync(`${this.path}/result/clash`);
     const bugs = new Bugs(bugBundle);
-    let accountsCount = 1;
-    let providersCount = 1;
-    let proxies = ["proxies:"];
+    const acceptedAccount = [];
 
     // Vmess
     for (const account of this.accounts) {
       const cdn = bugs.cdn;
       const sni = bugs.sni;
       let accept = false;
+      let proxies = [];
 
       // Only support ws for now
       if (account.network != "ws") continue;
@@ -136,25 +135,26 @@ class V2scrape {
 
       // Need some work for trojan and other
 
-      // Split config 3/providers
-      if (accountsCount >= 3) {
-        writeFileSync(
-          `${this.path}/result/clash/clash-${bugBundle}-proxies-${providersCount}.yaml`,
-          proxies.join("\n")
-        );
-        providersCount++;
-        accountsCount = 1;
-
-        proxies = ["proxies:"];
-        continue;
-      }
-
-      if (accept) {
-        accountsCount++;
-      }
+      acceptedAccount.push(proxies.join("\n"));
     }
 
-    writeFileSync(`${this.path}/result/clash/clash-${bugBundle}-proxies-${providersCount}.yaml`, proxies.join("\n"));
+    let providers = ["proxies:"];
+    const proxiesPerProvider = Math.round(acceptedAccount.length / 5) || 1;
+
+    let providersNumber = 1;
+    for (const proxies of acceptedAccount) {
+      if (!proxies) continue;
+      providers.push(proxies);
+      if (providers.length >= proxiesPerProvider) {
+        writeFileSync(
+          `${this.path}/result/clash/clash-${bugBundle}-proxies-${providersNumber}.yaml`,
+          providers.join("\n")
+        );
+        providers = ["proxies:"];
+        providersNumber++;
+      }
+    }
+    writeFileSync(`${this.path}/result/clash/clash-${bugBundle}-proxies-${providersNumber}.yaml`, providers.join("\n"));
   }
 }
 
