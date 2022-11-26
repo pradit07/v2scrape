@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 22'
     type: vmess
     port: 443

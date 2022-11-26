@@ -44,8 +44,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 128.14.140.254
   - name: '香港电讯盈科有限公司 18'
     type: vmess

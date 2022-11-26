@@ -44,8 +44,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 66.212.20.3
   - name: '美国得克萨斯州 24'
     type: vmess
@@ -60,6 +60,6 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 34.145.145.76
