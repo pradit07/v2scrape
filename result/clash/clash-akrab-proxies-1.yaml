@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: f1f3227.f3.glados-config.net
   - name: '美国CloudFlare节点 5'
     type: vmess
@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: jm.jshsxxxy.top
     servername: jm.jshsxxxy.top
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
