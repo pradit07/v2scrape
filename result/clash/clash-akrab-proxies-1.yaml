@@ -1,0 +1,81 @@
+proxies:
+  - name: '美国CloudFlare节点 4'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: main.millionaireaisle.com
+  - name: '法国  7'
+    type: vmess
+    port: 443
+    uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 51.89.100.10
+  - name: '美国  8'
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: amshare.jingledev.me
+  - name: '美国CloudFlare公司CDN节点 9'
+    type: vmess
+    port: 443
+    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: fr2.cfcdn4.xyz
+    servername: fr2.cfcdn4.xyz
+    server: main.millionaireaisle.com
+  - name: '法国鲁贝OVH数据中心 10'
+    type: vmess
+    port: 443
+    uuid: b2737260-b925-4434-9ca1-6116fa8ab83c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /cw21sadd3
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 51.75.188.6
