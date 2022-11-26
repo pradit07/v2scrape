@@ -136,8 +136,8 @@ class V2scrape {
 
       // Need some work for trojan and other
 
-      // Split config 5/providers
-      if (accountsCount >= 5) {
+      // Split config 3/providers
+      if (accountsCount >= 3) {
         writeFileSync(
           `${this.path}/result/clash/clash-${bugBundle}-proxies-${providersCount}.yaml`,
           proxies.join("\n")
