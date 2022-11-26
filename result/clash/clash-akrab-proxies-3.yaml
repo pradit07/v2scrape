@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国CloudFlare节点 12'
+  - name: '美国CloudFlare公司CDN节点 7'
     type: vmess
     port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
     alterId: 0
     cipher: auto
     tls: true
@@ -12,13 +12,13 @@ proxies:
     ws-opts: 
       path: /ray
       headers:
-        Host: lg30.cfcdn3.xyz
-    servername: lg30.cfcdn3.xyz
+        Host: fr2.cfcdn4.xyz
+    servername: fr2.cfcdn4.xyz
     server: main.millionaireaisle.com
-  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 13'
+  - name: '俄罗斯  8'
     type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -26,15 +26,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 128.14.162.48
-  - name: '美国CloudFlare节点 14'
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: f1f3227.f3.glados-config.net
+  - name: '加拿大魁北克省博阿努瓦OVH数据中心 9'
     type: vmess
     port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
     alterId: 0
     cipher: auto
     tls: true
@@ -42,40 +42,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
       headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: main.millionaireaisle.com
-  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 15'
-    type: vmess
-    port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 128.14.140.254
-  - name: '美国  17'
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: amshare.jingledev.me
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 167.114.67.25

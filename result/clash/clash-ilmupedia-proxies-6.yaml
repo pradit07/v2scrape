@@ -1,24 +1,8 @@
 proxies:
-  - name: '希腊  4'
+  - name: '美国PacificRack机房 22'
     type: vmess
     port: 443
-    uuid: cdaf68fc-6d3e-11ed-bd89-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: aop.ssfree.ru
-  - name: '美国CloudFlare节点 5'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
     alterId: 0
     cipher: auto
     tls: true
@@ -28,13 +12,13 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: news.microsoft.com
-  - name: '美国CloudFlare节点 6'
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 66.212.20.3
+  - name: '美国CloudFlare节点 24'
     type: vmess
     port: 443
-    uuid: 3dacbaa8-784b-430c-9c1e-57d33648981d
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +26,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pq/fr1?ed=2048
+      path: /sshkit/401452697/635b464921141/
       headers:
-        Host: fr1.pqjca.top
-    servername: fr1.pqjca.top
+        Host: sg1-v2ray.sshkit.org
+    servername: sg1-v2ray.sshkit.org
     server: news.microsoft.com
+  - name: 'kntolodon'
+    type: vmess
+    port: 443
+    uuid: 3471c408-39bb-456a-b798-d40448dc7070
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: do-vip3.dnstore.my.id

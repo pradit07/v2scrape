@@ -2,23 +2,6 @@
   {
     "vpn": "vmess",
     "isCdn": false,
-    "address": "hynesconstruction.com",
-    "port": 443,
-    "host": "sg1-v2ray.sshkit.org",
-    "alterId": 0,
-    "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
-    "network": "ws",
-    "type": "auto",
-    "security": "auto",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "",
-    "path": "/sshkit/401452697/635b464921141/",
-    "remark": "github.com/freefq - 美国CloudFlare节点 21"
-  },
-  {
-    "vpn": "vmess",
-    "isCdn": false,
     "address": "1.1808.cf",
     "port": "443",
     "host": "v2.chigua.tk",
@@ -500,5 +483,20 @@
     "tls": "tls",
     "path": "%2Fworryfree",
     "remark": "trojan"
+  },
+  {
+    "vpn": "vmess",
+    "isCdn": false,
+    "address": "219.76.13.169",
+    "port": "443",
+    "host": "tgunivstar.168-138-94-194.sslip.io",
+    "alterId": "0",
+    "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/",
+    "remark": "github.com/freefq - 香港电讯盈科有限公司 18"
   }
 ]
