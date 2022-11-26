@@ -1,5 +1,37 @@
 proxies:
-  - name: '美国CloudFlare节点 10'
+  - name: '美国CloudFlare节点 9'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 10'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 128.14.162.48
+  - name: '美国CloudFlare节点 11'
     type: vmess
     port: 443
     uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
@@ -15,26 +47,10 @@ proxies:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
     server: main.millionaireaisle.com
-  - name: '希腊  11'
+  - name: '美国CloudFlare节点 12'
     type: vmess
     port: 443
-    uuid: cdaf68fc-6d3e-11ed-bd89-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: aop.ssfree.ru
-  - name: '日本东京Linode数据中心 3'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +58,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
+      path: /VHONOFZ3
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: f1f3227.v8.glados-config.net
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com

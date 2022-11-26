@@ -1,8 +1,8 @@
 proxies:
-  - name: '广东省移动 4'
+  - name: '澳门澳门电讯 13'
     type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    port: 443
+    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
     alterId: 0
     cipher: auto
     tls: true
@@ -10,40 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
+      path: /
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: f1f3227.f3.glados-config.net
-  - name: '美国CloudFlare节点 5'
-    type: vmess
-    port: 443
-    uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /MokonaModokiMkv2Rentry
-      headers:
-        Host: jm.jshsxxxy.top
-    servername: jm.jshsxxxy.top
-    server: cacerts.digicert.com
-  - name: '美国CloudFlare节点 9'
-    type: vmess
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: news.microsoft.com
+    server: 45.64.22.55
