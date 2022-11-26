@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /getweather
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: aop.ssfree.ru
   - name: '美国CloudFlare节点 3'
     type: vmess
@@ -108,8 +108,8 @@ proxies:
     ws-opts: 
       path: /chat
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: vus4.0bad.com
   - name: '美国CloudFlare节点 9'
     type: vmess
@@ -204,8 +204,8 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 45.64.22.6
   - name: '英国  17'
     type: vmess
@@ -220,8 +220,8 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: f1f3227.v9.glados-config.net
   - name: '美国CloudFlare公司CDN节点 18'
     type: vmess
@@ -252,8 +252,8 @@ proxies:
     ws-opts: 
       path: /GenshinMinecraft
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 8.219.173.108
   - name: '美国CloudFlare公司CDN节点 22'
     type: vmess
