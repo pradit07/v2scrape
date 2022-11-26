@@ -93,18 +93,23 @@ class V2scrape {
   }
 
   toClash(bugBundle: string) {
+    if (!existsSync(`${this.path}/result/clash`)) mkdirSync(`${this.path}/result/clash`);
     const bugs = new Bugs(bugBundle);
-    const proxies = ["proxies:"];
+    let accountsCount = 1;
+    let providersCount = 1;
+    let proxies = ["proxies:"];
 
     // Vmess
     for (const account of this.accounts) {
       const cdn = bugs.cdn;
       const sni = bugs.sni;
+      let accept = false;
 
       // Only support ws for now
       if (account.network != "ws") continue;
       if (!account.tls) continue;
       if (account.vpn == "vmess") {
+        accept = true;
         proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
         proxies.push(`    type: ${account.vpn}`);
         proxies.push(`    port: ${account.port}`);
@@ -130,10 +135,25 @@ class V2scrape {
       }
 
       // Need some work for trojan and other
+
+      // Split config 5/providers
+      if (accountsCount >= 5) {
+        writeFileSync(
+          `${this.path}/result/clash/clash-${bugBundle}-proxies-${providersCount}.yaml`,
+          proxies.join("\n")
+        );
+        providersCount++;
+        accountsCount = 1;
+
+        proxies = ["proxies:"];
+      }
+
+      if (accept) {
+        accountsCount++;
+      }
     }
 
-    if (!existsSync(`${this.path}/result/clash`)) mkdirSync(`${this.path}/result/clash`);
-    writeFileSync(`${this.path}/result/clash/clash-${bugBundle}-proxies.yaml`, proxies.join("\n"));
+    writeFileSync(`${this.path}/result/clash/clash-${bugBundle}-proxies-${providersCount}.yaml`, proxies.join("\n"));
   }
 }
 
