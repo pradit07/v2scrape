@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.cfcdn2.xyz
     servername: lg1.cfcdn2.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '香港电讯盈科有限公司 9'
     type: vmess
     port: 443

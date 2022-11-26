@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: 
     servername: 
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国CloudFlare节点 14'
     type: vmess
     port: 443
@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 16'
     type: vmess
     port: 443
@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '澳门澳门电讯 18'
     type: vmess
     port: 443
