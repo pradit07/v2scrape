@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: 
     servername: 
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '美国CloudFlare节点 14'
     type: vmess
     port: 443
@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '美国CloudFlare节点 15'
     type: vmess
     port: 443
@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 16'
     type: vmess
     port: 443
@@ -76,6 +76,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 45.64.22.55
