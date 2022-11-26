@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com

@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 128.14.140.254
   - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 7'
     type: vmess
