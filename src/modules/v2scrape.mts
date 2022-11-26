@@ -139,7 +139,7 @@ class V2scrape {
     }
 
     let providers = ["proxies:"];
-    const proxiesPerProvider = Math.floor(acceptedAccount.length / 6) || 1;
+    const proxiesPerProvider = Math.round(acceptedAccount.length / 6) || 1;
 
     let providersNumber = 1;
     for (const proxies of acceptedAccount) {
