@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国CloudFlare节点 6'
     type: vmess
     port: 443

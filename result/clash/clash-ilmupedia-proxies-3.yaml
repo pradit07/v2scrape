@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: fr2.cfcdn4.xyz
     servername: fr2.cfcdn4.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '俄罗斯  8'
     type: vmess
     port: 3331
