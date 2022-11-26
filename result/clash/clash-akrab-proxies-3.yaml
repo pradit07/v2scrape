@@ -44,6 +44,6 @@ proxies:
     ws-opts: 
       path: /worryfree
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: do-vip3.dnstore.my.id
