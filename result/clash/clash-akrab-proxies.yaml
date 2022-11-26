@@ -1,116 +1,4 @@
 proxies:
-  - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
-    type: vmess
-    port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 104.29.64.2
-  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
-    type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 172.64.152.150
-  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
-    type: vmess
-    port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 45.64.22.6
-  - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshkit/401452697/635b464921141/
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: hynesconstruction.com
-  - name: 'default_name'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 141.101.114.20
-  - name: 'default_name'
-    type: vmess
-    port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 141.101.114.133
-  - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
-    type: vmess
-    port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: ca.0112233.xyz
   - name: '美国CloudFlare节点 4'
     type: vmess
     port: 443
@@ -140,8 +28,8 @@ proxies:
     ws-opts: 
       path: /path/243535322906
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 51.89.100.10
   - name: '美国  8'
     type: vmess
@@ -156,8 +44,8 @@ proxies:
     ws-opts: 
       path: /pkhhvws
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: amshare.jingledev.me
   - name: '美国CloudFlare公司CDN节点 9'
     type: vmess
@@ -236,8 +124,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 128.14.140.254
   - name: '香港电讯盈科有限公司 18'
     type: vmess
