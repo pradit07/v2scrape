@@ -1,24 +1,8 @@
 proxies:
-  - name: '台湾省中华电信(HiNet)数据中心 2'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: f1f3227.v8.glados-config.net
-  - name: '美国CloudFlare节点 3'
+  - name: '美国CloudFlare节点 4'
     type: vmess
     port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +10,40 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshkit/401452697/635b464921141/
+      path: /ray
       headers:
-        Host: sg1-v2ray.sshkit.org
-    servername: sg1-v2ray.sshkit.org
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
     server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: '美国CloudFlare节点 5'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 6'
+    type: vmess
+    port: 443
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 128.14.140.254

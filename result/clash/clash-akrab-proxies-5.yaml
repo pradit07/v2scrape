@@ -1,24 +1,24 @@
 proxies:
-  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 6'
+  - name: '希腊  11'
     type: vmess
     port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-    alterId: 0
+    uuid: cdaf68fc-6d3e-11ed-bd89-000017022008
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /getweather
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: 128.14.140.254
-  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 7'
+    server: aop.ssfree.ru
+  - name: '日本东京Linode数据中心 3'
     type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +26,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: 128.14.162.48
+    server: f1f3227.v8.glados-config.net
+  - name: '广东省移动 4'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.f3.glados-config.net

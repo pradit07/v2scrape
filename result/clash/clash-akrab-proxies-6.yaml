@@ -1,84 +1,4 @@
 proxies:
-  - name: '香港电讯盈科有限公司 8'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 219.76.13.169
-  - name: '美国CloudFlare节点 10'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
-  - name: '希腊  11'
-    type: vmess
-    port: 443
-    uuid: cdaf68fc-6d3e-11ed-bd89-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: aop.ssfree.ru
-  - name: '日本东京Linode数据中心 3'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: f1f3227.v8.glados-config.net
-  - name: '广东省移动 4'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: f1f3227.f3.glados-config.net
   - name: '美国CloudFlare节点 5'
     type: vmess
     port: 443
@@ -94,7 +14,7 @@ proxies:
       headers:
         Host: jm.jshsxxxy.top
     servername: jm.jshsxxxy.top
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 9'
     type: vmess
     port: 443
@@ -110,7 +30,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 10'
     type: vmess
     port: 443
@@ -142,7 +62,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 12'
     type: vmess
     port: 443
@@ -172,6 +92,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 45.64.22.55

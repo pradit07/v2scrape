@@ -1,8 +1,8 @@
 proxies:
-  - name: '香港电讯盈科有限公司 18'
+  - name: '俄罗斯  1'
     type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -10,12 +10,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: 219.76.13.169
-  - name: '俄罗斯  1'
+    server: f1f3227.f3.glados-config.net
+  - name: '台湾省中华电信(HiNet)数据中心 2'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -30,4 +30,20 @@ proxies:
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: f1f3227.f3.glados-config.net
+    server: f1f3227.v8.glados-config.net
+  - name: '美国CloudFlare节点 3'
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/401452697/635b464921141/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    servername: sg1-v2ray.sshkit.org
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
