@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国CloudFlare节点 9'
+  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 6'
     type: vmess
     port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
     alterId: 0
     cipher: auto
     tls: true
@@ -12,10 +12,10 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: news.microsoft.com
-  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 10'
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 128.14.140.254
+  - name: '美国加利福尼亚州洛杉矶Zenlayer数据中心 7'
     type: vmess
     port: 443
     uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
@@ -31,35 +31,3 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 128.14.162.48
-  - name: '美国CloudFlare节点 11'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: news.microsoft.com
-  - name: '美国CloudFlare节点 12'
-    type: vmess
-    port: 443
-    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /VHONOFZ3
-      headers:
-        Host: lg1.cfcdn2.xyz
-    servername: lg1.cfcdn2.xyz
-    server: news.microsoft.com
