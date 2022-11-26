@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '香港电讯盈科有限公司 4'
     type: vmess
     port: 443
@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 6'
     type: vmess
     port: 443
@@ -78,7 +78,7 @@ proxies:
       headers:
         Host: clash6.ssr-free.xyz
     servername: clash6.ssr-free.xyz
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 7'
     type: vmess
     port: 443
@@ -94,7 +94,7 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '美国加利福尼亚州弗里蒙特市Linode公司 8'
     type: vmess
     port: 443
@@ -108,8 +108,8 @@ proxies:
     ws-opts: 
       path: /chat
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: vus4.0bad.com
   - name: '美国CloudFlare节点 9'
     type: vmess
@@ -126,7 +126,7 @@ proxies:
       headers:
         Host: v2.chigua.tk
     servername: v2.chigua.tk
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 10'
     type: vmess
     port: 443
@@ -142,7 +142,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 11'
     type: vmess
     port: 443
@@ -158,7 +158,7 @@ proxies:
       headers:
         Host: lu1.gogogoo.cyou
     servername: lu1.gogogoo.cyou
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare公司CDN节点 12'
     type: vmess
     port: 443
@@ -174,7 +174,7 @@ proxies:
       headers:
         Host: fr2.cfcdn4.xyz
     servername: fr2.cfcdn4.xyz
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '法国  13'
     type: vmess
     port: 443
@@ -238,7 +238,7 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '中国阿里云 21'
     type: vmess
     port: 2083
@@ -270,7 +270,7 @@ proxies:
       headers:
         Host: xui.mycf.ml
     servername: xui.mycf.ml
-    server: main.millionaireisle.com
+    server: main.millionaireaisle.com
   - name: '🇺🇸 _US_美国'
     type: vmess
     port: 443
@@ -284,8 +284,8 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: uk.xlkjjs.top
   - name: '🇨🇳 _US_美国->🇹🇼_TW_台湾'
     type: vmess
@@ -300,8 +300,8 @@ proxies:
     ws-opts: 
       path: /meizhiyuan/hinet?ed=2048
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: zfc.windowsupdate1.com
   - name: '🇺🇸 _US_美国'
     type: vmess
@@ -348,8 +348,8 @@ proxies:
     ws-opts: 
       path: /sshkit/401452697/635b464921141/
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: hynesconstruction.com
   - name: '🇺🇸 _CA_加拿大->🇺🇸_US_美国'
     type: vmess
@@ -380,8 +380,8 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: www.liuyiyang19891222.tk
   - name: 'default_name'
     type: vmess
@@ -412,8 +412,8 @@ proxies:
     ws-opts: 
       path: /ray
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 141.101.114.133
   - name: 'default_name'
     type: vmess
