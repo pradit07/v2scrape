@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: jm.jshsxxxy.top
     servername: jm.jshsxxxy.top
-    server: cacerts.digicert.com
+    server: news.microsoft.com
