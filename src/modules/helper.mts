@@ -45,11 +45,11 @@ async function isCdn(server: string, host: string): Promise<boolean> {
       controller.abort();
     }, 5000);
 
-    fetch(`https://${url}`, {
+    await fetch(`https://${url}`, {
       signal: controller.signal,
     })
       .then((res) => {
-        return isCdn.push(res.headers.get("server") == "cloudflare");
+        isCdn.push(res.headers.get("server") == "cloudflare");
       })
       .catch((e) => {
         // Ignore error
