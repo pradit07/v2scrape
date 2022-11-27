@@ -1,57 +1,9 @@
 proxies:
-  - name: '美国CloudFlare节点 8'
-    type: vmess
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
-  - name: '美国CloudFlare节点 9'
-    type: vmess
-    port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: lg1.cfcdn1.xyz
-    servername: lg1.cfcdn1.xyz
-    server: cacerts.digicert.com
-  - name: '美国PacificRack机房 11'
-    type: vmess
-    port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 66.212.20.3
-  - name: '美国  12'
+  - name: '美国加利福尼亚州圣克拉拉阿里云 15'
     type: vmess
     port: 80
-    uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
-    alterId: 64
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    alterId: 0
     cipher: auto
     tls: false
     udp: true
@@ -60,38 +12,54 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: vn3.thanhhaivpn.name.vn
-    servername: vn3.thanhhaivpn.name.vn
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: cacerts.digicert.com
+  - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/401452697/635b464921141/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    servername: sg1-v2ray.sshkit.org
+    server: cacerts.digicert.com
+  - name: 'clash1.trump2023.net'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: news.microsoft.com
-  - name: '香港特别行政区 13'
+  - name: '🇸🇬 _SG_新加坡'
     type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    port: 2082
+    uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /zh-cn
+      path: /aries
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: tw1.sanfen001.pics
-  - name: '美国CloudFlare节点 14'
-    type: vmess
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-    servername: lg30.cfcdn3.xyz
+        Host: 194.233.83.238
+    servername: 194.233.83.238
     server: cacerts.digicert.com

@@ -1,36 +1,4 @@
 proxies:
-  - name: '🇸🇬 _SG_新加坡'
-    type: vmess
-    port: 16578
-    uuid: 5a494728-342a-491c-8cd3-23f0e614cce9
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 128.199.202.80
-    servername: 128.199.202.80
-    server: cacerts.digicert.com
-  - name: 'clash1.trump2023.net'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: cacerts.digicert.com
   - name: 'lg1.cfcdn3.xyz'
     type: vmess
     port: 443
@@ -46,4 +14,52 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
+    server: cacerts.digicert.com
+  - name: 'lg1.cfcdn1.xyz'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: cacerts.digicert.com
+  - name: 'ca.0112233.xyz'
+    type: vmess
+    port: 443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
     server: news.microsoft.com
+  - name: '🇬🇧 _GB_英国'
+    type: vmess
+    port: 443
+    uuid: 62e6255a-6da3-11ed-8de2-000017022008
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /getweather
+      headers:
+        Host: aop.ssfree.ru
+    servername: aop.ssfree.ru
+    server: cacerts.digicert.com
