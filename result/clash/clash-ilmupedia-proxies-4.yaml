@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: 
     servername: 
-    server: cacerts.digicert.com
+    server: news.microsoft.com
