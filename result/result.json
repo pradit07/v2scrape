@@ -1,7 +1,6 @@
 [
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "frr.xlkjjs.top",
     "port": "443",
     "host": "",
@@ -17,7 +16,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "128.199.202.80",
     "port": "16578",
     "host": "128.199.202.80",
@@ -33,7 +31,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "198.41.212.100",
     "port": 443,
     "host": "lg1.cfcdn3.xyz",
@@ -50,7 +47,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "141.101.114.20",
     "port": "443",
     "host": "clash1.trump2023.net",
@@ -65,7 +61,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "141.101.115.136",
     "port": "443",
     "host": "lg1.cfcdn1.xyz",
@@ -80,7 +75,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "tgunivstar-138-2-70-213.sslip.io",
     "port": 80,
     "host": "vn3.thanhhaivpn.name.vn",
@@ -97,7 +91,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "45.64.22.55",
     "port": "443",
     "host": "h2.800876.xyz",
@@ -112,7 +105,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "152.69.230.170",
     "port": "80",
     "host": "",
@@ -127,7 +119,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "47.88.52.220",
     "port": 80,
     "host": "w.800876.xyz",
@@ -144,7 +135,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "194.233.83.238",
     "port": 2082,
     "host": "194.233.83.238",
@@ -161,7 +151,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "f1f3227.f3.glados-config.net",
     "port": 3331,
     "host": "tls.apple.com",
@@ -178,7 +167,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "hk4.czs1000.com",
     "port": 6685,
     "host": "",
@@ -195,7 +183,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "128.199.202.80",
     "port": "16578",
     "host": "128.199.202.80",
@@ -211,7 +198,7 @@
   },
   {
     "vpn": "trojan",
-    "isCdn": false,
+    "cdn": false,
     "address": "trs16.bolab.net",
     "port": 443,
     "alterId": 0,
@@ -222,7 +209,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "219.76.13.169",
     "port": "443",
     "host": "tgunivstar.168-138-94-194.sslip.io",
@@ -237,7 +223,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "frr.xlkjjs.top",
     "port": "443",
     "host": "",
@@ -253,7 +238,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "141.101.115.136",
     "port": "443",
     "host": "lg1.cfcdn1.xyz",
@@ -268,7 +252,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "198.41.203.1",
     "port": 443,
     "host": "lg1.cfcdn2.xyz",
@@ -285,7 +268,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "198.41.212.100",
     "port": 443,
     "host": "lg1.cfcdn3.xyz",
@@ -302,7 +284,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "47.88.52.220",
     "port": 80,
     "host": "w.800876.xyz",
@@ -319,7 +300,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "45.64.22.55",
     "port": "443",
     "host": "h2.800876.xyz",
@@ -334,7 +314,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "tgunivstar-138-2-70-213.sslip.io",
     "port": 80,
     "host": "vn3.thanhhaivpn.name.vn",
@@ -351,7 +330,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "141.101.114.100",
     "port": "443",
     "host": "v2ray1.zhujicn2.org",
@@ -366,7 +344,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "152.69.230.170",
     "port": "80",
     "host": "",
@@ -381,7 +358,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "194.233.83.238",
     "port": 2082,
     "host": "194.233.83.238",
@@ -398,7 +374,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "aop.ssfree.ru",
     "port": "443",
     "host": "",
@@ -413,7 +388,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "f1f3227.v8.glados-config.net",
     "port": 3331,
     "host": "api.icloud.com",
@@ -430,7 +404,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "do-vip3.dnstore.my.id",
     "port": "443",
     "host": "",
@@ -446,7 +419,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "server.putrastores.xyz",
     "port": "443",
     "host": "server.putrastores.xyz",
@@ -462,7 +434,6 @@
   },
   {
     "vpn": "vmess",
-    "isCdn": false,
     "address": "sgc1.xtls.my.id",
     "port": "443",
     "host": "",
@@ -478,7 +449,7 @@
   },
   {
     "vpn": "vless",
-    "isCdn": false,
+    "cdn": false,
     "address": "sgc1.xtls.my.id",
     "port": 443,
     "alterId": 0,
@@ -493,7 +464,7 @@
   },
   {
     "vpn": "trojan",
-    "isCdn": false,
+    "cdn": false,
     "address": "sgc1.xtls.my.id",
     "port": 443,
     "alterId": 0,

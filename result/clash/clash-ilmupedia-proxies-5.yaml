@@ -1,36 +1,4 @@
 proxies:
-  - name: '美国CloudFlare节点 14'
-    type: vmess
-    port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
-    server: cacerts.digicert.com
-  - name: '希腊  17'
-    type: vmess
-    port: 443
-    uuid: 62e6255a-6da3-11ed-8de2-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: aop.ssfree.ru
   - name: '日本东京Linode数据中心 3'
     type: vmess
     port: 3331
@@ -47,3 +15,35 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v8.glados-config.net
+  - name: 'kntolodon'
+    type: vmess
+    port: 443
+    uuid: 3471c408-39bb-456a-b798-d40448dc7070
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: do-vip3.dnstore.my.id
+  - name: 'ptrserver'
+    type: vmess
+    port: 443
+    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: server.putrastores.xyz
