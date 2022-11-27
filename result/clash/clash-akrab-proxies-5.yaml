@@ -1,36 +1,4 @@
 proxies:
-  - name: '美国CloudFlare节点 10'
-    type: vmess
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: main.millionaireaisle.com
-  - name: '澳门澳门电讯 12'
-    type: vmess
-    port: 443
-    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 45.64.22.55
   - name: '美国CloudFlare节点 14'
     type: vmess
     port: 443
@@ -46,4 +14,36 @@ proxies:
       headers:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
+  - name: '希腊  17'
+    type: vmess
+    port: 443
+    uuid: 62e6255a-6da3-11ed-8de2-000017022008
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /getweather
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: aop.ssfree.ru
+  - name: '日本东京Linode数据中心 3'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.v8.glados-config.net
