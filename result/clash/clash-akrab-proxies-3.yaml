@@ -1,24 +1,8 @@
 proxies:
-  - name: '新加坡DigitalOcean数据中心 4'
-    type: vmess
-    port: 16578
-    uuid: 5a494728-342a-491c-8cd3-23f0e614cce9
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 128.199.202.80
-    servername: 128.199.202.80
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
-  - name: '香港电讯盈科有限公司 6'
+  - name: '澳门澳门电讯 12'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
     alterId: 0
     cipher: auto
     tls: true
@@ -28,13 +12,29 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 219.76.13.169
-  - name: '美国CloudFlare节点 8'
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 45.64.22.55
+  - name: '美国  13'
+    type: vmess
+    port: 80
+    uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
+    alterId: 64
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: vn3.thanhhaivpn.name.vn
+    servername: vn3.thanhhaivpn.name.vn
+    server: main.millionaireaisle.com
+  - name: '美国CloudFlare节点 14'
     type: vmess
     port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
     alterId: 0
     cipher: auto
     tls: true
@@ -42,24 +42,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /ray
+      path: /dongtaiwang.com
       headers:
-        Host: lg1.cfcdn1.xyz
-    servername: lg1.cfcdn1.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
-  - name: '美国CloudFlare节点 9'
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: main.millionaireaisle.com
+  - name: '德国  16'
     type: vmess
-    port: 443
-    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    port: 2082
+    uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /VHONOFZ3
+      path: /aries
       headers:
-        Host: lg1.cfcdn2.xyz
-    servername: lg1.cfcdn2.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+        Host: 194.233.83.238
+    servername: 194.233.83.238
+    server: main.millionaireaisle.com
