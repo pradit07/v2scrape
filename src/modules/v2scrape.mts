@@ -1,4 +1,4 @@
-import { isCdn as checkIsCdn, v2parse } from "./helper.mjs";
+import { v2parse } from "./helper.mjs";
 import { V2Object, Vless, Vmess } from "./types.mjs";
 import fetch from "node-fetch";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
@@ -36,18 +36,15 @@ class V2scrape {
 
     for (let account of accounts) {
       let accountObj: V2Object;
-      let isCdn: boolean = false;
 
       const vpn = (account.match(/^(.+):\/\//) || [""])[1];
       if (account.startsWith("vmess://")) {
         const vmess = v2parse(account) as Vmess;
 
-        // isCdn = await checkIsCdn(vmess.add, vmess.host);
-
         process;
         accountObj = {
           vpn,
-          isCdn,
+          cdn: vmess.cdn,
           address: vmess.add,
           port: vmess.port,
           host: vmess.host,
@@ -65,11 +62,9 @@ class V2scrape {
       } else if (account.match(/^(vless|trojan)/)) {
         const vless = v2parse(account) as Vless;
 
-        // isCdn = await checkIsCdn(vless.server, vless.host);
-
         accountObj = {
           vpn,
-          isCdn,
+          cdn: vless.cdn,
           address: vless.server,
           port: vless.port,
           host: vless.host,
@@ -122,7 +117,8 @@ class V2scrape {
         proxies.push(`    ws-opts: `);
         proxies.push(`      path: ${account.path}`);
         proxies.push(`      headers:`);
-        if (account.remark.match(/cloudflare/i) || account.isCdn) {
+        if (account.remark.match(/cloudflare/i) || account.cdn) {
+          if (!account.host) continue;
           proxies.push(`        Host: ${account.host}`);
           proxies.push(`    servername: ${account.sni || account.host}`);
           proxies.push(`    server: ${cdn}`);

@@ -19,6 +19,7 @@ function v2parse(account: string): Vmess | Vless {
       host: (account.match(/host=([\w\-_\.]+)/) || [""])[1],
       remark: (account.match(/#(.+)/) || [""])[1],
       sni: (account.match(/sni=([\w\-_\.]+)/) || [""])[1],
+      cdn: account.match(/cdn=(true)/) ? true : false,
     } as Vless;
   } else {
     return {} as Vmess;
@@ -33,39 +34,4 @@ async function sleep(ms: number) {
   });
 }
 
-async function isCdn(server: string, host: string): Promise<boolean> {
-  if (!(server && host)) return false;
-  const isCdn: Array<boolean> = [];
-  const onFetch: Array<string> = [];
-
-  for (const url of [server, host]) {
-    onFetch.push(url);
-    const controller = new AbortController();
-    const timeout = setTimeout(() => {
-      controller.abort();
-    }, 5000);
-
-    await fetch(`https://${url}`, {
-      signal: controller.signal,
-    })
-      .then((res) => {
-        isCdn.push(res.headers.get("server") == "cloudflare");
-      })
-      .catch((e) => {
-        // Ignore error
-      })
-      .finally(() => {
-        clearTimeout(timeout);
-        if (onFetch[0]) onFetch.shift();
-      });
-  }
-
-  do {
-    sleep(100);
-  } while (onFetch[0]);
-
-  if (isCdn[0] && isCdn[1]) return true;
-  else return false;
-}
-
-export { v2parse, isCdn, sleep };
+export { v2parse, sleep };
