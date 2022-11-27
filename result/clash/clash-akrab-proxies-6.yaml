@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: 128.199.202.80
     servername: 128.199.202.80
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: 'clash1.trump2023.net'
     type: vmess
     port: 443
@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: 'lg1.cfcdn3.xyz'
     type: vmess
     port: 443

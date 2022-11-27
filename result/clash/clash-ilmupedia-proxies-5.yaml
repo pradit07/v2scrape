@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国加利福尼亚州圣克拉拉阿里云 15'
     type: vmess
     port: 80
@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: 'clash1.trump2023.net'
     type: vmess
     port: 443
@@ -78,7 +78,7 @@ proxies:
       headers:
         Host: 194.233.83.238
     servername: 194.233.83.238
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443

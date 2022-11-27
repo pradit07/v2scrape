@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '🇸🇬 _SG_新加坡'
     type: vmess
     port: 16578
@@ -62,4 +62,4 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com

@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: h1.800876.xyz
     servername: h1.800876.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '中国阿里云 1'
     type: vmess
     port: 2053
@@ -76,8 +76,8 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: f1f3227.f3.glados-config.net
   - name: '香港电讯盈科有限公司 6'
     type: vmess
@@ -92,6 +92,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 219.76.13.169

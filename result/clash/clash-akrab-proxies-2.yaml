@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /getweather
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: aop.ssfree.ru
   - name: '加拿大  7'
     type: vmess
@@ -44,8 +44,8 @@ proxies:
     ws-opts: 
       path: /BMgdQPstnvkGnowSoCDPirHDAsqGeMeVYU
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: nhwvqjznbgbzjpzt.cf
   - name: '美国CloudFlare节点 9'
     type: vmess
@@ -94,4 +94,4 @@ proxies:
       headers:
         Host: fr2.cfcdn4.xyz
     servername: fr2.cfcdn4.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
