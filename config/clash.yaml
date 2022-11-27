@@ -90,6 +90,13 @@ proxy-groups:
     proxies:
       - Telescope
       - DIRECT
+      - REJECT
+  - name: Termux
+    type: select
+    proxies:
+      - Telescope
+      - DIRECT
+      - REJECT
   - name: Tunnel1
     type: fallback
     strategy: consistent-hashing
@@ -215,4 +222,5 @@ proxy-providers:
       interval: 60
 rules:
   - process-name,com.whatsapp,WA
+  - process-name,com.termux,Termux
   - MATCH,Telescope
