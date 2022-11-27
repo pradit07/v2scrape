@@ -55,16 +55,16 @@ dns:
   ipv6: false
   prefer-h3: false
   default-nameserver:
-    - 8.8.8.8
-    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
   listen: 0.0.0.0:1053
   use-hosts: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter: ["*.local", "*.localhost"]
   nameserver:
-    - 8.8.8.8
-    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
   proxy-server-nameserver:
     - "https://dns.google/dns-query"
   fallback: []
@@ -118,7 +118,7 @@ proxy-groups:
       - Node5
       - Node6
   - name: Node1
-    type: fallback
+    type: url-test
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
@@ -126,7 +126,7 @@ proxy-groups:
     use:
       - Providers1
   - name: Node2
-    type: fallback
+    type: url-test
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
@@ -134,7 +134,7 @@ proxy-groups:
     use:
       - Providers2
   - name: Node3
-    type: fallback
+    type: url-test
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
@@ -142,7 +142,7 @@ proxy-groups:
     use:
       - Providers3
   - name: Node4
-    type: fallback
+    type: url-test
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
@@ -150,7 +150,7 @@ proxy-groups:
     use:
       - Providers4
   - name: Node5
-    type: fallback
+    type: url-test
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
@@ -158,7 +158,7 @@ proxy-groups:
     use:
       - Providers5
   - name: Node6
-    type: fallback
+    type: url-test
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
