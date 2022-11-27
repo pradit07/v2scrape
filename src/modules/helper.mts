@@ -1,8 +1,5 @@
 import { Vless, Vmess } from "./types.mjs";
 
-// AbortController was added in node v14.17.0 globally
-const AbortController = globalThis.AbortController;
-
 function v2parse(account: string): Vmess | Vless {
   if (account.startsWith("vmess")) {
     return JSON.parse(Buffer.from(account.replace("vmess://", ""), "base64").toString()) as Vmess;

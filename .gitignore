@@ -106,3 +106,4 @@ dist
 # Custom ignored files
 .idea/
 app/
+test*

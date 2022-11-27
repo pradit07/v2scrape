@@ -3,6 +3,7 @@ import { V2Object, Vless, Vmess } from "./types.mjs";
 import fetch from "node-fetch";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { Bugs } from "./bugs.mjs";
+import { V2Test } from "./v2test.mjs";
 
 class V2scrape {
   path = process.cwd();
@@ -87,22 +88,20 @@ class V2scrape {
     }
   }
 
-  toClash(bugBundle: string) {
+  async toClash(bug: string, sni: string, cdn: string) {
     if (!existsSync(`${this.path}/result/clash`)) mkdirSync(`${this.path}/result/clash`);
-    const bugs = new Bugs(bugBundle);
     const acceptedAccount = [];
 
     // Vmess
     for (let account of this.accounts) {
-      const cdn = bugs.cdn;
-      const sni = bugs.sni;
       let proxies = [];
 
       // Only support ws for now
       if (account.network != "ws") continue;
       if (!account.tls) account.cdn = true;
+      account.remark = account.remark.replace("github.com/freefq - ", "");
       if (account.vpn == "vmess") {
-        proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
+        proxies.push(`  - name: '${account.remark}'`);
         proxies.push(`    type: ${account.vpn}`);
         proxies.push(`    port: ${account.port}`);
         proxies.push(`    uuid: ${account.id}`);
@@ -126,7 +125,7 @@ class V2scrape {
           proxies.push(`    server: ${account.address}`);
         }
       } else if (account.vpn.startsWith("vless")) {
-        proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
+        proxies.push(`  - name: '${account.remark}'`);
         proxies.push(`    type: ${account.vpn}`);
         proxies.push(`    port: ${account.port}`);
         proxies.push(`    uuid: ${account.id}`);
@@ -149,7 +148,7 @@ class V2scrape {
           proxies.push(`    server: ${account.address}`);
         }
       } else if (account.vpn.startsWith("trojan")) {
-        proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
+        proxies.push(`  - name: '${account.remark}'`);
         proxies.push(`    type: ${account.vpn.replace("-go", "")}`);
         proxies.push(`    port: ${account.port}`);
         proxies.push(`    password: ${account.id}`);
@@ -171,8 +170,6 @@ class V2scrape {
         }
       }
 
-      // Need some work for trojan and other
-
       acceptedAccount.push(proxies.join("\n"));
     }
 
@@ -184,15 +181,99 @@ class V2scrape {
       if (!proxies) continue;
       providers.push(proxies);
       if (providers.length - 1 >= proxiesPerProvider && providersNumber <= 5) {
-        writeFileSync(
-          `${this.path}/result/clash/clash-${bugBundle}-proxies-${providersNumber}.yaml`,
-          providers.join("\n")
-        );
+        writeFileSync(`${this.path}/result/clash/clash-${bug}-proxies-${providersNumber}.yaml`, providers.join("\n"));
         providers = ["proxies:"];
         providersNumber++;
       }
     }
-    writeFileSync(`${this.path}/result/clash/clash-${bugBundle}-proxies-${providersNumber}.yaml`, providers.join("\n"));
+    writeFileSync(`${this.path}/result/clash/clash-${bug}-proxies-${providersNumber}.yaml`, providers.join("\n"));
+  }
+
+  async toV2ray(bug: string, sni: string, cdn: string) {
+    if (!existsSync(`${this.path}/result/v2ray`)) mkdirSync(`${this.path}/result/v2ray`);
+    const base = JSON.parse(readFileSync("./config/base.json").toString());
+    const acceptedAccount = [];
+
+    // Vmess
+    for (let i in this.accounts) {
+      let account = this.accounts[i];
+      let proxy: any = {};
+
+      // Only support ws for now
+      if (account.network != "ws") continue;
+      if (!account.tls) account.cdn = true;
+      account.remark = account.remark.replace("github.com/freefq - ", "");
+      if (account.vpn == "vmess") {
+        proxy = {
+          mux: {
+            concurrency: 8,
+            enabled: false,
+          },
+          protocol: "vmess",
+          settings: {
+            vnext: [
+              {
+                address: account.address,
+                port: parseInt(`${account.port}` || "443"),
+                users: [
+                  {
+                    alterId: parseInt(`${account.alterId}` || "0"),
+                    encryption: "",
+                    flow: "",
+                    id: account.id,
+                    level: 8,
+                    security: "auto",
+                  },
+                ],
+              },
+            ],
+          },
+          streamSettings: {
+            network: account.network,
+            security: account.tls,
+            wsSettings: {
+              headers: {
+                Host: account.host,
+              },
+              path: account.path,
+            },
+            tlsSettings: {
+              allowInsecure: true,
+              serverName: account.sni,
+            },
+          },
+          tag: `proxy-${acceptedAccount.length + 1}`,
+        };
+
+        if (account.remark.match(/cloudflare/i) || account.cdn) {
+          if (!account.host) continue;
+          proxy.settings.vnext[0].address = cdn;
+        } else {
+          proxy.streamSettings.wsSettings.headers.Host = sni;
+          proxy.streamSettings.tlsSettings.serverName = sni;
+        }
+      } else if (account.vpn.startsWith("vless")) {
+      } else if (account.vpn.startsWith("trojan")) {
+      }
+
+      if (!proxy.mux) continue;
+
+      const testConfig = base;
+      testConfig.outbounds.push(proxy);
+      writeFileSync(`${this.path}/config/test.json`, JSON.stringify(testConfig, null, 2));
+
+      process.stdout.write(`${account.remark}: `);
+      const isFine = await new V2Test().run();
+      process.stdout.write(`${isFine ? "OK" : "Could not connect!"}\n`);
+      testConfig.outbounds.pop();
+
+      if (isFine) acceptedAccount.push(proxy);
+      else this.accounts.splice(parseInt(i), 1);
+      proxy = {};
+    }
+
+    base.outbounds.push(...acceptedAccount);
+    writeFileSync(`${this.path}/result/v2ray/v2ray-${bug}.json`, JSON.stringify(base, null, 2));
   }
 }
 

@@ -1,5 +1,6 @@
 import { v2scrape } from "./modules/v2scrape.mjs";
 import { existsSync, mkdirSync, readdirSync, rmSync } from "fs";
+import { Bugs } from "./modules/bugs.mjs";
 
 rmSync("./result/", {
   force: true,
@@ -13,6 +14,11 @@ const bugBundleList = readdirSync(`${v2scrape.path}/bugs`);
   await v2scrape.get();
 
   for (const bugBundle of bugBundleList) {
-    v2scrape.toClash(bugBundle.replace(".json", ""));
+    const bug = bugBundle.replace(".json", "");
+    const bugs = new Bugs(bug);
+    const [sni, cdn] = [bugs.sni, bugs.cdn];
+
+    await v2scrape.toV2ray(bug, sni, cdn);
+    await v2scrape.toClash(bug, sni, cdn);
   }
 })();
