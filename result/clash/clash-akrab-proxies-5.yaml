@@ -60,6 +60,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 47.88.52.220
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: main.millionaireaisle.com

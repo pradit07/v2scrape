@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国CloudFlare节点 9'
     type: vmess
     port: 443
@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '美国加利福尼亚州圣克拉拉阿里云 11'
     type: vmess
     port: 80
@@ -60,6 +60,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 47.88.52.220
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: news.microsoft.com

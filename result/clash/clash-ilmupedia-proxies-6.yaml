@@ -28,9 +28,9 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: tgunivstar-138-2-70-213.sslip.io
+        Host: vn3.thanhhaivpn.name.vn
+    servername: vn3.thanhhaivpn.name.vn
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 14'
     type: vmess
     port: 443
@@ -46,23 +46,7 @@ proxies:
       headers:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
-    server: cacerts.digicert.com
-  - name: '美国  15'
-    type: vmess
-    port: 80
-    uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 152.69.230.170
+    server: news.microsoft.com
   - name: '德国  16'
     type: vmess
     port: 2082
@@ -76,9 +60,9 @@ proxies:
     ws-opts: 
       path: /aries
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 194.233.83.238
+        Host: 194.233.83.238
+    servername: 194.233.83.238
+    server: cacerts.digicert.com
   - name: '希腊  17'
     type: vmess
     port: 443

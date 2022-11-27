@@ -44,9 +44,9 @@ proxies:
     ws-opts: 
       path: /cctv13/hd.m3u8
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 128.199.202.80
+        Host: 128.199.202.80
+    servername: 128.199.202.80
+    server: main.millionaireaisle.com
   - name: '香港电讯盈科有限公司 6'
     type: vmess
     port: 443

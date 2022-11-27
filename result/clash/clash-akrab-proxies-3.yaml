@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '🇸🇬 _SG_新加坡'
     type: vmess
     port: 2082
@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
     type: vmess
     port: 443
@@ -62,4 +62,4 @@ proxies:
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com

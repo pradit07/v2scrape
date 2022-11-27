@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '🇸🇬 _SG_新加坡'
     type: vmess
     port: 2082
@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: 194.233.83.238
     servername: 194.233.83.238
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443
@@ -62,4 +62,4 @@ proxies:
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com

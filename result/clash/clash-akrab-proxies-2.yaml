@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: fr2.cfcdn4.xyz
     servername: fr2.cfcdn4.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
     type: vmess
     port: 443
@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: clash6.ssr-free.xyz
     servername: clash6.ssr-free.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
     type: vmess
     port: 443
@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: h1.800876.xyz
     servername: h1.800876.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
     type: vmess
     port: 443
@@ -62,4 +62,4 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
