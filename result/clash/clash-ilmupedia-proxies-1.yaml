@@ -1,21 +1,21 @@
 proxies:
-  - name: '日本东京Linode数据中心 3'
+  - name: '希腊  6'
     type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
+    port: 443
+    uuid: 62e6255a-6da3-11ed-8de2-000017022008
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
+      path: /getweather
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: f1f3227.v8.glados-config.net
-  - name: '广东省移动 4'
+    server: aop.ssfree.ru
+  - name: '广东省移动 7'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -31,10 +31,10 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.f3.glados-config.net
-  - name: '美国CloudFlare节点 5'
+  - name: '美国CloudFlare节点 8'
     type: vmess
     port: 443
-    uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +42,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /MokonaModokiMkv2Rentry
+      path: /VHONOFZ3
       headers:
-        Host: jm.jshsxxxy.top
-    servername: jm.jshsxxxy.top
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
     server: news.microsoft.com
