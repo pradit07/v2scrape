@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: clash6.ssr-free.xyz
     servername: clash6.ssr-free.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
     type: vmess
     port: 443
@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: h1.800876.xyz
     servername: h1.800876.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
     type: vmess
     port: 443
@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
-    server: news.microsoft.com
+    server: cacerts.digicert.com
