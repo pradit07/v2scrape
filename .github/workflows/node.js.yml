@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: 18.x
           cache: "npm"
+      - run: chown -R 1001:1001 ./bin/*
       - run: |
           npm install && npm start
       - name: Add & Commit
