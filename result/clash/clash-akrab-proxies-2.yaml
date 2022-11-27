@@ -1,30 +1,16 @@
 proxies:
-  - name: 'trojan'
-    type: trojan
+  - name: 'vless'
+    type: vless
     port: 443
-    password: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /worryfree
-      headers:
-        Host: click.zoom.us
-    sni: click.zoom.us
-    server: sgz1.xtls.my.id
-  - name: '美国CloudFlare节点 11'
-    type: vmess
-    port: 443
-    uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
-    alterId: 0
+    uuid: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /worryfree
       headers:
-        Host: q.acuteclaydoll.xyz
-    servername: q.acuteclaydoll.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: sgz1.xtls.my.id

@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国CloudFlare节点 20'
+  - name: '美国Microsoft数据中心 7'
     type: vmess
     port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /zh-cn
       headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: kr1.sanfen001.pics

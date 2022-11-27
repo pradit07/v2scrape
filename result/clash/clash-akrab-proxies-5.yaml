@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国CloudFlare节点 23'
+  - name: '美国CloudFlare公司CDN节点 30'
     type: vmess
-    port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    port: 2083
+    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
     alterId: 0
     cipher: auto
     tls: true
@@ -10,24 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
-  - name: '美国加利福尼亚州圣克拉拉阿里云 28'
-    type: vmess
-    port: 80
-    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
       path: /
       headers:
-        Host: w.800876.xyz
-    servername: w.800876.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+        Host: 30.tehvp.xyz
+    servername: 30.tehvp.xyz
+    server: main.millionaireaisle.com
