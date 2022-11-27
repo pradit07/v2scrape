@@ -15,3 +15,51 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: sgc1.xtls.my.id
+  - name: 'ptrserver'
+    type: vmess
+    port: 443
+    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: server.putrastores.xyz
+  - name: 'ptrserver'
+    type: vmess
+    port: 443
+    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: server.putrastores.xyz
+  - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
+    type: vmess
+    port: 443
+    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: fr2.cfcdn4.xyz
+    servername: fr2.cfcdn4.xyz
+    server: news.microsoft.com
