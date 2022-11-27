@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /worryfree/vmess
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: sgc1.xtls.my.id
   - name: 'vless'
     type: vless
@@ -43,8 +43,8 @@ proxies:
     ws-opts: 
       path: /worryfree/vless
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: sgc1.xtls.my.id
   - name: 'trojan'
     type: trojan
@@ -56,6 +56,22 @@ proxies:
     ws-opts: 
       path: /worryfree/trojan
       headers:
-        Host: options.teams.microsoft.com
-    sni: options.teams.microsoft.com
+        Host: click.zoom.us
+    sni: click.zoom.us
     server: sgc1.xtls.my.id
+  - name: 'lg1.cfcdn3.xyz'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: main.millionaireaisle.com

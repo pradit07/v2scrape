@@ -1,8 +1,24 @@
 proxies:
-  - name: 'lg1.cfcdn3.xyz'
+  - name: '🇸🇬 _SG_新加坡'
+    type: vmess
+    port: 2082
+    uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: 194.233.83.238
+    servername: 194.233.83.238
+    server: main.millionaireaisle.com
+  - name: 'clash1.trump2023.net'
     type: vmess
     port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -12,13 +28,13 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: main.millionaireaisle.com
-  - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
     alterId: 0
     cipher: auto
     tls: true
@@ -28,29 +44,13 @@ proxies:
     ws-opts: 
       path: /ray
       headers:
-        Host: fr2.cfcdn4.xyz
-    servername: fr2.cfcdn4.xyz
-    server: main.millionaireaisle.com
-  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
-    type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
     server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
-  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
+  - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
     type: vmess
     port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
     alterId: 0
     cipher: auto
     tls: true
@@ -60,6 +60,22 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
     server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: '广东省移动 1'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.f3.glados-config.net

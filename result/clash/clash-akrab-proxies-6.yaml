@@ -1,24 +1,8 @@
 proxies:
-  - name: '新加坡DigitalOcean数据中心 4'
-    type: vmess
-    port: 16578
-    uuid: 5a494728-342a-491c-8cd3-23f0e614cce9
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 128.199.202.80
-    servername: 128.199.202.80
-    server: main.millionaireaisle.com
-  - name: '香港电讯盈科有限公司 6'
+  - name: '加拿大魁北克省博阿努瓦OVH数据中心 12'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +10,72 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: 219.76.13.169
+    server: 167.114.67.25
+  - name: '美国CloudFlare节点 13'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: main.millionaireaisle.com
+  - name: '美国PacificRack机房 14'
+    type: vmess
+    port: 443
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 66.212.20.3
+  - name: '香港特别行政区 15'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: tw1.sanfen001.pics
+  - name: '美国加利福尼亚州圣克拉拉阿里云 17'
+    type: vmess
+    port: 80
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: main.millionaireaisle.com
