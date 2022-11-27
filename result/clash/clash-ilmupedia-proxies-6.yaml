@@ -1,8 +1,8 @@
 proxies:
-  - name: 'ca.0112233.xyz'
+  - name: '美国CloudFlare节点 9'
     type: vmess
     port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
     alterId: 0
     cipher: auto
     tls: true
@@ -10,24 +10,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /dongtaiwang.com
       headers:
-        Host: ca.0112233.xyz
-    servername: ca.0112233.xyz
-    server: news.microsoft.com
-  - name: '🇬🇧 _GB_英国'
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: cacerts.digicert.com
+  - name: '美国CloudFlare节点 10'
     type: vmess
     port: 443
-    uuid: 62e6255a-6da3-11ed-8de2-000017022008
-    alterId: 64
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /getweather
+      path: /dongtaiwang.com
       headers:
-        Host: aop.ssfree.ru
-    servername: aop.ssfree.ru
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
     server: cacerts.digicert.com
