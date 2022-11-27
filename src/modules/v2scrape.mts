@@ -96,20 +96,40 @@ class V2scrape {
     for (const account of this.accounts) {
       const cdn = bugs.cdn;
       const sni = bugs.sni;
-      let accept = false;
       let proxies = [];
 
       // Only support ws for now
       if (account.network != "ws") continue;
       if (!account.tls) continue;
       if (account.vpn == "vmess") {
-        accept = true;
         proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
         proxies.push(`    type: ${account.vpn}`);
         proxies.push(`    port: ${account.port}`);
         proxies.push(`    uuid: ${account.id}`);
         proxies.push(`    alterId: ${account.alterId}`);
         proxies.push(`    cipher: auto`);
+        proxies.push(`    tls: ${account.tls ? true : false}`);
+        proxies.push(`    udp: true`);
+        proxies.push(`    skip-cert-verify: ${account.skipCertVerify}`);
+        proxies.push(`    network: ${account.network}`);
+        proxies.push(`    ws-opts: `);
+        proxies.push(`      path: ${account.path}`);
+        proxies.push(`      headers:`);
+        if (account.remark.match(/cloudflare/i) || account.cdn) {
+          if (!account.host) continue;
+          proxies.push(`        Host: ${account.host}`);
+          proxies.push(`    servername: ${account.sni || account.host}`);
+          proxies.push(`    server: ${cdn}`);
+        } else {
+          proxies.push(`        Host: ${sni}`);
+          proxies.push(`    servername: ${sni}`);
+          proxies.push(`    server: ${account.address}`);
+        }
+      } else {
+        proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
+        proxies.push(`    type: ${account.vpn.replace("-go", "")}`);
+        proxies.push(`    port: ${account.port}`);
+        proxies.push(`    password: ${account.id}`);
         proxies.push(`    tls: ${account.tls ? true : false}`);
         proxies.push(`    udp: true`);
         proxies.push(`    skip-cert-verify: ${account.skipCertVerify}`);
