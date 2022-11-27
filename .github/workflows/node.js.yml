@@ -11,7 +11,7 @@ on:
 
 jobs:
   scrape:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: 18.x
           cache: "npm"
+      - run: bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
       - run: chown -R 1001:1001 ./bin/*
       - run: |
           npm install && npm start

@@ -5,7 +5,7 @@ import { sleep } from "./helper.mjs";
 
 class V2Test {
   async run() {
-    const v2ray = spawn("./bin/v2ray", ["run", "-c", "./config/test.json"]);
+    const v2ray = spawn("v2ray", ["run", "-c", "./config/test.json"]);
     let isConnected: boolean = true;
 
     const controller = new globalThis.AbortController();
