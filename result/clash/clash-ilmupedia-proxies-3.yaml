@@ -78,4 +78,4 @@ proxies:
       headers:
         Host: h1.800876.xyz
     servername: h1.800876.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
