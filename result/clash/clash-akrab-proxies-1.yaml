@@ -56,6 +56,6 @@ proxies:
     ws-opts: 
       path: /worryfree
       headers:
-        Host: click.zoom.us
-    sni: click.zoom.us
+        Host: options.teams.microsoft.com
+    sni: options.teams.microsoft.com
     server: sgc1.xtls.my.id

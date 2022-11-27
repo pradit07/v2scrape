@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: 194.233.83.238
     servername: 194.233.83.238
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '希腊  17'
     type: vmess
     port: 443

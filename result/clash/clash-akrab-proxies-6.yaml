@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: aop.ssfree.ru
     servername: aop.ssfree.ru
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: 'lg1.cfcdn3.xyz'
     type: vmess
     port: 443
