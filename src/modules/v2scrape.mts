@@ -115,7 +115,7 @@ class V2scrape {
         proxies.push(`    ws-opts: `);
         proxies.push(`      path: ${account.path}`);
         proxies.push(`      headers:`);
-        if (account.remark.match(/cloudflare/i) || account.cdn) {
+        if (account.remark.match(/cloudflare/i) || account.cdn || !account.tls) {
           if (!account.host) continue;
           proxies.push(`        Host: ${account.host}`);
           proxies.push(`    servername: ${account.sni || account.host}`);
