@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.cfcdn2.xyz
     servername: lg1.cfcdn2.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 10'
     type: vmess
     port: 443

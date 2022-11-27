@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: 
     servername: 
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 8'
     type: vmess
     port: 443
@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
