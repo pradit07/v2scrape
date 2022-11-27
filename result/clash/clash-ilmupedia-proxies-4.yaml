@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: w.800876.xyz
     servername: w.800876.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '澳门澳门电讯 12'
     type: vmess
     port: 443

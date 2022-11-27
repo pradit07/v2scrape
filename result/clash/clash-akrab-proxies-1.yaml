@@ -28,34 +28,34 @@ proxies:
     ws-opts: 
       path: /worryfree/vmess
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: sgc1.xtls.my.id
   - name: 'vless'
     type: vless
     port: 443
-    password: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
+    uuid: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
+    cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: %2Fworryfree
+      path: /worryfree
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: sgc1.xtls.my.id
   - name: 'trojan'
     type: trojan
     port: 443
     password: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
-    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: %2Fworryfree
+      path: /worryfree
       headers:
         Host: click.zoom.us
-    servername: click.zoom.us
+    sni: click.zoom.us
     server: sgc1.xtls.my.id

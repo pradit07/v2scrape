@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '广东省移动 1'
     type: vmess
     port: 3331

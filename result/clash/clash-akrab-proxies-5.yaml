@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '德国  16'
     type: vmess
     port: 2082
@@ -44,8 +44,8 @@ proxies:
     ws-opts: 
       path: /getweather
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: aop.ssfree.ru
   - name: '🇸🇬 _SG_新加坡'
     type: vmess

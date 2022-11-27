@@ -34,13 +34,14 @@ proxies:
   - name: 'vless'
     type: vless
     port: 443
-    password: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
+    uuid: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
+    cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: %2Fworryfree
+      path: /worryfree
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
@@ -49,13 +50,12 @@ proxies:
     type: trojan
     port: 443
     password: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
-    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: %2Fworryfree
+      path: /worryfree
       headers:
         Host: news.microsoft.com
-    servername: news.microsoft.com
+    sni: news.microsoft.com
     server: sgc1.xtls.my.id
