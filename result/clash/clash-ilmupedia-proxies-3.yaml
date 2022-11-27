@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: 
     servername: 
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare节点 8'
     type: vmess
     port: 443
