@@ -93,14 +93,14 @@ class V2scrape {
     const acceptedAccount = [];
 
     // Vmess
-    for (const account of this.accounts) {
+    for (let account of this.accounts) {
       const cdn = bugs.cdn;
       const sni = bugs.sni;
       let proxies = [];
 
       // Only support ws for now
       if (account.network != "ws") continue;
-      // if (!account.tls) continue;
+      if (!account.tls) account.cdn = true;
       if (account.vpn == "vmess") {
         proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
         proxies.push(`    type: ${account.vpn}`);
@@ -115,7 +115,7 @@ class V2scrape {
         proxies.push(`    ws-opts: `);
         proxies.push(`      path: ${account.path}`);
         proxies.push(`      headers:`);
-        if (account.remark.match(/cloudflare/i) || account.cdn || !account.tls) {
+        if (account.remark.match(/cloudflare/i) || account.cdn) {
           if (!account.host) continue;
           proxies.push(`        Host: ${account.host}`);
           proxies.push(`    servername: ${account.sni || account.host}`);
