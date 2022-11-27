@@ -1,8 +1,8 @@
 proxies:
-  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
+  - name: '美国CloudFlare节点 8'
     type: vmess
     port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
     alterId: 0
     cipher: auto
     tls: true
@@ -10,47 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /dongtaiwang.com
       headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
-    server: cacerts.digicert.com
-  - name: '中国阿里云 1'
-    type: vmess
-    port: 2053
-    uuid: 7cdfca78-b048-4358-8574-9c52a2beae68
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: cf.ultrayuki.me
-  - name: '美国CloudFlare节点 4'
-    type: vmess
-    port: 443
-    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /VHONOFZ3
-      headers:
-        Host: lg1.cfcdn2.xyz
-    servername: lg1.cfcdn2.xyz
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
     server: news.microsoft.com
-  - name: '广东省移动 5'
+  - name: '美国CloudFlare节点 9'
     type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
     alterId: 0
     cipher: auto
     tls: true
@@ -58,24 +26,72 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
+      path: /ray
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.f3.glados-config.net
-  - name: '香港电讯盈科有限公司 6'
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: news.microsoft.com
+  - name: '美国PacificRack机房 11'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
     alterId: 0
     cipher: auto
     tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 66.212.20.3
+  - name: '美国  12'
+    type: vmess
+    port: 80
+    uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
+    alterId: 64
+    cipher: auto
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
       path: /
       headers:
+        Host: vn3.thanhhaivpn.name.vn
+    servername: vn3.thanhhaivpn.name.vn
+    server: news.microsoft.com
+  - name: '香港特别行政区 13'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 219.76.13.169
+    server: tw1.sanfen001.pics
+  - name: '美国CloudFlare节点 14'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: cacerts.digicert.com

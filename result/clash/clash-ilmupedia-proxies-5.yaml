@@ -1,8 +1,24 @@
 proxies:
-  - name: '香港电讯盈科有限公司 7'
+  - name: '美国加利福尼亚州圣克拉拉阿里云 15'
+    type: vmess
+    port: 80
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: cacerts.digicert.com
+  - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +26,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /sshkit/401452697/635b464921141/
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 219.76.13.181
-  - name: '美国CloudFlare节点 8'
+        Host: sg1-v2ray.sshkit.org
+    servername: sg1-v2ray.sshkit.org
+    server: cacerts.digicert.com
+  - name: 'clash1.trump2023.net'
     type: vmess
     port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -28,10 +44,26 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: cacerts.digicert.com
-  - name: '美国CloudFlare节点 9'
+  - name: '🇸🇬 _SG_新加坡'
+    type: vmess
+    port: 2082
+    uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: 194.233.83.238
+    servername: 194.233.83.238
+    server: cacerts.digicert.com
+  - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443
     uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
@@ -47,10 +79,10 @@ proxies:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
     server: cacerts.digicert.com
-  - name: '美国PacificRack机房 11'
+  - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
     type: vmess
     port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
     alterId: 0
     cipher: auto
     tls: true
@@ -58,24 +90,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 66.212.20.3
-  - name: '美国  12'
-    type: vmess
-    port: 80
-    uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
-    alterId: 64
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
       path: /
       headers:
-        Host: vn3.thanhhaivpn.name.vn
-    servername: vn3.thanhhaivpn.name.vn
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
     server: news.microsoft.com
