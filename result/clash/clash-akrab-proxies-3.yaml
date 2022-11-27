@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: clash6.ssr-free.xyz
     servername: clash6.ssr-free.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '广东省移动 5'
     type: vmess
     port: 3331
@@ -28,6 +28,6 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: f1f3227.f3.glados-config.net

@@ -9,8 +9,8 @@ proxies:
     ws-opts: 
       path: /worryfree
       headers:
-        Host: options.teams.microsoft.com
-    sni: options.teams.microsoft.com
+        Host: click.zoom.us
+    sni: click.zoom.us
     server: sgz1.xtls.my.id
   - name: 'ca.0112233.xyz'
     type: vmess
@@ -27,4 +27,4 @@ proxies:
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com

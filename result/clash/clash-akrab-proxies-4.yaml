@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '美国PacificRack机房 6'
     type: vmess
     port: 443
@@ -28,6 +28,6 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 66.212.20.3
