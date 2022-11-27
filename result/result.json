@@ -2,21 +2,6 @@
   {
     "vpn": "vmess",
     "isCdn": false,
-    "address": "aop.ssfree.ru",
-    "port": "443",
-    "host": "",
-    "alterId": "64",
-    "id": "62e6255a-6da3-11ed-8de2-000017022008",
-    "network": "ws",
-    "type": "none",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "path": "/getweather",
-    "remark": "github.com/freefq - 希腊  6"
-  },
-  {
-    "vpn": "vmess",
-    "isCdn": false,
     "address": "f1f3227.f3.glados-config.net",
     "port": 3331,
     "host": "tls.apple.com",
@@ -501,5 +486,22 @@
     "tls": "tls",
     "path": "/getweather",
     "remark": "github.com/freefq - 希腊  17"
+  },
+  {
+    "vpn": "vmess",
+    "isCdn": false,
+    "address": "f1f3227.v8.glados-config.net",
+    "port": 3331,
+    "host": "api.icloud.com",
+    "alterId": 0,
+    "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+    "network": "ws",
+    "type": "auto",
+    "security": "auto",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "",
+    "path": "/s/f1f3227.fm.apple.com:111548",
+    "remark": "github.com/freefq - 日本东京Linode数据中心 3"
   }
 ]

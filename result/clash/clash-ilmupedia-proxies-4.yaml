@@ -1,20 +1,4 @@
 proxies:
-  - name: '澳门澳门电讯 18'
-    type: vmess
-    port: 443
-    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 45.64.22.55
   - name: '广东省移动 1'
     type: vmess
     port: 3331
@@ -47,3 +31,19 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 219.76.13.169
+  - name: '美国CloudFlare节点 7'
+    type: vmess
+    port: 443
+    uuid: df882ec4-a4be-3cc9-87b2-15f6ab188e6a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 
+    servername: 
+    server: cacerts.digicert.com
