@@ -1,8 +1,8 @@
 proxies:
-  - name: '香港电讯盈科有限公司 6'
+  - name: '美国CloudFlare节点 14'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,31 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: main.millionaireaisle.com
+  - name: '希腊  17'
+    type: vmess
+    port: 443
+    uuid: 62e6255a-6da3-11ed-8de2-000017022008
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /getweather
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: 219.76.13.169
-  - name: '美国CloudFlare节点 8'
+    server: aop.ssfree.ru
+  - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
     type: vmess
     port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
     alterId: 0
     cipher: auto
     tls: true
@@ -28,13 +44,13 @@ proxies:
     ws-opts: 
       path: /ray
       headers:
-        Host: lg1.cfcdn1.xyz
-    servername: lg1.cfcdn1.xyz
+        Host: fr2.cfcdn4.xyz
+    servername: fr2.cfcdn4.xyz
     server: main.millionaireaisle.com
-  - name: '美国CloudFlare节点 9'
+  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
     type: vmess
     port: 443
-    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +58,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /VHONOFZ3
+      path: /dongtaiwang.com
       headers:
-        Host: lg1.cfcdn2.xyz
-    servername: lg1.cfcdn2.xyz
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
+    type: vmess
+    port: 443
+    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: h1.800876.xyz
+    servername: h1.800876.xyz
     server: main.millionaireaisle.com
