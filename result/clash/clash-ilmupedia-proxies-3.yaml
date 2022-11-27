@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国CloudFlare节点 14'
+  - name: 'ptrserver'
     type: vmess
     port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
     alterId: 0
     cipher: auto
     tls: true
@@ -10,72 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
-    server: cacerts.digicert.com
-  - name: '希腊  17'
-    type: vmess
-    port: 443
-    uuid: 62e6255a-6da3-11ed-8de2-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
+      path: /vmess
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: aop.ssfree.ru
-  - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
-    type: vmess
-    port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: fr2.cfcdn4.xyz
-    servername: fr2.cfcdn4.xyz
-    server: cacerts.digicert.com
-  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
-    type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
-    server: cacerts.digicert.com
-  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
-    type: vmess
-    port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
-    server: news.microsoft.com
+    server: server.putrastores.xyz
