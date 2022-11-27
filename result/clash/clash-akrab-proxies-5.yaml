@@ -12,6 +12,22 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: tw1.sanfen001.pics
+  - name: 'lg1.cfcdn1.xyz'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com

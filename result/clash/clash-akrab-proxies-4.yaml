@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 66.212.20.3
   - name: '美国CloudFlare节点 8'
     type: vmess

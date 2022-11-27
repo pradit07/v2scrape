@@ -9,8 +9,8 @@ proxies:
     ws-opts: 
       path: /worryfree
       headers:
-        Host: click.zoom.us
-    sni: click.zoom.us
+        Host: options.teams.microsoft.com
+    sni: options.teams.microsoft.com
     server: sgz1.xtls.my.id
   - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
     type: vmess
