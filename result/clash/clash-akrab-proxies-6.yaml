@@ -1,8 +1,8 @@
 proxies:
-  - name: 'vmess'
+  - name: 'clash1.trump2023.net'
     type: vmess
     port: 443
-    uuid: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,40 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /worryfree/vmess
+      path: /dongtaiwang.com
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: sgc1.xtls.my.id
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: main.millionaireaisle.com
+  - name: 'lg1.cfcdn1.xyz'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
+    type: vmess
+    port: 443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
+    server: main.millionaireaisle.com

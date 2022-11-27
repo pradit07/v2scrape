@@ -1,24 +1,8 @@
 proxies:
-  - name: '日本东京Linode数据中心 3'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: f1f3227.v8.glados-config.net
-  - name: 'kntolodon'
+  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
     type: vmess
     port: 443
-    uuid: 3471c408-39bb-456a-b798-d40448dc7070
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
     alterId: 0
     cipher: auto
     tls: true
@@ -26,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /dongtaiwang.com
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: do-vip3.dnstore.my.id
-  - name: 'ptrserver'
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
     type: vmess
     port: 443
-    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
+    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +26,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: server.putrastores.xyz
+        Host: h1.800876.xyz
+    servername: h1.800876.xyz
+    server: main.millionaireaisle.com
+  - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/401452697/635b464921141/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    servername: sg1-v2ray.sshkit.org
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
