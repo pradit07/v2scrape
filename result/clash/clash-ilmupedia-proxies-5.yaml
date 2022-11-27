@@ -1,36 +1,4 @@
 proxies:
-  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
-    type: vmess
-    port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
-    server: news.microsoft.com
-  - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshkit/401452697/635b464921141/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-    servername: sg1-v2ray.sshkit.org
-    server: news.microsoft.com
   - name: 'clash1.trump2023.net'
     type: vmess
     port: 443
@@ -46,11 +14,43 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: cacerts.digicert.com
+    server: news.microsoft.com
+  - name: 'lg1.cfcdn3.xyz'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: '香港特别行政区 15'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: tw1.sanfen001.pics
   - name: '🇸🇬 _SG_新加坡'
     type: vmess
-    port: 2082
-    uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
+    port: 16578
+    uuid: 5a494728-342a-491c-8cd3-23f0e614cce9
     alterId: 0
     cipher: auto
     tls: false
@@ -58,11 +58,11 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /aries
+      path: /cctv13/hd.m3u8
       headers:
-        Host: 194.233.83.238
-    servername: 194.233.83.238
-    server: news.microsoft.com
+        Host: 128.199.202.80
+    servername: 128.199.202.80
+    server: cacerts.digicert.com
   - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443
@@ -78,4 +78,4 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com

@@ -1,5 +1,5 @@
 proxies:
-  - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
+  - name: 'ca.0112233.xyz'
     type: vmess
     port: 443
     uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
@@ -15,51 +15,19 @@ proxies:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
     server: news.microsoft.com
-  - name: 'clash1.trump2023.net'
+  - name: '🇬🇧 _GB_英国'
     type: vmess
     port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
+    uuid: 62e6255a-6da3-11ed-8de2-000017022008
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /getweather
       headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
+        Host: aop.ssfree.ru
+    servername: aop.ssfree.ru
     server: cacerts.digicert.com
-  - name: 'lg1.cfcdn3.xyz'
-    type: vmess
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: news.microsoft.com
-  - name: '香港特别行政区 15'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: tw1.sanfen001.pics

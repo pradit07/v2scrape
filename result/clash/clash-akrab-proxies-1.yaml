@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: server.putrastores.xyz
   - name: 'vmess'
     type: vmess
@@ -43,8 +43,8 @@ proxies:
     ws-opts: 
       path: /worryfree/vless
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: sgc1.xtls.my.id
   - name: 'trojan'
     type: trojan
@@ -56,13 +56,13 @@ proxies:
     ws-opts: 
       path: /worryfree/trojan
       headers:
-        Host: click.zoom.us
-    sni: click.zoom.us
+        Host: options.teams.microsoft.com
+    sni: options.teams.microsoft.com
     server: sgc1.xtls.my.id
-  - name: '新加坡Amazon数据中心 1'
+  - name: '香港电讯盈科有限公司 11'
     type: vmess
     port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
     alterId: 0
     cipher: auto
     tls: true
@@ -70,8 +70,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /zh-cn
+      path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: sg1.sanfen001.pics
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 219.76.13.169
