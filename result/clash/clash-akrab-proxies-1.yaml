@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: server.putrastores.xyz
   - name: 'vmess'
     type: vmess
@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /worryfree/vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: sgc1.xtls.my.id
   - name: 'vless'
     type: vless
@@ -43,8 +43,8 @@ proxies:
     ws-opts: 
       path: /worryfree/vless
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: sgc1.xtls.my.id
   - name: 'trojan'
     type: trojan
@@ -56,8 +56,8 @@ proxies:
     ws-opts: 
       path: /worryfree/trojan
       headers:
-        Host: click.zoom.us
-    sni: click.zoom.us
+        Host: options.teams.microsoft.com
+    sni: options.teams.microsoft.com
     server: sgc1.xtls.my.id
   - name: 'lg1.cfcdn3.xyz'
     type: vmess
@@ -74,4 +74,4 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com

@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: 128.199.202.80
     servername: 128.199.202.80
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '香港电讯盈科有限公司 6'
     type: vmess
     port: 443

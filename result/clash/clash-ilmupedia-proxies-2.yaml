@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: 'clash1.trump2023.net'
     type: vmess
     port: 443
@@ -78,4 +78,4 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: news.microsoft.com
+    server: cacerts.digicert.com

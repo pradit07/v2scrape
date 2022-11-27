@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: 128.199.202.80
     servername: 128.199.202.80
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '香港电讯盈科有限公司 6'
     type: vmess
     port: 443
@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '瑞典Oracle Corporation 4'
     type: vmess
     port: 443
