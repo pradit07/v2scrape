@@ -21,7 +21,7 @@ jobs:
           node-version: 18.x
           cache: "npm"
       - run: |
-          curl "https://github.com/v2fly/v2ray-core/releases/download/v5.1.0/v2ray-macos-64.zip" -o ./bin/v2ray.zip
+          curl "https://github.com/v2fly/v2ray-core/releases/download/v5.1.0/v2ray-macos-64.zip" -L -o ./bin/v2ray.zip
           unzip ./bin/v2ray.zip -d ./bin/v2ray.zip
           rm -rf ./bin/v2ray.zip
       - run: chown -R 1001:1001 ./bin/*
