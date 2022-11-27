@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国Microsoft数据中心 7'
+  - name: '美国PacificRack机房 13'
     type: vmess
     port: 443
-    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /zh-cn
+      path: /dongtaiwang.com
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: kr1.sanfen001.pics
+    server: 66.212.20.3

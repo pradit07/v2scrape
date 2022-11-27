@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国Microsoft数据中心 7'
+  - name: '美国PacificRack机房 13'
     type: vmess
     port: 443
-    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /zh-cn
+      path: /dongtaiwang.com
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: kr1.sanfen001.pics
-  - name: '美国CloudFlare节点 11'
+    server: 66.212.20.3
+  - name: '广东省移动 15'
     type: vmess
-    port: 443
-    uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: q.acuteclaydoll.xyz
-    servername: q.acuteclaydoll.xyz
-    server: main.millionaireaisle.com
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: f1f3227.f3.glados-config.net

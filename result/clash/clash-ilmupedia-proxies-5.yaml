@@ -1,8 +1,8 @@
 proxies:
-  - name: '美国PacificRack机房 13'
+  - name: '美国CloudFlare节点 20'
     type: vmess
     port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,6 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 66.212.20.3
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: cacerts.digicert.com

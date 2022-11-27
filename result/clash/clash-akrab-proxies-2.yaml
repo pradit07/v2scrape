@@ -12,19 +12,19 @@ proxies:
         Host: click.zoom.us
     sni: click.zoom.us
     server: sgz1.xtls.my.id
-  - name: '新加坡Amazon数据中心 5'
+  - name: '美国CloudFlare节点 11'
     type: vmess
-    port: 80
-    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    port: 443
+    uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /zh-cn/download
+      path: /
       headers:
-        Host: a.189.cn
-    servername: a.189.cn
-    server: main.millionaireaisle.com
+        Host: q.acuteclaydoll.xyz
+    servername: q.acuteclaydoll.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
