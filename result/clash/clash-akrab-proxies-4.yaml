@@ -1,20 +1,4 @@
 proxies:
-  - name: '美国CloudFlare节点 3'
-    type: vmess
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-    servername: lg30.cfcdn3.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '美国PacificRack机房 6'
     type: vmess
     port: 443
@@ -31,3 +15,19 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: 66.212.20.3
+  - name: '美国CloudFlare节点 8'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com

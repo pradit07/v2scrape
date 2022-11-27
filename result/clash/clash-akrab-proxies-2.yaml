@@ -12,10 +12,10 @@ proxies:
         Host: click.zoom.us
     sni: click.zoom.us
     server: sgz1.xtls.my.id
-  - name: 'ca.0112233.xyz'
+  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
     type: vmess
     port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
     alterId: 0
     cipher: auto
     tls: true
@@ -23,8 +23,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /dongtaiwang.com
       headers:
-        Host: ca.0112233.xyz
-    servername: ca.0112233.xyz
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
     server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
