@@ -1,8 +1,24 @@
 proxies:
-  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
+  - name: '美国CloudFlare节点 3'
     type: vmess
     port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: '美国CloudFlare节点 4'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
     alterId: 0
     cipher: auto
     tls: true
@@ -12,13 +28,13 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
     server: news.microsoft.com
-  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
+  - name: '美国PacificRack机房 6'
     type: vmess
     port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
     alterId: 0
     cipher: auto
     tls: true
@@ -26,40 +42,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
-      headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
-    server: cacerts.digicert.com
-  - name: '中国阿里云 1'
-    type: vmess
-    port: 2053
-    uuid: 7cdfca78-b048-4358-8574-9c52a2beae68
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
+      path: /dongtaiwang.com
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: cf.ultrayuki.me
-  - name: '美国CloudFlare节点 4'
+    server: 66.212.20.3
+  - name: '美国加利福尼亚州圣克拉拉阿里云 7'
     type: vmess
-    port: 443
-    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    port: 80
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /VHONOFZ3
+      path: /
       headers:
-        Host: lg1.cfcdn2.xyz
-    servername: lg1.cfcdn2.xyz
-    server: news.microsoft.com
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: cacerts.digicert.com
