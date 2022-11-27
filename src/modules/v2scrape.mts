@@ -125,11 +125,12 @@ class V2scrape {
           proxies.push(`    servername: ${sni}`);
           proxies.push(`    server: ${account.address}`);
         }
-      } else {
+      } else if (account.vpn.startsWith("vless")) {
         proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
-        proxies.push(`    type: ${account.vpn.replace("-go", "")}`);
+        proxies.push(`    type: ${account.vpn}`);
         proxies.push(`    port: ${account.port}`);
-        proxies.push(`    password: ${account.id}`);
+        proxies.push(`    uuid: ${account.id}`);
+        proxies.push(`    cipher: auto`);
         proxies.push(`    tls: ${account.tls ? true : false}`);
         proxies.push(`    udp: true`);
         proxies.push(`    skip-cert-verify: ${account.skipCertVerify}`);
@@ -145,6 +146,27 @@ class V2scrape {
         } else {
           proxies.push(`        Host: ${sni}`);
           proxies.push(`    servername: ${sni}`);
+          proxies.push(`    server: ${account.address}`);
+        }
+      } else if (account.vpn.startsWith("trojan")) {
+        proxies.push(`  - name: '${account.remark.replace("github.com/freefq - ", "")}'`);
+        proxies.push(`    type: ${account.vpn.replace("-go", "")}`);
+        proxies.push(`    port: ${account.port}`);
+        proxies.push(`    password: ${account.id}`);
+        proxies.push(`    udp: true`);
+        proxies.push(`    skip-cert-verify: ${account.skipCertVerify}`);
+        proxies.push(`    network: ${account.network}`);
+        proxies.push(`    ws-opts: `);
+        proxies.push(`      path: ${account.path}`);
+        proxies.push(`      headers:`);
+        if (account.remark.match(/cloudflare/i) || account.cdn) {
+          if (!account.host) continue;
+          proxies.push(`        Host: ${account.host}`);
+          proxies.push(`    sni: ${account.sni || account.host}`);
+          proxies.push(`    server: ${cdn}`);
+        } else {
+          proxies.push(`        Host: ${sni}`);
+          proxies.push(`    sni: ${sni}`);
           proxies.push(`    server: ${account.address}`);
         }
       }
