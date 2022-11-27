@@ -2,23 +2,6 @@
   {
     "vpn": "vmess",
     "isCdn": false,
-    "address": "198.41.203.1",
-    "port": 443,
-    "host": "lg1.cfcdn2.xyz",
-    "alterId": 0,
-    "id": "267a9f38-40d8-4ed6-ab58-cafc67e9c933",
-    "network": "ws",
-    "type": "auto",
-    "security": "auto",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "",
-    "path": "/VHONOFZ3",
-    "remark": "github.com/freefq - 美国CloudFlare节点 8"
-  },
-  {
-    "vpn": "vmess",
-    "isCdn": false,
     "address": "219.76.13.169",
     "port": "443",
     "host": "tgunivstar.168-138-94-194.sslip.io",
@@ -502,5 +485,21 @@
     "sni": "",
     "path": "/worryfree",
     "remark": "kntolodon"
+  },
+  {
+    "vpn": "vmess",
+    "isCdn": false,
+    "address": "server.putrastores.xyz",
+    "port": "443",
+    "host": "server.putrastores.xyz",
+    "alterId": "0",
+    "id": "3aec8622-0033-45a3-a16a-75cfd940e158",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "bug.com",
+    "path": "/vmess",
+    "remark": "ptrserver"
   }
 ]

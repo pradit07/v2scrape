@@ -1,20 +1,4 @@
 proxies:
-  - name: '美国CloudFlare节点 14'
-    type: vmess
-    port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '希腊  17'
     type: vmess
     port: 443
@@ -44,8 +28,8 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: f1f3227.v8.glados-config.net
   - name: 'kntolodon'
     type: vmess
@@ -63,3 +47,19 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: do-vip3.dnstore.my.id
+  - name: 'ptrserver'
+    type: vmess
+    port: 443
+    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: server.putrastores.xyz
