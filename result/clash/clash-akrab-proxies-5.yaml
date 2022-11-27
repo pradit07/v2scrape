@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: 194.233.83.238
     servername: 194.233.83.238
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '希腊  17'
     type: vmess
     port: 443
@@ -44,8 +44,8 @@ proxies:
     ws-opts: 
       path: /getweather
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: aop.ssfree.ru
   - name: '🇸🇬 _SG_新加坡'
     type: vmess
@@ -62,4 +62,4 @@ proxies:
       headers:
         Host: 128.199.202.80
     servername: 128.199.202.80
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com

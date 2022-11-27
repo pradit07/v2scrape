@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '广东省移动 1'
     type: vmess
     port: 3331
@@ -60,6 +60,6 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: f1f3227.v8.glados-config.net

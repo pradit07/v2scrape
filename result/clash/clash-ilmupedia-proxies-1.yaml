@@ -41,7 +41,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /worryfree/vless
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
@@ -54,7 +54,7 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /worryfree/trojan
       headers:
         Host: news.microsoft.com
     sni: news.microsoft.com

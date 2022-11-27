@@ -41,7 +41,7 @@
     "security": "none",
     "skipCertVerify": true,
     "tls": "tls",
-    "path": "/worryfree",
+    "path": "/worryfree/vless",
     "remark": "vless"
   },
   {
@@ -55,7 +55,7 @@
     "type": "",
     "skipCertVerify": true,
     "tls": "tls",
-    "path": "/worryfree",
+    "path": "/worryfree/trojan",
     "remark": "trojan"
   },
   {

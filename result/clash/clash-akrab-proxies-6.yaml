@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '🇬🇧 _GB_英国'
     type: vmess
     port: 443
@@ -62,4 +62,4 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com

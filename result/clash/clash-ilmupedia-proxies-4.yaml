@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国加利福尼亚州圣克拉拉阿里云 11'
     type: vmess
     port: 80
@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: w.800876.xyz
     servername: w.800876.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '澳门澳门电讯 12'
     type: vmess
     port: 443
@@ -62,4 +62,4 @@ proxies:
       headers:
         Host: vn3.thanhhaivpn.name.vn
     servername: vn3.thanhhaivpn.name.vn
-    server: cacerts.digicert.com
+    server: news.microsoft.com
