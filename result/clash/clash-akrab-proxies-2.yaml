@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: h1.800876.xyz
     servername: h1.800876.xyz
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
     type: vmess
     port: 443

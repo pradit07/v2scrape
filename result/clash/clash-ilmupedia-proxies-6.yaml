@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '德国  16'
     type: vmess
     port: 2082
@@ -62,7 +62,7 @@ proxies:
       headers:
         Host: 194.233.83.238
     servername: 194.233.83.238
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '希腊  17'
     type: vmess
     port: 443

@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: 128.199.202.80
     servername: 128.199.202.80
-    server: main.millionaireaisle.com
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '香港电讯盈科有限公司 6'
     type: vmess
     port: 443
@@ -60,6 +60,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 219.76.13.169
