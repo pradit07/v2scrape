@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
     type: vmess
     port: 443
@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '广东省移动 1'
     type: vmess
     port: 3331
@@ -47,19 +47,3 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.f3.glados-config.net
-  - name: '日本东京Linode数据中心 3'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v8.glados-config.net
