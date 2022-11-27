@@ -31,19 +31,17 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: sgc1.xtls.my.id
-  - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
-    type: vmess
+  - name: 'vless'
+    type: vless
     port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-    alterId: 0
-    cipher: auto
+    password: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /ray
+      path: %2Fworryfree
       headers:
-        Host: fr2.cfcdn4.xyz
-    servername: fr2.cfcdn4.xyz
-    server: news.microsoft.com
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sgc1.xtls.my.id

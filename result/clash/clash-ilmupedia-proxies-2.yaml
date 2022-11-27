@@ -1,4 +1,34 @@
 proxies:
+  - name: 'trojan'
+    type: trojan
+    port: 443
+    password: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: %2Fworryfree
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sgc1.xtls.my.id
+  - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
+    type: vmess
+    port: 443
+    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: fr2.cfcdn4.xyz
+    servername: fr2.cfcdn4.xyz
+    server: news.microsoft.com
   - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
     type: vmess
     port: 443
@@ -14,36 +44,4 @@ proxies:
       headers:
         Host: clash6.ssr-free.xyz
     servername: clash6.ssr-free.xyz
-    server: cacerts.digicert.com
-  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
-    type: vmess
-    port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
-    server: cacerts.digicert.com
-  - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshkit/401452697/635b464921141/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-    servername: sg1-v2ray.sshkit.org
     server: news.microsoft.com
