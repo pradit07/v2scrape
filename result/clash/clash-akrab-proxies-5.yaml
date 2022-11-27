@@ -1,40 +1,8 @@
 proxies:
-  - name: '美国CloudFlare节点 12'
+  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
     type: vmess
     port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-    servername: lg30.cfcdn3.xyz
-    server: main.millionaireaisle.com
-  - name: '美国PacificRack机房 13'
-    type: vmess
-    port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 66.212.20.3
-  - name: '香港电讯盈科有限公司 14'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
     alterId: 0
     cipher: auto
     tls: true
@@ -44,10 +12,58 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 219.76.13.181
-  - name: '美国CloudFlare节点 17'
+        Host: h1.800876.xyz
+    servername: h1.800876.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
+    type: vmess
+    port: 443
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/401452697/635b464921141/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    servername: sg1-v2ray.sshkit.org
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+  - name: 'clash1.trump2023.net'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: main.millionaireaisle.com
+  - name: '🇸🇬 _SG_新加坡'
+    type: vmess
+    port: 2082
+    uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: 194.233.83.238
+    servername: 194.233.83.238
+    server: main.millionaireaisle.com
+  - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443
     uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
