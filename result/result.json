@@ -1,19 +1,5 @@
 [
   {
-    "vpn": "trojan",
-    "cdn": false,
-    "address": "sgc1.xtls.my.id",
-    "port": 443,
-    "alterId": 0,
-    "id": "086c2dcb-7f0c-4d67-85d8-93a720117cf8",
-    "network": "ws",
-    "type": "",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "path": "/worryfree/trojan",
-    "remark": "trojan"
-  },
-  {
     "vpn": "vmess",
     "address": "do-vip3.dnstore.my.id",
     "port": "443",
@@ -61,7 +47,7 @@
   {
     "vpn": "trojan",
     "cdn": false,
-    "address": "sgc1.xtls.my.id",
+    "address": "sgz1.xtls.my.id",
     "port": 443,
     "alterId": 0,
     "id": "086c2dcb-7f0c-4d67-85d8-93a720117cf8",
@@ -71,6 +57,21 @@
     "tls": "tls",
     "path": "/worryfree",
     "remark": "trojan"
+  },
+  {
+    "vpn": "vmess",
+    "address": "niaehsteth.duckdns.org",
+    "port": "65535",
+    "host": "",
+    "alterId": "0",
+    "id": "55553ef0-b737-4c0b-9aaa-10b0a764170b",
+    "network": "grpc",
+    "type": "multi",
+    "skipCertVerify": true,
+    "tls": "",
+    "sni": "",
+    "path": "icyxcy:4S",
+    "remark": "06_Icყ_Xcყ【Plz_CLICK】"
   },
   {
     "vpn": "vmess",

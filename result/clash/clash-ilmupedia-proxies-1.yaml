@@ -1,17 +1,4 @@
 proxies:
-  - name: 'trojan'
-    type: trojan
-    port: 443
-    password: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /worryfree/trojan
-      headers:
-        Host: news.microsoft.com
-    sni: news.microsoft.com
-    server: sgc1.xtls.my.id
   - name: 'kntolodon'
     type: vmess
     port: 443
@@ -71,7 +58,7 @@ proxies:
       headers:
         Host: news.microsoft.com
     sni: news.microsoft.com
-    server: sgc1.xtls.my.id
+    server: sgz1.xtls.my.id
   - name: '新加坡Amazon数据中心 1'
     type: vmess
     port: 443
@@ -88,3 +75,19 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: sg1.sanfen001.pics
+  - name: '广东省移动 2'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: f1f3227.f3.glados-config.net
