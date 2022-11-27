@@ -1,8 +1,8 @@
 proxies:
-  - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
+  - name: '加拿大  7'
     type: vmess
     port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    uuid: 4394b407-4a65-442e-990f-e2a9694fed71
     alterId: 0
     cipher: auto
     tls: true
@@ -10,28 +10,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /BMgdQPstnvkGnowSoCDPirHDAsqGeMeVYU
       headers:
-        Host: ca.0112233.xyz
-    servername: ca.0112233.xyz
-    server: news.microsoft.com
-  - name: 'clash1.trump2023.net'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: cacerts.digicert.com
-  - name: 'lg1.cfcdn3.xyz'
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: nhwvqjznbgbzjpzt.cf
+  - name: '美国CloudFlare节点 9'
     type: vmess
     port: 443
     uuid: 33aa57df-1c93-4318-9fce-e850437ee781
@@ -46,11 +30,11 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
-  - name: '香港特别行政区 15'
+    server: news.microsoft.com
+  - name: '美国CloudFlare节点 10'
     type: vmess
     port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
     alterId: 0
     cipher: auto
     tls: true
@@ -58,8 +42,40 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /zh-cn
+      path: /dongtaiwang.com
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: tw1.sanfen001.pics
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: cacerts.digicert.com
+  - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
+    type: vmess
+    port: 443
+    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: fr2.cfcdn4.xyz
+    servername: fr2.cfcdn4.xyz
+    server: news.microsoft.com
+  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: cacerts.digicert.com

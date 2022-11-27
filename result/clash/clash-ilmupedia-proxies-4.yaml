@@ -1,40 +1,8 @@
 proxies:
-  - name: '🇸🇬 _SG_新加坡'
-    type: vmess
-    port: 16578
-    uuid: 5a494728-342a-491c-8cd3-23f0e614cce9
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /cctv13/hd.m3u8
-      headers:
-        Host: 128.199.202.80
-    servername: 128.199.202.80
-    server: news.microsoft.com
-  - name: 'lg1.cfcdn1.xyz'
+  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
     type: vmess
     port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: lg1.cfcdn1.xyz
-    servername: lg1.cfcdn1.xyz
-    server: cacerts.digicert.com
-  - name: 'ca.0112233.xyz'
-    type: vmess
-    port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
     alterId: 0
     cipher: auto
     tls: true
@@ -44,22 +12,70 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: ca.0112233.xyz
-    servername: ca.0112233.xyz
-    server: news.microsoft.com
-  - name: '🇬🇧 _GB_英国'
+        Host: h1.800876.xyz
+    servername: h1.800876.xyz
+    server: cacerts.digicert.com
+  - name: '中国阿里云 1'
     type: vmess
-    port: 443
-    uuid: 62e6255a-6da3-11ed-8de2-000017022008
-    alterId: 64
+    port: 2053
+    uuid: 7cdfca78-b048-4358-8574-9c52a2beae68
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /getweather
+      path: /
       headers:
-        Host: aop.ssfree.ru
-    servername: aop.ssfree.ru
-    server: cacerts.digicert.com
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: cf.ultrayuki.me
+  - name: '美国CloudFlare节点 4'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: news.microsoft.com
+  - name: '广东省移动 5'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: f1f3227.f3.glados-config.net
+  - name: '香港电讯盈科有限公司 6'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 219.76.13.169
