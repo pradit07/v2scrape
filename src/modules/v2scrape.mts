@@ -1,9 +1,10 @@
-import { v2parse } from "./helper.mjs";
+import { sleep, v2parse } from "./helper.mjs";
 import { V2Object, Vless, Vmess } from "./types.mjs";
 import fetch from "node-fetch";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { Bugs } from "./bugs.mjs";
-import { V2Test } from "./v2test.mjs";
+import { spawn } from "child_process";
+import { SocksProxyAgent } from "socks-proxy-agent";
 
 class V2scrape {
   path = process.cwd();
@@ -22,9 +23,8 @@ class V2scrape {
     }
     process.stdout.write("done!.\n");
 
-    process.stdout.write("Parsing... ");
+    process.stdout.write("Parsing... \n");
     await this.parse(JSON.parse(await res.text()));
-    process.stdout.write("done!.\n");
 
     process.stdout.write("Writing result...");
     writeFileSync(`${this.path}/result/result.json`, JSON.stringify(this.accounts, null, 2));
@@ -32,18 +32,62 @@ class V2scrape {
     console.log(`Result saved to ${this.path}/result/result.json`);
   }
 
+  private async test(account: V2Object) {
+    const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
+    const proxy = this.toV2ray(account, "options.teams.microsoft.com", "pulsapro-bot.qiscus.com");
+    config.outbounds.push(proxy);
+    writeFileSync("./config/v2ray/test.json", JSON.stringify(config, null, 2));
+
+    const v2ray = spawn("./bin/v2ray", ["run", "-c", "./config/v2ray/test.json"]);
+    let isConnected: boolean = true;
+
+    const controller = new globalThis.AbortController();
+    const timeout = setTimeout(() => {
+      controller.abort();
+    }, 10000);
+
+    v2ray.stdout.on("data", (res: any) => {
+      // console.log(res.toString());
+      if (res.toString().match(/(context deadline exceeded|timeout|write on closed pipe)/i)) {
+        isConnected = false;
+      }
+    });
+
+    await sleep(3000);
+    try {
+      await fetch("http://google.com", {
+        agent: new SocksProxyAgent("socks://127.0.0.1:10802"),
+        signal: controller.signal,
+      });
+    } catch (e: any) {
+      // console.log(e.message);
+      isConnected = false;
+    }
+
+    await new Promise((resolve) => {
+      v2ray.kill();
+
+      v2ray.on("close", () => {
+        resolve(0);
+      });
+    });
+
+    clearTimeout(timeout);
+    return isConnected;
+  }
+
   private async parse(accounts: Array<string> | string) {
     if (!Array.isArray(accounts)) accounts = [accounts];
 
     for (let account of accounts) {
-      let accountObj: V2Object;
+      let v2Account: V2Object;
 
       const vpn = (account.match(/^(.+):\/\//) || [""])[1];
       if (account.startsWith("vmess://")) {
         const vmess = v2parse(account) as Vmess;
 
         process;
-        accountObj = {
+        v2Account = {
           vpn,
           cdn: vmess.cdn,
           address: vmess.add,
@@ -63,7 +107,7 @@ class V2scrape {
       } else if (account.match(/^(vless|trojan)/)) {
         const vless = v2parse(account) as Vless;
 
-        accountObj = {
+        v2Account = {
           vpn,
           cdn: vless.cdn,
           address: vless.server,
@@ -81,199 +125,182 @@ class V2scrape {
           remark: vless.remark,
         };
       } else {
-        accountObj = {} as V2Object;
+        v2Account = {} as V2Object;
       }
 
-      this.accounts.push(accountObj);
+      v2Account.remark = v2Account.remark.replace("github.com/freefq - ", "");
+      if (v2Account.network != "ws") continue;
+      if (!v2Account.tls) v2Account.cdn = true;
+      if (v2Account.remark.match(/cloudflare/i) || v2Account.cdn) {
+        v2Account.cdn = true;
+        if (!v2Account.host) continue;
+      }
+
+      if (v2Account.vpn != "vmess") continue;
+      process.stdout.write(`${v2Account.remark}: `);
+      const isConnected = await this.test(v2Account);
+      if (isConnected) this.accounts.push(v2Account);
+      process.stdout.write(`${isConnected ? "OK" : "Not OK"}\n`);
     }
   }
 
-  async toClash(bug: string, sni: string, cdn: string) {
+  convert(bugs: Bugs, bugBundle: string) {
+    const v2rayConfig = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
+    const clashProxies: Array<string> = ["proxies:"];
+    const v2rayProxies: Array<Object> = [];
+
+    for (const account of this.accounts) {
+      const cdn = bugs.cdn;
+      const sni = bugs.sni;
+
+      const clashProxy = this.toClash(account, sni, cdn);
+      const v2rayProxy = this.toV2ray(account, sni, cdn, v2rayProxies.length + 1);
+
+      if (clashProxy) clashProxies.push(clashProxy);
+      if (v2rayProxy) v2rayProxies.push(v2rayProxy);
+    }
+
+    // Write result
+    v2rayConfig.outbounds.push(...v2rayProxies);
+    writeFileSync(`./result/clash/providers-${bugBundle}.yaml`, clashProxies.join("\n"));
+    writeFileSync(`./result/v2ray/config-${bugBundle}.json`, JSON.stringify(v2rayConfig, null, 2));
+  }
+
+  private toClash(account: V2Object, sni: string, cdn: string) {
     if (!existsSync(`${this.path}/result/clash`)) mkdirSync(`${this.path}/result/clash`);
-    const acceptedAccount = [];
+    let proxy = [];
 
-    // Vmess
-    for (let account of this.accounts) {
-      let proxies = [];
-
-      // Only support ws for now
-      if (account.network != "ws") continue;
-      if (!account.tls) account.cdn = true;
-      account.remark = account.remark.replace("github.com/freefq - ", "");
-      if (account.vpn == "vmess") {
-        proxies.push(`  - name: '${account.remark}'`);
-        proxies.push(`    type: ${account.vpn}`);
-        proxies.push(`    port: ${account.port}`);
-        proxies.push(`    uuid: ${account.id}`);
-        proxies.push(`    alterId: ${account.alterId}`);
-        proxies.push(`    cipher: auto`);
-        proxies.push(`    tls: ${account.tls ? true : false}`);
-        proxies.push(`    udp: true`);
-        proxies.push(`    skip-cert-verify: ${account.skipCertVerify}`);
-        proxies.push(`    network: ${account.network}`);
-        proxies.push(`    ws-opts: `);
-        proxies.push(`      path: ${account.path}`);
-        proxies.push(`      headers:`);
-        if (account.remark.match(/cloudflare/i) || account.cdn) {
-          if (!account.host) continue;
-          proxies.push(`        Host: ${account.host}`);
-          proxies.push(`    servername: ${account.sni || account.host}`);
-          proxies.push(`    server: ${cdn}`);
-        } else {
-          proxies.push(`        Host: ${sni}`);
-          proxies.push(`    servername: ${sni}`);
-          proxies.push(`    server: ${account.address}`);
-        }
-      } else if (account.vpn.startsWith("vless")) {
-        proxies.push(`  - name: '${account.remark}'`);
-        proxies.push(`    type: ${account.vpn}`);
-        proxies.push(`    port: ${account.port}`);
-        proxies.push(`    uuid: ${account.id}`);
-        proxies.push(`    cipher: auto`);
-        proxies.push(`    tls: ${account.tls ? true : false}`);
-        proxies.push(`    udp: true`);
-        proxies.push(`    skip-cert-verify: ${account.skipCertVerify}`);
-        proxies.push(`    network: ${account.network}`);
-        proxies.push(`    ws-opts: `);
-        proxies.push(`      path: ${account.path}`);
-        proxies.push(`      headers:`);
-        if (account.remark.match(/cloudflare/i) || account.cdn) {
-          if (!account.host) continue;
-          proxies.push(`        Host: ${account.host}`);
-          proxies.push(`    servername: ${account.sni || account.host}`);
-          proxies.push(`    server: ${cdn}`);
-        } else {
-          proxies.push(`        Host: ${sni}`);
-          proxies.push(`    servername: ${sni}`);
-          proxies.push(`    server: ${account.address}`);
-        }
-      } else if (account.vpn.startsWith("trojan")) {
-        proxies.push(`  - name: '${account.remark}'`);
-        proxies.push(`    type: ${account.vpn.replace("-go", "")}`);
-        proxies.push(`    port: ${account.port}`);
-        proxies.push(`    password: ${account.id}`);
-        proxies.push(`    udp: true`);
-        proxies.push(`    skip-cert-verify: ${account.skipCertVerify}`);
-        proxies.push(`    network: ${account.network}`);
-        proxies.push(`    ws-opts: `);
-        proxies.push(`      path: ${account.path}`);
-        proxies.push(`      headers:`);
-        if (account.remark.match(/cloudflare/i) || account.cdn) {
-          if (!account.host) continue;
-          proxies.push(`        Host: ${account.host}`);
-          proxies.push(`    sni: ${account.sni || account.host}`);
-          proxies.push(`    server: ${cdn}`);
-        } else {
-          proxies.push(`        Host: ${sni}`);
-          proxies.push(`    sni: ${sni}`);
-          proxies.push(`    server: ${account.address}`);
-        }
+    if (account.vpn == "vmess") {
+      proxy.push(`  - name: '${account.remark}'`);
+      proxy.push(`    type: ${account.vpn}`);
+      proxy.push(`    port: ${account.port}`);
+      proxy.push(`    uuid: ${account.id}`);
+      proxy.push(`    alterId: ${account.alterId}`);
+      proxy.push(`    cipher: auto`);
+      proxy.push(`    tls: ${account.tls ? true : false}`);
+      proxy.push(`    udp: true`);
+      proxy.push(`    skip-cert-verify: ${account.skipCertVerify}`);
+      proxy.push(`    network: ${account.network}`);
+      proxy.push(`    ws-opts: `);
+      proxy.push(`      path: ${account.path}`);
+      proxy.push(`      headers:`);
+      if (account.remark.match(/cloudflare/i) || account.cdn) {
+        proxy.push(`        Host: ${account.host}`);
+        proxy.push(`    servername: ${account.sni || account.host}`);
+        proxy.push(`    server: ${cdn}`);
+      } else {
+        proxy.push(`        Host: ${sni}`);
+        proxy.push(`    servername: ${sni}`);
+        proxy.push(`    server: ${account.address}`);
       }
-
-      acceptedAccount.push(proxies.join("\n"));
-    }
-
-    let providers = ["proxies:"];
-    const proxiesPerProvider = Math.round(acceptedAccount.length / 6) || 1;
-
-    let providersNumber = 1;
-    for (const proxies of acceptedAccount) {
-      if (!proxies) continue;
-      providers.push(proxies);
-      if (providers.length - 1 >= proxiesPerProvider && providersNumber <= 5) {
-        writeFileSync(`${this.path}/result/clash/clash-${bug}-proxies-${providersNumber}.yaml`, providers.join("\n"));
-        providers = ["proxies:"];
-        providersNumber++;
+    } else if (account.vpn.startsWith("vless")) {
+      proxy.push(`  - name: '${account.remark}'`);
+      proxy.push(`    type: ${account.vpn}`);
+      proxy.push(`    port: ${account.port}`);
+      proxy.push(`    uuid: ${account.id}`);
+      proxy.push(`    cipher: auto`);
+      proxy.push(`    tls: ${account.tls ? true : false}`);
+      proxy.push(`    udp: true`);
+      proxy.push(`    skip-cert-verify: ${account.skipCertVerify}`);
+      proxy.push(`    network: ${account.network}`);
+      proxy.push(`    ws-opts: `);
+      proxy.push(`      path: ${account.path}`);
+      proxy.push(`      headers:`);
+      if (account.cdn) {
+        proxy.push(`        Host: ${account.host}`);
+        proxy.push(`    servername: ${account.sni || account.host}`);
+        proxy.push(`    server: ${cdn}`);
+      } else {
+        proxy.push(`        Host: ${sni}`);
+        proxy.push(`    servername: ${sni}`);
+        proxy.push(`    server: ${account.address}`);
+      }
+    } else if (account.vpn.startsWith("trojan")) {
+      proxy.push(`  - name: '${account.remark}'`);
+      proxy.push(`    type: ${account.vpn.replace("-go", "")}`);
+      proxy.push(`    port: ${account.port}`);
+      proxy.push(`    password: ${account.id}`);
+      proxy.push(`    udp: true`);
+      proxy.push(`    skip-cert-verify: ${account.skipCertVerify}`);
+      proxy.push(`    network: ${account.network}`);
+      proxy.push(`    ws-opts: `);
+      proxy.push(`      path: ${account.path}`);
+      proxy.push(`      headers:`);
+      if (account.cdn) {
+        proxy.push(`        Host: ${account.host}`);
+        proxy.push(`    sni: ${account.sni || account.host}`);
+        proxy.push(`    server: ${cdn}`);
+      } else {
+        proxy.push(`        Host: ${sni}`);
+        proxy.push(`    sni: ${sni}`);
+        proxy.push(`    server: ${account.address}`);
       }
     }
-    writeFileSync(`${this.path}/result/clash/clash-${bug}-proxies-${providersNumber}.yaml`, providers.join("\n"));
+
+    return proxy.join("\n");
   }
 
-  async toV2ray(bug: string, sni: string, cdn: string) {
+  private toV2ray(account: V2Object, sni: string, cdn: string, i: number = 1) {
     if (!existsSync(`${this.path}/result/v2ray`)) mkdirSync(`${this.path}/result/v2ray`);
-    const base = JSON.parse(readFileSync("./config/base.json").toString());
-    const acceptedAccount = [];
+    const proxy = [];
 
-    // Vmess
-    for (let i in this.accounts) {
-      let account = this.accounts[i];
-      let proxy: any = {};
+    if (account.network != "ws") return;
+    if (!account.tls) account.cdn = true;
 
-      // Only support ws for now
-      if (account.network != "ws") continue;
-      if (!account.tls) account.cdn = true;
-      account.remark = account.remark.replace("github.com/freefq - ", "");
-      if (account.vpn == "vmess") {
-        proxy = {
-          mux: {
-            concurrency: 8,
-            enabled: false,
-          },
-          protocol: "vmess",
-          settings: {
-            vnext: [
-              {
-                address: account.address,
-                port: parseInt(`${account.port}` || "443"),
-                users: [
-                  {
-                    alterId: parseInt(`${account.alterId}` || "0"),
-                    encryption: "",
-                    flow: "",
-                    id: account.id,
-                    level: 8,
-                    security: "auto",
-                  },
-                ],
-              },
-            ],
-          },
-          streamSettings: {
-            network: account.network,
-            security: account.tls,
-            wsSettings: {
-              headers: {
-                Host: account.host,
-              },
-              path: account.path,
+    if (account.vpn == "vmess") {
+      proxy.push({
+        mux: {
+          concurrency: 8,
+          enabled: false,
+        },
+        protocol: "vmess",
+        settings: {
+          vnext: [
+            {
+              address: account.address,
+              port: parseInt(`${account.port}` || "443"),
+              users: [
+                {
+                  alterId: parseInt(`${account.alterId}` || "0"),
+                  encryption: "",
+                  flow: "",
+                  id: account.id,
+                  level: 8,
+                  security: "auto",
+                },
+              ],
             },
-            tlsSettings: {
-              allowInsecure: true,
-              serverName: account.sni,
+          ],
+        },
+        streamSettings: {
+          network: account.network,
+          security: account.tls,
+          wsSettings: {
+            headers: {
+              Host: account.host,
             },
+            path: account.path,
           },
-          tag: `proxy-${acceptedAccount.length + 1}`,
-        };
+          tlsSettings: {
+            allowInsecure: true,
+            serverName: account.sni,
+          },
+        },
+        tag: `proxy-${i}`,
+      });
 
-        if (account.remark.match(/cloudflare/i) || account.cdn) {
-          if (!account.host) continue;
-          proxy.settings.vnext[0].address = cdn;
-        } else {
-          proxy.streamSettings.wsSettings.headers.Host = sni;
-          proxy.streamSettings.tlsSettings.serverName = sni;
-        }
-      } else if (account.vpn.startsWith("vless")) {
-      } else if (account.vpn.startsWith("trojan")) {
+      if (account.cdn) {
+        proxy[0].settings.vnext[0].address = cdn;
+        proxy[0].streamSettings.tlsSettings.serverName = account.sni || account.host;
+      } else {
+        proxy[0].streamSettings.wsSettings.headers.Host = sni;
+        proxy[0].streamSettings.tlsSettings.serverName = sni;
       }
-
-      if (!proxy.mux) continue;
-
-      const testConfig = base;
-      testConfig.outbounds.push(proxy);
-      writeFileSync(`${this.path}/config/test.json`, JSON.stringify(testConfig, null, 2));
-
-      process.stdout.write(`${account.remark}: `);
-      const isFine = await new V2Test().run();
-      process.stdout.write(`${isFine ? "OK" : "Could not connect!"}\n`);
-      testConfig.outbounds.pop();
-
-      if (isFine) acceptedAccount.push(proxy);
-      else this.accounts.splice(parseInt(i), 1);
-      proxy = {};
+    } else if (account.vpn.startsWith("vless")) {
+    } else if (account.vpn.startsWith("trojan")) {
     }
 
-    base.outbounds.push(...acceptedAccount);
-    writeFileSync(`${this.path}/result/v2ray/v2ray-${bug}.json`, JSON.stringify(base, null, 2));
+    return proxy[0];
   }
 }
 

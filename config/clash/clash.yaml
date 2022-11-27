@@ -1,0 +1,114 @@
+port: 10800
+socks-port: 10801
+tproxy-port: 9898
+redir-port: 9454
+mode: rule
+allow-lan: true
+unified-delay: true
+bind-address: "*"
+log-level: error
+ipv6: true
+geodata-mode: true
+external-controller: 0.0.0.0:9090
+external-ui: dashboard/dist
+tcp-concurrent: false
+# interface-name: ""
+enable-process: true
+geodata-loader: memconservative
+# routing-mark: 233
+inbound-tfo: false
+secret: ""
+# geox-url: {mmdb: "", geoip: "", geosite: ""}
+profile:
+  store-selected: true
+  store-fake-ip: false
+experimental: { sniff-tls-sni: true, fingerprint: "" }
+sniffer:
+  enable: false
+  sniffing: [tls, http]
+  force-domain:
+    - "+"
+  skip-domain:
+    - "+.google.com"
+  port-whitelist: [443, 80]
+  force-dns-mapping: true
+  parse-pure-ip: true
+hosts:
+  {
+    "cacerts.digicert.com": "104.21.21.147",
+    "ota.googlezip.net": "127.0.0.1",
+    "ota-cache1.googlezip.net": "127.0.0.1",
+    "ota-cache2.googlezip.net": "127.0.0.1",
+  }
+tun:
+  enable: false
+  device: tun0
+  stack: system
+  mtu: 9000
+  dns-hijack:
+    - any:53
+  auto-route: false
+  auto-detect-interface: false
+  strict_route: false
+  inet4_address: 198.18.0.1/16
+  inet6_address: [fdfe:dcba:9876::1/126]
+dns:
+  enable: true
+  ipv6: false
+  prefer-h3: false
+  default-nameserver:
+    - 1.1.1.1
+    - 1.0.0.1
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ["*.local", "*.localhost"]
+  nameserver:
+    - 1.1.1.1
+    - 1.0.0.1
+  proxy-server-nameserver:
+    - "https://dns.google/dns-query"
+  fallback: []
+  fallback-filter:
+    geoip: false
+    geoip-code: "ID"
+    geosite: []
+    ipcidr: [0.0.0.0/8, 10.0.0.0/8]
+    domain: ["+.google.com", "+.youtube.com"]
+proxies:
+proxy-groups:
+  - name: Telescope
+    type: url-test
+    strategy: consistent-hashing
+    url: http://hi.bonds.id/ping
+    interval: 1200
+    tolerance: 50
+    use:
+      - V2Scrape
+  - name: WA
+    type: select
+    proxies:
+      - Telescope
+      - DIRECT
+      - REJECT
+  - name: Termux
+    type: select
+    proxies:
+      - Telescope
+      - DIRECT
+      - REJECT
+proxy-providers:
+  V2Scrape:
+    type: http
+    path: ./providers1.yaml
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab.yaml"
+    interval: 900
+    health-check:
+      enable: true
+      url: "http://cp.cloudflare.com/generate_204"
+      interval: 300
+rules:
+  - process-name,com.whatsapp,WA
+  - process-name,com.termux,Termux
+  - MATCH,Telescope

@@ -16,9 +16,7 @@ const bugBundleList = readdirSync(`${v2scrape.path}/bugs`);
   for (const bugBundle of bugBundleList) {
     const bug = bugBundle.replace(".json", "");
     const bugs = new Bugs(bug);
-    const [sni, cdn] = [bugs.sni, bugs.cdn];
 
-    await v2scrape.toV2ray(bug, sni, cdn);
-    await v2scrape.toClash(bug, sni, cdn);
+    v2scrape.convert(bugs, bug);
   }
 })();
