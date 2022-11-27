@@ -15,19 +15,19 @@ proxies:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
     server: cacerts.digicert.com
-  - name: '美国加利福尼亚州圣克拉拉阿里云 28'
+  - name: '香港特别行政区 29'
     type: vmess
-    port: 80
-    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /zh-cn
       headers:
-        Host: w.800876.xyz
-    servername: w.800876.xyz
-    server: cacerts.digicert.com
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: tw1.sanfen001.pics
