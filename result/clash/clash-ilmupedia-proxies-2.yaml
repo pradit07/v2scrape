@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
-    server: cacerts.digicert.com
+    server: news.microsoft.com

@@ -46,4 +46,4 @@ proxies:
       headers:
         Host: fr2.cfcdn4.xyz
     servername: fr2.cfcdn4.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
