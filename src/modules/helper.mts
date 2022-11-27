@@ -15,7 +15,7 @@ function v2parse(account: string): Vmess | Vless {
       encryption: (account.match(/encryption=(\w+)/) || ["none"])[1],
       headerType: (account.match(/headerType=(\w+)/) || ["none"])[1],
       type: (account.match(/type=(\w+)/) || [""])[1],
-      path: (account.match(/path=((\/|%2F)\w+)/) || [""])[1],
+      path: (account.replace(/%2F/, "/").match(/path=((\/|\w)+)/) || ["/"])[1],
       host: (account.match(/host=([\w\-_\.]+)/) || [""])[1],
       remark: (account.match(/#(.+)/) || [""])[1],
       sni: (account.match(/sni=([\w\-_\.]+)/) || [""])[1],
