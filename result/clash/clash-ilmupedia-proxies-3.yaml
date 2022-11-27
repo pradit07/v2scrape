@@ -1,36 +1,4 @@
 proxies:
-  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
-    type: vmess
-    port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
-    server: news.microsoft.com
-  - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshkit/401452697/635b464921141/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-    servername: sg1-v2ray.sshkit.org
-    server: news.microsoft.com
   - name: 'clash1.trump2023.net'
     type: vmess
     port: 443
@@ -46,4 +14,52 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: news.microsoft.com
+    server: cacerts.digicert.com
+  - name: '🇸🇬 _SG_新加坡'
+    type: vmess
+    port: 2082
+    uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: 194.233.83.238
+    servername: 194.233.83.238
+    server: cacerts.digicert.com
+  - name: 'lg1.cfcdn1.xyz'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: cacerts.digicert.com
+  - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
+    type: vmess
+    port: 443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
+    server: cacerts.digicert.com
