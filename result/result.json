@@ -60,6 +60,21 @@
   },
   {
     "vpn": "vmess",
+    "address": "do-vip3.dnstore.my.id",
+    "port": "443",
+    "host": "img.ruangguru.com",
+    "alterId": "0",
+    "id": "3471c408-39bb-456a-b798-d40448dc7070",
+    "network": "ws",
+    "type": "",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "img.ruangguru.com",
+    "path": "/worryfree",
+    "remark": "kntolodon"
+  },
+  {
+    "vpn": "vmess",
     "address": "sg1.sanfen001.pics",
     "port": 443,
     "host": "sg1.sanfen001.pics",

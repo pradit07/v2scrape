@@ -1,4 +1,20 @@
 proxies:
+  - name: '美国CloudFlare节点 14'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: news.microsoft.com
   - name: '美国加利福尼亚州圣克拉拉阿里云 15'
     type: vmess
     port: 80
@@ -14,7 +30,7 @@ proxies:
       headers:
         Host: w.800876.xyz
     servername: w.800876.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
     type: vmess
     port: 443
@@ -46,7 +62,7 @@ proxies:
       headers:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '🇸🇬 _SG_新加坡'
     type: vmess
     port: 2082
@@ -78,20 +94,4 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: cacerts.digicert.com
-  - name: '🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚'
-    type: vmess
-    port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: ca.0112233.xyz
-    servername: ca.0112233.xyz
     server: news.microsoft.com
