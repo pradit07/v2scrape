@@ -1,8 +1,8 @@
 proxies:
-  - name: 'vmess'
+  - name: '香港电讯盈科有限公司 6'
     type: vmess
     port: 443
-    uuid: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /worryfree/vmess
+      path: /
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: sgc1.xtls.my.id
-  - name: 'ptrserver'
+    server: 219.76.13.169
+  - name: '美国CloudFlare节点 8'
     type: vmess
     port: 443
-    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
     alterId: 0
     cipher: auto
     tls: true
@@ -26,15 +26,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /ray
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: server.putrastores.xyz
-  - name: 'ptrserver'
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: cacerts.digicert.com
+  - name: '美国CloudFlare节点 9'
     type: vmess
     port: 443
-    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +42,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /VHONOFZ3
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: server.putrastores.xyz
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: cacerts.digicert.com

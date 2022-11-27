@@ -15,10 +15,10 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: sgc1.xtls.my.id
-  - name: 'ptrserver'
+  - name: '广东省移动 1'
     type: vmess
-    port: 443
-    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -26,15 +26,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: server.putrastores.xyz
-  - name: 'ptrserver'
+    server: f1f3227.f3.glados-config.net
+  - name: '日本东京Linode数据中心 3'
     type: vmess
-    port: 443
-    uuid: 3aec8622-0033-45a3-a16a-75cfd940e158
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +42,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: server.putrastores.xyz
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: f1f3227.v8.glados-config.net
