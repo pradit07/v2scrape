@@ -9,22 +9,22 @@ proxies:
     ws-opts: 
       path: /worryfree
       headers:
-        Host: options.teams.microsoft.com
-    sni: options.teams.microsoft.com
+        Host: click.zoom.us
+    sni: click.zoom.us
     server: sgz1.xtls.my.id
-  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
+  - name: '新加坡Amazon数据中心 5'
     type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    port: 80
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /zh-cn/download
       headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
+        Host: a.189.cn
+    servername: a.189.cn
     server: main.millionaireaisle.com
