@@ -1,8 +1,24 @@
 proxies:
-  - name: '澳门澳门电讯 12'
+  - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443
-    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: news.microsoft.com
+  - name: 'ca.0112233.xyz'
+    type: vmess
+    port: 443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
     alterId: 0
     cipher: auto
     tls: true
@@ -12,58 +28,10 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 45.64.22.55
-  - name: '美国  13'
-    type: vmess
-    port: 80
-    uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
-    alterId: 64
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: vn3.thanhhaivpn.name.vn
-    servername: vn3.thanhhaivpn.name.vn
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
     server: news.microsoft.com
-  - name: '美国CloudFlare节点 14'
-    type: vmess
-    port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
-    server: cacerts.digicert.com
-  - name: '德国  16'
-    type: vmess
-    port: 2082
-    uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: 194.233.83.238
-    servername: 194.233.83.238
-    server: news.microsoft.com
-  - name: '希腊  17'
+  - name: '🇬🇧 _GB_英国'
     type: vmess
     port: 443
     uuid: 62e6255a-6da3-11ed-8de2-000017022008
@@ -76,6 +44,22 @@ proxies:
     ws-opts: 
       path: /getweather
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: aop.ssfree.ru
+        Host: aop.ssfree.ru
+    servername: aop.ssfree.ru
+    server: news.microsoft.com
+  - name: 'lg1.cfcdn3.xyz'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: cacerts.digicert.com
