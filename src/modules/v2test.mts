@@ -11,7 +11,7 @@ class V2Test {
     const controller = new globalThis.AbortController();
     const timeout = setTimeout(() => {
       controller.abort();
-    }, 4000);
+    }, 10000);
 
     v2ray.stdout.on("data", (res: any) => {
       // console.log(res.toString());
@@ -20,7 +20,7 @@ class V2Test {
       }
     });
 
-    await sleep(1000);
+    await sleep(3000);
     try {
       await fetch("https://google.com", {
         agent: new SocksProxyAgent("socks://127.0.0.1:10802"),
