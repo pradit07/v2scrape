@@ -1,8 +1,24 @@
 proxies:
-  - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
+  - name: '新加坡DigitalOcean数据中心 4'
+    type: vmess
+    port: 16578
+    uuid: 5a494728-342a-491c-8cd3-23f0e614cce9
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /cctv13/hd.m3u8
+      headers:
+        Host: 128.199.202.80
+    servername: 128.199.202.80
+    server: main.millionaireaisle.com
+  - name: '香港电讯盈科有限公司 6'
     type: vmess
     port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
     alterId: 0
     cipher: auto
     tls: true
@@ -12,70 +28,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
-    server: main.millionaireaisle.com
-  - name: '🇸🇬 _US_美国->🇸🇬_SG_新加坡'
-    type: vmess
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshkit/401452697/635b464921141/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-    servername: sg1-v2ray.sshkit.org
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
-  - name: 'clash1.trump2023.net'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: main.millionaireaisle.com
-  - name: '🇸🇬 _SG_新加坡'
-    type: vmess
-    port: 2082
-    uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: 194.233.83.238
-    servername: 194.233.83.238
-    server: main.millionaireaisle.com
-  - name: 'clash1.trump2023.net'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: main.millionaireaisle.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 219.76.13.169
