@@ -1,4 +1,20 @@
 proxies:
+  - name: '美国CloudFlare节点 8'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
   - name: '美国CloudFlare节点 9'
     type: vmess
     port: 443
@@ -14,7 +30,7 @@ proxies:
       headers:
         Host: lg1.cfcdn2.xyz
     servername: lg1.cfcdn2.xyz
-    server: fhfcb-ueolj8s3doomjas-crm.qiscus.com
+    server: main.millionaireaisle.com
   - name: '美国CloudFlare节点 10'
     type: vmess
     port: 443
@@ -31,19 +47,3 @@ proxies:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
     server: main.millionaireaisle.com
-  - name: '澳门澳门电讯 12'
-    type: vmess
-    port: 443
-    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 45.64.22.55

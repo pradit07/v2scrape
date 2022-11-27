@@ -1,4 +1,20 @@
 proxies:
+  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: cacerts.digicert.com
   - name: '🇩🇪 _MO_澳门->🇩🇪_DE_德国'
     type: vmess
     port: 443
@@ -31,19 +47,3 @@ proxies:
         Host: sg1-v2ray.sshkit.org
     servername: sg1-v2ray.sshkit.org
     server: cacerts.digicert.com
-  - name: 'clash1.trump2023.net'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: news.microsoft.com

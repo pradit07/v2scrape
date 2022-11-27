@@ -15,6 +15,22 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: server.putrastores.xyz
+  - name: 'vmess'
+    type: vmess
+    port: 443
+    uuid: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /worryfree/vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sgc1.xtls.my.id
   - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
     type: vmess
     port: 443
@@ -30,20 +46,4 @@ proxies:
       headers:
         Host: fr2.cfcdn4.xyz
     servername: fr2.cfcdn4.xyz
-    server: news.microsoft.com
-  - name: '🇺🇸 _US_美国->🇩🇪_DE_德国'
-    type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
     server: cacerts.digicert.com
