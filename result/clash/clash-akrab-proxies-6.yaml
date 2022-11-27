@@ -12,6 +12,6 @@ proxies:
     ws-opts: 
       path: /worryfree/vmess
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: sgc1.xtls.my.id
