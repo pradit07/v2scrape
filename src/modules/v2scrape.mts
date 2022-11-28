@@ -5,7 +5,6 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { Bugs } from "./bugs.mjs";
 import { spawn } from "child_process";
 import { SocksProxyAgent } from "socks-proxy-agent";
-import { bot } from "./tg.mjs";
 
 class V2scrape {
   path = process.cwd();
@@ -191,7 +190,7 @@ class V2scrape {
     }
   }
 
-  async convert(bugs: Bugs, bugBundle: string) {
+  convert(bugs: Bugs, bugBundle: string): Array<string> {
     const v2rayConfig = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
     const clashProxies: Array<string> = ["proxies:"];
     const v2rayProxies: Array<Object> = [];
@@ -209,9 +208,6 @@ class V2scrape {
       if (v2rayProxy) v2rayProxies.push(v2rayProxy);
       if (base64Proxy) base64Proxies.push(base64Proxy);
     }
-
-    // Send one account to telegram channel
-    await bot.send(base64Proxies);
 
     // Split for 4 files and write result
     let splitCount = 1;
@@ -240,6 +236,8 @@ class V2scrape {
     v2rayConfig.outbounds.push(...v2rayProxies);
     writeFileSync(`./result/clash/providers-${bugBundle}.yaml`, clashProxies.join("\n"));
     writeFileSync(`./result/v2ray/config-${bugBundle}.json`, JSON.stringify(v2rayConfig, null, 2));
+
+    return base64Proxies;
   }
 
   private toClash(account: V2Object, sni: string, cdn: string) {
