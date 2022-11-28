@@ -123,7 +123,7 @@ proxy-providers:
       interval: 300
   Providers2:
     type: http
-    path: ./providers1.yaml
+    path: ./providers2.yaml
     url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-2.yaml"
     interval: 900
     health-check:
@@ -132,7 +132,7 @@ proxy-providers:
       interval: 300
   Providers3:
     type: http
-    path: ./providers1.yaml
+    path: ./providers3.yaml
     url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-3.yaml"
     interval: 900
     health-check:
@@ -141,7 +141,7 @@ proxy-providers:
       interval: 300
   Providers4:
     type: http
-    path: ./providers1.yaml
+    path: ./providers4.yaml
     url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-4.yaml"
     interval: 900
     health-check:
