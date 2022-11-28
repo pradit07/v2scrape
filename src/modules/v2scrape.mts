@@ -218,6 +218,9 @@ class V2scrape {
         splitCount++;
       }
     }
+    if (proxiesPerFile.length > 1) {
+      writeFileSync(`./result/clash/providers-${bugBundle}-${splitCount}.yaml`, proxiesPerFile.join("\n"));
+    }
 
     // Write entire result
     v2rayConfig.outbounds.push(...v2rayProxies);
