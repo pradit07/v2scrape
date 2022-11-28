@@ -16,6 +16,20 @@
   },
   {
     "vpn": "vmess",
+    "address": "sgz2.xtls.my.id",
+    "port": 443,
+    "host": "sgz2.xtls.my.id",
+    "id": "1bf89b1d-a3f6-4039-b75b-2074585b040b",
+    "network": "ws",
+    "type": "",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "sgz2.xtls.my.id",
+    "path": "/worryfree/vmess",
+    "remark": "pin1"
+  },
+  {
+    "vpn": "vmess",
     "cdn": true,
     "address": "141.101.114.100",
     "port": "443",
@@ -28,23 +42,6 @@
     "tls": "tls",
     "path": "/dongtaiwang.com",
     "remark": "美国CloudFlare节点 16"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": true,
-    "address": "47.88.52.220",
-    "port": 80,
-    "host": "w.800876.xyz",
-    "alterId": 0,
-    "id": "c9fe8359-5878-4413-c80e-3ffeabc47b02",
-    "network": "ws",
-    "type": "auto",
-    "security": "auto",
-    "skipCertVerify": true,
-    "tls": "",
-    "sni": "",
-    "path": "/",
-    "remark": "美国加利福尼亚州圣克拉拉阿里云 18"
   },
   {
     "vpn": "vmess",
@@ -66,17 +63,17 @@
   {
     "vpn": "vmess",
     "cdn": true,
-    "address": "141.101.115.136",
+    "address": "ca.0112233.xyz",
     "port": "443",
-    "host": "lg1.cfcdn1.xyz",
+    "host": "ca.0112233.xyz",
     "alterId": "0",
-    "id": "fcfaec91-6096-44d8-956c-7868d9e874b1",
+    "id": "c3000e9d-bee7-4fdb-b312-dd07030f325d",
     "network": "ws",
     "type": "none",
     "skipCertVerify": true,
     "tls": "tls",
-    "path": "/ray",
-    "remark": "lg1.cfcdn1.xyz"
+    "path": "/",
+    "remark": "ca.0112233.xyz"
   },
   {
     "vpn": "vmess",

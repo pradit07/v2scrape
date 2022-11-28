@@ -12,9 +12,25 @@ proxies:
     ws-opts: 
       path: /worryfree/vmess
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: sgz1.xtls.my.id
+  - name: 'pin1'
+    type: vmess
+    port: 443
+    uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
+    alterId: undefined
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /worryfree/vmess
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: sgz2.xtls.my.id
   - name: '美国CloudFlare节点 16'
     type: vmess
     port: 443
@@ -30,22 +46,6 @@ proxies:
       headers:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
-    server: main.millionaireaisle.com
-  - name: '美国加利福尼亚州圣克拉拉阿里云 18'
-    type: vmess
-    port: 80
-    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: w.800876.xyz
-    servername: w.800876.xyz
     server: pulsapro-bot.qiscus.com
   - name: '美国CloudFlare公司CDN节点 23'
     type: vmess
@@ -62,11 +62,11 @@ proxies:
       headers:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
-    server: main.millionaireaisle.com
-  - name: 'lg1.cfcdn1.xyz'
+    server: pulsapro-bot.qiscus.com
+  - name: 'ca.0112233.xyz'
     type: vmess
     port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
     alterId: 0
     cipher: auto
     tls: true
@@ -74,11 +74,11 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /ray
+      path: /
       headers:
-        Host: lg1.cfcdn1.xyz
-    servername: lg1.cfcdn1.xyz
-    server: pulsapro-bot.qiscus.com
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
+    server: main.millionaireaisle.com
   - name: 'lg1.cfcdn3.xyz'
     type: vmess
     port: 443
@@ -94,7 +94,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: main.millionaireaisle.com
+    server: pulsapro-bot.qiscus.com
   - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
     type: vmess
     port: 2083
@@ -110,7 +110,7 @@ proxies:
       headers:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
-    server: main.millionaireaisle.com
+    server: pulsapro-bot.qiscus.com
   - name: '美国Microsoft数据中心 3'
     type: vmess
     port: 443
@@ -124,8 +124,8 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: kr1.sanfen001.pics
   - name: '美国CloudFlare节点 7'
     type: vmess
@@ -142,4 +142,4 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
-    server: pulsapro-bot.qiscus.com
+    server: main.millionaireaisle.com
