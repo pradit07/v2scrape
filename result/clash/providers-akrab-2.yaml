@@ -1,33 +1,49 @@
 proxies:
-  - name: 'sni-US 9'
+  - name: 'cdn-美国PacificRack机房 15'
     type: vmess
-    port: 8081
-    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
+    port: 443
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /dongtaiwang.com
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 164.92.193.65
-  - name: 'cdn-美国CloudFlare公司CDN节点 4'
+        Host: v2ray2.ssr-free2.xyz
+    servername: v2ray2.ssr-free2.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-美国加利福尼亚州洛杉矶Zenlayer数据中心 17'
     type: vmess
-    port: 8080
-    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /api/v3/download.getFile
+      path: /dongtaiwang.com
       headers:
-        Host: ssrsub.v01.asuka.buzz
-    servername: ssrsub.v01.asuka.buzz
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-美国PacificRack机房 15'
+    type: vmess
+    port: 443
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray2.ssr-free2.xyz
+    servername: v2ray2.ssr-free2.xyz
     server: main.millionaireaisle.com

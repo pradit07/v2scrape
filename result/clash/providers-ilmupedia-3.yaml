@@ -15,19 +15,35 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 67.21.72.44
-  - name: 'sni-美国  14'
+  - name: 'cdn-美国CloudFlare节点 25'
     type: vmess
-    port: 8081
-    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: 'sni-美国Linode数据中心 38'
+    type: vmess
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /chat
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 164.92.193.65
+    server: 172.105.138.195

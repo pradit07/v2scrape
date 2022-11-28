@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-美国CloudFlare公司CDN节点 22'
+  - name: 'sni-🇯🇵 日本_1128089'
     type: vmess
     port: 80
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    uuid: fec544c5-6ec4-45d8-8878-17f799e77e96
     alterId: 0
     cipher: auto
     tls: false
@@ -10,24 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
-      headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: main.millionaireaisle.com
-  - name: 'sni-美国  29'
-    type: vmess
-    port: 80
-    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
+      path: /
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: 45.146.252.141
+    server: 52.199.209.73
