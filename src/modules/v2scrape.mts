@@ -204,7 +204,22 @@ class V2scrape {
       if (v2rayProxy) v2rayProxies.push(v2rayProxy);
     }
 
-    // Write result
+    // Split for 4 files and write result
+    let splitCount = 1;
+    const proxyPerFile = Math.round((clashProxies.length - 1) / 4);
+    let proxiesPerFile = ["proxies:"];
+    for (let i = 1; i < clashProxies.length; i++) {
+      proxiesPerFile.push(clashProxies[i]);
+
+      if (proxiesPerFile.length - 1 >= proxyPerFile) {
+        writeFileSync(`./result/clash/providers-${bugBundle}-${splitCount}.yaml`, proxiesPerFile.join("\n"));
+
+        proxiesPerFile = ["proxies:"];
+        splitCount++;
+      }
+    }
+
+    // Write entire result
     v2rayConfig.outbounds.push(...v2rayProxies);
     writeFileSync(`./result/clash/providers-${bugBundle}.yaml`, clashProxies.join("\n"));
     writeFileSync(`./result/v2ray/config-${bugBundle}.json`, JSON.stringify(v2rayConfig, null, 2));

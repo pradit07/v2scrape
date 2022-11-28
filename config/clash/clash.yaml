@@ -79,13 +79,14 @@ dns:
 proxies:
 proxy-groups:
   - name: Telescope
-    type: url-test
+    type: fallback
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
     tolerance: 50
-    use:
-      - V2Scrape
+    proxies:
+      - Node1
+      - Node2
   - name: WA
     type: select
     proxies:
@@ -98,11 +99,50 @@ proxy-groups:
       - Telescope
       - DIRECT
       - REJECT
+  - name: Node1
+    type: url-test
+    interval: 300
+    use:
+      - Providers1
+      - Providers2
+  - name: Node2
+    type: url-test
+    interval: 300
+    use:
+      - Providers3
+      - Providers4
 proxy-providers:
-  V2Scrape:
+  Providers1:
     type: http
     path: ./providers1.yaml
-    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab.yaml"
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-1.yaml"
+    interval: 900
+    health-check:
+      enable: true
+      url: "http://cp.cloudflare.com/generate_204"
+      interval: 300
+  Providers2:
+    type: http
+    path: ./providers1.yaml
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-2.yaml"
+    interval: 900
+    health-check:
+      enable: true
+      url: "http://cp.cloudflare.com/generate_204"
+      interval: 300
+  Providers3:
+    type: http
+    path: ./providers1.yaml
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-3.yaml"
+    interval: 900
+    health-check:
+      enable: true
+      url: "http://cp.cloudflare.com/generate_204"
+      interval: 300
+  Providers4:
+    type: http
+    path: ./providers1.yaml
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-4.yaml"
     interval: 900
     health-check:
       enable: true
