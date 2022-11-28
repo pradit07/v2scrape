@@ -46,7 +46,7 @@ class V2scrape {
     config.outbounds.push(proxy);
     writeFileSync("./config/v2ray/test.json", JSON.stringify(config, null, 2));
 
-    await sleep(2000);
+    await sleep(1000);
     const v2ray = spawn("./bin/v2ray", ["run", "-c", "./config/v2ray/test.json"]);
 
     v2ray.stdout.on("data", (res: any) => {
@@ -60,7 +60,7 @@ class V2scrape {
     const controller = new globalThis.AbortController();
     const timeout = setTimeout(() => {
       controller.abort();
-    }, 10000);
+    }, 3000);
 
     try {
       await fetch("https://youtube.com", {
