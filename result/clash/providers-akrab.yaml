@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /worryfree/vmess
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: sgz1.xtls.my.id
   - name: 'whyvpn-ppppite'
     type: vmess
@@ -31,70 +31,22 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: do1.kitu.xyz
-  - name: '法国鲁贝OVH数据中心 9'
+  - name: 'pin1'
     type: vmess
-    port: 80
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    port: 443
+    uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 51.75.160.126
-  - name: '瑞典  10'
-    type: vmess
-    port: 80
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 5.249.160.226
-  - name: '北美地区  12'
-    type: vmess
-    port: 12378
-    uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /@Backdor_Filter
+      path: /worryfree/vmess
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: 107.189.31.41
-  - name: '印度孟买Amazon数据中心 13'
-    type: vmess
-    port: 13043
-    uuid: de365d16-9e0a-483a-8d1e-7b57fb30bc65
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 13.234.123.31
+    server: sgz2.xtls.my.id
   - name: '澳大利亚悉尼OVH 29'
     type: vmess
     port: 80
@@ -108,13 +60,13 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 139.99.135.182
-  - name: '美国Linode数据中心 34'
+  - name: '瑞典Oracle Corporation 33'
     type: vmess
     port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
     alterId: 0
     cipher: auto
     tls: true
@@ -122,8 +74,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /chat
+      path: /roewesu
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 172.105.138.195
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 141.147.181.219
