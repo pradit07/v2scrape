@@ -148,7 +148,7 @@ class V2scrape {
       }
 
       if (v2Account.network != "ws") continue;
-      v2Account.remark = v2Account.remark.replace("github.com/freefq - ", "");
+      v2Account.remark = v2Account.remark.replace(/^.+ - /i, "");
 
       process.stdout.write(`${v2Account.remark}: `);
       const isConnected = await (async () => {
