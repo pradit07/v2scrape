@@ -1,113 +1,33 @@
 proxies:
-  - name: 'cdn-美国PacificRack机房 15'
+  - name: 'cdn-美国CloudFlare公司CDN节点 22'
     type: vmess
-    port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    port: 80
+    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /p9Dq67Nx/
       headers:
-        Host: v2ray2.ssr-free2.xyz
-    servername: v2ray2.ssr-free2.xyz
+        Host: fr1.cachexy.ga
+    servername: fr1.cachexy.ga
     server: main.millionaireaisle.com
-  - name: 'cdn-美国加利福尼亚州洛杉矶Zenlayer数据中心 17'
+  - name: 'sni-美国  29'
     type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    port: 80
+    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
     alterId: 0
     cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-美国得克萨斯州 18'
-    type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-美国RF Engineering 20'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare节点 25'
-    type: vmess
-    port: 443
-    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-    alterId: 0
-    cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
       path: /vmess
       headers:
-        Host: v2.chigua.tk
-    servername: v2.chigua.tk
-    server: main.millionaireaisle.com
-  - name: 'sni-美国Linode数据中心 28'
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: layanan.ruangguru.com
-    servername: layanan.ruangguru.com
-    server: 172.105.138.195
-  - name: 'sni-🇺🇸_US_美国_1'
-    type: vmess
-    port: 443
-    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /path/120208301422
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 67.21.72.44
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 45.146.252.141
