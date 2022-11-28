@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-US 15 → openitsub.com'
+  - name: 'cdn-pin1'
     type: vmess
     port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
     alterId: 0
     cipher: auto
     tls: true
@@ -10,27 +10,91 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /guolicheng/de?ed=2048
+      path: /worryfree/vmess
       headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
+        Host: sgz2.xtls.my.id
+    servername: sgz2.xtls.my.id
     server: main.millionaireaisle.com
-  - name: 'sni-US 22 → openitsub.com'
+  - name: 'sni-pin1'
     type: vmess
-    port: 5505
-    uuid: 69801534-3870-4d14-9d07-6f65da593da4
+    port: 443
+    uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /worryfree/vmess
+      headers:
+        Host: wcpstatic.microsoft.com
+    servername: wcpstatic.microsoft.com
+    server: sgz2.xtls.my.id
+  - name: 'cdn-v2rayfree.eu.org - 中国阿里云 1'
+    type: vmess
+    port: 2053
+    uuid: 7cdfca78-b048-4358-8574-9c52a2beae68
+    alterId: 0
+    cipher: auto
+    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
       path: /
       headers:
-        Host: wcpstatic.microsoft.com
-    servername: wcpstatic.microsoft.com
-    server: huclouds.ml
+        Host: do2.ultrayuki.me
+    servername: do2.ultrayuki.me
+    server: main.millionaireaisle.com
+  - name: 'cdn-v2rayfree.eu.org - 美国CloudFlare节点 4'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-v2rayfree.eu.org - 美国CloudFlare节点 10'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: main.millionaireaisle.com
+  - name: 'cdn-github.com/Pawdroid - 美国CloudFlare节点 16'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: main.millionaireaisle.com
   - name: 'sni-🇺🇸_US_美国_1'
     type: vmess
     port: 443
@@ -47,7 +111,7 @@ proxies:
         Host: wcpstatic.microsoft.com
     servername: wcpstatic.microsoft.com
     server: 67.21.72.44
-  - name: 'cdn-US 6 → openitsub.com'
+  - name: 'cdn-US 9 → openitsub.com'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -74,12 +138,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /guolicheng/us3?ed=2048
+      path: /guolicheng/us2?ed=2048
       headers:
-        Host: us3.guolicheng.cyou
-    servername: us3.guolicheng.cyou
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 11 → openitsub.com'
+  - name: 'cdn-US 13 → openitsub.com'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -90,12 +154,28 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /guolicheng/us2?ed=2048
+      path: /guolicheng/us3?ed=2048
       headers:
-        Host: us2.guolicheng.cyou
-    servername: us2.guolicheng.cyou
+        Host: us3.guolicheng.cyou
+    servername: us3.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 14 → openitsub.com'
+  - name: 'cdn-US 15 → openitsub.com'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 14.72img.xyz
+    servername: 14.72img.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-US 16 → openitsub.com'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -111,7 +191,7 @@ proxies:
         Host: de.guolicheng.cyou
     servername: de.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 15 → openitsub.com'
+  - name: 'cdn-US 17 → openitsub.com'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -127,10 +207,42 @@ proxies:
         Host: fr.guolicheng.cyou
     servername: fr.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 16 → openitsub.com'
+  - name: 'cdn-US 21 → openitsub.com'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v01.asuka.buzz
+    servername: ssrsub.v01.asuka.buzz
+    server: main.millionaireaisle.com
+  - name: 'sni-北美地区  4'
+    type: vmess
+    port: 12378
+    uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /@Backdor_Filter
+      headers:
+        Host: wcpstatic.microsoft.com
+    servername: wcpstatic.microsoft.com
+    server: 107.189.31.41
+  - name: 'cdn-美国RF Engineering 8'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -138,10 +250,10 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /dongtaiwang.com
       headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: main.millionaireaisle.com
   - name: 'cdn-美国CloudFlare公司CDN节点 12'
     type: vmess
@@ -172,9 +284,25 @@ proxies:
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: wcpstatic.microsoft.com
-    servername: wcpstatic.microsoft.com
+        Host: layanan.ruangguru.com
+    servername: layanan.ruangguru.com
     server: sg80-2.sanfen001.pics
+  - name: 'cdn-美国加利福尼亚州洛杉矶Zenlayer数据中心 23'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: main.millionaireaisle.com
   - name: 'sni-法国鲁贝OVH数据中心 24'
     type: vmess
     port: 80
@@ -188,6 +316,6 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: 51.75.160.126
