@@ -160,7 +160,7 @@ class V2scrape {
         const connectedMode: Array<V2Object> = [];
         const onTest: Array<string> = [];
 
-        for (const mode of ["cdn", "sni"]) {
+        for (const mode of ["sni", "cdn"]) {
           onTest.push(mode);
           await this.test(v2Account, mode)
             .then((res) => {
