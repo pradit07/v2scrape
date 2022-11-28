@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-US 45'
+  - name: 'cdn-AU 6'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /guolicheng/us2?ed=2048
       headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com

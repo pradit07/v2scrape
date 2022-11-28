@@ -1,5 +1,21 @@
 proxies:
-  - name: 'cdn-JP 8'
+  - name: 'cdn-未知_1128016'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 36.72img.xyz
+    servername: 36.72img.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-AU 1'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -15,23 +31,7 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-JP 10'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-NL 1'
+  - name: 'cdn-AU 2'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -46,20 +46,4 @@ proxies:
       headers:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-NL 2'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
     server: main.millionaireaisle.com
