@@ -136,7 +136,6 @@ class V2scrape {
         if (!v2Account.host) continue;
       }
 
-      if (v2Account.vpn != "vmess") continue;
       process.stdout.write(`${v2Account.remark}: `);
       const isConnected = await this.test(v2Account);
       if (isConnected) this.accounts.push(v2Account);
@@ -185,28 +184,6 @@ class V2scrape {
       proxy.push(`      path: ${account.path}`);
       proxy.push(`      headers:`);
       if (account.remark.match(/cloudflare/i) || account.cdn) {
-        proxy.push(`        Host: ${account.host}`);
-        proxy.push(`    servername: ${account.sni || account.host}`);
-        proxy.push(`    server: ${cdn}`);
-      } else {
-        proxy.push(`        Host: ${sni}`);
-        proxy.push(`    servername: ${sni}`);
-        proxy.push(`    server: ${account.address}`);
-      }
-    } else if (account.vpn.startsWith("vless")) {
-      proxy.push(`  - name: '${account.remark}'`);
-      proxy.push(`    type: ${account.vpn}`);
-      proxy.push(`    port: ${account.port}`);
-      proxy.push(`    uuid: ${account.id}`);
-      proxy.push(`    cipher: auto`);
-      proxy.push(`    tls: ${account.tls ? true : false}`);
-      proxy.push(`    udp: true`);
-      proxy.push(`    skip-cert-verify: ${account.skipCertVerify}`);
-      proxy.push(`    network: ${account.network}`);
-      proxy.push(`    ws-opts: `);
-      proxy.push(`      path: ${account.path}`);
-      proxy.push(`      headers:`);
-      if (account.cdn) {
         proxy.push(`        Host: ${account.host}`);
         proxy.push(`    servername: ${account.sni || account.host}`);
         proxy.push(`    server: ${cdn}`);
@@ -296,8 +273,50 @@ class V2scrape {
         proxy[0].streamSettings.wsSettings.headers.Host = sni;
         proxy[0].streamSettings.tlsSettings.serverName = sni;
       }
-    } else if (account.vpn.startsWith("vless")) {
     } else if (account.vpn.startsWith("trojan")) {
+      proxy.push({
+        mux: {
+          concurrency: 8,
+          enabled: false,
+        },
+        protocol: "trojan",
+        settings: {
+          servers: [
+            {
+              address: account.address,
+              port: parseInt(`${account.port}` || "443"),
+              flow: "",
+              level: 8,
+              method: "chacha20-poly1305",
+              ota: false,
+              password: account.id,
+            },
+          ],
+        },
+        streamSettings: {
+          network: account.network,
+          security: account.tls,
+          wsSettings: {
+            headers: {
+              Host: account.host,
+            },
+            path: account.path,
+          },
+          tlsSettings: {
+            allowInsecure: true,
+            serverName: account.sni,
+          },
+        },
+        tag: `proxy-${i}`,
+      });
+
+      if (account.cdn) {
+        proxy[0].settings.servers[0].address = cdn;
+        proxy[0].streamSettings.tlsSettings.serverName = account.sni || account.host;
+      } else {
+        proxy[0].streamSettings.wsSettings.headers.Host = sni;
+        proxy[0].streamSettings.tlsSettings.serverName = sni;
+      }
     }
 
     return proxy[0];
