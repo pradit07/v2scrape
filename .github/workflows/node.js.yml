@@ -4,7 +4,6 @@
 name: Node.js CI
 
 on:
-  push:
   workflow_dispatch:
   repository_dispatch:
     types: ["run"]
