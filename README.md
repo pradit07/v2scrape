@@ -1,34 +1,61 @@
 # V2Scrape
 
-## Info
+## ID
+
+### Info
 
 ```
 Repo ini awal dibuat dengan niat untuk diri sendiri,
 jadi mungkin kalian akan menemukan banyak commit aneh :v
 
-Mungkin untuk kedepannya repo ini akan saya perbaiki,
-untuk sekarang saya biarkan seperti ini dulu.
-
 ```
 
-## Fitur
+### Fitur
 
 - Akun baru setiap 30 menit
 - Tersedia config.yaml dan .json untuk clash dan v2ray
 - Tersedia providers untuk dijadikan subscription
 
-## Tambah Kartu/Paket
+### Tambah Kartu/Paket
 
-### Bikin Sendiri
+#### Bikin Sendiri
 
 - Fork repo ini
 - Tambah file json di ./bugs (format: daerah-paket.json, ex: jatim-akrab.json)
 - Buat PR (Pull Request)
 
-### Dibikinin
+#### Dibikinin
 
-- Buat PR
+- Buat PR (Pull Request)
 - Tulis bug, jelaskan untuk kartu/paket apa dan wilayah/daerah mana
+
+## EN
+
+### Info
+
+```
+This project started in purpose to satisfy my personal needs,
+so i'm sorry for those ugly code and weird commit message
+```
+
+### Feature
+
+- New account in 30 minutes
+- .yaml and .json is provided for clash and v2ray
+- Providers is provided as well
+
+### Add Bug
+
+#### by your self
+
+- Fork this repo
+- Add .json file in ./bugs
+- Create PR (Pull Request)
+
+#### Please help me
+
+- Create PR (Pull Request)
+- Write the bug
 
 ## Credit
 

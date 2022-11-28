@@ -1,7 +1,7 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
-name: Node.js CI
+name: Test and Convert
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   scrape:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     concurrency:
       group: scrape
       cancel-in-progress: true
@@ -22,11 +22,17 @@ jobs:
         with:
           node-version: 18.x
           cache: "npm"
-      - run: |
-          curl "https://github.com/v2fly/v2ray-core/releases/download/v5.1.0/v2ray-macos-64.zip" -L -o ./bin/v2ray.zip
+      - name: Get secrets
+        run: |
+          echo ${{ secrets.BOT_TOKEN }} > ./bot_token
+          echo ${{ secrets.SOURCE }} > ./source
+      - name: Install v2ray
+        run: |
+          curl "https://github.com/v2fly/v2ray-core/releases/download/v5.1.0/v2ray-linux-64.zip" -L -o ./bin/v2ray.zip
           unzip ./bin/v2ray.zip -d ./bin/
           rm -rf ./bin/v2ray.zip
-      - run: |
+      - name: Start Scraping
+        run: |
           npm install && npm start
       - name: Add & Commit
         if: ${{ always() }}
