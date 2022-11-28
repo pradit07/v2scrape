@@ -46,6 +46,22 @@
   },
   {
     "vpn": "vmess",
+    "address": "tw1.sanfen001.pics",
+    "port": 443,
+    "host": "tw1.sanfen001.pics",
+    "alterId": 0,
+    "id": "82ece5db-34f5-4b86-a469-01df94d15bbb",
+    "network": "ws",
+    "type": "auto",
+    "security": "auto",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "www.microsoft.com",
+    "path": "/zh-cn",
+    "remark": "香港特别行政区 1"
+  },
+  {
+    "vpn": "vmess",
     "address": "kr1.sanfen001.pics",
     "port": 443,
     "host": "www.microsoft.com",
@@ -63,23 +79,6 @@
   {
     "vpn": "vmess",
     "cdn": true,
-    "address": "198.41.203.1",
-    "port": 443,
-    "host": "lg1.cfcdn2.xyz",
-    "alterId": 0,
-    "id": "267a9f38-40d8-4ed6-ab58-cafc67e9c933",
-    "network": "ws",
-    "type": "auto",
-    "security": "auto",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "",
-    "path": "/VHONOFZ3",
-    "remark": "美国CloudFlare节点 9"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": true,
     "address": "141.101.115.20",
     "port": 443,
     "host": "clash1.trump2023.net",
@@ -93,6 +92,23 @@
     "sni": "",
     "path": "/dongtaiwang.com",
     "remark": "美国CloudFlare节点 11"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "198.41.212.100",
+    "port": 443,
+    "host": "lg1.cfcdn3.xyz",
+    "alterId": 0,
+    "id": "33aa57df-1c93-4318-9fce-e850437ee781",
+    "network": "ws",
+    "type": "auto",
+    "security": "auto",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "",
+    "path": "/dongtaiwang.com",
+    "remark": "美国CloudFlare节点 15"
   },
   {
     "vpn": "vmess",
@@ -144,21 +160,6 @@
   {
     "vpn": "vmess",
     "cdn": true,
-    "address": "ca.0112233.xyz",
-    "port": "443",
-    "host": "ca.0112233.xyz",
-    "alterId": "0",
-    "id": "c3000e9d-bee7-4fdb-b312-dd07030f325d",
-    "network": "ws",
-    "type": "none",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "path": "/",
-    "remark": "ca.0112233.xyz"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": true,
     "address": "30.tehvp.xyz",
     "port": 2083,
     "host": "30.tehvp.xyz",
@@ -172,5 +173,20 @@
     "sni": "",
     "path": "/",
     "remark": "美国CloudFlare公司CDN节点 23"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "141.101.114.20",
+    "port": "443",
+    "host": "clash1.trump2023.net",
+    "alterId": "0",
+    "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/dongtaiwang.com",
+    "remark": "clash1.trump2023.net"
   }
 ]
