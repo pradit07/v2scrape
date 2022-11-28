@@ -34,38 +34,6 @@
   {
     "vpn": "vmess",
     "cdn": false,
-    "address": "sgz2.xtls.my.id",
-    "port": 443,
-    "host": "sgz2.xtls.my.id",
-    "alterId": 0,
-    "id": "1bf89b1d-a3f6-4039-b75b-2074585b040b",
-    "network": "ws",
-    "type": "",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "sgz2.xtls.my.id",
-    "path": "/worryfree/vmess",
-    "remark": "pin1"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": false,
-    "address": "sg80-2.sanfen001.pics",
-    "port": "80",
-    "host": "a.189.cn",
-    "alterId": "0",
-    "id": "e7e73e1d-2418-4766-8831-d1b3b83cc877",
-    "network": "ws",
-    "type": "none",
-    "skipCertVerify": true,
-    "tls": "",
-    "sni": "",
-    "path": "/zh-cn/download",
-    "remark": "新加坡Amazon数据中心 5"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": false,
     "address": "51.75.160.126",
     "port": "80",
     "host": "51.75.160.126",
@@ -78,6 +46,22 @@
     "sni": "",
     "path": "/vmess",
     "remark": "法国鲁贝OVH数据中心 9"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": false,
+    "address": "5.249.160.226",
+    "port": "80",
+    "host": "5.249.160.226",
+    "alterId": "0",
+    "id": "c721b258-e101-41e1-9574-ad171e502ab8",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "",
+    "sni": "",
+    "path": "/vmess",
+    "remark": "瑞典  10"
   },
   {
     "vpn": "vmess",
@@ -99,19 +83,19 @@
   {
     "vpn": "vmess",
     "cdn": false,
-    "address": "45.146.252.141",
-    "port": 80,
-    "host": "45.146.252.141",
+    "address": "13.234.123.31",
+    "port": 13043,
+    "host": "13.234.123.31",
     "alterId": 0,
-    "id": "b29defe7-36ee-47bf-b731-c4cccabc4200",
+    "id": "de365d16-9e0a-483a-8d1e-7b57fb30bc65",
     "network": "ws",
     "type": "auto",
     "security": "auto",
     "skipCertVerify": true,
     "tls": "",
     "sni": "",
-    "path": "/vmess",
-    "remark": "美国  20"
+    "path": "/",
+    "remark": "印度孟买Amazon数据中心 13"
   },
   {
     "vpn": "vmess",
@@ -128,5 +112,22 @@
     "sni": "",
     "path": "/vmess",
     "remark": "澳大利亚悉尼OVH 29"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": false,
+    "address": "172.105.138.195",
+    "port": 443,
+    "host": "",
+    "alterId": 0,
+    "id": "927094d3-d678-4763-8591-e240d0bcae87",
+    "network": "ws",
+    "type": "auto",
+    "security": "auto",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "",
+    "path": "/chat",
+    "remark": "美国Linode数据中心 34"
   }
 ]
