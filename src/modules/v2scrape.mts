@@ -35,11 +35,11 @@ class V2scrape {
   private async test(account: V2Object) {
     let isConnected: boolean = true;
     for (const mode of ["sni", "cdn"]) {
-      if (mode == "sni") {
-        account.cdn = false;
+      if (mode == "cdn") {
+        account.cdn = true;
       } else {
         if (account.host) continue;
-        account.cdn = true;
+        account.cdn = false;
       }
 
       const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
@@ -52,7 +52,7 @@ class V2scrape {
       const controller = new globalThis.AbortController();
       const timeout = setTimeout(() => {
         controller.abort();
-      }, 5000);
+      }, 10000);
 
       v2ray.stdout.on("data", (res: any) => {
         if (res.toString().match(/(context deadline exceeded|timeout|write on closed pipe)/i)) {
@@ -60,7 +60,7 @@ class V2scrape {
         }
       });
 
-      await sleep(2000);
+      await sleep(3000);
       try {
         await fetch("http://google.com", {
           agent: new SocksProxyAgent("socks://127.0.0.1:10802"),
