@@ -32,58 +32,61 @@ class V2scrape {
     console.log(`Result saved to ${this.path}/result/result.json`);
   }
 
-  private async test(account: V2Object) {
+  private async test(account: V2Object, mode: "sni" | "cdn" | string = "cdn") {
     let isConnected: boolean = true;
-    for (const mode of ["sni", "cdn"]) {
-      if (mode == "cdn") {
-        if (!account.host) continue;
-        account.cdn = true;
-      } else {
-        account.cdn = false;
-      }
-
-      const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
-      const proxy = this.toV2ray(account, "options.teams.microsoft.com", "pulsapro-bot.qiscus.com");
-      config.outbounds.push(proxy);
-      writeFileSync("./config/v2ray/test.json", JSON.stringify(config, null, 2));
-
-      const v2ray = spawn("./bin/v2ray", ["run", "-c", "./config/v2ray/test.json"]);
-
-      const controller = new globalThis.AbortController();
-      const timeout = setTimeout(() => {
-        controller.abort();
-      }, 10000);
-
-      v2ray.stdout.on("data", (res: any) => {
-        if (res.toString().match(/(context deadline exceeded|timeout|write on closed pipe)/i)) {
-          isConnected = false;
-        }
-      });
-
-      await sleep(3000);
-      try {
-        await fetch("http://google.com", {
-          agent: new SocksProxyAgent("socks://127.0.0.1:10802"),
-          signal: controller.signal,
-        });
-      } catch (e: any) {
-        // console.log(e.message);
-        isConnected = false;
-      }
-
-      await new Promise((resolve) => {
-        v2ray.kill();
-
-        v2ray.on("close", () => {
-          resolve(0);
-        });
-      });
-
-      clearTimeout(timeout);
-      if (isConnected) break;
+    const remark = `${mode}-${account.remark}`;
+    if (mode == "cdn") {
+      account.cdn = true;
+    } else {
+      account.cdn = false;
     }
 
-    if (isConnected) return account;
+    const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
+    const proxy = this.toV2ray(account, "promo.ruangguru.com", "main.millionaireaisle.com");
+    config.outbounds.push(proxy);
+    writeFileSync("./config/v2ray/test.json", JSON.stringify(config, null, 2));
+
+    await sleep(2000);
+    const v2ray = spawn("./bin/v2ray", ["run", "-c", "./config/v2ray/test.json"]);
+
+    v2ray.stdout.on("data", (res: any) => {
+      // console.log(res.toString());
+      if (res.toString().match(/(context deadline exceeded|timeout|write on closed pipe)/i)) {
+        isConnected = false;
+      }
+    });
+
+    await sleep(1000);
+    const controller = new globalThis.AbortController();
+    const timeout = setTimeout(() => {
+      controller.abort();
+    }, 10000);
+
+    try {
+      await fetch("https://youtube.com", {
+        agent: new SocksProxyAgent("socks5://127.0.0.1:10802"),
+        signal: controller.signal,
+      });
+    } catch (e: any) {
+      // console.log(e.message);
+      isConnected = false;
+    }
+
+    await new Promise((resolve) => {
+      v2ray.kill();
+
+      v2ray.on("close", () => {
+        resolve(0);
+      });
+    });
+
+    clearTimeout(timeout);
+
+    if (isConnected)
+      return {
+        ...account,
+        remark,
+      };
     else return false;
   }
 
@@ -143,10 +146,26 @@ class V2scrape {
       v2Account.remark = v2Account.remark.replace("github.com/freefq - ", "");
 
       process.stdout.write(`${v2Account.remark}: `);
-      const isConnected = await this.test(v2Account);
-      if (isConnected) {
-        this.accounts.push(isConnected);
-        process.stdout.write(`${isConnected.cdn ? "CDN" : "SNI"}\n`);
+      const isConnected = await (async () => {
+        const connectedMode = [];
+
+        for (const mode of ["cdn", "sni"]) {
+          const isConnected = await this.test(v2Account, mode);
+
+          if (isConnected) connectedMode.push(isConnected);
+        }
+
+        return connectedMode;
+      })();
+
+      if (isConnected.length > 0) {
+        for (const connectedMode of isConnected) {
+          if (connectedMode) {
+            this.accounts.push(connectedMode);
+            process.stdout.write(`${connectedMode.cdn ? " CDN" : " SNI"}`);
+          }
+        }
+        process.stdout.write("\n");
       } else {
         process.stdout.write("Could not connect!\n");
       }
