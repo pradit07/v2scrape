@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-NL 3'
+  - name: 'cdn-US 9'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -15,7 +15,7 @@ proxies:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-GB 3'
+  - name: 'cdn-US 12'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -31,7 +31,7 @@ proxies:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-JP 2'
+  - name: 'cdn-US 13'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -47,7 +47,7 @@ proxies:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-JP 3'
+  - name: 'cdn-US 14'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -63,7 +63,7 @@ proxies:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-SE 1'
+  - name: 'cdn-GB 2'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -79,7 +79,7 @@ proxies:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-US 10'
+  - name: 'cdn-US 5'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
