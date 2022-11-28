@@ -66,17 +66,17 @@
   {
     "vpn": "vmess",
     "cdn": true,
-    "address": "141.101.114.20",
+    "address": "141.101.115.136",
     "port": "443",
-    "host": "clash1.trump2023.net",
+    "host": "lg1.cfcdn1.xyz",
     "alterId": "0",
-    "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
+    "id": "fcfaec91-6096-44d8-956c-7868d9e874b1",
     "network": "ws",
     "type": "none",
     "skipCertVerify": true,
     "tls": "tls",
-    "path": "/dongtaiwang.com",
-    "remark": "clash1.trump2023.net"
+    "path": "/ray",
+    "remark": "lg1.cfcdn1.xyz"
   },
   {
     "vpn": "vmess",

@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
-    server: pulsapro-bot.qiscus.com
+    server: main.millionaireaisle.com
   - name: '美国加利福尼亚州圣克拉拉阿里云 18'
     type: vmess
     port: 80
@@ -63,10 +63,10 @@ proxies:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
     server: main.millionaireaisle.com
-  - name: 'clash1.trump2023.net'
+  - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
     alterId: 0
     cipher: auto
     tls: true
@@ -74,10 +74,10 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /ray
       headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
     server: pulsapro-bot.qiscus.com
   - name: 'lg1.cfcdn3.xyz'
     type: vmess
@@ -94,7 +94,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: pulsapro-bot.qiscus.com
+    server: main.millionaireaisle.com
   - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
     type: vmess
     port: 2083
@@ -124,8 +124,8 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: kr1.sanfen001.pics
   - name: '美国CloudFlare节点 7'
     type: vmess
@@ -142,4 +142,4 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
-    server: main.millionaireaisle.com
+    server: pulsapro-bot.qiscus.com

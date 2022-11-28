@@ -62,11 +62,11 @@ proxies:
       headers:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
-    server: cacerts.digicert.com
-  - name: 'clash1.trump2023.net'
+    server: news.microsoft.com
+  - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
     alterId: 0
     cipher: auto
     tls: true
@@ -74,10 +74,10 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /ray
       headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
     server: news.microsoft.com
   - name: 'lg1.cfcdn3.xyz'
     type: vmess

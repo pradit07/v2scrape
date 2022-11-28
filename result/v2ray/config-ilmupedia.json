@@ -204,7 +204,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
+            "address": "news.microsoft.com",
             "port": 2083,
             "users": [
               {
@@ -251,7 +251,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
+                "id": "fcfaec91-6096-44d8-956c-7868d9e874b1",
                 "level": 8,
                 "security": "auto"
               }
@@ -264,13 +264,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "clash1.trump2023.net"
+            "Host": "lg1.cfcdn1.xyz"
           },
-          "path": "/dongtaiwang.com"
+          "path": "/ray"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "clash1.trump2023.net"
+          "serverName": "lg1.cfcdn1.xyz"
         }
       },
       "tag": "proxy-5"
