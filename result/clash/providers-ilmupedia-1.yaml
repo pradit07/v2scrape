@@ -1,21 +1,69 @@
 proxies:
-  - name: 'cdn-未知_1128016'
+  - name: 'cdn-US 9'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
     alterId: 0
     cipher: auto
     tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us2?ed=2048
+      headers:
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-US 10'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us2?ed=2048
+      headers:
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-US 11'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us2?ed=2048
+      headers:
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'sni-US 12'
+    type: vmess
+    port: 8081
+    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
+    alterId: 0
+    cipher: auto
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
       path: /
       headers:
-        Host: 36.72img.xyz
-    servername: 36.72img.xyz
-    server: cacerts.digicert.com
-  - name: 'cdn-AU 1'
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 164.92.193.65
+  - name: 'cdn-US 17'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -26,24 +74,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /guolicheng/us2?ed=2048
+      path: /guolicheng/us3?ed=2048
       headers:
-        Host: us2.guolicheng.cyou
-    servername: us2.guolicheng.cyou
-    server: cacerts.digicert.com
-  - name: 'cdn-AU 2'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us2?ed=2048
-      headers:
-        Host: us2.guolicheng.cyou
-    servername: us2.guolicheng.cyou
+        Host: us3.guolicheng.cyou
+    servername: us3.guolicheng.cyou
     server: cacerts.digicert.com

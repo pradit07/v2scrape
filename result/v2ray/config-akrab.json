@@ -91,7 +91,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
+                "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,13 +104,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "36.72img.xyz"
+            "Host": "us2.guolicheng.cyou"
           },
-          "path": "/"
+          "path": "/guolicheng/us2?ed=2048"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "36.72img.xyz"
+          "serverName": "us2.guolicheng.cyou"
         }
       },
       "tag": "proxy-1"
@@ -204,14 +204,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "main.millionaireaisle.com",
-            "port": 443,
+            "address": "164.92.193.65",
+            "port": 8081,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
+                "id": "0f9c108d-b0d6-4795-a331-0e27d05fb9df",
                 "level": 8,
                 "security": "auto"
               }
@@ -221,16 +221,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
+        "security": "",
         "wsSettings": {
           "headers": {
-            "Host": "us2.guolicheng.cyou"
+            "Host": "promo.ruangguru.com"
           },
-          "path": "/guolicheng/us2?ed=2048"
+          "path": "/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "us2.guolicheng.cyou"
+          "serverName": "promo.ruangguru.com"
         }
       },
       "tag": "proxy-4"
@@ -264,13 +264,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "us2.guolicheng.cyou"
+            "Host": "us3.guolicheng.cyou"
           },
-          "path": "/guolicheng/us2?ed=2048"
+          "path": "/guolicheng/us3?ed=2048"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "us2.guolicheng.cyou"
+          "serverName": "us3.guolicheng.cyou"
         }
       },
       "tag": "proxy-5"
@@ -344,13 +344,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "us2.guolicheng.cyou"
+            "Host": "fr.guolicheng.cyou"
           },
-          "path": "/guolicheng/us2?ed=2048"
+          "path": "/guolicheng/fr?ed=2048"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "us2.guolicheng.cyou"
+          "serverName": "fr.guolicheng.cyou"
         }
       },
       "tag": "proxy-7"
@@ -364,14 +364,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "164.92.193.65",
-            "port": 8081,
+            "address": "main.millionaireaisle.com",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "0f9c108d-b0d6-4795-a331-0e27d05fb9df",
+                "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
                 "level": 8,
                 "security": "auto"
               }
@@ -381,16 +381,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "promo.ruangguru.com"
+            "Host": "us2.guolicheng.cyou"
           },
-          "path": "/"
+          "path": "/guolicheng/us2?ed=2048"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "promo.ruangguru.com"
+          "serverName": "us2.guolicheng.cyou"
         }
       },
       "tag": "proxy-8"
@@ -504,13 +504,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "fr.guolicheng.cyou"
+            "Host": "us3.guolicheng.cyou"
           },
-          "path": "/guolicheng/fr?ed=2048"
+          "path": "/guolicheng/us3?ed=2048"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "fr.guolicheng.cyou"
+          "serverName": "us3.guolicheng.cyou"
         }
       },
       "tag": "proxy-11"
@@ -524,14 +524,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "main.millionaireaisle.com",
-            "port": 443,
+            "address": "164.92.193.65",
+            "port": 8081,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
+                "id": "0f9c108d-b0d6-4795-a331-0e27d05fb9df",
                 "level": 8,
                 "security": "auto"
               }
@@ -541,16 +541,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
+        "security": "",
         "wsSettings": {
           "headers": {
-            "Host": "us2.guolicheng.cyou"
+            "Host": "click.zoom.us"
           },
-          "path": "/guolicheng/us2?ed=2048"
+          "path": "/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "us2.guolicheng.cyou"
+          "serverName": "click.zoom.us"
         }
       },
       "tag": "proxy-12"
@@ -594,6 +594,246 @@
         }
       },
       "tag": "proxy-13"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "us2.guolicheng.cyou"
+          },
+          "path": "/guolicheng/us2?ed=2048"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "us2.guolicheng.cyou"
+        }
+      },
+      "tag": "proxy-14"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "fr.guolicheng.cyou"
+          },
+          "path": "/guolicheng/fr?ed=2048"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "fr.guolicheng.cyou"
+        }
+      },
+      "tag": "proxy-15"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "main.millionaireaisle.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "us2.guolicheng.cyou"
+          },
+          "path": "/guolicheng/us2?ed=2048"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "us2.guolicheng.cyou"
+        }
+      },
+      "tag": "proxy-16"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "107.189.31.41",
+            "port": 12378,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "wsSettings": {
+          "headers": {
+            "Host": "promo.ruangguru.com"
+          },
+          "path": "/@Backdor_Filter"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "promo.ruangguru.com"
+        }
+      },
+      "tag": "proxy-17"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "107.189.31.41",
+            "port": 12378,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "wsSettings": {
+          "headers": {
+            "Host": "options.teams.microsoft.com"
+          },
+          "path": "/@Backdor_Filter"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "options.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-18"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "67.21.72.44",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 64,
+                "encryption": "",
+                "flow": "",
+                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "layanan.ruangguru.com"
+          },
+          "path": "/path/120208301422"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "layanan.ruangguru.com"
+        }
+      },
+      "tag": "proxy-19"
     }
   ],
   "dns": {
