@@ -107,3 +107,4 @@ dist
 .idea/
 app/
 test*
+bin/
