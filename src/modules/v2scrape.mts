@@ -33,47 +33,58 @@ class V2scrape {
   }
 
   private async test(account: V2Object) {
-    const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
-    const proxy = this.toV2ray(account, "options.teams.microsoft.com", "pulsapro-bot.qiscus.com");
-    config.outbounds.push(proxy);
-    writeFileSync("./config/v2ray/test.json", JSON.stringify(config, null, 2));
-
-    const v2ray = spawn("./bin/v2ray", ["run", "-c", "./config/v2ray/test.json"]);
     let isConnected: boolean = true;
+    for (const mode of ["sni", "cdn"]) {
+      if (mode == "sni") {
+        account.cdn = false;
+      } else {
+        if (account.host) continue;
+        account.cdn = true;
+      }
 
-    const controller = new globalThis.AbortController();
-    const timeout = setTimeout(() => {
-      controller.abort();
-    }, 10000);
+      const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
+      const proxy = this.toV2ray(account, "options.teams.microsoft.com", "pulsapro-bot.qiscus.com");
+      config.outbounds.push(proxy);
+      writeFileSync("./config/v2ray/test.json", JSON.stringify(config, null, 2));
 
-    v2ray.stdout.on("data", (res: any) => {
-      // console.log(res.toString());
-      if (res.toString().match(/(context deadline exceeded|timeout|write on closed pipe)/i)) {
+      const v2ray = spawn("./bin/v2ray", ["run", "-c", "./config/v2ray/test.json"]);
+
+      const controller = new globalThis.AbortController();
+      const timeout = setTimeout(() => {
+        controller.abort();
+      }, 5000);
+
+      v2ray.stdout.on("data", (res: any) => {
+        if (res.toString().match(/(context deadline exceeded|timeout|write on closed pipe)/i)) {
+          isConnected = false;
+        }
+      });
+
+      await sleep(2000);
+      try {
+        await fetch("http://google.com", {
+          agent: new SocksProxyAgent("socks://127.0.0.1:10802"),
+          signal: controller.signal,
+        });
+      } catch (e: any) {
+        // console.log(e.message);
         isConnected = false;
       }
-    });
 
-    await sleep(3000);
-    try {
-      await fetch("http://google.com", {
-        agent: new SocksProxyAgent("socks://127.0.0.1:10802"),
-        signal: controller.signal,
+      await new Promise((resolve) => {
+        v2ray.kill();
+
+        v2ray.on("close", () => {
+          resolve(0);
+        });
       });
-    } catch (e: any) {
-      // console.log(e.message);
-      isConnected = false;
+
+      clearTimeout(timeout);
+      if (isConnected) break;
     }
 
-    await new Promise((resolve) => {
-      v2ray.kill();
-
-      v2ray.on("close", () => {
-        resolve(0);
-      });
-    });
-
-    clearTimeout(timeout);
-    return isConnected;
+    if (isConnected) return account;
+    else return false;
   }
 
   private async parse(accounts: Array<string> | string) {
@@ -128,18 +139,17 @@ class V2scrape {
         v2Account = {} as V2Object;
       }
 
-      v2Account.remark = v2Account.remark.replace("github.com/freefq - ", "");
       if (v2Account.network != "ws") continue;
-      if (!v2Account.tls) v2Account.cdn = true;
-      if (v2Account.remark.match(/cloudflare/i) || v2Account.cdn) {
-        v2Account.cdn = true;
-        if (!v2Account.host) continue;
-      }
+      v2Account.remark = v2Account.remark.replace("github.com/freefq - ", "");
 
       process.stdout.write(`${v2Account.remark}: `);
       const isConnected = await this.test(v2Account);
-      if (isConnected) this.accounts.push(v2Account);
-      process.stdout.write(`${isConnected ? "OK" : "Not OK"}\n`);
+      if (isConnected) {
+        this.accounts.push(isConnected);
+        process.stdout.write(`${isConnected.cdn ? "CDN" : "SNI"}\n`);
+      } else {
+        process.stdout.write("Could not connect!\n");
+      }
     }
   }
 
@@ -220,9 +230,6 @@ class V2scrape {
   private toV2ray(account: V2Object, sni: string, cdn: string, i: number = 1) {
     if (!existsSync(`${this.path}/result/v2ray`)) mkdirSync(`${this.path}/result/v2ray`);
     const proxy = [];
-
-    if (account.network != "ws") return;
-    if (!account.tls) account.cdn = true;
 
     if (account.vpn == "vmess") {
       proxy.push({
