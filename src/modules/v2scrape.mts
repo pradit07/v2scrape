@@ -93,7 +93,7 @@ class V2scrape {
           address: vmess.add,
           port: vmess.port,
           host: vmess.host,
-          alterId: vmess.aid,
+          alterId: vmess.aid || 0,
           id: vmess.id,
           network: vmess.net,
           type: vmess.type,
