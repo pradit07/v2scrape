@@ -79,7 +79,7 @@ dns:
 proxies:
 proxy-groups:
   - name: Telescope
-    type: fallback
+    type: load-balance
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
