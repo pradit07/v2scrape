@@ -36,9 +36,9 @@ class V2scrape {
     let isConnected: boolean = true;
     for (const mode of ["sni", "cdn"]) {
       if (mode == "cdn") {
+        if (!account.host) continue;
         account.cdn = true;
       } else {
-        if (account.host) continue;
         account.cdn = false;
       }
 
