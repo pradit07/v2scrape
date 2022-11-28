@@ -148,7 +148,8 @@ class V2scrape {
       }
 
       if (v2Account.network != "ws") continue;
-      v2Account.remark = v2Account.remark.replace(/^.+ - /i, "");
+
+      v2Account.remark = v2Account.remark.replace(/^.+ - /i, "").replace(" → openitsub.com", "");
 
       process.stdout.write(`${v2Account.remark}: `);
       const isConnected = await (async () => {
