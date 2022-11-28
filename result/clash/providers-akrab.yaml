@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /worryfree/vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: sgz1.xtls.my.id
   - name: 'whyvpn-ppppite'
     type: vmess
@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /vmess/
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: do1.kitu.xyz
   - name: 'pin1'
     type: vmess
@@ -44,25 +44,9 @@ proxies:
     ws-opts: 
       path: /worryfree/vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: sgz2.xtls.my.id
-  - name: '瑞典Oracle Corporation 33'
-    type: vmess
-    port: 443
-    uuid: 0b873cff-11ab-4716-c41a-04f886135091
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /roewesu
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 141.147.181.219
   - name: '新加坡Amazon数据中心 5'
     type: vmess
     port: 80
@@ -76,8 +60,8 @@ proxies:
     ws-opts: 
       path: /zh-cn/download
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: sg80-2.sanfen001.pics
   - name: '法国鲁贝OVH数据中心 9'
     type: vmess
@@ -92,25 +76,9 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 51.75.160.126
-  - name: '瑞典  10'
-    type: vmess
-    port: 80
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 5.249.160.226
   - name: '北美地区  12'
     type: vmess
     port: 12378
@@ -124,6 +92,38 @@ proxies:
     ws-opts: 
       path: /@Backdor_Filter
       headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 107.189.31.41
+  - name: '美国  20'
+    type: vmess
+    port: 80
+    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: 107.189.31.41
+    server: 45.146.252.141
+  - name: '澳大利亚悉尼OVH 29'
+    type: vmess
+    port: 80
+    uuid: e7df0582-d168-43af-bfff-90c25af7d085
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 139.99.135.182
