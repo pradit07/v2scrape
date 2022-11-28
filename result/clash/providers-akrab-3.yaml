@@ -1,5 +1,21 @@
 proxies:
-  - name: 'cdn-JP 3'
+  - name: 'sni-🇺🇸_US_美国_1'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 67.21.72.44
+  - name: 'cdn-US 10'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -10,152 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /guolicheng/de?ed=2048
+      path: /guolicheng/us3?ed=2048
       headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 1'
-    type: vmess
-    port: 80
-    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn/download
-      headers:
-        Host: sg80-2.sanfen001.pics
-    servername: sg80-2.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 2'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 3'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 4'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 5'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 6'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 7'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 8'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 9'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
+        Host: us3.guolicheng.cyou
+    servername: us3.guolicheng.cyou
     server: main.millionaireaisle.com
