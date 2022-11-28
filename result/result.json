@@ -2,70 +2,6 @@
   {
     "vpn": "vmess",
     "cdn": true,
-    "address": "sgz2.xtls.my.id",
-    "port": 443,
-    "host": "sgz2.xtls.my.id",
-    "alterId": 0,
-    "id": "1bf89b1d-a3f6-4039-b75b-2074585b040b",
-    "network": "ws",
-    "type": "",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "sgz2.xtls.my.id",
-    "path": "/worryfree/vmess",
-    "remark": "cdn-pin1"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": false,
-    "address": "sgz2.xtls.my.id",
-    "port": 443,
-    "host": "sgz2.xtls.my.id",
-    "alterId": 0,
-    "id": "1bf89b1d-a3f6-4039-b75b-2074585b040b",
-    "network": "ws",
-    "type": "",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "sgz2.xtls.my.id",
-    "path": "/worryfree/vmess",
-    "remark": "sni-pin1"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": true,
-    "address": "cf.ultrayuki.me",
-    "port": 2053,
-    "host": "do2.ultrayuki.me",
-    "alterId": "0",
-    "id": "7cdfca78-b048-4358-8574-9c52a2beae68",
-    "network": "ws",
-    "type": "none",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "path": "/",
-    "remark": "cdn-v2rayfree.eu.org - 中国阿里云 1"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": true,
-    "address": "198.41.203.1",
-    "port": 443,
-    "host": "lg1.cfcdn2.xyz",
-    "alterId": 0,
-    "id": "267a9f38-40d8-4ed6-ab58-cafc67e9c933",
-    "network": "ws",
-    "type": "auto",
-    "security": "auto",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "",
-    "path": "/VHONOFZ3",
-    "remark": "cdn-v2rayfree.eu.org - 美国CloudFlare节点 4"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": true,
     "address": "141.101.114.100",
     "port": "443",
     "host": "v2ray1.zhujicn2.org",
@@ -76,24 +12,24 @@
     "skipCertVerify": true,
     "tls": "tls",
     "path": "/dongtaiwang.com",
-    "remark": "cdn-v2rayfree.eu.org - 美国CloudFlare节点 10"
+    "remark": "cdn-美国CloudFlare节点 10"
   },
   {
     "vpn": "vmess",
     "cdn": true,
-    "address": "198.41.203.1",
+    "address": "powerservice.com",
     "port": 443,
-    "host": "lg1.cfcdn2.xyz",
+    "host": "uk2.v2rayserv.com",
     "alterId": 0,
-    "id": "267a9f38-40d8-4ed6-ab58-cafc67e9c933",
+    "id": "0764a598-82c4-4b41-ba10-551a625beed5",
     "network": "ws",
     "type": "auto",
     "security": "auto",
     "skipCertVerify": true,
     "tls": "tls",
     "sni": "",
-    "path": "/VHONOFZ3",
-    "remark": "cdn-github.com/Pawdroid - 美国CloudFlare节点 16"
+    "path": "/sshocean",
+    "remark": "cdn-美国CloudFlare公司CDN节点 12"
   },
   {
     "vpn": "vmess",
@@ -123,7 +59,7 @@
     "skipCertVerify": true,
     "tls": "tls",
     "path": "/",
-    "remark": "cdn-US 9 → openitsub.com"
+    "remark": "cdn-US 9"
   },
   {
     "vpn": "vmess",
@@ -138,7 +74,7 @@
     "skipCertVerify": true,
     "tls": "tls",
     "path": "/guolicheng/us2?ed=2048",
-    "remark": "cdn-US 10 → openitsub.com"
+    "remark": "cdn-US 10"
   },
   {
     "vpn": "vmess",
@@ -153,7 +89,7 @@
     "skipCertVerify": true,
     "tls": "tls",
     "path": "/guolicheng/us3?ed=2048",
-    "remark": "cdn-US 13 → openitsub.com"
+    "remark": "cdn-US 13"
   },
   {
     "vpn": "vmess",
@@ -168,7 +104,7 @@
     "skipCertVerify": true,
     "tls": "tls",
     "path": "/",
-    "remark": "cdn-US 15 → openitsub.com"
+    "remark": "cdn-US 15"
   },
   {
     "vpn": "vmess",
@@ -183,7 +119,7 @@
     "skipCertVerify": true,
     "tls": "tls",
     "path": "/guolicheng/de?ed=2048",
-    "remark": "cdn-US 16 → openitsub.com"
+    "remark": "cdn-US 16"
   },
   {
     "vpn": "vmess",
@@ -198,7 +134,7 @@
     "skipCertVerify": true,
     "tls": "tls",
     "path": "/guolicheng/fr?ed=2048",
-    "remark": "cdn-US 17 → openitsub.com"
+    "remark": "cdn-US 17"
   },
   {
     "vpn": "vmess",
@@ -213,7 +149,7 @@
     "skipCertVerify": true,
     "tls": "",
     "path": "/api/v3/download.getFile",
-    "remark": "cdn-US 21 → openitsub.com"
+    "remark": "cdn-US 21"
   },
   {
     "vpn": "vmess",
@@ -234,40 +170,6 @@
   },
   {
     "vpn": "vmess",
-    "cdn": true,
-    "address": "news.microsoft.com",
-    "port": 443,
-    "host": "clash1.trump2023.net",
-    "alterId": 0,
-    "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
-    "network": "ws",
-    "type": "auto",
-    "security": "auto",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "clash1.trump2023.net",
-    "path": "/dongtaiwang.com",
-    "remark": "cdn-美国RF Engineering 8"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": true,
-    "address": "powerservice.com",
-    "port": 443,
-    "host": "uk2.v2rayserv.com",
-    "alterId": 0,
-    "id": "0764a598-82c4-4b41-ba10-551a625beed5",
-    "network": "ws",
-    "type": "auto",
-    "security": "auto",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "",
-    "path": "/sshocean",
-    "remark": "cdn-美国CloudFlare公司CDN节点 12"
-  },
-  {
-    "vpn": "vmess",
     "cdn": false,
     "address": "sg80-2.sanfen001.pics",
     "port": "80",
@@ -284,23 +186,6 @@
   },
   {
     "vpn": "vmess",
-    "cdn": true,
-    "address": "128.14.162.48",
-    "port": 443,
-    "host": "clash6.ssr-free.xyz",
-    "alterId": 0,
-    "id": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
-    "network": "ws",
-    "type": "auto",
-    "security": "auto",
-    "skipCertVerify": true,
-    "tls": "tls",
-    "sni": "",
-    "path": "/dongtaiwang.com",
-    "remark": "cdn-美国加利福尼亚州洛杉矶Zenlayer数据中心 23"
-  },
-  {
-    "vpn": "vmess",
     "cdn": false,
     "address": "51.75.160.126",
     "port": "80",
@@ -314,5 +199,95 @@
     "sni": "",
     "path": "/vmess",
     "remark": "sni-法国鲁贝OVH数据中心 24"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "14.72img.xyz",
+    "port": "443",
+    "host": "14.72img.xyz",
+    "alterId": "0",
+    "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/",
+    "remark": "cdn-US 10"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "zfc.windowsupdate1.com",
+    "port": "443",
+    "host": "us2.guolicheng.cyou",
+    "alterId": "0",
+    "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/guolicheng/us2?ed=2048",
+    "remark": "cdn-US 11"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "zfc.windowsupdate1.com",
+    "port": "443",
+    "host": "fr.guolicheng.cyou",
+    "alterId": "0",
+    "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/guolicheng/fr?ed=2048",
+    "remark": "cdn-US 15"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "zfc.windowsupdate1.com",
+    "port": "443",
+    "host": "us3.guolicheng.cyou",
+    "alterId": "0",
+    "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/guolicheng/us3?ed=2048",
+    "remark": "cdn-US 16"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "zfc.windowsupdate1.com",
+    "port": "443",
+    "host": "de.guolicheng.cyou",
+    "alterId": "0",
+    "id": "8078dd51-d4d9-4024-89df-50e358a00a54",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/guolicheng/de?ed=2048",
+    "remark": "cdn-US 17"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": false,
+    "address": "164.92.193.65",
+    "port": "8081",
+    "host": "",
+    "alterId": "0",
+    "id": "0f9c108d-b0d6-4795-a331-0e27d05fb9df",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "",
+    "path": "/",
+    "remark": "sni-US 20"
   }
 ]
