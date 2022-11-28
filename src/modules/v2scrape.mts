@@ -5,6 +5,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { Bugs } from "./bugs.mjs";
 import { spawn } from "child_process";
 import { SocksProxyAgent } from "socks-proxy-agent";
+import { bot } from "./tg.mjs";
 
 class V2scrape {
   path = process.cwd();
@@ -108,7 +109,6 @@ class V2scrape {
         process;
         v2Account = {
           vpn,
-          cdn: vmess.cdn,
           address: vmess.add,
           port: vmess.port,
           host: vmess.host,
@@ -128,7 +128,6 @@ class V2scrape {
 
         v2Account = {
           vpn,
-          cdn: vless.cdn,
           address: vless.server,
           port: vless.port,
           host: vless.host,
@@ -192,10 +191,11 @@ class V2scrape {
     }
   }
 
-  convert(bugs: Bugs, bugBundle: string) {
+  async convert(bugs: Bugs, bugBundle: string) {
     const v2rayConfig = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
     const clashProxies: Array<string> = ["proxies:"];
     const v2rayProxies: Array<Object> = [];
+    const base64Proxies: Array<string> = [];
 
     for (const account of this.accounts) {
       const cdn = bugs.cdn;
@@ -203,17 +203,27 @@ class V2scrape {
 
       const clashProxy = this.toClash(account, sni, cdn);
       const v2rayProxy = this.toV2ray(account, sni, cdn, v2rayProxies.length + 1);
+      const base64Proxy = this.toBase64(account, sni, cdn);
 
       if (clashProxy) clashProxies.push(clashProxy);
       if (v2rayProxy) v2rayProxies.push(v2rayProxy);
+      if (base64Proxy) base64Proxies.push(base64Proxy);
     }
+
+    // Send one account to telegram channel
+    await bot.send(base64Proxies);
 
     // Split for 4 files and write result
     let splitCount = 1;
-    const proxyPerFile = Math.round((clashProxies.length - 1) / 4);
+    let proxyPerFile = Math.round((clashProxies.length - 1) / 4);
     let proxiesPerFile = ["proxies:"];
     for (let i = 1; i < clashProxies.length; i++) {
       proxiesPerFile.push(clashProxies[i]);
+
+      // Save accounts left on the last providers
+      if (clashProxies.length - 1 - i < proxyPerFile) {
+        proxyPerFile++;
+      }
 
       if (proxiesPerFile.length - 1 >= proxyPerFile) {
         writeFileSync(`./result/clash/providers-${bugBundle}-${splitCount}.yaml`, proxiesPerFile.join("\n"));
@@ -384,6 +394,34 @@ class V2scrape {
     }
 
     return proxy[0];
+  }
+
+  toBase64(account: V2Object, sni: string, cdn: string) {
+    let vmess: Vmess = {
+      add: account.address,
+      aid: account.alterId,
+      host: account.host,
+      id: account.id,
+      net: account.network,
+      path: account.path,
+      port: account.port,
+      ps: account.remark,
+      tls: account.tls,
+      type: account.type,
+      security: account.security,
+      "skip-cert-verify": account.skipCertVerify,
+      sni: account.sni,
+    };
+
+    if (account.cdn) {
+      vmess.add = cdn;
+      vmess.sni = account.sni || account.host;
+    } else {
+      vmess.host = sni;
+      vmess.sni = sni;
+    }
+
+    return `${account.vpn}://${Buffer.from(JSON.stringify(vmess)).toString("base64")}`;
   }
 }
 

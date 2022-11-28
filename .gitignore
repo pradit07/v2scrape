@@ -108,3 +108,5 @@ dist
 app/
 test*
 bin/
+source
+bot_token
