@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-NL 3'
+  - name: 'cdn-美国CloudFlare节点 21'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /dongtaiwang.com
       headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: main.millionaireaisle.com

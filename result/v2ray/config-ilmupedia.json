@@ -91,7 +91,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "267a9f38-40d8-4ed6-ab58-cafc67e9c933",
+                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
                 "level": 8,
                 "security": "auto"
               }
@@ -104,13 +104,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "lg1.cfcdn2.xyz"
+            "Host": "14.72img.xyz"
           },
-          "path": "/VHONOFZ3"
+          "path": "/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lg1.cfcdn2.xyz"
+          "serverName": "14.72img.xyz"
         }
       },
       "tag": "proxy-1"
@@ -124,14 +124,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "news.microsoft.com",
+            "address": "cacerts.digicert.com",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "33aa57df-1c93-4318-9fce-e850437ee781",
+                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
                 "level": 8,
                 "security": "auto"
               }
@@ -144,13 +144,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "lg1.cfcdn3.xyz"
+            "Host": "14.72img.xyz"
           },
-          "path": "/dongtaiwang.com"
+          "path": "/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lg1.cfcdn3.xyz"
+          "serverName": "14.72img.xyz"
         }
       },
       "tag": "proxy-2"
@@ -171,7 +171,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "0479eb9d-999d-4bff-ae3f-4f7cc440ce46",
+                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
                 "level": 8,
                 "security": "auto"
               }
@@ -184,13 +184,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "v2ray2.ssr-free2.xyz"
+            "Host": "14.72img.xyz"
           },
-          "path": "/dongtaiwang.com"
+          "path": "/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "v2ray2.ssr-free2.xyz"
+          "serverName": "14.72img.xyz"
         }
       },
       "tag": "proxy-3"
@@ -204,7 +204,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
+            "address": "news.microsoft.com",
             "port": 443,
             "users": [
               {
@@ -251,126 +251,6 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "headers": {
-            "Host": "14.72img.xyz"
-          },
-          "path": "/"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "14.72img.xyz"
-        }
-      },
-      "tag": "proxy-5"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "fcfaec91-6096-44d8-956c-7868d9e874b1",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "headers": {
-            "Host": "lg1.cfcdn1.xyz"
-          },
-          "path": "/ray"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "lg1.cfcdn1.xyz"
-        }
-      },
-      "tag": "proxy-6"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cacerts.digicert.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "headers": {
-            "Host": "clash1.trump2023.net"
-          },
-          "path": "/dongtaiwang.com"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "clash1.trump2023.net"
-        }
-      },
-      "tag": "proxy-7"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
                 "id": "33aa57df-1c93-4318-9fce-e850437ee781",
                 "level": 8,
                 "security": "auto"
@@ -393,7 +273,47 @@
           "serverName": "lg1.cfcdn3.xyz"
         }
       },
-      "tag": "proxy-8"
+      "tag": "proxy-5"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "14.72img.xyz"
+          },
+          "path": "/"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "14.72img.xyz"
+        }
+      },
+      "tag": "proxy-6"
     },
     {
       "mux": {
@@ -411,7 +331,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
+                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
                 "level": 8,
                 "security": "auto"
               }
@@ -424,13 +344,93 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "clash1.trump2023.net"
+            "Host": "14.72img.xyz"
           },
-          "path": "/dongtaiwang.com"
+          "path": "/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "clash1.trump2023.net"
+          "serverName": "14.72img.xyz"
+        }
+      },
+      "tag": "proxy-7"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "14.72img.xyz"
+          },
+          "path": "/"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "14.72img.xyz"
+        }
+      },
+      "tag": "proxy-8"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "14.72img.xyz"
+          },
+          "path": "/"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "14.72img.xyz"
         }
       },
       "tag": "proxy-9"
@@ -524,7 +524,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
+            "address": "news.microsoft.com",
             "port": 443,
             "users": [
               {
@@ -691,7 +691,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
+                "id": "267a9f38-40d8-4ed6-ab58-cafc67e9c933",
                 "level": 8,
                 "security": "auto"
               }
@@ -704,16 +704,176 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "14.72img.xyz"
+            "Host": "lg1.cfcdn2.xyz"
           },
-          "path": "/"
+          "path": "/VHONOFZ3"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "14.72img.xyz"
+          "serverName": "lg1.cfcdn2.xyz"
         }
       },
       "tag": "proxy-16"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cacerts.digicert.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "33aa57df-1c93-4318-9fce-e850437ee781",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "lg1.cfcdn3.xyz"
+          },
+          "path": "/dongtaiwang.com"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "lg1.cfcdn3.xyz"
+        }
+      },
+      "tag": "proxy-17"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "0479eb9d-999d-4bff-ae3f-4f7cc440ce46",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "v2ray2.ssr-free2.xyz"
+          },
+          "path": "/dongtaiwang.com"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "v2ray2.ssr-free2.xyz"
+        }
+      },
+      "tag": "proxy-18"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cacerts.digicert.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "clash1.trump2023.net"
+          },
+          "path": "/dongtaiwang.com"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "clash1.trump2023.net"
+        }
+      },
+      "tag": "proxy-19"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "67.21.72.44",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 64,
+                "encryption": "",
+                "flow": "",
+                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "news.microsoft.com"
+          },
+          "path": "/path/120208301422"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "news.microsoft.com"
+        }
+      },
+      "tag": "proxy-20"
     },
     {
       "mux": {
@@ -753,7 +913,47 @@
           "serverName": "lg1.cfcdn1.xyz"
         }
       },
-      "tag": "proxy-17"
+      "tag": "proxy-21"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cacerts.digicert.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "clash1.trump2023.net"
+          },
+          "path": "/dongtaiwang.com"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "clash1.trump2023.net"
+        }
+      },
+      "tag": "proxy-22"
     },
     {
       "mux": {
@@ -793,7 +993,7 @@
           "serverName": "lg1.cfcdn3.xyz"
         }
       },
-      "tag": "proxy-18"
+      "tag": "proxy-23"
     },
     {
       "mux": {
@@ -811,7 +1011,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
+                "id": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
                 "level": 8,
                 "security": "auto"
               }
@@ -824,16 +1024,16 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "14.72img.xyz"
+            "Host": "clash6.ssr-free.xyz"
           },
-          "path": "/"
+          "path": "/dongtaiwang.com"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "14.72img.xyz"
+          "serverName": "clash6.ssr-free.xyz"
         }
       },
-      "tag": "proxy-19"
+      "tag": "proxy-24"
     },
     {
       "mux": {
@@ -851,7 +1051,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
+                "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
                 "level": 8,
                 "security": "auto"
               }
@@ -864,56 +1064,16 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "14.72img.xyz"
+            "Host": "clash1.trump2023.net"
           },
-          "path": "/"
+          "path": "/dongtaiwang.com"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "14.72img.xyz"
+          "serverName": "clash1.trump2023.net"
         }
       },
-      "tag": "proxy-20"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "headers": {
-            "Host": "14.72img.xyz"
-          },
-          "path": "/"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "14.72img.xyz"
-        }
-      },
-      "tag": "proxy-21"
+      "tag": "proxy-25"
     }
   ],
   "dns": {
