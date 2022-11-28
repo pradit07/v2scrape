@@ -60,7 +60,7 @@ class V2scrape {
     const controller = new globalThis.AbortController();
     const timeout = setTimeout(() => {
       controller.abort();
-    }, 3000);
+    }, 1000);
 
     try {
       await fetch("https://youtube.com", {
