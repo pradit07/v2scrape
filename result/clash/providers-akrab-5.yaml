@@ -1,0 +1,17 @@
+proxies:
+  - name: 'cdn-美国RF Engineering 12'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: main.millionaireaisle.com
