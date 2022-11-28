@@ -2,21 +2,6 @@
   {
     "vpn": "vmess",
     "cdn": true,
-    "address": "http.download.yunzhongzhuan.com",
-    "port": "8080",
-    "host": "ssrsub.v01.asuka.buzz",
-    "alterId": "0",
-    "id": "a4d1d3dd-5097-4dd5-93fa-9b412233174f",
-    "network": "ws",
-    "type": "none",
-    "skipCertVerify": true,
-    "tls": "",
-    "path": "/api/v3/download.getFile",
-    "remark": "cdn-US 13 → openitsub.com"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": true,
     "address": "45.72img.xyz",
     "port": "443",
     "host": "45.72img.xyz",
@@ -193,20 +178,5 @@
     "tls": "tls",
     "path": "/guolicheng/de?ed=2048",
     "remark": "cdn-US 15 → openitsub.com"
-  },
-  {
-    "vpn": "vmess",
-    "cdn": false,
-    "address": "huclouds.ml",
-    "port": "5505",
-    "host": "huclouds.ml",
-    "alterId": "0",
-    "id": "69801534-3870-4d14-9d07-6f65da593da4",
-    "network": "ws",
-    "type": "none",
-    "skipCertVerify": true,
-    "tls": "",
-    "path": "/",
-    "remark": "sni-US 22 → openitsub.com"
   }
 ]
