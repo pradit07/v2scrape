@@ -1,65 +1,17 @@
 proxies:
-  - name: 'cdn-US 22'
+  - name: 'cdn-美国CloudFlare公司CDN节点 4'
     type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /api/v3/download.getFile
       headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-JP 4'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-US 11'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-US 13'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
+        Host: ssrsub.v01.asuka.buzz
+    servername: ssrsub.v01.asuka.buzz
     server: main.millionaireaisle.com
