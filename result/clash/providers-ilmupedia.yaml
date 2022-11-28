@@ -1,260 +1,4 @@
 proxies:
-  - name: 'cdn-pin1'
-    type: vmess
-    port: 443
-    uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /worryfree/vmess
-      headers:
-        Host: sgz2.xtls.my.id
-    servername: sgz2.xtls.my.id
-    server: cacerts.digicert.com
-  - name: 'cdn-US 9'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 34.72img.xyz
-    servername: 34.72img.xyz
-    server: cacerts.digicert.com
-  - name: 'cdn-US 10'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us2?ed=2048
-      headers:
-        Host: us2.guolicheng.cyou
-    servername: us2.guolicheng.cyou
-    server: news.microsoft.com
-  - name: 'cdn-US 13'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us3?ed=2048
-      headers:
-        Host: us3.guolicheng.cyou
-    servername: us3.guolicheng.cyou
-    server: cacerts.digicert.com
-  - name: 'cdn-US 15'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: news.microsoft.com
-  - name: 'cdn-US 16'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: cacerts.digicert.com
-  - name: 'cdn-US 17'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/fr?ed=2048
-      headers:
-        Host: fr.guolicheng.cyou
-    servername: fr.guolicheng.cyou
-    server: news.microsoft.com
-  - name: 'sni-北美地区  4'
-    type: vmess
-    port: 12378
-    uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /@Backdor_Filter
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 107.189.31.41
-  - name: 'sni-新加坡Amazon数据中心 19'
-    type: vmess
-    port: 80
-    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn/download
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: sg80-2.sanfen001.pics
-  - name: 'cdn-US 10'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: news.microsoft.com
-  - name: 'cdn-US 11'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us2?ed=2048
-      headers:
-        Host: us2.guolicheng.cyou
-    servername: us2.guolicheng.cyou
-    server: cacerts.digicert.com
-  - name: 'cdn-US 15'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/fr?ed=2048
-      headers:
-        Host: fr.guolicheng.cyou
-    servername: fr.guolicheng.cyou
-    server: news.microsoft.com
-  - name: 'cdn-US 16'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us3?ed=2048
-      headers:
-        Host: us3.guolicheng.cyou
-    servername: us3.guolicheng.cyou
-    server: news.microsoft.com
-  - name: 'cdn-US 17'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/de?ed=2048
-      headers:
-        Host: de.guolicheng.cyou
-    servername: de.guolicheng.cyou
-    server: cacerts.digicert.com
-  - name: 'sni-US 20'
-    type: vmess
-    port: 8081
-    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 164.92.193.65
-  - name: 'cdn-美国CloudFlare节点 26'
-    type: vmess
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: news.microsoft.com
   - name: 'sni-新加坡Amazon数据中心 19'
     type: vmess
     port: 80
@@ -286,7 +30,7 @@ proxies:
       headers:
         Host: us3.guolicheng.cyou
     servername: us3.guolicheng.cyou
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: 'cdn-US 13'
     type: vmess
     port: 443
@@ -318,7 +62,7 @@ proxies:
       headers:
         Host: 34.72img.xyz
     servername: 34.72img.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: 'cdn-US 18'
     type: vmess
     port: 443
@@ -351,42 +95,10 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 164.92.193.65
-  - name: 'sni-新加坡Amazon数据中心 1'
-    type: vmess
-    port: 80
-    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn/download
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: sg80-2.sanfen001.pics
-  - name: 'cdn-美国CloudFlare公司CDN节点 7'
+  - name: 'cdn-美国RF Engineering 20'
     type: vmess
     port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: uk2.v2rayserv.com
-    servername: uk2.v2rayserv.com
-    server: news.microsoft.com
-  - name: 'cdn-美国CloudFlare节点 11'
-    type: vmess
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -396,10 +108,42 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: news.microsoft.com
-  - name: 'sni-法国鲁贝OVH数据中心 13'
+  - name: 'cdn-美国CloudFlare节点 10'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸_US_美国_1'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 67.21.72.44
+  - name: 'sni-GB 2'
     type: vmess
     port: 80
     uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
@@ -415,10 +159,202 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 51.75.160.126
-  - name: 'sni-美国  14'
+  - name: 'cdn-JP 3'
     type: vmess
-    port: 80
-    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'sni-SE 1'
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 141.147.181.219
+  - name: 'cdn-SG 2'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'cdn-SG 3'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'cdn-SG 4'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'cdn-SG 5'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-SG 6'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-SG 7'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'cdn-SG 8'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'cdn-SG 9'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'cdn-SG 10'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'cdn-US 10'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us3?ed=2048
+      headers:
+        Host: us3.guolicheng.cyou
+    servername: us3.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'sni-US 12'
+    type: vmess
+    port: 8081
+    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
     alterId: 0
     cipher: auto
     tls: false
@@ -426,15 +362,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 45.146.252.141
-  - name: 'cdn-美国PacificRack机房 15'
+    server: 164.92.193.65
+  - name: 'cdn-US 13'
     type: vmess
     port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
     alterId: 0
     cipher: auto
     tls: true
@@ -442,15 +378,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /
       headers:
-        Host: v2ray2.ssr-free2.xyz
-    servername: v2ray2.ssr-free2.xyz
-    server: news.microsoft.com
-  - name: 'sni-日本东京Linode数据中心 27'
+        Host: 14.72img.xyz
+    servername: 14.72img.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-US 14'
     type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
     alterId: 0
     cipher: auto
     tls: true
@@ -458,8 +394,72 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
+      path: /guolicheng/fr?ed=2048
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v3.glados-config.net
+        Host: fr.guolicheng.cyou
+    servername: fr.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-US 15'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-US 20'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'cdn-US 21'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-US 22'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: cacerts.digicert.com
