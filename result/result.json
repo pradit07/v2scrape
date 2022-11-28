@@ -19,6 +19,7 @@
     "address": "sgz2.xtls.my.id",
     "port": 443,
     "host": "sgz2.xtls.my.id",
+    "alterId": 0,
     "id": "1bf89b1d-a3f6-4039-b75b-2074585b040b",
     "network": "ws",
     "type": "",
@@ -63,17 +64,17 @@
   {
     "vpn": "vmess",
     "cdn": true,
-    "address": "ca.0112233.xyz",
+    "address": "141.101.115.136",
     "port": "443",
-    "host": "ca.0112233.xyz",
+    "host": "lg1.cfcdn1.xyz",
     "alterId": "0",
-    "id": "c3000e9d-bee7-4fdb-b312-dd07030f325d",
+    "id": "fcfaec91-6096-44d8-956c-7868d9e874b1",
     "network": "ws",
     "type": "none",
     "skipCertVerify": true,
     "tls": "tls",
-    "path": "/",
-    "remark": "ca.0112233.xyz"
+    "path": "/ray",
+    "remark": "lg1.cfcdn1.xyz"
   },
   {
     "vpn": "vmess",
@@ -107,19 +108,19 @@
   },
   {
     "vpn": "vmess",
-    "address": "kr1.sanfen001.pics",
+    "address": "tw1.sanfen001.pics",
     "port": 443,
-    "host": "www.microsoft.com",
+    "host": "tw1.sanfen001.pics",
     "alterId": 0,
-    "id": "b7d2a97b-ab6e-438d-922d-b541b5ff0722",
+    "id": "82ece5db-34f5-4b86-a469-01df94d15bbb",
     "network": "ws",
     "type": "auto",
     "security": "auto",
     "skipCertVerify": true,
     "tls": "tls",
-    "sni": "",
+    "sni": "www.microsoft.com",
     "path": "/zh-cn",
-    "remark": "美国Microsoft数据中心 3"
+    "remark": "香港特别行政区 1"
   },
   {
     "vpn": "vmess",

@@ -128,7 +128,7 @@
             "port": 443,
             "users": [
               {
-                "alterId": null,
+                "alterId": 0,
                 "encryption": "",
                 "flow": "",
                 "id": "1bf89b1d-a3f6-4039-b75b-2074585b040b",
@@ -144,13 +144,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "click.zoom.us"
+            "Host": "options.teams.microsoft.com"
           },
           "path": "/worryfree/vmess"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "click.zoom.us"
+          "serverName": "options.teams.microsoft.com"
         }
       },
       "tag": "proxy-2"
@@ -164,7 +164,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "pulsapro-bot.qiscus.com",
+            "address": "main.millionaireaisle.com",
             "port": 443,
             "users": [
               {
@@ -251,7 +251,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "c3000e9d-bee7-4fdb-b312-dd07030f325d",
+                "id": "fcfaec91-6096-44d8-956c-7868d9e874b1",
                 "level": 8,
                 "security": "auto"
               }
@@ -264,13 +264,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "ca.0112233.xyz"
+            "Host": "lg1.cfcdn1.xyz"
           },
-          "path": "/"
+          "path": "/ray"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "ca.0112233.xyz"
+          "serverName": "lg1.cfcdn1.xyz"
         }
       },
       "tag": "proxy-5"
@@ -324,7 +324,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "pulsapro-bot.qiscus.com",
+            "address": "main.millionaireaisle.com",
             "port": 2083,
             "users": [
               {
@@ -364,14 +364,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "kr1.sanfen001.pics",
+            "address": "tw1.sanfen001.pics",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "b7d2a97b-ab6e-438d-922d-b541b5ff0722",
+                "id": "82ece5db-34f5-4b86-a469-01df94d15bbb",
                 "level": 8,
                 "security": "auto"
               }

@@ -19,7 +19,7 @@ proxies:
     type: vmess
     port: 443
     uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
-    alterId: undefined
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '美国CloudFlare公司CDN节点 23'
     type: vmess
     port: 2083
@@ -63,10 +63,10 @@ proxies:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
     server: cacerts.digicert.com
-  - name: 'ca.0112233.xyz'
+  - name: 'lg1.cfcdn1.xyz'
     type: vmess
     port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
     alterId: 0
     cipher: auto
     tls: true
@@ -74,11 +74,11 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /ray
       headers:
-        Host: ca.0112233.xyz
-    servername: ca.0112233.xyz
-    server: cacerts.digicert.com
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: news.microsoft.com
   - name: 'lg1.cfcdn3.xyz'
     type: vmess
     port: 443
@@ -94,7 +94,7 @@ proxies:
       headers:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
     type: vmess
     port: 2083
@@ -110,11 +110,11 @@ proxies:
       headers:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
-    server: news.microsoft.com
-  - name: '美国Microsoft数据中心 3'
+    server: cacerts.digicert.com
+  - name: '香港特别行政区 1'
     type: vmess
     port: 443
-    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
     alterId: 0
     cipher: auto
     tls: true
@@ -126,7 +126,7 @@ proxies:
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: kr1.sanfen001.pics
+    server: tw1.sanfen001.pics
   - name: '美国CloudFlare节点 7'
     type: vmess
     port: 443
