@@ -15,6 +15,22 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: sgz1.xtls.my.id
+  - name: 'whyvpn-ppppite'
+    type: vmess
+    port: 80
+    uuid: e95b848b-1755-468e-812b-b7f86f5533c8
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess/
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: do1.kitu.xyz
   - name: 'pin1'
     type: vmess
     port: 443
@@ -28,13 +44,29 @@ proxies:
     ws-opts: 
       path: /worryfree/vmess
       headers:
-        Host: sgz2.xtls.my.id
-    servername: sgz2.xtls.my.id
-    server: main.millionaireaisle.com
-  - name: '美国加利福尼亚州圣克拉拉阿里云 37'
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: sgz2.xtls.my.id
+  - name: '瑞典Oracle Corporation 33'
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 141.147.181.219
+  - name: '新加坡Amazon数据中心 5'
     type: vmess
     port: 80
-    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
     alterId: 0
     cipher: auto
     tls: false
@@ -42,43 +74,43 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /zh-cn/download
       headers:
-        Host: w.800876.xyz
-    servername: w.800876.xyz
-    server: pulsapro-bot.qiscus.com
-  - name: 'clash1.trump2023.net'
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: sg80-2.sanfen001.pics
+  - name: '法国鲁贝OVH数据中心 9'
     type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    port: 80
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /vmess
       headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: pulsapro-bot.qiscus.com
-  - name: '美国CloudFlare节点 11'
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 51.75.160.126
+  - name: '瑞典  10'
     type: vmess
-    port: 2053
-    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
+    port: 80
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /10003
+      path: /vmess
       headers:
-        Host: zz.hongkong2.tk
-    servername: zz.hongkong2.tk
-    server: pulsapro-bot.qiscus.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 5.249.160.226
   - name: '北美地区  12'
     type: vmess
     port: 12378
