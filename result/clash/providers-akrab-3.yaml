@@ -1,37 +1,5 @@
 proxies:
-  - name: 'cdn-US 12'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us3?ed=2048
-      headers:
-        Host: us3.guolicheng.cyou
-    servername: us3.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'sni-US 16'
-    type: vmess
-    port: 8081
-    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 164.92.193.65
-  - name: 'cdn-US 17'
+  - name: 'cdn-AU 5'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -47,7 +15,7 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 18'
+  - name: 'cdn-US 7'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -63,7 +31,39 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 19'
+  - name: 'cdn-US 8'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us2?ed=2048
+      headers:
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'cdn-US 10'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us2?ed=2048
+      headers:
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'cdn-US 22'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54

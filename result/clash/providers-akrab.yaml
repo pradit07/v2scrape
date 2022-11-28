@@ -1,5 +1,37 @@
 proxies:
-  - name: 'cdn-US 9'
+  - name: 'sni-北美地区  6'
+    type: vmess
+    port: 12378
+    uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /@Backdor_Filter
+      headers:
+        Host: layanan.ruangguru.com
+    servername: layanan.ruangguru.com
+    server: 107.189.31.41
+  - name: 'sni-🇺🇸_US_美国_1'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: layanan.ruangguru.com
+    servername: layanan.ruangguru.com
+    server: 67.21.72.44
+  - name: 'cdn-AU 2'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -15,7 +47,7 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 10'
+  - name: 'cdn-US 9'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -47,7 +79,7 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'sni-US 12'
+  - name: 'sni-US 14'
     type: vmess
     port: 8081
     uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
@@ -79,7 +111,7 @@ proxies:
         Host: us3.guolicheng.cyou
     servername: us3.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 20'
+  - name: 'cdn-US 19'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -95,7 +127,7 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 21'
+  - name: 'cdn-US 28'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -111,7 +143,7 @@ proxies:
         Host: fr.guolicheng.cyou
     servername: fr.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-AU 3'
+  - name: 'cdn-AU 1'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -127,7 +159,23 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-AU 6'
+  - name: 'cdn-AU 5'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us2?ed=2048
+      headers:
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'cdn-US 7'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -159,39 +207,7 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 12'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us3?ed=2048
-      headers:
-        Host: us3.guolicheng.cyou
-    servername: us3.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'sni-US 16'
-    type: vmess
-    port: 8081
-    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 164.92.193.65
-  - name: 'cdn-US 17'
+  - name: 'cdn-US 10'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -207,23 +223,7 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 18'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us2?ed=2048
-      headers:
-        Host: us2.guolicheng.cyou
-    servername: us2.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-US 19'
+  - name: 'cdn-US 22'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -239,7 +239,39 @@ proxies:
         Host: fr.guolicheng.cyou
     servername: fr.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'cdn-US 35'
+  - name: 'cdn-US 26'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'cdn-US 29'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us3?ed=2048
+      headers:
+        Host: us3.guolicheng.cyou
+    servername: us3.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'cdn-US 37'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -255,51 +287,3 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'sni-北美地区  6'
-    type: vmess
-    port: 12378
-    uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /@Backdor_Filter
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 107.189.31.41
-  - name: 'sni-北美地区  6'
-    type: vmess
-    port: 12378
-    uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /@Backdor_Filter
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 107.189.31.41
-  - name: 'sni-🇺🇸_US_美国_1'
-    type: vmess
-    port: 443
-    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /path/120208301422
-      headers:
-        Host: layanan.ruangguru.com
-    servername: layanan.ruangguru.com
-    server: 67.21.72.44

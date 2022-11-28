@@ -1,5 +1,37 @@
 proxies:
-  - name: 'cdn-US 35'
+  - name: 'cdn-US 26'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-US 29'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us3?ed=2048
+      headers:
+        Host: us3.guolicheng.cyou
+    servername: us3.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-US 37'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -15,51 +47,3 @@ proxies:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: cacerts.digicert.com
-  - name: 'sni-北美地区  6'
-    type: vmess
-    port: 12378
-    uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /@Backdor_Filter
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 107.189.31.41
-  - name: 'sni-北美地区  6'
-    type: vmess
-    port: 12378
-    uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /@Backdor_Filter
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 107.189.31.41
-  - name: 'sni-🇺🇸_US_美国_1'
-    type: vmess
-    port: 443
-    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /path/120208301422
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 67.21.72.44
