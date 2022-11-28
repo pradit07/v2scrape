@@ -13,7 +13,7 @@
     "tls": "tls",
     "sni": "",
     "path": "/worryfree/vmess",
-    "remark": "vmess"
+    "remark": "sni-vmess"
   },
   {
     "vpn": "vmess",
@@ -29,7 +29,23 @@
     "tls": "",
     "sni": "options.teams.microsoft.com",
     "path": "/vmess/",
-    "remark": "whyvpn-ppppite"
+    "remark": "sni-whyvpn-ppppite"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "sgz2.xtls.my.id",
+    "port": 443,
+    "host": "sgz2.xtls.my.id",
+    "alterId": 0,
+    "id": "1bf89b1d-a3f6-4039-b75b-2074585b040b",
+    "network": "ws",
+    "type": "",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "sgz2.xtls.my.id",
+    "path": "/worryfree/vmess",
+    "remark": "cdn-pin1"
   },
   {
     "vpn": "vmess",
@@ -45,7 +61,7 @@
     "tls": "tls",
     "sni": "sgz2.xtls.my.id",
     "path": "/worryfree/vmess",
-    "remark": "pin1"
+    "remark": "sni-pin1"
   },
   {
     "vpn": "vmess",
@@ -61,7 +77,39 @@
     "tls": "",
     "sni": "",
     "path": "/vmess",
-    "remark": "澳大利亚悉尼OVH 29"
+    "remark": "sni-澳大利亚悉尼OVH 29"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "34.145.145.76",
+    "port": 443,
+    "host": "clash6.ssr-free.xyz",
+    "alterId": 0,
+    "id": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
+    "network": "ws",
+    "type": "auto",
+    "security": "auto",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "",
+    "path": "/dongtaiwang.com",
+    "remark": "cdn-美国得克萨斯州 30"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "141.101.115.136",
+    "port": "443",
+    "host": "lg1.cfcdn1.xyz",
+    "alterId": "0",
+    "id": "fcfaec91-6096-44d8-956c-7868d9e874b1",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/ray",
+    "remark": "cdn-lg1.cfcdn1.xyz"
   },
   {
     "vpn": "vmess",
@@ -78,6 +126,86 @@
     "tls": "tls",
     "sni": "",
     "path": "/roewesu",
-    "remark": "瑞典Oracle Corporation 33"
+    "remark": "sni-瑞典Oracle Corporation 33"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "47.88.52.220",
+    "port": 80,
+    "host": "w.800876.xyz",
+    "alterId": 0,
+    "id": "c9fe8359-5878-4413-c80e-3ffeabc47b02",
+    "network": "ws",
+    "type": "auto",
+    "security": "auto",
+    "skipCertVerify": true,
+    "tls": "",
+    "sni": "",
+    "path": "/",
+    "remark": "cdn-美国加利福尼亚州圣克拉拉阿里云 37"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "141.101.114.20",
+    "port": "443",
+    "host": "clash1.trump2023.net",
+    "alterId": "0",
+    "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/dongtaiwang.com",
+    "remark": "cdn-clash1.trump2023.net"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": true,
+    "address": "198.41.212.100",
+    "port": "443",
+    "host": "lg1.cfcdn3.xyz",
+    "alterId": "0",
+    "id": "33aa57df-1c93-4318-9fce-e850437ee781",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "path": "/dongtaiwang.com",
+    "remark": "cdn-lg1.cfcdn3.xyz"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": false,
+    "address": "kr1.sanfen001.pics",
+    "port": 443,
+    "host": "www.microsoft.com",
+    "alterId": 0,
+    "id": "b7d2a97b-ab6e-438d-922d-b541b5ff0722",
+    "network": "ws",
+    "type": "auto",
+    "security": "auto",
+    "skipCertVerify": true,
+    "tls": "tls",
+    "sni": "",
+    "path": "/zh-cn",
+    "remark": "sni-美国Microsoft数据中心 2"
+  },
+  {
+    "vpn": "vmess",
+    "cdn": false,
+    "address": "sg80-2.sanfen001.pics",
+    "port": "80",
+    "host": "a.189.cn",
+    "alterId": "0",
+    "id": "e7e73e1d-2418-4766-8831-d1b3b83cc877",
+    "network": "ws",
+    "type": "none",
+    "skipCertVerify": true,
+    "tls": "",
+    "sni": "",
+    "path": "/zh-cn/download",
+    "remark": "sni-新加坡Amazon数据中心 5"
   }
 ]

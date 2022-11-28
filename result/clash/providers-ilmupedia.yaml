@@ -1,5 +1,5 @@
 proxies:
-  - name: 'vmess'
+  - name: 'sni-vmess'
     type: vmess
     port: 443
     uuid: 086c2dcb-7f0c-4d67-85d8-93a720117cf8
@@ -15,7 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: sgz1.xtls.my.id
-  - name: 'whyvpn-ppppite'
+  - name: 'sni-whyvpn-ppppite'
     type: vmess
     port: 80
     uuid: e95b848b-1755-468e-812b-b7f86f5533c8
@@ -31,7 +31,23 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: do1.kitu.xyz
-  - name: 'pin1'
+  - name: 'cdn-pin1'
+    type: vmess
+    port: 443
+    uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /worryfree/vmess
+      headers:
+        Host: sgz2.xtls.my.id
+    servername: sgz2.xtls.my.id
+    server: news.microsoft.com
+  - name: 'sni-pin1'
     type: vmess
     port: 443
     uuid: 1bf89b1d-a3f6-4039-b75b-2074585b040b
@@ -47,7 +63,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: sgz2.xtls.my.id
-  - name: '澳大利亚悉尼OVH 29'
+  - name: 'sni-澳大利亚悉尼OVH 29'
     type: vmess
     port: 80
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -63,7 +79,39 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 139.99.135.182
-  - name: '瑞典Oracle Corporation 33'
+  - name: 'cdn-美国得克萨斯州 30'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-lg1.cfcdn1.xyz'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: cacerts.digicert.com
+  - name: 'sni-瑞典Oracle Corporation 33'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -79,3 +127,83 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 141.147.181.219
+  - name: 'cdn-美国加利福尼亚州圣克拉拉阿里云 37'
+    type: vmess
+    port: 80
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: news.microsoft.com
+  - name: 'cdn-clash1.trump2023.net'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: cacerts.digicert.com
+  - name: 'cdn-lg1.cfcdn3.xyz'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: cacerts.digicert.com
+  - name: 'sni-美国Microsoft数据中心 2'
+    type: vmess
+    port: 443
+    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: kr1.sanfen001.pics
+  - name: 'sni-新加坡Amazon数据中心 5'
+    type: vmess
+    port: 80
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn/download
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sg80-2.sanfen001.pics
