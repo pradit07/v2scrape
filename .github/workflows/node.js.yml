@@ -35,7 +35,7 @@ jobs:
         run: |
           npm install && npm start
       - name: Add & Commit
-        if: ${{ always() }}
+        if: ${{ success() }}
         uses: EndBug/add-and-commit@v7.2.1
         with:
           add: ./result
