@@ -1,0 +1,17 @@
+proxies:
+  - name: 'sni-🇺🇸_US_美国_1'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 67.21.72.44

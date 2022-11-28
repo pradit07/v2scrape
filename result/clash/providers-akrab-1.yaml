@@ -1,8 +1,8 @@
 proxies:
-  - name: 'sni-US 7'
+  - name: 'cdn-美国CloudFlare公司CDN节点 4'
     type: vmess
-    port: 8081
-    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
     alterId: 0
     cipher: auto
     tls: false
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /api/v3/download.getFile
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 164.92.193.65
+        Host: ssrsub.v01.asuka.buzz
+    servername: ssrsub.v01.asuka.buzz
+    server: main.millionaireaisle.com

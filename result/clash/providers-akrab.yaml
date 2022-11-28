@@ -1,8 +1,8 @@
 proxies:
-  - name: 'sni-US 7'
+  - name: 'cdn-美国CloudFlare公司CDN节点 4'
     type: vmess
-    port: 8081
-    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
     alterId: 0
     cipher: auto
     tls: false
@@ -10,8 +10,56 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /api/v3/download.getFile
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 164.92.193.65
+        Host: ssrsub.v01.asuka.buzz
+    servername: ssrsub.v01.asuka.buzz
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸_US_美国_1'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 67.21.72.44
+  - name: 'cdn-美国RF Engineering 12'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: main.millionaireaisle.com
+  - name: 'cdn-美国CloudFlare节点 21'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: main.millionaireaisle.com
