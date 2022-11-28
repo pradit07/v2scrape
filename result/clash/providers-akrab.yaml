@@ -31,22 +31,6 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: sgz2.xtls.my.id
-  - name: '美国CloudFlare节点 16'
-    type: vmess
-    port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
-    server: main.millionaireaisle.com
   - name: '美国CloudFlare公司CDN节点 23'
     type: vmess
     port: 2083
@@ -63,10 +47,10 @@ proxies:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
     server: pulsapro-bot.qiscus.com
-  - name: 'lg1.cfcdn1.xyz'
+  - name: 'ca.0112233.xyz'
     type: vmess
     port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
     alterId: 0
     cipher: auto
     tls: true
@@ -74,26 +58,10 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /ray
+      path: /
       headers:
-        Host: lg1.cfcdn1.xyz
-    servername: lg1.cfcdn1.xyz
-    server: main.millionaireaisle.com
-  - name: 'lg1.cfcdn3.xyz'
-    type: vmess
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
     server: pulsapro-bot.qiscus.com
   - name: '🇺🇸 _US_美国->🇫🇷_FR_法国'
     type: vmess
@@ -110,7 +78,7 @@ proxies:
       headers:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
-    server: main.millionaireaisle.com
+    server: pulsapro-bot.qiscus.com
   - name: '香港特别行政区 1'
     type: vmess
     port: 443
@@ -124,9 +92,25 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: tw1.sanfen001.pics
+  - name: '美国Microsoft数据中心 3'
+    type: vmess
+    port: 443
+    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: kr1.sanfen001.pics
   - name: '美国CloudFlare节点 7'
     type: vmess
     port: 443
@@ -142,4 +126,52 @@ proxies:
       headers:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
+    server: pulsapro-bot.qiscus.com
+  - name: '美国CloudFlare节点 9'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: pulsapro-bot.qiscus.com
+  - name: '美国CloudFlare节点 11'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: main.millionaireaisle.com
+  - name: '美国CloudFlare节点 15'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: pulsapro-bot.qiscus.com

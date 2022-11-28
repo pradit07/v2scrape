@@ -164,14 +164,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "main.millionaireaisle.com",
-            "port": 443,
+            "address": "pulsapro-bot.qiscus.com",
+            "port": 2083,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "4679f00e-90ce-430d-9714-6a19367ba112",
+                "id": "1ffeca67-a2bc-471b-b138-369d6762967d",
                 "level": 8,
                 "security": "auto"
               }
@@ -184,16 +184,56 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "v2ray1.zhujicn2.org"
+            "Host": "30.tehvp.xyz"
           },
-          "path": "/dongtaiwang.com"
+          "path": "/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "v2ray1.zhujicn2.org"
+          "serverName": "30.tehvp.xyz"
         }
       },
       "tag": "proxy-3"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "pulsapro-bot.qiscus.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "c3000e9d-bee7-4fdb-b312-dd07030f325d",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "ca.0112233.xyz"
+          },
+          "path": "/"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ca.0112233.xyz"
+        }
+      },
+      "tag": "proxy-4"
     },
     {
       "mux": {
@@ -233,7 +273,167 @@
           "serverName": "30.tehvp.xyz"
         }
       },
-      "tag": "proxy-4"
+      "tag": "proxy-5"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tw1.sanfen001.pics",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "82ece5db-34f5-4b86-a469-01df94d15bbb",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "options.teams.microsoft.com"
+          },
+          "path": "/zh-cn"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "options.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-6"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "kr1.sanfen001.pics",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "b7d2a97b-ab6e-438d-922d-b541b5ff0722",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "options.teams.microsoft.com"
+          },
+          "path": "/zh-cn"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "options.teams.microsoft.com"
+        }
+      },
+      "tag": "proxy-7"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "pulsapro-bot.qiscus.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "lg30.cfcdn3.xyz"
+          },
+          "path": "/ray"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "lg30.cfcdn3.xyz"
+        }
+      },
+      "tag": "proxy-8"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "pulsapro-bot.qiscus.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "267a9f38-40d8-4ed6-ab58-cafc67e9c933",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "lg1.cfcdn2.xyz"
+          },
+          "path": "/VHONOFZ3"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "lg1.cfcdn2.xyz"
+        }
+      },
+      "tag": "proxy-9"
     },
     {
       "mux": {
@@ -251,7 +451,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "fcfaec91-6096-44d8-956c-7868d9e874b1",
+                "id": "176b598f-445b-41ac-9d2a-430c5c4df26a",
                 "level": 8,
                 "security": "auto"
               }
@@ -264,16 +464,16 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "lg1.cfcdn1.xyz"
+            "Host": "clash1.trump2023.net"
           },
-          "path": "/ray"
+          "path": "/dongtaiwang.com"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lg1.cfcdn1.xyz"
+          "serverName": "clash1.trump2023.net"
         }
       },
-      "tag": "proxy-5"
+      "tag": "proxy-10"
     },
     {
       "mux": {
@@ -313,127 +513,7 @@
           "serverName": "lg1.cfcdn3.xyz"
         }
       },
-      "tag": "proxy-6"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "main.millionaireaisle.com",
-            "port": 2083,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "1ffeca67-a2bc-471b-b138-369d6762967d",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "headers": {
-            "Host": "30.tehvp.xyz"
-          },
-          "path": "/"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "30.tehvp.xyz"
-        }
-      },
-      "tag": "proxy-7"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tw1.sanfen001.pics",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "82ece5db-34f5-4b86-a469-01df94d15bbb",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "headers": {
-            "Host": "click.zoom.us"
-          },
-          "path": "/zh-cn"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "click.zoom.us"
-        }
-      },
-      "tag": "proxy-8"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "main.millionaireaisle.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "headers": {
-            "Host": "lg30.cfcdn3.xyz"
-          },
-          "path": "/ray"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "lg30.cfcdn3.xyz"
-        }
-      },
-      "tag": "proxy-9"
+      "tag": "proxy-11"
     }
   ],
   "dns": {
