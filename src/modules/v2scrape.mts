@@ -32,22 +32,27 @@ class V2scrape {
     console.log(`Result saved to ${this.path}/result/result.json`);
   }
 
-  private async test(account: V2Object, mode: "sni" | "cdn" | string = "cdn") {
+  private async test(account: V2Object, mode: "sni" | "cdn" | string = "cdn"): Promise<false | V2Object> {
+    const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
+    let port: number = 10802;
     let isConnected: boolean = true;
     const remark = `${mode}-${account.remark}`;
     if (mode == "cdn") {
       account.cdn = true;
+      port = 20802;
     } else {
       account.cdn = false;
     }
 
-    const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
+    config.inbounds[0].port = port - 1; // tproxy port
+    config.inbounds[1].port = port; // socks port
+    config.routing.rules[0].port = port - 2; // dns port
+
     const proxy = this.toV2ray(account, "promo.ruangguru.com", "main.millionaireaisle.com");
     config.outbounds.push(proxy);
-    writeFileSync("./config/v2ray/test.json", JSON.stringify(config, null, 2));
+    writeFileSync(`./config/v2ray/test-${mode}.json`, JSON.stringify(config, null, 2));
 
-    await sleep(1000);
-    const v2ray = spawn("./bin/v2ray", ["run", "-c", "./config/v2ray/test.json"]);
+    const v2ray = spawn("./bin/v2ray", ["run", "-c", `./config/v2ray/test-${mode}.json`]);
 
     v2ray.stdout.on("data", (res: any) => {
       // console.log(res.toString());
@@ -60,11 +65,11 @@ class V2scrape {
     const controller = new globalThis.AbortController();
     const timeout = setTimeout(() => {
       controller.abort();
-    }, 1000);
+    }, 2000);
 
     try {
       await fetch("https://youtube.com", {
-        agent: new SocksProxyAgent("socks5://127.0.0.1:10802"),
+        agent: new SocksProxyAgent(`socks5://127.0.0.1:${port}`),
         signal: controller.signal,
       });
     } catch (e: any) {
@@ -147,13 +152,23 @@ class V2scrape {
 
       process.stdout.write(`${v2Account.remark}: `);
       const isConnected = await (async () => {
-        const connectedMode = [];
+        const connectedMode: Array<V2Object> = [];
+        const onTest: Array<string> = [];
 
         for (const mode of ["cdn", "sni"]) {
-          const isConnected = await this.test(v2Account, mode);
-
-          if (isConnected) connectedMode.push(isConnected);
+          onTest.push(mode);
+          await this.test(v2Account, mode)
+            .then((res) => {
+              if (res) connectedMode.push(res);
+            })
+            .finally(() => {
+              if (onTest[0]) onTest.shift();
+            });
         }
+
+        do {
+          sleep(100);
+        } while (onTest[0]);
 
         return connectedMode;
       })();

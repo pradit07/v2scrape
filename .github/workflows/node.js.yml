@@ -12,6 +12,9 @@ on:
 jobs:
   scrape:
     runs-on: macos-latest
+    concurrency:
+      group: scrape
+      cancel-in-progress: true
 
     steps:
       - uses: actions/checkout@v3
