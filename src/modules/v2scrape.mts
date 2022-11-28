@@ -217,7 +217,7 @@ class V2scrape {
       proxiesPerFile.push(clashProxies[i]);
 
       // Save accounts left on the last providers
-      if (clashProxies.length - 1 - i < proxyPerFile) {
+      if (clashProxies.length - 1 - i < proxyPerFile && splitCount >= 4) {
         proxyPerFile++;
       }
 
