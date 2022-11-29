@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-🇦🇺 _AU_澳大利亚_0@0-25'
+  - name: 'sni-🇦🇺 _AU_澳大利亚_0@0-58'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -15,10 +15,10 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 139.99.135.182
-  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-115'
+  - name: 'sni-🇦🇺_AU_澳大利亚-196'
     type: vmess
     port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
@@ -26,72 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /chat
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 139.99.135.182
-  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-122'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 139.99.135.182
-  - name: 'sni-澳大利亚悉尼OVH 22-176'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 139.99.135.182
-  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-208'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 139.99.135.182
-  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-209'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 139.99.135.182
+    server: vau1.0bad.com

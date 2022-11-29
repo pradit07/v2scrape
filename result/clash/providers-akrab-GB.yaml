@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-aaa 134-27'
+  - name: 'cdn-aaa 134-86'
     type: vmess
     port: 443
     uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
@@ -15,71 +15,7 @@ proxies:
         Host: uk3.v2rayserv.com
     servername: uk3.v2rayserv.com
     server: main.millionaireaisle.com
-  - name: 'sni-🇫🇷-法国-51.75.160.126-152'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 51.75.160.126
-  - name: 'sni-法国鲁贝OVH数据中心 13-159'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 51.75.160.126
-  - name: 'sni-🇫🇷-法国-51.75.160.126-165'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 51.75.160.126
-  - name: 'sni-法国鲁贝OVH数据中心 13-171'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 51.75.160.126
-  - name: 'sni-🇫🇷-法国-51.75.160.126-236'
+  - name: 'sni-🇫🇷-法国-51.75.160.126-193'
     type: vmess
     port: 443
     uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf

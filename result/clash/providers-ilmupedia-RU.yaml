@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-🇷🇺 RU 37-46'
+  - name: 'cdn-🇷🇺 RU 37-98'
     type: vmess
     port: 443
     uuid: bc4f16e3-0b57-4367-8caf-88ee67859920

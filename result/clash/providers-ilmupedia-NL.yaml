@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-低速备用-油管阿伟科技-53'
+  - name: 'cdn-🇺🇸-美国-amshare.jingledev.me-27'
     type: vmess
     port: 443
     uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
@@ -14,8 +14,8 @@ proxies:
       headers:
         Host: amshare.jingledev.me
     servername: amshare.jingledev.me
-    server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-amshare.jingledev.me-254'
+    server: cacerts.digicert.com
+  - name: 'cdn-低速备用-油管阿伟科技-104'
     type: vmess
     port: 443
     uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
@@ -30,4 +30,4 @@ proxies:
       headers:
         Host: amshare.jingledev.me
     servername: amshare.jingledev.me
-    server: news.microsoft.com
+    server: cacerts.digicert.com
