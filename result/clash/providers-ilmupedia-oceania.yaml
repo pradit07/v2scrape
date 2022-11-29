@@ -1,21 +1,5 @@
 proxies:
-  - name: 'sni-🇦🇺_AU_澳大利亚-41'
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: vau1.0bad.com
-  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-174'
+  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-253'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085

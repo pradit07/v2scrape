@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-US 2-57'
+  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-10'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -15,23 +15,7 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: hk1.sanfen001.pics
-  - name: 'sni-US 3-82'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: hk1.sanfen001.pics
-  - name: 'sni-sni-US 4-85-103'
+  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-79'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -47,7 +31,23 @@ proxies:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
     server: hk1.sanfen001.pics
-  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-187'
+  - name: 'sni-US 4-87'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk1.sanfen001.pics
+  - name: 'sni-US 5-90'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -63,7 +63,7 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: hk1.sanfen001.pics
-  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-196'
+  - name: 'sni-美国Microsoft数据中心 2-148'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -78,4 +78,52 @@ proxies:
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
+    server: hk1.sanfen001.pics
+  - name: 'sni-sni-US 4-85-190'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: hk1.sanfen001.pics
+  - name: 'sni-US 2-198'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk1.sanfen001.pics
+  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-267'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: hk1.sanfen001.pics

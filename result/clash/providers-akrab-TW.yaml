@@ -1,5 +1,21 @@
 proxies:
-  - name: 'cdn-套餐到期：2022-11-30-160'
+  - name: 'cdn-美国CloudFlare节点 24-162'
+    type: vmess
+    port: 443
+    uuid: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /meizhiyuan/hinet?ed=2048
+      headers:
+        Host: hinet.guolicheng.cyou
+    servername: hinet.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'cdn-套餐到期：2022-11-30-250'
     type: vmess
     port: 443
     uuid: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb

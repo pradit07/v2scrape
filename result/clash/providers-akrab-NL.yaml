@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-cdn-低速备用-油管科技-53-149'
+  - name: 'cdn-cdn-低速备用-油管科技-53-239'
     type: vmess
     port: 443
     uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
