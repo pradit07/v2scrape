@@ -168,7 +168,7 @@ class V2scrape {
               if (res) connectedMode.push(res);
             })
             .finally(() => {
-              if (onTest[0]) onTest.shift();
+              if (onTest[0]) onTest.pop();
             });
           // await sleep(500);
         }
