@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-CA 加拿大(youtube科技)-60'
+  - name: 'cdn-🇬🇧-英国-167.172.243.247-6'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
       headers:
-        Host: 44.72img.xyz
-    servername: 44.72img.xyz
+        Host: 003kkou.pages.dev
+    servername: 003kkou.pages.dev
     server: main.millionaireaisle.com
-  - name: 'cdn-这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)-61'
+  - name: 'cdn-🇺🇸-美国-161.35.12.1-7'
     type: vmess
     port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
     alterId: 0
     cipher: auto
     tls: true
@@ -26,108 +26,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /go
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
       headers:
-        Host: lu1.gogogoo.cyou
-    servername: lu1.gogogoo.cyou
+        Host: 002hngh.pages.dev
+    servername: 002hngh.pages.dev
     server: main.millionaireaisle.com
-  - name: 'sni-这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)-62'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 51.75.160.126
-    servername: 51.75.160.126
-    server: main.millionaireaisle.com
-  - name: 'sni-这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)-63'
-    type: vmess
-    port: 443
-    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 45.146.252.141
-    servername: 45.146.252.141
-    server: main.millionaireaisle.com
-  - name: 'sni-这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)-64'
-    type: vmess
-    port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 5.249.160.226
-    servername: 5.249.160.226
-    server: main.millionaireaisle.com
-  - name: 'cdn-快嘴科技@来源：kkzui.com_64-65'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 55.72img.xyz
-    servername: 55.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-快嘴科技@来源：kkzui.com_17-66'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 53.72img.xyz
-    servername: 53.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_99-67'
-    type: vmess
-    port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: uk2.v2rayserv.com
-    servername: uk2.v2rayserv.com
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇨🇦-加拿大-167.114.67.25-68'
+  - name: 'cdn-🇨🇦-加拿大-167.114.67.25-8'
     type: vmess
     port: 443
     uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
@@ -142,164 +46,4 @@ proxies:
       headers:
         Host: 005dgdf.pages.dev
     servername: 005dgdf.pages.dev
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-66.235.200.20-69'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-amshare.jingledev.me-70'
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-news.microsoft.com-71'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-v2ray.wefuckgfw.ga-72'
-    type: vmess
-    port: 2053
-    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /DQsafRJn/
-      headers:
-        Host: v2ray.wefuckgfw.ga
-    servername: v2ray.wefuckgfw.ga
-    server: main.millionaireaisle.com
-  - name: 'sni-🇸🇪-瑞典-5.249.160.226-73'
-    type: vmess
-    port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 5.249.160.226
-    servername: 5.249.160.226
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇦🇶-丹麦-185.162.228.228-74'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇦🇶-丹麦-185.162.228.228-75'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇦🇺-澳大利亚-203.24.108.8-76'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-GB 2-77'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 21-78'
-    type: vmess
-    port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: uk2.v2rayserv.com
-    servername: uk2.v2rayserv.com
     server: main.millionaireaisle.com
