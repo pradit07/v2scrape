@@ -69,7 +69,7 @@ class V2scrape {
     const controller = new globalThis.AbortController();
     const timeout = setTimeout(() => {
       controller.abort();
-    }, 1500);
+    }, 1000);
 
     try {
       await fetch("https://bing.com", {
