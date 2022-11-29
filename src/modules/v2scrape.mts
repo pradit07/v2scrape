@@ -202,7 +202,7 @@ class V2scrape {
         }
       })(v2Account);
 
-      if (this.accounts.length > 50) break; // test purpose
+      // if (this.accounts.length > 50) break; // test purpose
     }
   }
 
@@ -257,6 +257,7 @@ class V2scrape {
     // Split per region
     for (const region of Object.keys(clashRegion)) {
       const proxiesPerFile = ["proxies:"];
+      clashRegion[region as "Asia" | "Europe" | "Africa" | "Oceania" | "Americas"].shift(); // Remove blank space
       proxiesPerFile.push(...clashRegion[region as "Asia" | "Europe" | "Africa" | "Oceania" | "Americas"]);
 
       writeFileSync(`./result/clash/providers-${bugBundle}-${region.toLowerCase()}.yaml`, proxiesPerFile.join("\n"));
