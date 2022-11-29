@@ -79,14 +79,13 @@ dns:
 proxies:
 proxy-groups:
   - name: Telescope
-    type: fallback
+    type: url-test
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
     tolerance: 50
-    proxies:
-      - Singapore
-      - Indonesia
+    use:
+      - Asia
   - name: WA
     type: select
     proxies:
@@ -99,30 +98,11 @@ proxy-groups:
       - Telescope
       - DIRECT
       - REJECT
-  - name: Asia
-    type: url-test
-    interval: 300
-    use:
-      - Providers1
-  - name: Other
-    type: url-test
-    interval: 300
-    use:
-      - Providers2
 proxy-providers:
-  Providers1:
+  Asia:
     type: http
     path: ./providers1.yaml
-    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-SG.yaml"
-    interval: 900
-    health-check:
-      enable: true
-      url: "http://cp.cloudflare.com/generate_204"
-      interval: 300
-  Providers2:
-    type: http
-    path: ./providers2.yaml
-    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-ID.yaml"
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-asia.yaml"
     interval: 900
     health-check:
       enable: true
