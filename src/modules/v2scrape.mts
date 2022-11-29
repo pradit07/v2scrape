@@ -41,7 +41,10 @@ class V2scrape {
       account.cdn = true;
       port = 20802;
     } else {
+      account.tls = "tls";
       account.cdn = false;
+
+      if (account.port == 80) account.port = 443;
     }
 
     config.inbounds[0].port = port - 1; // tproxy port

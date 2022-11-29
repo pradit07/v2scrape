@@ -1,4 +1,4 @@
 {
-  "sni": ["options.teams.microsoft.com", "click.zoom.us", "promo.ruangguru.com", "layanan.ruangguru.com"],
+  "sni": ["options.teams.microsoft.com", "click.zoom.us", "promo.ruangguru.com"],
   "cdn": ["main.millionaireaisle.com"]
 }
