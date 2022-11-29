@@ -1,24 +1,40 @@
 proxies:
-  - name: 'sni-法国鲁贝OVH数据中心 8-0'
+  - name: 'sni-🇺🇸_US_美国_1-0'
     type: vmess
     port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /path/120208301422
       headers:
-        Host: 51.75.160.126
-    servername: 51.75.160.126
+        Host: www.48816626.xyz
+    servername: www.48816626.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-🇫🇷 FR 67-1'
+  - name: 'sni-🇺🇸_US_美国_1-1'
     type: vmess
     port: 443
-    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: www.48816626.xyz
+    servername: www.48816626.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸 1.94| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶18CDN-2'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +42,56 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /ECTCJ0DF
       headers:
-        Host: ca2.v2rayserv.com
-    servername: ca2.v2rayserv.com
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: main.millionaireaisle.com
+  - name: 'cdn-2.03| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶13CDN-3'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸 1.56| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶19CDN-4'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: main.millionaireaisle.com
+  - name: 'cdn-aaa 112-5'
+    type: vmess
+    port: 2053
+    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com

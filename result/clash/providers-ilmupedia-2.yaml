@@ -1,8 +1,40 @@
 proxies:
-  - name: 'cdn-2.41|CA 加拿大youtube阿伟科技-2'
+  - name: 'cdn-US 美国(youtube阿伟科技)-6'
+    type: vmess
+    port: 2053
+    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸 1.01| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶111CDN-7'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: 'cdn-🇭🇰 -美国-icook.hk-8'
+    type: vmess
+    port: 2083
+    uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
     alterId: 0
     cipher: auto
     tls: true
@@ -12,13 +44,13 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: 46.72img.xyz
-    servername: 46.72img.xyz
-    server: news.microsoft.com
-  - name: 'cdn-低速备用-油管阿伟科技 4-3'
+        Host: xui.mycf.ml
+    servername: xui.mycf.ml
+    server: cacerts.digicert.com
+  - name: 'cdn-US 美国(youtube科技) 5-9'
     type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    port: 2053
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +58,40 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /DQsafRJn/
       headers:
-        Host: 45.72img.xyz
-    servername: 45.72img.xyz
-    server: news.microsoft.com
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸 2.61| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶110CDN-10'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: 'cdn-低速备用-油管科技 22-11'
+    type: vmess
+    port: 2053
+    uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
