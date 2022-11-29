@@ -124,14 +124,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "news.microsoft.com",
+            "address": "cacerts.digicert.com",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
+                "id": "65218fe8-d9c2-4e07-95bb-cb6e379a440b",
                 "level": 8,
                 "security": "auto"
               }
@@ -144,13 +144,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "lg1.trump2023.us"
+            "Host": "003kkou.pages.dev"
           },
-          "path": "/ECTCJ0DF"
+          "path": "/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lg1.trump2023.us"
+          "serverName": "003kkou.pages.dev"
         }
       },
       "tag": "proxy-2"
@@ -164,14 +164,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "news.microsoft.com",
+            "address": "cacerts.digicert.com",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "28d521e3-4253-47bd-97eb-321bc1328fe9",
+                "id": "65218fe8-d9c2-4e07-95bb-cb6e379a440b",
                 "level": 8,
                 "security": "auto"
               }
@@ -184,13 +184,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "us4.cachexy.ga"
+            "Host": "005dgdf.pages.dev"
           },
-          "path": "/meGiqgSp/"
+          "path": "/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "us4.cachexy.ga"
+          "serverName": "005dgdf.pages.dev"
         }
       },
       "tag": "proxy-3"
@@ -204,14 +204,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
-            "port": 2053,
+            "address": "news.microsoft.com",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "8947fbe5-c1c7-4716-8564-2092ce776f92",
+                "id": "65218fe8-d9c2-4e07-95bb-cb6e379a440b",
                 "level": 8,
                 "security": "auto"
               }
@@ -224,13 +224,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "v2ray.wefuckgfw.ga"
+            "Host": "002hngh.pages.dev"
           },
-          "path": "/DQsafRJn/"
+          "path": "/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "v2ray.wefuckgfw.ga"
+          "serverName": "002hngh.pages.dev"
         }
       },
       "tag": "proxy-4"
@@ -251,7 +251,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "28d521e3-4253-47bd-97eb-321bc1328fe9",
+                "id": "4e21574f-1796-4f0a-86c0-4430fe99d3a1",
                 "level": 8,
                 "security": "auto"
               }
@@ -264,13 +264,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "us4.cachexy.ga"
+            "Host": "fr1.cachexy.ga"
           },
-          "path": "/meGiqgSp/"
+          "path": "/p9Dq67Nx/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "us4.cachexy.ga"
+          "serverName": "fr1.cachexy.ga"
         }
       },
       "tag": "proxy-5"
@@ -284,14 +284,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "news.microsoft.com",
+            "address": "cacerts.digicert.com",
             "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
+                "id": "4e21574f-1796-4f0a-86c0-4430fe99d3a1",
                 "level": 8,
                 "security": "auto"
               }
@@ -304,13 +304,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "lg1.trump2023.us"
+            "Host": "fr1.cachexy.ga"
           },
-          "path": "/ECTCJ0DF"
+          "path": "/p9Dq67Nx/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lg1.trump2023.us"
+          "serverName": "fr1.cachexy.ga"
         }
       },
       "tag": "proxy-6"
@@ -324,7 +324,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "news.microsoft.com",
+            "address": "cacerts.digicert.com",
             "port": 443,
             "users": [
               {
@@ -444,14 +444,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "news.microsoft.com",
+            "address": "cacerts.digicert.com",
             "port": 443,
             "users": [
               {
-                "alterId": 64,
+                "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
                 "level": 8,
                 "security": "auto"
               }
@@ -464,13 +464,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "www.48816626.xyz"
+            "Host": "amshare.jingledev.me"
           },
-          "path": "/path/120208301422"
+          "path": "/pkhhvws"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "www.48816626.xyz"
+          "serverName": "amshare.jingledev.me"
         }
       },
       "tag": "proxy-10"
@@ -491,7 +491,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
+                "id": "4e21574f-1796-4f0a-86c0-4430fe99d3a1",
                 "level": 8,
                 "security": "auto"
               }
@@ -504,13 +504,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "lg1.trump2023.us"
+            "Host": "fr1.cachexy.ga"
           },
-          "path": "/ECTCJ0DF"
+          "path": "/p9Dq67Nx/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lg1.trump2023.us"
+          "serverName": "fr1.cachexy.ga"
         }
       },
       "tag": "proxy-11"
@@ -564,14 +564,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cacerts.digicert.com",
-            "port": 2053,
+            "address": "news.microsoft.com",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "ce3f0dd3-8a04-4daa-9416-e67c5d42083a",
+                "id": "e3eba3ac-5bea-409f-ac5c-6c964e04d0c4",
                 "level": 8,
                 "security": "auto"
               }
@@ -584,13 +584,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "v2ray.wefuckgfw.ga"
+            "Host": "ca2.v2rayserv.com"
           },
-          "path": "/DQsafRJn/"
+          "path": "/sshocean"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "v2ray.wefuckgfw.ga"
+          "serverName": "ca2.v2rayserv.com"
         }
       },
       "tag": "proxy-13"
@@ -605,13 +605,13 @@
         "vnext": [
           {
             "address": "cacerts.digicert.com",
-            "port": 2053,
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "2c23eb31-1133-4807-818e-484d9a473b9b",
+                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
                 "level": 8,
                 "security": "auto"
               }
@@ -624,13 +624,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "v2ray.wefuckgfw.ga"
+            "Host": "lg1.trump2023.us"
           },
-          "path": "/DQsafRJn/"
+          "path": "/ECTCJ0DF"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "v2ray.wefuckgfw.ga"
+          "serverName": "lg1.trump2023.us"
         }
       },
       "tag": "proxy-14"
@@ -685,13 +685,13 @@
         "vnext": [
           {
             "address": "cacerts.digicert.com",
-            "port": 2053,
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "ab323ed9-dda5-4feb-9f17-c77c7fd811b6",
+                "id": "532a5f12-cadb-46e4-963f-ee7c075e40f0",
                 "level": 8,
                 "security": "auto"
               }
@@ -704,13 +704,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "v2ray.wefuckgfw.ga"
+            "Host": "amshare.jingledev.me"
           },
-          "path": "/DQsafRJn/"
+          "path": "/pkhhvws"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "v2ray.wefuckgfw.ga"
+          "serverName": "amshare.jingledev.me"
         }
       },
       "tag": "proxy-16"
@@ -724,14 +724,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "news.microsoft.com",
-            "port": 2053,
+            "address": "cacerts.digicert.com",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "8947fbe5-c1c7-4716-8564-2092ce776f92",
+                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
                 "level": 8,
                 "security": "auto"
               }
@@ -744,13 +744,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "v2ray.wefuckgfw.ga"
+            "Host": "lg1.trump2023.us"
           },
-          "path": "/DQsafRJn/"
+          "path": "/ECTCJ0DF"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "v2ray.wefuckgfw.ga"
+          "serverName": "lg1.trump2023.us"
         }
       },
       "tag": "proxy-17"
@@ -764,14 +764,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "news.microsoft.com",
-            "port": 2053,
+            "address": "cacerts.digicert.com",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "ce02a636-88ac-4c29-963d-e09961ec3b3d",
+                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
                 "level": 8,
                 "security": "auto"
               }
@@ -784,13 +784,13 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "v2ray.wefuckgfw.ga"
+            "Host": "46.72img.xyz"
           },
-          "path": "/DQsafRJn/"
+          "path": "/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "v2ray.wefuckgfw.ga"
+          "serverName": "46.72img.xyz"
         }
       },
       "tag": "proxy-18"
@@ -848,10 +848,10 @@
             "port": 443,
             "users": [
               {
-                "alterId": 64,
+                "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "id": "81d93f62-15a2-4994-adb9-0b5d906aac7e",
                 "level": 8,
                 "security": "auto"
               }
@@ -864,16 +864,56 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "www.17080100.xyz"
+            "Host": "45.72img.xyz"
           },
-          "path": "/path/173418141123"
+          "path": "/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "www.17080100.xyz"
+          "serverName": "45.72img.xyz"
         }
       },
       "tag": "proxy-20"
+    },
+    {
+      "mux": {
+        "concurrency": 8,
+        "enabled": false
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "4e21574f-1796-4f0a-86c0-4430fe99d3a1",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "headers": {
+            "Host": "fr1.cachexy.ga"
+          },
+          "path": "/p9Dq67Nx/"
+        },
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "fr1.cachexy.ga"
+        }
+      },
+      "tag": "proxy-21"
     },
     {
       "mux": {
@@ -911,46 +951,6 @@
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": "lg1.trump2023.us"
-        }
-      },
-      "tag": "proxy-21"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cacerts.digicert.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 64,
-                "encryption": "",
-                "flow": "",
-                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "headers": {
-            "Host": "www.48816626.xyz"
-          },
-          "path": "/path/120208301422"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "www.48816626.xyz"
         }
       },
       "tag": "proxy-22"
@@ -971,7 +971,7 @@
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
+                "id": "4e21574f-1796-4f0a-86c0-4430fe99d3a1",
                 "level": 8,
                 "security": "auto"
               }
@@ -984,56 +984,16 @@
         "security": "tls",
         "wsSettings": {
           "headers": {
-            "Host": "lg1.trump2023.us"
+            "Host": "fr1.cachexy.ga"
           },
-          "path": "/ECTCJ0DF"
+          "path": "/p9Dq67Nx/"
         },
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lg1.trump2023.us"
+          "serverName": "fr1.cachexy.ga"
         }
       },
       "tag": "proxy-23"
-    },
-    {
-      "mux": {
-        "concurrency": 8,
-        "enabled": false
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "headers": {
-            "Host": "lg1.trump2023.us"
-          },
-          "path": "/ECTCJ0DF"
-        },
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "lg1.trump2023.us"
-        }
-      },
-      "tag": "proxy-24"
     }
   ],
   "dns": {
