@@ -1,20 +1,4 @@
 proxies:
-  - name: 'sni-AU 1'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 
-    servername: 
-    server: cacerts.digicert.com
   - name: 'sni-GB 2'
     type: vmess
     port: 443
@@ -30,7 +14,7 @@ proxies:
       headers:
         Host: 
     servername: 
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: 'cdn-GB 3'
     type: vmess
     port: 443
@@ -62,7 +46,7 @@ proxies:
       headers:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: 'cdn-NL 1'
     type: vmess
     port: 443
@@ -94,7 +78,7 @@ proxies:
       headers:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: 'cdn-NL 3'
     type: vmess
     port: 443
@@ -110,7 +94,7 @@ proxies:
       headers:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: 'cdn-SE 1'
     type: vmess
     port: 443
@@ -126,7 +110,7 @@ proxies:
       headers:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: 'sni-US 5'
     type: vmess
     port: 443
@@ -174,7 +158,7 @@ proxies:
       headers:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: 'cdn-US 11'
     type: vmess
     port: 443
@@ -222,7 +206,7 @@ proxies:
       headers:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: 'cdn-US 14'
     type: vmess
     port: 443
@@ -238,11 +222,11 @@ proxies:
       headers:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
-    server: cacerts.digicert.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 7'
+    server: news.microsoft.com
+  - name: 'cdn-US 16'
     type: vmess
     port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
     alterId: 0
     cipher: auto
     tls: true
@@ -250,8 +234,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /
       headers:
-        Host: uk2.v2rayserv.com
-    servername: uk2.v2rayserv.com
-    server: news.microsoft.com
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
+    server: cacerts.digicert.com

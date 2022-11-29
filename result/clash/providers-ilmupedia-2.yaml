@@ -1,4 +1,52 @@
 proxies:
+  - name: 'sni-US 17'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 
+    servername: 
+    server: news.microsoft.com
+  - name: 'cdn-US 27'
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-美国CloudFlare公司CDN节点 7'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: news.microsoft.com
   - name: 'sni-瑞典  8'
     type: vmess
     port: 443
@@ -14,6 +62,22 @@ proxies:
       headers:
         Host: 5.249.160.226
     servername: 5.249.160.226
+    server: cacerts.digicert.com
+  - name: 'cdn-美国CloudFlare节点 9'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
     server: cacerts.digicert.com
   - name: 'cdn-美国CloudFlare节点 11'
     type: vmess
@@ -79,10 +143,10 @@ proxies:
         Host: 45.146.252.141
     servername: 45.146.252.141
     server: news.microsoft.com
-  - name: 'cdn-美国加利福尼亚州洛杉矶Zenlayer数据中心 17'
+  - name: 'cdn-美国CloudFlare节点 19'
     type: vmess
     port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -92,25 +156,9 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: news.microsoft.com
-  - name: 'cdn-美国得克萨斯州 18'
-    type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
-    server: cacerts.digicert.com
   - name: 'cdn-美国RF Engineering 20'
     type: vmess
     port: 443
@@ -127,38 +175,6 @@ proxies:
         Host: clash1.trump2023.net
     servername: clash1.trump2023.net
     server: news.microsoft.com
-  - name: 'sni-瑞典Oracle Corporation 21'
-    type: vmess
-    port: 443
-    uuid: 0b873cff-11ab-4716-c41a-04f886135091
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /roewesu
-      headers:
-        Host: 
-    servername: 
-    server: news.microsoft.com
-  - name: 'sni-澳大利亚悉尼OVH 22'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 139.99.135.182
-    servername: 139.99.135.182
-    server: cacerts.digicert.com
   - name: 'sni-日本东京Linode数据中心 27'
     type: vmess
     port: 3331
@@ -206,7 +222,7 @@ proxies:
       headers:
         Host: 5.249.160.226
     servername: 5.249.160.226
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: 'cdn-美国CloudFlare公司CDN节点 26'
     type: vmess
     port: 443
@@ -222,36 +238,4 @@ proxies:
       headers:
         Host: uk2.v2rayserv.com
     servername: uk2.v2rayserv.com
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸_US_美国_1'
-    type: vmess
-    port: 443
-    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /path/120208301422
-      headers:
-        Host: www.48816626.xyz
-    servername: www.48816626.xyz
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸_US_美国_2'
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: vus3.0bad.com
-    servername: vus3.0bad.com
     server: news.microsoft.com
