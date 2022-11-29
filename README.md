@@ -12,7 +12,7 @@ jadi mungkin kalian akan menemukan banyak commit aneh :v
 
 ### Fitur
 
-- Akun baru setiap 30 menit
+- Akun baru setiap 2 jam
 - Tersedia config.yaml dan .json untuk clash dan v2ray
 - Tersedia providers untuk dijadikan subscription
 
@@ -40,7 +40,7 @@ so i'm sorry for those ugly code and weird commit message
 
 ### Feature
 
-- New account in 30 minutes
+- New account every 2 hours
 - .yaml and .json is provided for clash and v2ray
 - Providers is provided as well
 
