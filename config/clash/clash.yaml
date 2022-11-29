@@ -85,8 +85,8 @@ proxy-groups:
     interval: 1200
     tolerance: 50
     proxies:
-      - Asia
-      - Other
+      - Singapore
+      - Indonesia
   - name: WA
     type: select
     proxies:
@@ -113,7 +113,7 @@ proxy-providers:
   Providers1:
     type: http
     path: ./providers1.yaml
-    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-Asia.yaml"
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-SG.yaml"
     interval: 900
     health-check:
       enable: true
@@ -122,7 +122,7 @@ proxy-providers:
   Providers2:
     type: http
     path: ./providers2.yaml
-    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-Other.yaml"
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-ID.yaml"
     interval: 900
     health-check:
       enable: true
