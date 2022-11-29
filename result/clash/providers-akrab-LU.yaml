@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-🇷🇺 RU 37-98'
+  - name: 'cdn-🇺🇸 美国(油管破解资源君2.0) 18-96'
     type: vmess
     port: 443
-    uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /go
       headers:
-        Host: ru1.v2rayserv.com
-    servername: ru1.v2rayserv.com
+        Host: lu1.gogogoo.cyou
+    servername: lu1.gogogoo.cyou
     server: main.millionaireaisle.com
