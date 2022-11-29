@@ -1,20 +1,4 @@
 proxies:
-  - name: 'cdn-🇺🇸 US 169 Linode  LLC TG:@nodpai-1'
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: vus4.0bad.com
-    servername: vus4.0bad.com
-    server: main.millionaireaisle.com
   - name: 'sni-1.83|US 美国youtube科技 24-3'
     type: vmess
     port: 443

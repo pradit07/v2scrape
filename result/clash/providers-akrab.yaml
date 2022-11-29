@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-🇺🇸-美国-141.101.115.30-0'
+  - name: 'cdn-cdn-🇺🇸-美国-141.101.115.30-1-0'
     type: vmess
     port: 443
     uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
@@ -15,10 +15,10 @@ proxies:
         Host: lg1.trump2023.us
     servername: lg1.trump2023.us
     server: main.millionaireaisle.com
-  - name: 'cdn-🇬🇧-英国-167.172.243.247-1'
+  - name: 'sni-🇺🇸 US 169 Linode  LLC TG:@nodpai-1'
     type: vmess
     port: 443
-    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
@@ -26,15 +26,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+      path: /chat
       headers:
-        Host: 003kkou.pages.dev
-    servername: 003kkou.pages.dev
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇳🇿-新西兰-167.179.32.53-2'
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: vus4.0bad.com
+  - name: 'cdn-🇺🇸 US 169 Linode  LLC TG:@nodpai-1'
     type: vmess
     port: 443
-    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
     tls: true
@@ -42,76 +42,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+      path: /chat
       headers:
-        Host: 005dgdf.pages.dev
-    servername: 005dgdf.pages.dev
+        Host: vus4.0bad.com
+    servername: vus4.0bad.com
     server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-161.35.12.1-3'
-    type: vmess
-    port: 443
-    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
-      headers:
-        Host: 002hngh.pages.dev
-    servername: 002hngh.pages.dev
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-104.29.64.24-4'
-    type: vmess
-    port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /p9Dq67Nx/
-      headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-104.29.64.24-5'
-    type: vmess
-    port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /p9Dq67Nx/
-      headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇨🇦-加拿大-167.114.67.25-6'
-    type: vmess
-    port: 443
-    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
-      headers:
-        Host: 005dgdf.pages.dev
-    servername: 005dgdf.pages.dev
-    server: main.millionaireaisle.com
-  - name: 'sni-🇷🇺-俄罗斯-193.233.207.105-7'
+  - name: 'sni-1.83|US 美国youtube科技 24-3'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -124,13 +60,13 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: 193.233.207.105
-    servername: 193.233.207.105
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-23.227.38.38-8'
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 172.66.43.1
+  - name: 'sni-GLaDOS-Portalgun-03-4'
     type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -138,15 +74,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /ECTCJ0DF
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-amshare.jingledev.me-9'
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.v3.glados-config.net
+  - name: 'cdn-US 美国(youtube阿伟科技) 5-5'
     type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    port: 2053
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
     alterId: 0
     cipher: auto
     tls: true
@@ -154,15 +90,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /DQsafRJn/
       headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 17-10'
+  - name: 'sni-US 美国(youtube阿伟科技) 5-5'
     type: vmess
-    port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    port: 2053
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
     alterId: 0
     cipher: auto
     tls: true
@@ -170,200 +106,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
+      path: /DQsafRJn/
       headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: main.millionaireaisle.com
-  - name: 'cdn-2.03| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶13CDN-11'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇫🇷 FR 67-12'
-    type: vmess
-    port: 443
-    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: ca2.v2rayserv.com
-    servername: ca2.v2rayserv.com
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸 1.96| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶12CDN-13'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸 2.14| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶17CDN-14'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-低速备用-油管科技 6-15'
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸 2.61| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶110CDN-16'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-2.41|CA 加拿大youtube阿伟科技-17'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 46.72img.xyz
-    servername: 46.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸 1.65| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶14CDN-18'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-低速备用-油管阿伟科技 4-19'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 45.72img.xyz
-    servername: 45.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 17-20'
-    type: vmess
-    port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /p9Dq67Nx/
-      headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: main.millionaireaisle.com
-  - name: 'cdn-US 美国(youtube阿伟科技)-21'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-104.29.64.24-22'
-    type: vmess
-    port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /p9Dq67Nx/
-      headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: main.millionaireaisle.com
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: v2ray.wefuckgfw.ga

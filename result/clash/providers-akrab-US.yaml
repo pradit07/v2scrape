@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: lg1.trump2023.us
     servername: lg1.trump2023.us
-    server: cacerts.digicert.com
+    server: main.millionaireaisle.com
   - name: 'sni-🇺🇸 US 169 Linode  LLC TG:@nodpai-1'
     type: vmess
     port: 443
@@ -28,8 +28,8 @@ proxies:
     ws-opts: 
       path: /chat
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: vus4.0bad.com
   - name: 'cdn-🇺🇸 US 169 Linode  LLC TG:@nodpai-1'
     type: vmess
@@ -46,39 +46,7 @@ proxies:
       headers:
         Host: vus4.0bad.com
     servername: vus4.0bad.com
-    server: news.microsoft.com
-  - name: 'sni-1.83|US 美国youtube科技 24-3'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 172.66.43.1
-  - name: 'sni-GLaDOS-Portalgun-03-4'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v3.glados-config.net
+    server: main.millionaireaisle.com
   - name: 'cdn-US 美国(youtube阿伟科技) 5-5'
     type: vmess
     port: 2053
@@ -94,7 +62,7 @@ proxies:
       headers:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
-    server: cacerts.digicert.com
+    server: main.millionaireaisle.com
   - name: 'sni-US 美国(youtube阿伟科技) 5-5'
     type: vmess
     port: 2053
@@ -108,6 +76,6 @@ proxies:
     ws-opts: 
       path: /DQsafRJn/
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: v2ray.wefuckgfw.ga
