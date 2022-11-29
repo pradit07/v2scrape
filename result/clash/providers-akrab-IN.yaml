@@ -1,5 +1,21 @@
 proxies:
-  - name: 'cdn-低速备用-来源：kkzui.com_42-188'
+  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_83-187'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 15.72img.xyz
+    servername: 15.72img.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-低速备用-来源：kkzui.com_42-192'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -15,7 +31,7 @@ proxies:
         Host: 17.72img.xyz
     servername: 17.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'sni-低速备用-来源：kkzui.com_42-188'
+  - name: 'sni-低速备用-来源：kkzui.com_42-192'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -28,26 +44,10 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: 17.72img.xyz
-  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_132-195'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 22.72img.xyz
-    servername: 22.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-网址@快嘴kkzui.com_美国_15-200'
+  - name: 'cdn-网址@快嘴kkzui.com_美国_15-203'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -63,7 +63,23 @@ proxies:
         Host: 21.72img.xyz
     servername: 21.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-快嘴科技@来源：kkzui.com_75-212'
+  - name: 'sni-网址@快嘴kkzui.com_美国_15-203'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 21.72img.xyz
+  - name: 'cdn-快嘴科技@来源：kkzui.com_75-215'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -79,19 +95,3 @@ proxies:
         Host: 24.72img.xyz
     servername: 24.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'sni-快嘴科技@来源：kkzui.com_75-212'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 24.72img.xyz

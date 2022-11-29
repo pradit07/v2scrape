@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-🇷🇺 RU 37-93'
+  - name: 'cdn-🇷🇺 RU 37-95'
     type: vmess
     port: 443
     uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
@@ -14,8 +14,24 @@ proxies:
       headers:
         Host: ru1.v2rayserv.com
     servername: ru1.v2rayserv.com
-    server: cacerts.digicert.com
-  - name: 'cdn-网址@快嘴kkzui.com_32-219'
+    server: news.microsoft.com
+  - name: 'sni-🇷🇺 RU 37-95'
+    type: vmess
+    port: 443
+    uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ru1.v2rayserv.com
+  - name: 'cdn-网址@快嘴kkzui.com_32-224'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -30,8 +46,8 @@ proxies:
       headers:
         Host: 9.72img.xyz
     servername: 9.72img.xyz
-    server: news.microsoft.com
-  - name: 'sni-网址@快嘴kkzui.com_32-219'
+    server: cacerts.digicert.com
+  - name: 'sni-网址@快嘴kkzui.com_32-224'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e

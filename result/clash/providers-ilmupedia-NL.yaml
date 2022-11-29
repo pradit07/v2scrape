@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-美国CloudFlare节点 12-423'
+  - name: 'cdn-低速备用-油管阿伟科技-112'
     type: vmess
     port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /go
+      path: /pkhhvws
       headers:
-        Host: lu1.gogogoo.cyou
-    servername: lu1.gogogoo.cyou
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
     server: cacerts.digicert.com
-  - name: 'sni-美国CloudFlare节点 12-423'
+  - name: 'sni-低速备用-油管阿伟科技-112'
     type: vmess
     port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /go
+      path: /pkhhvws
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: lu1.gogogoo.cyou
+    server: amshare.jingledev.me

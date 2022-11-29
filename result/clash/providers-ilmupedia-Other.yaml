@@ -1,21 +1,5 @@
 proxies:
-  - name: 'sni-1.83|US 美国youtube科技 24-4'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 172.66.43.1
-  - name: 'sni-aaa 126-12'
+  - name: 'sni-aaa 126-13'
     type: vmess
     port: 12130
     uuid: 113ed7ee-3e94-37d5-8269-2e14807e0f99
@@ -31,10 +15,26 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 86z.mooooobai.top
-  - name: 'sni-1.45| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶23CDN-15'
+  - name: 'sni-🇺🇸 _US_美国_6_0@25-18'
+    type: vmess
+    port: 5505
+    uuid: 69801534-3870-4d14-9d07-6f65da593da4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: huclouds.ml
+  - name: 'sni-aaa 114-20'
     type: vmess
     port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
     alterId: 0
     cipher: auto
     tls: true
@@ -46,8 +46,24 @@ proxies:
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 198.41.212.145
-  - name: 'sni-卢森堡(TG频道:@kxswa)-37'
+    server: 34.145.145.76
+  - name: 'sni-cdn-🇨🇦-加拿大-167.114.67.25-6-27'
+    type: vmess
+    port: 443
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: news.microsoft.com
+  - name: 'sni-卢森堡(TG频道:@kxswa)-38'
     type: vmess
     port: 443
     uuid: 938415bb-7df2-14dc-992d-8904a5bb6df2
@@ -63,7 +79,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: cl-gl2d3b3310.gcdn.co
-  - name: 'cdn-卢森堡(TG频道:@kxswa)-37'
+  - name: 'cdn-卢森堡(TG频道:@kxswa)-38'
     type: vmess
     port: 443
     uuid: 938415bb-7df2-14dc-992d-8904a5bb6df2
@@ -81,10 +97,10 @@ tls.weoworks.ml
     servername: tls.weoworks.ml
 tls.weoworks.ml
     server: news.microsoft.com
-  - name: 'cdn-🇦🇺 _AU_澳大利亚_0@0-46'
+  - name: 'sni-【付费推荐：goo.gs/vip】-57'
     type: vmess
     port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
     alterId: 0
     cipher: auto
     tls: true
@@ -92,11 +108,11 @@ tls.weoworks.ml
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /ray
       headers:
-        Host: 139.99.135.182
-    servername: 139.99.135.182
-    server: news.microsoft.com
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 141.101.114.133
   - name: 'sni-aaa 128-62'
     type: vmess
     port: 8081
@@ -128,7 +144,7 @@ tls.weoworks.ml
       headers:
         Host: ssrsub.v01.asuka.buzz
     servername: ssrsub.v01.asuka.buzz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: 'sni-US 美国(youtube阿伟科技)-63'
     type: vmess
     port: 8080
@@ -145,23 +161,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: gg1.tanglu.xyz
-  - name: 'cdn-ID 印尼(youtube阿伟科技)-73'
-    type: vmess
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
-  - name: 'sni-ID 印尼(youtube科技) 3-74'
+  - name: 'sni-ID 印尼(youtube科技) 3-75'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -177,7 +177,23 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 38.72img.xyz
-  - name: 'sni-aaa 132-94'
+  - name: 'sni-🇸🇬 SG 14 Cloudflare  Inc. TG:@airproxies-78'
+    type: vmess
+    port: 31704
+    uuid: 6aee4e26-9e52-4f59-b710-05992d067d56
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: realmpr.vpntransfer.xyz
+  - name: 'sni-aaa 132-97'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -193,7 +209,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: sg1.sanfen001.pics
-  - name: 'cdn-aaa 132-94'
+  - name: 'cdn-aaa 132-97'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -208,24 +224,8 @@ tls.weoworks.ml
       headers:
         Host: sg1.sanfen001.pics
     servername: sg1.sanfen001.pics
-    server: cacerts.digicert.com
-  - name: 'sni-2.13| 美国YouTube由零開始 9-96'
-    type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 128.14.162.48
-  - name: 'sni-🇳🇱 NL 6-106'
+    server: news.microsoft.com
+  - name: 'sni-🇳🇱 NL 6-108'
     type: vmess
     port: 443
     uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
@@ -241,23 +241,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: nl2.v2rayserv.com
-  - name: 'sni-低速备用-油管阿伟科技-109'
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: amshare.jingledev.me
-  - name: 'sni-JP 日本(youtube阿伟科技)-120'
+  - name: 'sni-JP 日本(youtube阿伟科技)-125'
     type: vmess
     port: 53856
     uuid: 71163d1e-89d9-488d-8f82-aee802f89b00
@@ -273,7 +257,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: apulnion.com
-  - name: 'cdn-低速备用-油管阿伟科技 19-122'
+  - name: 'cdn-低速备用-油管阿伟科技 19-128'
     type: vmess
     port: 8880
     uuid: 050624ec-ba6a-49c3-e8d9-c46e5c167be0
@@ -288,8 +272,8 @@ tls.weoworks.ml
       headers:
         Host: king6.workingoogle.ga
     servername: king6.workingoogle.ga
-    server: news.microsoft.com
-  - name: 'sni-低速备用-油管阿伟科技 19-122'
+    server: cacerts.digicert.com
+  - name: 'sni-低速备用-油管阿伟科技 19-128'
     type: vmess
     port: 8880
     uuid: 050624ec-ba6a-49c3-e8d9-c46e5c167be0
@@ -305,7 +289,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: king6.workingoogle.ga
-  - name: 'cdn-aaa 220-128'
+  - name: 'cdn-aaa 220-134'
     type: vmess
     port: 443
     uuid: 7fd77cee-282f-4f59-8e78-27146725ba89
@@ -320,24 +304,8 @@ tls.weoworks.ml
       headers:
         Host: 103.98.151.144
     servername: 103.98.151.144
-    server: news.microsoft.com
-  - name: 'cdn-🇺🇸 美国 004-134'
-    type: vmess
-    port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: lg1.cfcdn1.xyz
-    servername: lg1.cfcdn1.xyz
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸 美国 004-134'
+  - name: 'sni-🇺🇸 美国 004-140'
     type: vmess
     port: 443
     uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
@@ -353,199 +321,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 141.101.115.136
-  - name: 'cdn-aaa 280-138'
-    type: vmess
-    port: 443
-    uuid: 6aee4e26-9e52-4f59-b710-05992d067d56
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: pull.free.video.10010.com
-    servername: pull.free.video.10010.com
-    server: news.microsoft.com
-  - name: 'sni-aaa 280-138'
-    type: vmess
-    port: 443
-    uuid: 6aee4e26-9e52-4f59-b710-05992d067d56
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: v1.emovpn.buzz
-  - name: 'cdn-aaa 232-142'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: news.microsoft.com
-  - name: 'sni-aaa 232-142'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 198.41.203.2
-  - name: 'cdn-NL 荷兰(youtube科技)-144'
-    type: vmess
-    port: 2095
-    uuid: dabdbbec-f774-41ff-a296-18026f469a97
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /fhf5hfth565fhtf
-      headers:
-        Host: king2.mmadserr.ml
-    servername: king2.mmadserr.ml
-    server: cacerts.digicert.com
-  - name: 'sni-NL 荷兰(youtube科技)-144'
-    type: vmess
-    port: 2095
-    uuid: dabdbbec-f774-41ff-a296-18026f469a97
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /fhf5hfth565fhtf
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: king2.mmadserr.ml
-  - name: 'sni-🇩🇪 _DE_德国_9@5-146'
-    type: vmess
-    port: 35855
-    uuid: 97e8fba7-327a-4752-8aca-043858a7e518
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 188.34.159.186
-  - name: 'cdn-SG_642-147'
-    type: vmess
-    port: 443
-    uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 18.143.123.35
-    servername: 18.143.123.35
-    server: news.microsoft.com
-  - name: 'sni-SG_642-147'
-    type: vmess
-    port: 443
-    uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 18.143.123.35
-  - name: 'sni-aaa 191-149'
-    type: vmess
-    port: 16418
-    uuid: 9756c7d0-4a86-4210-fad1-13d5cbd86b03
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /gdgHG55tht
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 95.211.58.55
-  - name: 'cdn-🇻🇳 0.70|VN 越南youtube阿伟科技-154'
-    type: vmess
-    port: 443
-    uuid: c863dd9d-55f2-4615-b1a1-549da098722e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /nkpvpn.site
-      headers:
-        Host: 103.147.126.127
-    servername: 103.147.126.127
-    server: news.microsoft.com
-  - name: 'sni-🇻🇳 0.70|VN 越南youtube阿伟科技-154'
-    type: vmess
-    port: 443
-    uuid: c863dd9d-55f2-4615-b1a1-549da098722e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /nkpvpn.site
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 103.147.126.127
-  - name: 'cdn-1.33| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶13CDN-168'
+  - name: 'cdn-🇺🇸 美国 004-140'
     type: vmess
     port: 443
     uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
@@ -561,10 +337,10 @@ tls.weoworks.ml
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
     server: cacerts.digicert.com
-  - name: 'sni-1.33| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶13CDN-168'
+  - name: 'cdn-1.67| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1-142'
     type: vmess
     port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
     alterId: 0
     cipher: auto
     tls: true
@@ -572,15 +348,31 @@ tls.weoworks.ml
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /ray
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: news.microsoft.com
+  - name: 'sni-1.67| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1-142'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 141.101.115.133
-  - name: 'sni-快嘴科技@来源：kkzui.com_美国_38-182'
+    server: 141.101.115.111
+  - name: 'cdn-aaa 280-144'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 6aee4e26-9e52-4f59-b710-05992d067d56
     alterId: 0
     cipher: auto
     tls: true
@@ -590,26 +382,282 @@ tls.weoworks.ml
     ws-opts: 
       path: /
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 172.67.183.35
-  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_83-183'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 15.72img.xyz
-    servername: 15.72img.xyz
+        Host: pull.free.video.10010.com
+    servername: pull.free.video.10010.com
     server: cacerts.digicert.com
-  - name: 'sni-快嘴科技@来源：kkzui.com_美国_83-183'
+  - name: 'sni-aaa 280-144'
+    type: vmess
+    port: 443
+    uuid: 6aee4e26-9e52-4f59-b710-05992d067d56
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: v1.emovpn.buzz
+  - name: 'cdn-🇫🇷 1.42| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN13-146'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: cacerts.digicert.com
+  - name: 'sni-🇫🇷 1.42| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN13-146'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 198.41.212.122
+  - name: 'cdn-NL 荷兰(youtube科技)-150'
+    type: vmess
+    port: 2095
+    uuid: dabdbbec-f774-41ff-a296-18026f469a97
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fhf5hfth565fhtf
+      headers:
+        Host: king2.mmadserr.ml
+    servername: king2.mmadserr.ml
+    server: news.microsoft.com
+  - name: 'sni-NL 荷兰(youtube科技)-150'
+    type: vmess
+    port: 2095
+    uuid: dabdbbec-f774-41ff-a296-18026f469a97
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fhf5hfth565fhtf
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: king2.mmadserr.ml
+  - name: 'sni-🇩🇪 _DE_德国_9@5-152'
+    type: vmess
+    port: 35855
+    uuid: 97e8fba7-327a-4752-8aca-043858a7e518
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 188.34.159.186
+  - name: 'cdn-SG_642-153'
+    type: vmess
+    port: 443
+    uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 18.143.123.35
+    servername: 18.143.123.35
+    server: news.microsoft.com
+  - name: 'sni-SG_642-153'
+    type: vmess
+    port: 443
+    uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 18.143.123.35
+  - name: 'sni-aaa 191-155'
+    type: vmess
+    port: 16418
+    uuid: 9756c7d0-4a86-4210-fad1-13d5cbd86b03
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /gdgHG55tht
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 95.211.58.55
+  - name: 'sni-1.55|US 美国youtube科技 2-156'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 172.64.152.150
+  - name: 'cdn-🇻🇳 0.70|VN 越南youtube阿伟科技-160'
+    type: vmess
+    port: 443
+    uuid: c863dd9d-55f2-4615-b1a1-549da098722e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /nkpvpn.site
+      headers:
+        Host: 103.147.126.127
+    servername: 103.147.126.127
+    server: news.microsoft.com
+  - name: 'sni-🇻🇳 0.70|VN 越南youtube阿伟科技-160'
+    type: vmess
+    port: 443
+    uuid: c863dd9d-55f2-4615-b1a1-549da098722e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /nkpvpn.site
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 103.147.126.127
+  - name: 'sni-🇺🇸 1.40| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶1CDN-168'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 141.101.114.20
+  - name: 'sni-aaa 221-177'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 198.41.212.144
+  - name: 'sni-🇺🇸 1.96| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶12CDN-179'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 188.114.99.9
+  - name: 'sni-cdn-美国CloudFlare节点 11-180'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: main.millionaireaisle.com
+  - name: 'sni-1.50|ID 印尼youtube科技 7-183'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 172.67.125.28
+  - name: 'sni-快嘴科技@来源：kkzui.com_美国_83-187'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -625,7 +673,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 15.72img.xyz
-  - name: 'cdn-🇯🇵_油管：全网最强白嫖-185'
+  - name: 'cdn-🇯🇵_油管：全网最强白嫖-189'
     type: vmess
     port: 443
     uuid: dcec9778-3e07-4800-824e-5bccb04bc2b8
@@ -640,8 +688,8 @@ tls.weoworks.ml
       headers:
         Host: v.qq.com
     servername: v.qq.com
-    server: news.microsoft.com
-  - name: 'sni-🇨🇳_油管：全网最强白嫖-186'
+    server: cacerts.digicert.com
+  - name: 'sni-🇨🇳_油管：全网最强白嫖-190'
     type: vmess
     port: 52119
     uuid: ddc9c34f-a5a5-3861-95c4-3158647f0f6a
@@ -657,7 +705,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: zf.gaoyuanmonv.top
-  - name: 'sni-快嘴科技@来源：kkzui.com_21-187'
+  - name: 'sni-快嘴科技@来源：kkzui.com_21-191'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -673,7 +721,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 34.72img.xyz
-  - name: 'cdn-🇺🇸_油管：全网最强白嫖-194'
+  - name: 'cdn-🇺🇸_油管：全网最强白嫖-198'
     type: vmess
     port: 443
     uuid: b8a87016-f9f9-456c-b1af-77a9bb96e6e5
@@ -688,8 +736,8 @@ tls.weoworks.ml
       headers:
         Host: zingfast.akamaized.net
     servername: zingfast.akamaized.net
-    server: cacerts.digicert.com
-  - name: 'sni-快嘴科技@来源：kkzui.com_美国_132-195'
+    server: news.microsoft.com
+  - name: 'sni-快嘴科技@来源：kkzui.com_美国_132-199'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -705,23 +753,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 22.72img.xyz
-  - name: 'sni-快嘴科技@来源：kkzui.com_美国_36-197'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 25.72img.xyz
-  - name: 'cdn-youtube-bai-piao-wang-zhe-usa.98848.xyz_vmess_ws-199'
+  - name: 'cdn-youtube-bai-piao-wang-zhe-usa.98848.xyz_vmess_ws-202'
     type: vmess
     port: 443
     uuid: d1478689-439c-4590-b7ce-36e786a02dc3
@@ -736,24 +768,8 @@ tls.weoworks.ml
       headers:
         Host: youtube-bai-piao-wang-zhe-usa.98848.xyz
     servername: youtube-bai-piao-wang-zhe-usa.98848.xyz
-    server: cacerts.digicert.com
-  - name: 'sni-网址@快嘴kkzui.com_美国_15-200'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 21.72img.xyz
-  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_145-204'
+    server: news.microsoft.com
+  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_145-207'
     type: vmess
     port: 443
     uuid: 461aed20-0743-4f13-ee68-43394e875e42
@@ -768,8 +784,8 @@ tls.weoworks.ml
       headers:
         Host: h1.800876.xyz
     servername: h1.800876.xyz
-    server: news.microsoft.com
-  - name: 'sni-🇨🇳_油管：全网最强白嫖-205'
+    server: cacerts.digicert.com
+  - name: 'sni-🇨🇳_油管：全网最强白嫖-208'
     type: vmess
     port: 32414
     uuid: ddc9c34f-a5a5-3861-95c4-3158647f0f6a
@@ -785,7 +801,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: zf.gaoyuanmonv.top
-  - name: 'sni-网址@快嘴kkzui.com_美国_42-208'
+  - name: 'sni-网址@快嘴kkzui.com_美国_42-211'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -801,7 +817,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 36.72img.xyz
-  - name: 'sni-🇨🇳_油管：全网最强白嫖-209'
+  - name: 'sni-🇨🇳_油管：全网最强白嫖-212'
     type: vmess
     port: 43960
     uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
@@ -817,7 +833,23 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: pp1.zhengzhongfeizhu.xyz
-  - name: 'sni-🇨🇳_油管：全网最强白嫖-214'
+  - name: 'sni-快嘴科技@来源：kkzui.com_75-215'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 24.72img.xyz
+  - name: 'sni-🇨🇳_油管：全网最强白嫖-217'
     type: vmess
     port: 43960
     uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c
@@ -833,7 +865,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: pp1.zhengzhongfeizhu.xyz
-  - name: 'sni-🇨🇳_油管：全网最强白嫖-215'
+  - name: 'sni-🇨🇳_油管：全网最强白嫖-218'
     type: vmess
     port: 38301
     uuid: 79386685-16da-327c-9e14-aa6d702d86bc
@@ -849,7 +881,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: j1.v2.gay
-  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_154-223'
+  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_154-228'
     type: vmess
     port: 443
     uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
@@ -864,8 +896,8 @@ tls.weoworks.ml
       headers:
         Host: w.800876.xyz
     servername: w.800876.xyz
-    server: news.microsoft.com
-  - name: 'sni-快嘴科技@来源：kkzui.com_美国_154-223'
+    server: cacerts.digicert.com
+  - name: 'sni-快嘴科技@来源：kkzui.com_美国_154-228'
     type: vmess
     port: 443
     uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
@@ -881,7 +913,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 47.88.52.220
-  - name: 'cdn-低速备用-来源：kkzui.com_3-225'
+  - name: 'cdn-低速备用-来源：kkzui.com_3-230'
     type: vmess
     port: 443
     uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
@@ -896,8 +928,24 @@ tls.weoworks.ml
       headers:
         Host: vn3.thanhhaivpn.name.vn
     servername: vn3.thanhhaivpn.name.vn
-    server: cacerts.digicert.com
-  - name: 'sni-US 17-255'
+    server: news.microsoft.com
+  - name: 'sni-US 17-247'
+    type: vmess
+    port: 443
+    uuid: 4ce21a11-44fe-4814-a639-4b7caf501031
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: zhuyong.hucloud-dns.xyz
+  - name: 'sni-US 17-261'
     type: vmess
     port: 443
     uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
@@ -913,7 +961,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: buyvm.imkcp.eu.org
-  - name: 'cdn-🇺🇸-美国-104.17.2.58-256'
+  - name: 'cdn-🇺🇸-美国-104.17.2.58-262'
     type: vmess
     port: 443
     uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
@@ -929,7 +977,7 @@ tls.weoworks.ml
         Host: q.acuteclaydoll.xyz
     servername: q.acuteclaydoll.xyz
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-104.17.2.58-256'
+  - name: 'sni-🇺🇸-美国-104.17.2.58-262'
     type: vmess
     port: 443
     uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
@@ -945,7 +993,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 104.17.2.58
-  - name: 'cdn-🇺🇸-美国-137.175.5.187-258'
+  - name: 'cdn-🇺🇸-美国-137.175.5.187-264'
     type: vmess
     port: 443
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -960,8 +1008,8 @@ tls.weoworks.ml
       headers:
         Host: www.69135978.xyz
     servername: www.69135978.xyz
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-137.175.5.187-258'
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-137.175.5.187-264'
     type: vmess
     port: 443
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -977,7 +1025,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 137.175.5.187
-  - name: 'cdn-🇺🇸-美国-154.84.1.154-266'
+  - name: 'cdn-🇺🇸-美国-154.84.1.154-272'
     type: vmess
     port: 443
     uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9
@@ -992,8 +1040,8 @@ tls.weoworks.ml
       headers:
         Host: www.32653181.xyz
     servername: www.32653181.xyz
-    server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-154.84.1.154-266'
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-154.84.1.154-272'
     type: vmess
     port: 443
     uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9
@@ -1009,7 +1057,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 154.84.1.154
-  - name: 'cdn-🇺🇸-美国-172.64.201.253-269'
+  - name: 'cdn-🇺🇸-美国-172.64.201.253-275'
     type: vmess
     port: 443
     uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
@@ -1024,8 +1072,8 @@ tls.weoworks.ml
       headers:
         Host: 172.64.201.253
     servername: 172.64.201.253
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-172.64.201.253-269'
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-172.64.201.253-275'
     type: vmess
     port: 443
     uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
@@ -1041,7 +1089,23 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 172.64.201.253
-  - name: 'cdn-🇺🇸-美国-192.74.250.60-275'
+  - name: 'sni-🇺🇸-美国-172.66.43.1-277'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 172.66.43.1
+  - name: 'cdn-🇺🇸-美国-192.74.250.60-281'
     type: vmess
     port: 443
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -1056,8 +1120,8 @@ tls.weoworks.ml
       headers:
         Host: www.83295443.xyz
     servername: www.83295443.xyz
-    server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-192.74.250.60-275'
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-192.74.250.60-281'
     type: vmess
     port: 443
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -1073,7 +1137,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 192.74.250.60
-  - name: 'sni-🇺🇸-美国-20.239.134.124-277'
+  - name: 'sni-🇺🇸-美国-20.239.134.124-283'
     type: vmess
     port: 44300
     uuid: 3ba1f9c5-bd21-3df3-8e98-824c2e089c7d
@@ -1089,7 +1153,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 20.239.134.124
-  - name: 'cdn-🇫🇷-法国-51.89.100.10-280'
+  - name: 'cdn-🇫🇷-法国-51.89.100.10-286'
     type: vmess
     port: 443
     uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
@@ -1104,8 +1168,24 @@ tls.weoworks.ml
       headers:
         Host: www.96357765.xyz
     servername: www.96357765.xyz
-    server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-RACKNERD.COM-281'
+    server: cacerts.digicert.com
+  - name: 'sni-🇫🇷-法国-51.89.100.10-286'
+    type: vmess
+    port: 443
+    uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 51.89.100.10
+  - name: 'cdn-🇺🇸-美国-RACKNERD.COM-288'
     type: vmess
     port: 2086
     uuid: 76203202-4c53-4399-a3c9-ddaf6455fb07
@@ -1120,8 +1200,8 @@ tls.weoworks.ml
       headers:
         Host: vultrjp.cloudflare.quest
     servername: vultrjp.cloudflare.quest
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-RACKNERD.COM-281'
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-RACKNERD.COM-288'
     type: vmess
     port: 2086
     uuid: 76203202-4c53-4399-a3c9-ddaf6455fb07
@@ -1137,7 +1217,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: RACKNERD.COM
-  - name: 'cdn-🇺🇸-美国-can01.cf.paopaocloud.cyou-283'
+  - name: 'cdn-🇺🇸-美国-can01.cf.paopaocloud.cyou-290'
     type: vmess
     port: 443
     uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
@@ -1152,8 +1232,8 @@ tls.weoworks.ml
       headers:
         Host: can01.paopaocloud.cyou
     servername: can01.paopaocloud.cyou
-    server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-can01.cf.paopaocloud.cyou-283'
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-can01.cf.paopaocloud.cyou-290'
     type: vmess
     port: 443
     uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
@@ -1169,7 +1249,23 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: can01.cf.paopaocloud.cyou
-  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-285'
+  - name: 'cdn-🇦🇶-希腊-aop.ssfree.ru-292'
+    type: vmess
+    port: 443
+    uuid: 62e6255a-6da3-11ed-8de2-000017022008
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /getweather
+      headers:
+        Host: aop.ssfree.ru
+    servername: aop.ssfree.ru
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-293'
     type: vmess
     port: 10020
     uuid: d755513d-8f37-3678-adbd-c9d4e86bc468
@@ -1185,7 +1281,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: ah.yd01.ssru7.casa
-  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-286'
+  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-294'
     type: vmess
     port: 10034
     uuid: ab1f3103-fe7e-3764-b542-961d4ad72b37
@@ -1201,7 +1297,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: ah.yd01.ssru7.casa
-  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-287'
+  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-295'
     type: vmess
     port: 10039
     uuid: a0b07b0b-1ee2-3104-bdaa-9f4a9852ee20
@@ -1217,7 +1313,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: ah.yd01.ssru7.casa
-  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-288'
+  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-296'
     type: vmess
     port: 10041
     uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
@@ -1233,7 +1329,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: ah.yd01.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-aus01.cf.ssru7.casa-289'
+  - name: 'cdn-🇺🇸-美国-aus01.cf.ssru7.casa-297'
     type: vmess
     port: 443
     uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
@@ -1248,8 +1344,8 @@ tls.weoworks.ml
       headers:
         Host: aus01.paopaocloud.cyou
     servername: aus01.paopaocloud.cyou
-    server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-aus01.cf.ssru7.casa-289'
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-aus01.cf.ssru7.casa-297'
     type: vmess
     port: 443
     uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
@@ -1265,7 +1361,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: aus01.cf.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-aus01.cf.ssru7.casa-291'
+  - name: 'cdn-🇺🇸-美国-aus01.cf.ssru7.casa-299'
     type: vmess
     port: 443
     uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
@@ -1281,7 +1377,7 @@ tls.weoworks.ml
         Host: aus01.paopaocloud.cyou
     servername: aus01.paopaocloud.cyou
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-aus01.cf.ssru7.casa-291'
+  - name: 'sni-🇺🇸-美国-aus01.cf.ssru7.casa-299'
     type: vmess
     port: 443
     uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
@@ -1297,7 +1393,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: aus01.cf.ssru7.casa
-  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-293'
+  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-301'
     type: vmess
     port: 10015
     uuid: 51797882-c8ef-3f3c-83b5-909e9bf10834
@@ -1313,7 +1409,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: az.hk01.ssru7.casa
-  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-294'
+  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-302'
     type: vmess
     port: 10023
     uuid: 51797882-c8ef-3f3c-83b5-909e9bf10834
@@ -1329,7 +1425,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: az.hk01.ssru7.casa
-  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-295'
+  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-303'
     type: vmess
     port: 10033
     uuid: a0b07b0b-1ee2-3104-bdaa-9f4a9852ee20
@@ -1345,7 +1441,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: az.hk01.ssru7.casa
-  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-296'
+  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-304'
     type: vmess
     port: 10033
     uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
@@ -1361,7 +1457,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: az.hk01.ssru7.casa
-  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-297'
+  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-305'
     type: vmess
     port: 10034
     uuid: 96723dfa-6ae4-38c7-ac83-e3bd67b9e12d
@@ -1377,23 +1473,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: az.hk01.ssru7.casa
-  - name: 'sni-🇫🇷-法国-fr01.paopaocloud.cyou-299'
-    type: vmess
-    port: 443
-    uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: fr01.paopaocloud.cyou
-  - name: 'cdn-🇫🇷-法国-fr01.paopaocloud.cyou-299'
+  - name: 'cdn-🇫🇷-法国-fr01.paopaocloud.cyou-307'
     type: vmess
     port: 443
     uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
@@ -1409,7 +1489,23 @@ tls.weoworks.ml
         Host: fr01.2yun.win
     servername: fr01.2yun.win
     server: news.microsoft.com
-  - name: 'sni-🇫🇷-法国-fr01.paopaocloud.cyou-301'
+  - name: 'sni-🇫🇷-法国-fr01.paopaocloud.cyou-307'
+    type: vmess
+    port: 443
+    uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: fr01.paopaocloud.cyou
+  - name: 'sni-🇫🇷-法国-fr01.paopaocloud.cyou-309'
     type: vmess
     port: 443
     uuid: dbd5ea6f-eea7-3490-85bb-580c26ecf57b
@@ -1425,7 +1521,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: fr01.paopaocloud.cyou
-  - name: 'cdn-🇫🇷-法国-fr01.paopaocloud.cyou-301'
+  - name: 'cdn-🇫🇷-法国-fr01.paopaocloud.cyou-309'
     type: vmess
     port: 443
     uuid: dbd5ea6f-eea7-3490-85bb-580c26ecf57b
@@ -1440,8 +1536,8 @@ tls.weoworks.ml
       headers:
         Host: fr01.2yun.win
     servername: fr01.2yun.win
-    server: news.microsoft.com
-  - name: 'sni-🇯🇵-日本-kr03.170203.xyz-303'
+    server: cacerts.digicert.com
+  - name: 'sni-🇯🇵-日本-kr03.170203.xyz-311'
     type: vmess
     port: 23245
     uuid: 07578f26-1009-4c31-8c4d-fc46f1eef55f
@@ -1457,7 +1553,23 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: kr03.170203.xyz
-  - name: 'sni-🇺🇸-美国-kr1.sanfen001.pics-304'
+  - name: 'cdn-🇺🇸-美国-kr1.sanfen001.pics-312'
+    type: vmess
+    port: 443
+    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: kr1.sanfen001.pics
+    servername: kr1.sanfen001.pics
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-kr1.sanfen001.pics-312'
     type: vmess
     port: 443
     uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
@@ -1473,23 +1585,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: kr1.sanfen001.pics
-  - name: 'cdn-🇺🇸-美国-kr1.sanfen001.pics-304'
-    type: vmess
-    port: 443
-    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: kr1.sanfen001.pics
-    servername: kr1.sanfen001.pics
-    server: cacerts.digicert.com
-  - name: 'cdn-🇺🇸-美国-hk1.elknode.top-308'
+  - name: 'cdn-🇺🇸-美国-hk1.elknode.top-316'
     type: vmess
     port: 443
     uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
@@ -1504,8 +1600,8 @@ tls.weoworks.ml
       headers:
         Host: baiducdncmn2.inter.iqiyi.com
     servername: baiducdncmn2.inter.iqiyi.com
-    server: news.microsoft.com
-  - name: 'sni-🇦🇶-亚太地区-hk3.netflix6.com-309'
+    server: cacerts.digicert.com
+  - name: 'sni-🇦🇶-亚太地区-hk3.netflix6.com-317'
     type: vmess
     port: 443
     uuid: a001afdc-6331-3f6a-ba10-edaabbaaaaef
@@ -1521,7 +1617,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk3.netflix6.com
-  - name: 'cdn-🇦🇶-亚太地区-hk3.netflix6.com-309'
+  - name: 'cdn-🇦🇶-亚太地区-hk3.netflix6.com-317'
     type: vmess
     port: 443
     uuid: a001afdc-6331-3f6a-ba10-edaabbaaaaef
@@ -1536,8 +1632,8 @@ tls.weoworks.ml
       headers:
         Host: hk3.netflix6.com
     servername: hk3.netflix6.com
-    server: news.microsoft.com
-  - name: 'sni-🇯🇵-日本-hkg.mooooobai.top-311'
+    server: cacerts.digicert.com
+  - name: 'sni-🇯🇵-日本-hkg.mooooobai.top-319'
     type: vmess
     port: 5122
     uuid: 7000f68f-cbcb-31e1-9cb4-897803f2edc3
@@ -1553,7 +1649,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hkg.mooooobai.top
-  - name: 'sni-🇯🇵-日本-jp03-vm0.entry.srthdw.art-312'
+  - name: 'sni-🇯🇵-日本-jp03-vm0.entry.srthdw.art-320'
     type: vmess
     port: 447
     uuid: cf844c94-40cd-3774-8cd3-f1f75580a4bb
@@ -1569,7 +1665,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: jp03-vm0.entry.srthdw.art
-  - name: 'sni-🇸🇬-新加坡-sg1.fuzzyng.com-313'
+  - name: 'sni-🇸🇬-新加坡-sg1.fuzzyng.com-321'
     type: vmess
     port: 443
     uuid: bdd756c4-fdc3-42dc-838f-006aef3f287c
@@ -1585,7 +1681,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: sg1.fuzzyng.com
-  - name: 'cdn-🇸🇬-新加坡-sg1.fuzzyng.com-313'
+  - name: 'cdn-🇸🇬-新加坡-sg1.fuzzyng.com-321'
     type: vmess
     port: 443
     uuid: bdd756c4-fdc3-42dc-838f-006aef3f287c
@@ -1601,7 +1697,7 @@ tls.weoworks.ml
         Host: sg1.fuzzyng.com
     servername: sg1.fuzzyng.com
     server: news.microsoft.com
-  - name: 'sni-🇸🇬-新加坡-sg1.sanfen001.pics-315'
+  - name: 'sni-🇸🇬-新加坡-sg1.sanfen001.pics-323'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -1617,7 +1713,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: sg1.sanfen001.pics
-  - name: 'cdn-🇸🇬-新加坡-sg1.sanfen001.pics-315'
+  - name: 'cdn-🇸🇬-新加坡-sg1.sanfen001.pics-323'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -1632,8 +1728,8 @@ tls.weoworks.ml
       headers:
         Host: sg1.sanfen001.pics
     servername: sg1.sanfen001.pics
-    server: news.microsoft.com
-  - name: 'sni-🇯🇵-日本-paopao.v2.jp05.paopaocloud.cyou-317'
+    server: cacerts.digicert.com
+  - name: 'sni-🇯🇵-日本-paopao.v2.jp05.paopaocloud.cyou-325'
     type: vmess
     port: 3307
     uuid: d755513d-8f37-3678-adbd-c9d4e86bc468
@@ -1649,7 +1745,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: paopao.v2.jp05.paopaocloud.cyou
-  - name: 'cdn-🇺🇸-美国-ph01.cf.ssru7.casa-318'
+  - name: 'cdn-🇺🇸-美国-ph01.cf.ssru7.casa-326'
     type: vmess
     port: 443
     uuid: ab1f3103-fe7e-3764-b542-961d4ad72b37
@@ -1665,7 +1761,7 @@ tls.weoworks.ml
         Host: ph01.ssru4.fun
     servername: ph01.ssru4.fun
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-ph01.cf.ssru7.casa-318'
+  - name: 'sni-🇺🇸-美国-ph01.cf.ssru7.casa-326'
     type: vmess
     port: 443
     uuid: ab1f3103-fe7e-3764-b542-961d4ad72b37
@@ -1681,7 +1777,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: ph01.cf.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-tr01.cf.paopaocloud.cyou-320'
+  - name: 'cdn-🇺🇸-美国-tr01.cf.paopaocloud.cyou-328'
     type: vmess
     port: 443
     uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
@@ -1696,8 +1792,8 @@ tls.weoworks.ml
       headers:
         Host: tr01.ssru4.fun
     servername: tr01.ssru4.fun
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-tr01.cf.paopaocloud.cyou-320'
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-tr01.cf.paopaocloud.cyou-328'
     type: vmess
     port: 443
     uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
@@ -1713,7 +1809,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: tr01.cf.paopaocloud.cyou
-  - name: 'cdn-🇭🇰-香港-tw1.sanfen001.pics-322'
+  - name: 'cdn-🇭🇰-香港-tw1.sanfen001.pics-330'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -1729,7 +1825,7 @@ tls.weoworks.ml
         Host: tw1.sanfen001.pics
     servername: www.microsoft.com
     server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-uk01.cf.ssru7.casa-323'
+  - name: 'cdn-🇺🇸-美国-uk01.cf.ssru7.casa-331'
     type: vmess
     port: 443
     uuid: 076af6f7-7264-3d27-8156-1081d22b78ab
@@ -1745,7 +1841,7 @@ tls.weoworks.ml
         Host: uk01.ssru4.fun
     servername: uk01.ssru4.fun
     server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-uk01.cf.ssru7.casa-323'
+  - name: 'sni-🇺🇸-美国-uk01.cf.ssru7.casa-331'
     type: vmess
     port: 443
     uuid: 076af6f7-7264-3d27-8156-1081d22b78ab
@@ -1761,7 +1857,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: uk01.cf.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-uk01.cf.ssru7.casa-325'
+  - name: 'cdn-🇺🇸-美国-uk01.cf.ssru7.casa-333'
     type: vmess
     port: 443
     uuid: 6773375e-4add-3bad-85fa-8f92c3263a01
@@ -1776,8 +1872,8 @@ tls.weoworks.ml
       headers:
         Host: uk01.ssru4.fun
     servername: uk01.ssru4.fun
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-uk01.cf.ssru7.casa-325'
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-uk01.cf.ssru7.casa-333'
     type: vmess
     port: 443
     uuid: 6773375e-4add-3bad-85fa-8f92c3263a01
@@ -1793,7 +1889,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: uk01.cf.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-uk01.cf.ssru7.casa-327'
+  - name: 'cdn-🇺🇸-美国-uk01.cf.ssru7.casa-335'
     type: vmess
     port: 443
     uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
@@ -1809,7 +1905,7 @@ tls.weoworks.ml
         Host: uk01.ssru4.fun
     servername: uk01.ssru4.fun
     server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-uk01.cf.ssru7.casa-327'
+  - name: 'sni-🇺🇸-美国-uk01.cf.ssru7.casa-335'
     type: vmess
     port: 443
     uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
@@ -1825,7 +1921,23 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: uk01.cf.ssru7.casa
-  - name: 'sni-🇸🇪-瑞典-uk01.paopaocloud.cyou-329'
+  - name: 'cdn-🇸🇪-瑞典-uk01.paopaocloud.cyou-337'
+    type: vmess
+    port: 443
+    uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: uk01.ssru4.fun
+    servername: uk01.ssru4.fun
+    server: news.microsoft.com
+  - name: 'sni-🇸🇪-瑞典-uk01.paopaocloud.cyou-337'
     type: vmess
     port: 443
     uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
@@ -1841,23 +1953,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: uk01.paopaocloud.cyou
-  - name: 'cdn-🇸🇪-瑞典-uk01.paopaocloud.cyou-329'
-    type: vmess
-    port: 443
-    uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: uk01.ssru4.fun
-    servername: uk01.ssru4.fun
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-v2ray.wefuckgfw.ga-331'
+  - name: 'sni-🇺🇸-美国-v2ray.wefuckgfw.ga-339'
     type: vmess
     port: 2053
     uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
@@ -1873,7 +1969,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: v2ray.wefuckgfw.ga
-  - name: 'cdn-🇺🇸-美国-v2ray.wefuckgfw.ga-331'
+  - name: 'cdn-🇺🇸-美国-v2ray.wefuckgfw.ga-339'
     type: vmess
     port: 2053
     uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
@@ -1888,8 +1984,8 @@ tls.weoworks.ml
       headers:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
-    server: news.microsoft.com
-  - name: 'cdn-🇯🇵-日本-v31.idcloudhost.de-333'
+    server: cacerts.digicert.com
+  - name: 'cdn-🇯🇵-日本-v31.idcloudhost.de-341'
     type: vmess
     port: 443
     uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
@@ -1904,8 +2000,8 @@ tls.weoworks.ml
       headers:
         Host: v31.idcloudhost.de
     servername: v31.idcloudhost.de
-    server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-vipus05.ajdkjaljdj.xyz-334'
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-vipus05.ajdkjaljdj.xyz-342'
     type: vmess
     port: 5081
     uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
@@ -1921,23 +2017,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: vipus05.ajdkjaljdj.xyz
-  - name: 'sni-🇷🇺-俄罗斯-31.184.207.4-336'
-    type: vmess
-    port: 443
-    uuid: 06d3d7a6-bc43-46f2-be8e-ad46c4416a27
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 31.184.207.4
-  - name: 'cdn-🇷🇺-俄罗斯-31.184.207.4-336'
+  - name: 'cdn-🇷🇺-俄罗斯-31.184.207.4-345'
     type: vmess
     port: 443
     uuid: 06d3d7a6-bc43-46f2-be8e-ad46c4416a27
@@ -1953,7 +2033,23 @@ tls.weoworks.ml
         Host: us.wwcloud.tk
     servername: us.wwcloud.tk
     server: cacerts.digicert.com
-  - name: 'cdn-🇸🇬-新加坡-3.1.43.223-338'
+  - name: 'sni-🇷🇺-俄罗斯-31.184.207.4-345'
+    type: vmess
+    port: 443
+    uuid: 06d3d7a6-bc43-46f2-be8e-ad46c4416a27
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 31.184.207.4
+  - name: 'cdn-🇸🇬-新加坡-3.1.43.223-347'
     type: vmess
     port: 443
     uuid: 109ae3fa-0336-4085-ab31-4edc0b835e13
@@ -1968,8 +2064,8 @@ tls.weoworks.ml
       headers:
         Host: www.microsoft.com
     servername: www.microsoft.com
-    server: cacerts.digicert.com
-  - name: 'cdn-🇺🇸-美国-107.148.192.80-339'
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-107.148.192.80-348'
     type: vmess
     port: 443
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -1985,7 +2081,7 @@ tls.weoworks.ml
         Host: www.23423425.xyz
     servername: www.23423425.xyz
     server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-107.148.192.80-339'
+  - name: 'sni-🇺🇸-美国-107.148.192.80-348'
     type: vmess
     port: 443
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -2001,7 +2097,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 107.148.192.80
-  - name: 'cdn-🇺🇸-美国-130.162.141.104-341'
+  - name: 'cdn-🇺🇸-美国-130.162.141.104-350'
     type: vmess
     port: 443
     uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
@@ -2017,7 +2113,7 @@ tls.weoworks.ml
         Host: 130.162.141.104
     servername: 130.162.141.104
     server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-152.69.223.8-345'
+  - name: 'cdn-🇺🇸-美国-152.69.223.8-354'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -2033,7 +2129,7 @@ tls.weoworks.ml
         Host: tgunivstar.168-138-94-194.sslip.io
     servername: tgunivstar.168-138-94-194.sslip.io
     server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-172.64.201.253-348'
+  - name: 'cdn-🇺🇸-美国-172.64.201.253-356'
     type: vmess
     port: 443
     uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
@@ -2049,7 +2145,7 @@ tls.weoworks.ml
         Host: 172.64.201.253
     servername: 172.64.201.253
     server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-172.64.201.253-348'
+  - name: 'sni-🇺🇸-美国-172.64.201.253-356'
     type: vmess
     port: 443
     uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
@@ -2065,7 +2161,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 172.64.201.253
-  - name: 'cdn-🇺🇸-美国-172.67.138.210-350'
+  - name: 'cdn-🇺🇸-美国-172.67.138.210-358'
     type: vmess
     port: 443
     uuid: 3dacbaa8-784b-430c-9c1e-57d33648981d
@@ -2081,7 +2177,7 @@ tls.weoworks.ml
         Host: ru1.pqjca.top
     servername: ru1.pqjca.top
     server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-172.67.138.210-350'
+  - name: 'sni-🇺🇸-美国-172.67.138.210-358'
     type: vmess
     port: 443
     uuid: 3dacbaa8-784b-430c-9c1e-57d33648981d
@@ -2097,7 +2193,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 172.67.138.210
-  - name: 'sni-🇺🇸-美国-172.67.212.68-352'
+  - name: 'sni-🇺🇸-美国-172.67.212.68-360'
     type: vmess
     port: 2053
     uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
@@ -2113,7 +2209,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 172.67.212.68
-  - name: 'cdn-🇺🇸-美国-172.67.212.68-352'
+  - name: 'cdn-🇺🇸-美国-172.67.212.68-360'
     type: vmess
     port: 2053
     uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
@@ -2129,23 +2225,7 @@ tls.weoworks.ml
         Host: zz.hongkong2.tk
     servername: zz.hongkong2.tk
     server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-30.tehvp.xyz-354'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 30.tehvp.xyz
-  - name: 'sni-🇺🇸-美国-cacerts.digicert.com-355'
+  - name: 'sni-🇺🇸-美国-cacerts.digicert.com-364'
     type: vmess
     port: 443
     uuid: 33aa57df-1c93-4318-9fce-e850437ee781
@@ -2161,7 +2241,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: cacerts.digicert.com
-  - name: 'cdn-🇺🇸-美国-cacerts.digicert.com-355'
+  - name: 'cdn-🇺🇸-美国-cacerts.digicert.com-364'
     type: vmess
     port: 443
     uuid: 33aa57df-1c93-4318-9fce-e850437ee781
@@ -2177,7 +2257,7 @@ tls.weoworks.ml
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
     server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-http.download.yunzhongzhuan.com-357'
+  - name: 'cdn-🇺🇸-美国-http.download.yunzhongzhuan.com-366'
     type: vmess
     port: 8080
     uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
@@ -2193,7 +2273,7 @@ tls.weoworks.ml
         Host: http.download.yunzhongzhuan.com
     servername: http.download.yunzhongzhuan.com
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-mei.mooooobai.top-358'
+  - name: 'sni-🇺🇸-美国-mei.mooooobai.top-367'
     type: vmess
     port: 5122
     uuid: 7000f68f-cbcb-31e1-9cb4-897803f2edc3
@@ -2209,7 +2289,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: mei.mooooobai.top
-  - name: 'sni-🇺🇸-美国-news.microsoft.com-359'
+  - name: 'sni-🇺🇸-美国-news.microsoft.com-368'
     type: vmess
     port: 443
     uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
@@ -2225,7 +2305,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-news.microsoft.com-359'
+  - name: 'cdn-🇺🇸-美国-news.microsoft.com-368'
     type: vmess
     port: 443
     uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
@@ -2241,7 +2321,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-speed.cloudflare.com-361'
+  - name: 'sni-🇺🇸-美国-speed.cloudflare.com-370'
     type: vmess
     port: 443
     uuid: 64b24ab5-239d-47a4-9e7a-6cbc44aca92d
@@ -2257,7 +2337,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: speed.cloudflare.com
-  - name: 'cdn-🇺🇸-美国-speed.cloudflare.com-361'
+  - name: 'cdn-🇺🇸-美国-speed.cloudflare.com-370'
     type: vmess
     port: 443
     uuid: 64b24ab5-239d-47a4-9e7a-6cbc44aca92d
@@ -2272,8 +2352,8 @@ tls.weoworks.ml
       headers:
         Host: pride-estimate-ensemble-pleased.trycloudflare.com
     servername: pride-estimate-ensemble-pleased.trycloudflare.com
-    server: cacerts.digicert.com
-  - name: 'cdn-🇺🇸-美国-star.quorecs.tk-363'
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-star.quorecs.tk-372'
     type: vmess
     port: 8080
     uuid: 3236d342-37b4-4645-abab-1882521909c1
@@ -2289,7 +2369,7 @@ tls.weoworks.ml
         Host: star.quorecs.tk
     servername: star.quorecs.tk
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-star.quorecs.tk-363'
+  - name: 'sni-🇺🇸-美国-star.quorecs.tk-372'
     type: vmess
     port: 8080
     uuid: 3236d342-37b4-4645-abab-1882521909c1
@@ -2305,7 +2385,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: star.quorecs.tk
-  - name: 'sni-🇺🇸-美国-paopao.v2.us06.paopaocloud.cyou-365'
+  - name: 'sni-🇺🇸-美国-paopao.v2.us06.paopaocloud.cyou-374'
     type: vmess
     port: 3306
     uuid: 51797882-c8ef-3f3c-83b5-909e9bf10834
@@ -2321,7 +2401,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: paopao.v2.us06.paopaocloud.cyou
-  - name: 'cdn-🇺🇸-美国-us1.elknode.top-366'
+  - name: 'cdn-🇺🇸-美国-us1.elknode.top-375'
     type: vmess
     port: 443
     uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
@@ -2336,8 +2416,24 @@ tls.weoworks.ml
       headers:
         Host: data.video.qiyi.com
     servername: data.video.qiyi.com
-    server: cacerts.digicert.com
-  - name: 'cdn-🇺🇸-美国-usfhc.azzhuangaping.tw-367'
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-us1.elknode.top-375'
+    type: vmess
+    port: 443
+    uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /qatjpji
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: us1.elknode.top
+  - name: 'cdn-🇺🇸-美国-usfhc.azzhuangaping.tw-377'
     type: vmess
     port: 443
     uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3
@@ -2352,8 +2448,8 @@ tls.weoworks.ml
       headers:
         Host: usfhc.azzhuangaping.tw
     servername: usfhc.azzhuangaping.tw
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-usfhc.azzhuangaping.tw-367'
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-usfhc.azzhuangaping.tw-377'
     type: vmess
     port: 443
     uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3
@@ -2369,7 +2465,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: usfhc.azzhuangaping.tw
-  - name: 'sni-🇺🇸-美国-v2ray.wefuckgfw.ga-369'
+  - name: 'sni-🇺🇸-美国-v2ray.wefuckgfw.ga-379'
     type: vmess
     port: 2053
     uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
@@ -2385,7 +2481,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: v2ray.wefuckgfw.ga
-  - name: 'cdn-🇺🇸-美国-v2ray.wefuckgfw.ga-369'
+  - name: 'cdn-🇺🇸-美国-v2ray.wefuckgfw.ga-379'
     type: vmess
     port: 2053
     uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
@@ -2401,7 +2497,7 @@ tls.weoworks.ml
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-zfc.windowsupdate1.com-371'
+  - name: 'sni-🇺🇸-美国-zfc.windowsupdate1.com-381'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -2417,7 +2513,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: zfc.windowsupdate1.com
-  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-371'
+  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-381'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -2432,8 +2528,8 @@ tls.weoworks.ml
       headers:
         Host: fr.guolicheng.cyou
     servername: fr.guolicheng.cyou
-    server: cacerts.digicert.com
-  - name: 'sni-🇦🇶-保加利亚-91.215.154.200-373'
+    server: news.microsoft.com
+  - name: 'sni-🇦🇶-保加利亚-91.215.154.200-383'
     type: vmess
     port: 33454
     uuid: 58325a55-bd92-4417-af11-81ea7c7938e4
@@ -2449,23 +2545,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 91.215.154.200
-  - name: 'cdn-🇦🇶-希腊-aop.ssfree.ru-375'
-    type: vmess
-    port: 443
-    uuid: 22329942-6ed1-11ed-8a37-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: aop.ssfree.ru
-    servername: aop.ssfree.ru
-    server: cacerts.digicert.com
-  - name: 'sni-🇦🇶-希腊-aop.ssfree.ru-375'
+  - name: 'sni-🇦🇶-希腊-aop.ssfree.ru-385'
     type: vmess
     port: 443
     uuid: 22329942-6ed1-11ed-8a37-000017022008
@@ -2481,7 +2561,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: aop.ssfree.ru
-  - name: 'cdn-🇨🇦-加拿大-167.114.67.25-379'
+  - name: 'cdn-🇨🇦-加拿大-167.114.67.25-388'
     type: vmess
     port: 443
     uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
@@ -2497,7 +2577,7 @@ tls.weoworks.ml
         Host: 005dgdf.pages.dev
     servername: 005dgdf.pages.dev
     server: news.microsoft.com
-  - name: 'sni-🇨🇦-加拿大-167.114.67.25-379'
+  - name: 'sni-🇨🇦-加拿大-167.114.67.25-388'
     type: vmess
     port: 443
     uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
@@ -2513,7 +2593,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 167.114.67.25
-  - name: 'cdn-🇬🇧-英国-xuk001.xmrthnode.com-381'
+  - name: 'cdn-🇬🇧-英国-xuk001.xmrthnode.com-390'
     type: vmess
     port: 443
     uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
@@ -2528,8 +2608,8 @@ tls.weoworks.ml
       headers:
         Host: xuk001.xmrthnode.com
     servername: xuk001.xmrthnode.com
-    server: news.microsoft.com
-  - name: 'sni-🇬🇧-英国-xuk001.xmrthnode.com-381'
+    server: cacerts.digicert.com
+  - name: 'sni-🇬🇧-英国-xuk001.xmrthnode.com-390'
     type: vmess
     port: 443
     uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
@@ -2545,7 +2625,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: xuk001.xmrthnode.com
-  - name: 'cdn-🇭🇰-香港-119.237.43.217-383'
+  - name: 'cdn-🇭🇰-香港-119.237.43.217-392'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -2561,7 +2641,7 @@ tls.weoworks.ml
         Host: 119.237.43.217
     servername: 119.237.43.217
     server: cacerts.digicert.com
-  - name: 'cdn-🇭🇰-香港-119.237.43.217-384'
+  - name: 'cdn-🇭🇰-香港-119.237.43.217-393'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -2577,7 +2657,7 @@ tls.weoworks.ml
         Host: tgunivstar.168-138-94-194.sslip.io
     servername: tgunivstar.168-138-94-194.sslip.io
     server: news.microsoft.com
-  - name: 'cdn-🇭🇰-香港-xh001.xmrthnode.com-385'
+  - name: 'cdn-🇭🇰-香港-xh001.xmrthnode.com-395'
     type: vmess
     port: 443
     uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
@@ -2593,7 +2673,7 @@ tls.weoworks.ml
         Host: ws-aicdn.com
     servername: ws-aicdn.com
     server: news.microsoft.com
-  - name: 'cdn-🇯🇵-日本-xj003.xmrthnode.com-388'
+  - name: 'cdn-🇯🇵-日本-xj003.xmrthnode.com-398'
     type: vmess
     port: 443
     uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
@@ -2608,8 +2688,8 @@ tls.weoworks.ml
       headers:
         Host: ws-aicdn.com
     servername: ws-aicdn.com
-    server: cacerts.digicert.com
-  - name: 'sni-🇯🇵-日本-xj003.xmrthnode.com-388'
+    server: news.microsoft.com
+  - name: 'sni-🇯🇵-日本-xj003.xmrthnode.com-398'
     type: vmess
     port: 443
     uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
@@ -2625,7 +2705,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: xj003.xmrthnode.com
-  - name: 'cdn-🇯🇵-日本东京-138.3.214.84-390'
+  - name: 'cdn-🇯🇵-日本东京-138.3.214.84-400'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -2641,23 +2721,7 @@ tls.weoworks.ml
         Host: tgunivstar.168-138-94-194.sslip.io
     servername: tgunivstar.168-138-94-194.sslip.io
     server: news.microsoft.com
-  - name: 'sni-🇯🇵-日本东京-138.3.214.84-390'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 138.3.214.84
-  - name: 'cdn-🇰🇷-韩国-140.238.17.225-392'
+  - name: 'cdn-🇰🇷-韩国-140.238.17.225-401'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -2673,7 +2737,7 @@ tls.weoworks.ml
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
     server: cacerts.digicert.com
-  - name: 'cdn-🇰🇷-韩国-v36.idcloudhost.de-393'
+  - name: 'cdn-🇰🇷-韩国-v36.idcloudhost.de-402'
     type: vmess
     port: 443
     uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
@@ -2689,7 +2753,7 @@ tls.weoworks.ml
         Host: v36.idcloudhost.de
     servername: v36.idcloudhost.de
     server: news.microsoft.com
-  - name: 'cdn-🇰🇷-韩国首尔-193.122.118.125-394'
+  - name: 'cdn-🇰🇷-韩国首尔-193.122.118.125-403'
     type: vmess
     port: 443
     uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
@@ -2704,8 +2768,8 @@ tls.weoworks.ml
       headers:
         Host: us2.guolicheng.cyou
     servername: us2.guolicheng.cyou
-    server: news.microsoft.com
-  - name: 'cdn-🇳🇱-荷兰-46.182.107.2-395'
+    server: cacerts.digicert.com
+  - name: 'cdn-🇳🇱-荷兰-46.182.107.2-404'
     type: vmess
     port: 443
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -2720,8 +2784,8 @@ tls.weoworks.ml
       headers:
         Host: www.62209088.xyz
     servername: www.62209088.xyz
-    server: news.microsoft.com
-  - name: 'sni-🇳🇱-荷兰-46.182.107.2-395'
+    server: cacerts.digicert.com
+  - name: 'sni-🇳🇱-荷兰-46.182.107.2-404'
     type: vmess
     port: 443
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -2737,7 +2801,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 46.182.107.2
-  - name: 'cdn-新加坡Amazon数据中心 1-401'
+  - name: 'cdn-新加坡Amazon数据中心 1-410'
     type: vmess
     port: 443
     uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
@@ -2753,7 +2817,7 @@ tls.weoworks.ml
         Host: a.189.cn
     servername: a.189.cn
     server: news.microsoft.com
-  - name: 'sni-新加坡Amazon数据中心 1-401'
+  - name: 'sni-新加坡Amazon数据中心 1-410'
     type: vmess
     port: 443
     uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
@@ -2769,7 +2833,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: sg80-2.sanfen001.pics
-  - name: 'cdn-美国CloudFlare公司CDN节点 4-404'
+  - name: 'cdn-美国CloudFlare公司CDN节点 4-413'
     type: vmess
     port: 8080
     uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
@@ -2784,8 +2848,24 @@ tls.weoworks.ml
       headers:
         Host: ssrsub.v01.asuka.buzz
     servername: ssrsub.v01.asuka.buzz
+    server: news.microsoft.com
+  - name: 'cdn-香港电讯盈科有限公司 10-420'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
     server: cacerts.digicert.com
-  - name: 'cdn-香港电讯盈科有限公司 10-410'
+  - name: 'cdn-香港电讯盈科有限公司 16-430'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -2801,10 +2881,26 @@ tls.weoworks.ml
         Host: tgunivstar.168-138-94-194.sslip.io
     servername: tgunivstar.168-138-94-194.sslip.io
     server: news.microsoft.com
-  - name: 'sni-美国CloudFlare节点 11-411'
+  - name: 'cdn-美国RF Engineering 20-436'
     type: vmess
     port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: cacerts.digicert.com
+  - name: 'sni-美国RF Engineering 20-436'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -2816,88 +2912,8 @@ tls.weoworks.ml
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 198.41.212.100
-  - name: 'cdn-法国鲁贝OVH数据中心 13-414'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 51.75.160.126
-    servername: 51.75.160.126
     server: news.microsoft.com
-  - name: 'cdn-香港电讯盈科有限公司 16-419'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: tgunivstar.168-138-94-194.sslip.io
-    servername: tgunivstar.168-138-94-194.sslip.io
-    server: cacerts.digicert.com
-  - name: 'cdn-美国得克萨斯州 18-421'
-    type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
-    server: cacerts.digicert.com
-  - name: 'sni-美国得克萨斯州 18-421'
-    type: vmess
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 34.145.145.76
-  - name: 'cdn-澳大利亚悉尼OVH 22-427'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 139.99.135.182
-    servername: 139.99.135.182
-    server: cacerts.digicert.com
-  - name: 'cdn-香港电讯盈科有限公司 23-429'
+  - name: 'cdn-香港电讯盈科有限公司 23-440'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -2913,7 +2929,7 @@ tls.weoworks.ml
         Host: tgunivstar.168-138-94-194.sslip.io
     servername: tgunivstar.168-138-94-194.sslip.io
     server: news.microsoft.com
-  - name: 'cdn-香港特别行政区 24-430'
+  - name: 'cdn-香港特别行政区 24-441'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -2928,8 +2944,8 @@ tls.weoworks.ml
       headers:
         Host: tw1.sanfen001.pics
     servername: www.microsoft.com
-    server: cacerts.digicert.com
-  - name: 'sni-美国CloudFlare节点 25-431'
+    server: news.microsoft.com
+  - name: 'sni-美国CloudFlare节点 25-442'
     type: vmess
     port: 443
     uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
@@ -2945,23 +2961,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 1.1808.cf
-  - name: 'sni-美国CloudFlare节点 29-433'
-    type: vmess
-    port: 443
-    uuid: ac29ef42-7100-4fdd-a5ee-5bb07b146e61
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /MokonaModokiMkv2Rentry
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: jm.jshsxxxy.top
-  - name: 'cdn-香港电讯盈科有限公司 26-434'
+  - name: 'cdn-香港电讯盈科有限公司 26-445'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -2977,23 +2977,7 @@ tls.weoworks.ml
         Host: tgunivstar.168-138-94-194.sslip.io
     servername: tgunivstar.168-138-94-194.sslip.io
     server: news.microsoft.com
-  - name: 'sni-香港电讯盈科有限公司 26-434'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 219.76.13.169
-  - name: 'cdn-香港电讯盈科有限公司 27-436'
+  - name: 'cdn-香港电讯盈科有限公司 27-446'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -3008,24 +2992,8 @@ tls.weoworks.ml
       headers:
         Host: tgunivstar.168-138-94-194.sslip.io
     servername: tgunivstar.168-138-94-194.sslip.io
-    server: cacerts.digicert.com
-  - name: 'cdn-美国加利福尼亚州洛杉矶Zenlayer数据中心 17-437'
-    type: vmess
-    port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray2.ssr-free2.xyz
-    servername: v2ray2.ssr-free2.xyz
-    server: cacerts.digicert.com
-  - name: 'cdn-v2scrape-438'
+    server: news.microsoft.com
+  - name: 'cdn-v2scrape-448'
     type: vmess
     port: 443
     uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
@@ -3040,8 +3008,8 @@ tls.weoworks.ml
       headers:
         Host: js.adbse.xyz
     servername: js.adbse.xyz
-    server: news.microsoft.com
-  - name: 'cdn-🇺🇸_US_美国->🇩🇪_DE_德国_1-439'
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸_US_美国->🇩🇪_DE_德国_1-449'
     type: vmess
     port: 443
     uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
@@ -3057,7 +3025,7 @@ tls.weoworks.ml
         Host: lg5.zhujicn2.com
     servername: lg5.zhujicn2.com
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸_US_美国->🇩🇪_DE_德国_1-439'
+  - name: 'sni-🇺🇸_US_美国->🇩🇪_DE_德国_1-449'
     type: vmess
     port: 443
     uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
@@ -3073,7 +3041,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 172.64.153.150
-  - name: 'cdn-v2scrape-441'
+  - name: 'cdn-v2scrape-451'
     type: vmess
     port: 443
     uuid: a5ba8b2b-8fc5-4521-a35e-9281be61c1c3
@@ -3088,8 +3056,8 @@ tls.weoworks.ml
       headers:
         Host: lg1.zhujicn2.com
     servername: lg1.zhujicn2.com
-    server: news.microsoft.com
-  - name: 'sni-v2scrape-441'
+    server: cacerts.digicert.com
+  - name: 'sni-v2scrape-451'
     type: vmess
     port: 443
     uuid: a5ba8b2b-8fc5-4521-a35e-9281be61c1c3
@@ -3105,7 +3073,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 141.101.115.2
-  - name: 'cdn-v2scrape-443'
+  - name: 'cdn-v2scrape-453'
     type: vmess
     port: 443
     uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
@@ -3121,7 +3089,7 @@ tls.weoworks.ml
         Host: lg5.zhujicn2.com
     servername: lg5.zhujicn2.com
     server: cacerts.digicert.com
-  - name: 'sni-v2scrape-443'
+  - name: 'sni-v2scrape-453'
     type: vmess
     port: 443
     uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
@@ -3137,7 +3105,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 141.101.115.150
-  - name: 'cdn-🇺🇸_US_美国->🇩🇪_DE_德国_2-447'
+  - name: 'cdn-🇺🇸_US_美国->🇩🇪_DE_德国_2-457'
     type: vmess
     port: 443
     uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
@@ -3152,8 +3120,8 @@ tls.weoworks.ml
       headers:
         Host: lg4.zhujicn2.com
     servername: lg4.zhujicn2.com
-    server: cacerts.digicert.com
-  - name: 'sni-🇺🇸_US_美国->🇩🇪_DE_德国_2-447'
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸_US_美国->🇩🇪_DE_德国_2-457'
     type: vmess
     port: 443
     uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
@@ -3169,7 +3137,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 172.64.153.200
-  - name: 'cdn-🇺🇸_US_美国_2-449'
+  - name: 'cdn-🇺🇸_US_美国_2-459'
     type: vmess
     port: 443
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -3184,8 +3152,8 @@ tls.weoworks.ml
       headers:
         Host: vus3.0bad.com
     servername: vus3.0bad.com
-    server: news.microsoft.com
-  - name: 'cdn-v2scrape-450'
+    server: cacerts.digicert.com
+  - name: 'cdn-v2scrape-460'
     type: vmess
     port: 443
     uuid: 105c635f-918d-4b2a-8c9d-d5426e94eb4b
@@ -3200,8 +3168,8 @@ tls.weoworks.ml
       headers:
         Host: lg2.zhujicn2.com
     servername: lg2.zhujicn2.com
-    server: news.microsoft.com
-  - name: 'sni-v2scrape-450'
+    server: cacerts.digicert.com
+  - name: 'sni-v2scrape-460'
     type: vmess
     port: 443
     uuid: 105c635f-918d-4b2a-8c9d-d5426e94eb4b
@@ -3217,7 +3185,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 198.41.212.30
-  - name: 'cdn-v2scrape-452'
+  - name: 'cdn-v2scrape-462'
     type: vmess
     port: 443
     uuid: 07a63fe3-8a46-4f89-b548-9151c61b9dc8
@@ -3233,7 +3201,7 @@ tls.weoworks.ml
         Host: v2ray1.zhujicn2.com
     servername: v2ray1.zhujicn2.com
     server: cacerts.digicert.com
-  - name: 'sni-v2scrape-452'
+  - name: 'sni-v2scrape-462'
     type: vmess
     port: 443
     uuid: 07a63fe3-8a46-4f89-b548-9151c61b9dc8
@@ -3249,7 +3217,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 141.101.114.20
-  - name: 'sni-v2scrape-454'
+  - name: 'sni-v2scrape-464'
     type: vmess
     port: 8443
     uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
@@ -3265,7 +3233,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: ca.0112233.xyz
-  - name: 'sni-🇺🇸_US_美国_3-455'
+  - name: 'sni-🇺🇸_US_美国_3-465'
     type: vmess
     port: 888
     uuid: caac6285-511c-4a07-b6db-edfbdcfe3889
@@ -3281,7 +3249,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: ciqnr-1050-v2-0.sjc-d-kcd.ap.cjhh.beauty
-  - name: 'cdn-🇩🇪_DE_德国-456'
+  - name: 'cdn-🇩🇪_DE_德国-466'
     type: vmess
     port: 443
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -3297,7 +3265,7 @@ tls.weoworks.ml
         Host: vde2.0bad.com
     servername: vde2.0bad.com
     server: news.microsoft.com
-  - name: 'sni-🇩🇪_DE_德国-456'
+  - name: 'sni-🇩🇪_DE_德国-466'
     type: vmess
     port: 443
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -3313,7 +3281,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: vde2.0bad.com
-  - name: 'cdn-🇦🇺_AU_澳大利亚-458'
+  - name: 'cdn-🇦🇺_AU_澳大利亚-468'
     type: vmess
     port: 443
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -3329,7 +3297,7 @@ tls.weoworks.ml
         Host: vau1.0bad.com
     servername: vau1.0bad.com
     server: news.microsoft.com
-  - name: 'cdn-v2scrape-459'
+  - name: 'cdn-v2scrape-469'
     type: vmess
     port: 443
     uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
@@ -3344,8 +3312,24 @@ tls.weoworks.ml
       headers:
         Host: js.adbse.xyz
     servername: js.adbse.xyz
-    server: cacerts.digicert.com
-  - name: 'sni-美国RF Engineering 7-460'
+    server: news.microsoft.com
+  - name: 'cdn-美国RF Engineering 7-470'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: 'sni-美国RF Engineering 7-470'
     type: vmess
     port: 443
     uuid: 33aa57df-1c93-4318-9fce-e850437ee781
@@ -3361,26 +3345,10 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: news.microsoft.com
-  - name: 'sni-美国加利福尼亚州洛杉矶Zenlayer数据中心 17-466'
+  - name: 'sni-美国CloudFlare节点 21-483'
     type: vmess
     port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 128.14.140.254
-  - name: 'sni-美国CloudFlare节点 20-471'
-    type: vmess
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -3393,7 +3361,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 198.41.212.100
-  - name: 'cdn-美国  22-474'
+  - name: 'cdn-美国  22-485'
     type: vmess
     port: 443
     uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
@@ -3409,10 +3377,10 @@ tls.weoworks.ml
         Host: vn3.thanhhaivpn.name.vn
     servername: vn3.thanhhaivpn.name.vn
     server: news.microsoft.com
-  - name: 'cdn-香港电讯盈科有限公司 26-477'
+  - name: 'sni-美国CloudFlare节点 23-486'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
     alterId: 0
     cipher: auto
     tls: true
@@ -3420,60 +3388,76 @@ tls.weoworks.ml
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
-      headers:
-        Host: tgunivstar.168-138-94-194.sslip.io
-    servername: tgunivstar.168-138-94-194.sslip.io
-    server: news.microsoft.com
-  - name: 'cdn-香港电讯盈科有限公司 27-478'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: tgunivstar.168-138-94-194.sslip.io
-    servername: tgunivstar.168-138-94-194.sslip.io
-    server: cacerts.digicert.com
-  - name: 'cdn-香港电讯盈科有限公司 29-481'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: tgunivstar.168-138-94-194.sslip.io
-    servername: tgunivstar.168-138-94-194.sslip.io
-    server: cacerts.digicert.com
-  - name: 'sni-香港电讯盈科有限公司 29-481'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
+      path: /ray
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 219.76.13.181
-  - name: 'sni-美国RF Engineering 7-494'
+    server: 141.101.114.133
+  - name: 'cdn-美国CloudFlare节点 23-486'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-香港电讯盈科有限公司 26-489'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
+    server: cacerts.digicert.com
+  - name: 'cdn-香港电讯盈科有限公司 27-490'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
+    server: cacerts.digicert.com
+  - name: 'cdn-香港电讯盈科有限公司 29-493'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
+    server: cacerts.digicert.com
+  - name: 'sni-美国RF Engineering 7-505'
     type: vmess
     port: 443
     uuid: 33aa57df-1c93-4318-9fce-e850437ee781
@@ -3489,7 +3473,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: news.microsoft.com
-  - name: 'cdn-@SSRSUB-V02-付费推荐:v2cross.com-495'
+  - name: 'cdn-@SSRSUB-V02-付费推荐:v2cross.com-507'
     type: vmess
     port: 2082
     uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f
@@ -3504,8 +3488,8 @@ tls.weoworks.ml
       headers:
         Host: vu1.cloudflare.quest
     servername: vu1.cloudflare.quest
-    server: news.microsoft.com
-  - name: 'sni-@SSRSUB-V02-付费推荐:v2cross.com-495'
+    server: cacerts.digicert.com
+  - name: 'sni-@SSRSUB-V02-付费推荐:v2cross.com-507'
     type: vmess
     port: 2082
     uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f
@@ -3521,7 +3505,7 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: ip.skk.moe
-  - name: 'cdn-美国CloudFlare公司CDN节点 10-505'
+  - name: 'cdn-美国CloudFlare公司CDN节点 10-517'
     type: vmess
     port: 8880
     uuid: 050624ec-ba6a-49c3-e8d9-c46e5c167be0
@@ -3536,8 +3520,8 @@ tls.weoworks.ml
       headers:
         Host: king6.workingoogle.ga
     servername: king6.workingoogle.ga
-    server: cacerts.digicert.com
-  - name: 'sni-美国CloudFlare公司CDN节点 10-505'
+    server: news.microsoft.com
+  - name: 'sni-美国CloudFlare公司CDN节点 10-517'
     type: vmess
     port: 8880
     uuid: 050624ec-ba6a-49c3-e8d9-c46e5c167be0
@@ -3553,10 +3537,10 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: king6.workingoogle.ga
-  - name: 'sni-美国CloudFlare节点 14-508'
+  - name: 'cdn-香港电讯盈科有限公司 25-537'
     type: vmess
     port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
     alterId: 0
     cipher: auto
     tls: true
@@ -3564,15 +3548,15 @@ tls.weoworks.ml
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 172.64.154.150
-  - name: 'sni-美国CloudFlare节点 21-518'
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
+    server: cacerts.digicert.com
+  - name: 'cdn-香港电讯盈科有限公司 26-538'
     type: vmess
     port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
     alterId: 0
     cipher: auto
     tls: true
@@ -3580,28 +3564,12 @@ tls.weoworks.ml
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 198.41.212.100
-  - name: 'cdn-美国德克萨斯州达拉斯Linode数据中心 22-519'
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: vus4.0bad.com
-    servername: vus4.0bad.com
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
     server: news.microsoft.com
-  - name: 'cdn-香港电讯盈科有限公司 25-522'
+  - name: 'cdn-香港电讯盈科有限公司 28-539'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -3617,10 +3585,10 @@ tls.weoworks.ml
         Host: tgunivstar.168-138-94-194.sslip.io
     servername: tgunivstar.168-138-94-194.sslip.io
     server: cacerts.digicert.com
-  - name: 'cdn-香港电讯盈科有限公司 26-523'
+  - name: 'sni-美国CloudFlare节点 31-541'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
     alterId: 0
     cipher: auto
     tls: true
@@ -3628,44 +3596,12 @@ tls.weoworks.ml
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
-      headers:
-        Host: tgunivstar.168-138-94-194.sslip.io
-    servername: tgunivstar.168-138-94-194.sslip.io
-    server: cacerts.digicert.com
-  - name: 'cdn-香港电讯盈科有限公司 28-524'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: tgunivstar.168-138-94-194.sslip.io
-    servername: tgunivstar.168-138-94-194.sslip.io
-    server: cacerts.digicert.com
-  - name: 'sni-香港电讯盈科有限公司 28-524'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
+      path: /vmess
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 219.76.13.181
-  - name: 'sni-美国RF Engineering 32-530'
+    server: 1.1808.cf
+  - name: 'sni-美国RF Engineering 32-542'
     type: vmess
     port: 443
     uuid: 33aa57df-1c93-4318-9fce-e850437ee781
@@ -3681,3 +3617,3331 @@ tls.weoworks.ml
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: news.microsoft.com
+  - name: 'cdn-美国RF Engineering 32-542'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-104.17.170.210-555'
+    type: vmess
+    port: 443
+    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+    alterId: 1
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: kycc
+      headers:
+        Host: lsb.stupidfellow.cf
+    servername: lsb.stupidfellow.cf
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-104.17.170.210-555'
+    type: vmess
+    port: 443
+    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+    alterId: 1
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: kycc
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 104.17.170.210
+  - name: 'cdn-🇺🇸-美国-107.148.192.80-557'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: www.23423425.xyz
+    servername: www.23423425.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-107.148.192.80-557'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 107.148.192.80
+  - name: 'cdn-🇺🇸-美国-162.159.160.224-563'
+    type: vmess
+    port: 2086
+    uuid: f107fdf8-f715-4187-982c-7998bf04d9bf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 482ad776-f08f-4d19-a68e-ed45ecd7b998.6577617.xyz
+    servername: 482ad776-f08f-4d19-a68e-ed45ecd7b998.6577617.xyz
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-162.159.160.224-563'
+    type: vmess
+    port: 2086
+    uuid: f107fdf8-f715-4187-982c-7998bf04d9bf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 162.159.160.224
+  - name: 'sni-🇺🇸-美国-162.55.214.110-565'
+    type: vmess
+    port: 51549
+    uuid: 6399ab58-b7ce-4d24-be9e-92c581c93b44
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 162.55.214.110
+  - name: 'sni-🇺🇸-美国-172.67.125.28-566'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 172.67.125.28
+  - name: 'sni-🇺🇸-美国-172.67.212.68-567'
+    type: vmess
+    port: 2096
+    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /10018
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 172.67.212.68
+  - name: 'cdn-🇺🇸-美国-172.67.212.68-567'
+    type: vmess
+    port: 2096
+    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /10018
+      headers:
+        Host: zz.hongkong2.tk
+    servername: zz.hongkong2.tk
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-172.67.212.68-569'
+    type: vmess
+    port: 2053
+    uuid: 59122d35-8622-46b6-938c-adfab92d46bb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /japan
+      headers:
+        Host: jp-18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.up22.tk
+    servername: jp-18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.up22.tk
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-172.67.212.68-569'
+    type: vmess
+    port: 2053
+    uuid: 59122d35-8622-46b6-938c-adfab92d46bb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /japan
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 172.67.212.68
+  - name: 'sni-🇺🇸-美国-172.67.212.68-571'
+    type: vmess
+    port: 2053
+    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: 10000
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 172.67.212.68
+  - name: 'cdn-🇺🇸-美国-172.67.212.68-571'
+    type: vmess
+    port: 2053
+    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: 10000
+      headers:
+        Host: zz.hongkong2.tk
+    servername: zz.hongkong2.tk
+    server: news.microsoft.com
+  - name: 'cdn-🇦🇶-本机地址-17v2-cdn.hyproxy.xyz-573'
+    type: vmess
+    port: 443
+    uuid: b596935c-bc36-43b1-b2f6-8a61c480b38a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /hyproxy
+      headers:
+        Host: 17v2-cdn.hyproxy.xyz
+    servername: 17v2-cdn.hyproxy.xyz
+    server: cacerts.digicert.com
+  - name: 'sni-🇦🇶-本机地址-17v2-cdn.hyproxy.xyz-573'
+    type: vmess
+    port: 443
+    uuid: b596935c-bc36-43b1-b2f6-8a61c480b38a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /hyproxy
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 17v2-cdn.hyproxy.xyz
+  - name: 'cdn-🇺🇸-美国-192.74.250.60-577'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: www.83295443.xyz
+    servername: www.83295443.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-192.74.250.60-577'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 192.74.250.60
+  - name: 'cdn-🇭🇰-香港-219.76.13.181-579'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 219.76.13.181
+    servername: 219.76.13.181
+    server: news.microsoft.com
+  - name: 'cdn-🇦🇶-北美地区-23.237.58.50-580'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
+    server: news.microsoft.com
+  - name: 'sni-🇦🇶-北美地区-23.237.58.50-580'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 23.237.58.50
+  - name: 'cdn-🇦🇶-欧盟-422wkl.fans8.xyz-582'
+    type: vmess
+    port: 443
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: 422wkl.fans8.xyz
+    servername: 422wkl.fans8.xyz
+    server: cacerts.digicert.com
+  - name: 'sni-🇦🇶-欧盟-422wkl.fans8.xyz-582'
+    type: vmess
+    port: 443
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 422wkl.fans8.xyz
+  - name: 'sni-🇯🇵-日本-47.74.9.15-584'
+    type: vmess
+    port: 2083
+    uuid: 9ed79552-08cf-402f-e190-91f24eda1681
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /GenshinMinecraft
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 47.74.9.15
+  - name: 'cdn-🇺🇸-美国-47.88.52.220-585'
+    type: vmess
+    port: 443
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-47.88.52.220-585'
+    type: vmess
+    port: 443
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 47.88.52.220
+  - name: 'sni-🇮🇷-伊朗-5.161.105.171-587'
+    type: vmess
+    port: 443
+    uuid: 5e9d0956-4f00-45ce-cb2f-f35d7c9b71aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 5.161.105.171
+  - name: 'cdn-🇮🇷-伊朗-5.161.105.171-587'
+    type: vmess
+    port: 443
+    uuid: 5e9d0956-4f00-45ce-cb2f-f35d7c9b71aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 5.161.105.171
+    servername: 5.161.105.171
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-can01.cf.ssru7.casa-591'
+    type: vmess
+    port: 443
+    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: can01.paopaocloud.cyou
+    servername: can01.paopaocloud.cyou
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-can01.cf.ssru7.casa-591'
+    type: vmess
+    port: 443
+    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: can01.cf.ssru7.casa
+  - name: 'cdn-🇦🇶-希腊-aop.ssfree.ru-593'
+    type: vmess
+    port: 443
+    uuid: 39d21ee2-6823-11ed-8f69-000017022008
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /getweather
+      headers:
+        Host: aop.ssfree.ru
+    servername: aop.ssfree.ru
+    server: news.microsoft.com
+  - name: 'sni-🇭🇰-香港-ah.yd01.ssru7.casa-594'
+    type: vmess
+    port: 10007
+    uuid: 6773375e-4add-3bad-85fa-8f92c3263a01
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ah.yd01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-ah.yd01.ssru7.casa-595'
+    type: vmess
+    port: 10007
+    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ah.yd01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-ah.yd01.ssru7.casa-596'
+    type: vmess
+    port: 10009
+    uuid: 63b80ebe-c4b1-3b7c-b98b-4f56047bbd46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ah.yd01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-ah.yd01.ssru7.casa-597'
+    type: vmess
+    port: 10020
+    uuid: d755513d-8f37-3678-adbd-c9d4e86bc468
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ah.yd01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-ah.yd01.ssru7.casa-598'
+    type: vmess
+    port: 10034
+    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ah.yd01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-ah.yd01.ssru7.casa-599'
+    type: vmess
+    port: 10039
+    uuid: a0b07b0b-1ee2-3104-bdaa-9f4a9852ee20
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ah.yd01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-ah.yd01.ssru7.casa-600'
+    type: vmess
+    port: 10042
+    uuid: 96723dfa-6ae4-38c7-ac83-e3bd67b9e12d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ah.yd01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-601'
+    type: vmess
+    port: 10005
+    uuid: 51797882-c8ef-3f3c-83b5-909e9bf10834
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-602'
+    type: vmess
+    port: 10007
+    uuid: 96723dfa-6ae4-38c7-ac83-e3bd67b9e12d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-603'
+    type: vmess
+    port: 10019
+    uuid: 63b80ebe-c4b1-3b7c-b98b-4f56047bbd46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vn01
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-604'
+    type: vmess
+    port: 10020
+    uuid: 63b80ebe-c4b1-3b7c-b98b-4f56047bbd46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-605'
+    type: vmess
+    port: 10032
+    uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-606'
+    type: vmess
+    port: 10032
+    uuid: 63b80ebe-c4b1-3b7c-b98b-4f56047bbd46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-607'
+    type: vmess
+    port: 10033
+    uuid: d755513d-8f37-3678-adbd-c9d4e86bc468
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-608'
+    type: vmess
+    port: 10033
+    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-609'
+    type: vmess
+    port: 10033
+    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-610'
+    type: vmess
+    port: 10034
+    uuid: 63b80ebe-c4b1-3b7c-b98b-4f56047bbd46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-611'
+    type: vmess
+    port: 10034
+    uuid: 96723dfa-6ae4-38c7-ac83-e3bd67b9e12d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-612'
+    type: vmess
+    port: 10037
+    uuid: d755513d-8f37-3678-adbd-c9d4e86bc468
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇭🇰-香港-az.hk01.ssru7.casa-613'
+    type: vmess
+    port: 10043
+    uuid: d755513d-8f37-3678-adbd-c9d4e86bc468
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'cdn-🇺🇸-美国-ger01.cf.ssru7.casa-614'
+    type: vmess
+    port: 443
+    uuid: 96723dfa-6ae4-38c7-ac83-e3bd67b9e12d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: ger01.ssru4.fun
+    servername: ger01.ssru4.fun
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-ger01.cf.ssru7.casa-614'
+    type: vmess
+    port: 443
+    uuid: 96723dfa-6ae4-38c7-ac83-e3bd67b9e12d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ger01.cf.ssru7.casa
+  - name: 'cdn-🇺🇸-美国-ger01.cf.ssru7.casa-616'
+    type: vmess
+    port: 443
+    uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: ger01.ssru4.fun
+    servername: ger01.ssru4.fun
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-ger01.cf.ssru7.casa-616'
+    type: vmess
+    port: 443
+    uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ger01.cf.ssru7.casa
+  - name: 'cdn-🇺🇸-美国-ger01.cf.ssru7.casa-618'
+    type: vmess
+    port: 443
+    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: ger01.ssru4.fun
+    servername: ger01.ssru4.fun
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-ger01.cf.ssru7.casa-618'
+    type: vmess
+    port: 443
+    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ger01.cf.ssru7.casa
+  - name: 'cdn-🇺🇸-美国-ger01.cf.ssru7.casa-620'
+    type: vmess
+    port: 443
+    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: ger01.ssru4.fun
+    servername: ger01.ssru4.fun
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-ger01.cf.ssru7.casa-620'
+    type: vmess
+    port: 443
+    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ger01.cf.ssru7.casa
+  - name: 'cdn-🇺🇸-美国-db01.cf.ssru7.casa-622'
+    type: vmess
+    port: 443
+    uuid: 6a1246a9-491f-3e89-8c51-39e489f059e1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: db01.paopaocloud.cyou
+    servername: db01.paopaocloud.cyou
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-db01.cf.ssru7.casa-622'
+    type: vmess
+    port: 443
+    uuid: 6a1246a9-491f-3e89-8c51-39e489f059e1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: db01.cf.ssru7.casa
+  - name: 'cdn-🇺🇸-美国-er2.mybestjj.com-624'
+    type: vmess
+    port: 443
+    uuid: c4639c0f-49fc-4b33-8d7f-e27575c16d7a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /1653531
+      headers:
+        Host: er1.mybestjj.com
+    servername: er1.mybestjj.com
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-er2.mybestjj.com-624'
+    type: vmess
+    port: 443
+    uuid: c4639c0f-49fc-4b33-8d7f-e27575c16d7a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /1653531
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: er2.mybestjj.com
+  - name: 'cdn-🇫🇷-法国-fr01.paopaocloud.cyou-627'
+    type: vmess
+    port: 443
+    uuid: ab1f3103-fe7e-3764-b542-961d4ad72b37
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: fr01.2yun.win
+    servername: fr01.2yun.win
+    server: cacerts.digicert.com
+  - name: 'sni-🇫🇷-法国-fr01.paopaocloud.cyou-627'
+    type: vmess
+    port: 443
+    uuid: ab1f3103-fe7e-3764-b542-961d4ad72b37
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: fr01.paopaocloud.cyou
+  - name: 'sni-🇺🇸-美国-kr2.sanfen001.pics-629'
+    type: vmess
+    port: 443
+    uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: kr2.sanfen001.pics
+  - name: 'cdn-🇺🇸-美国-kr2.sanfen001.pics-629'
+    type: vmess
+    port: 443
+    uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: www.microsoft.com
+    servername: www.microsoft.com
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸-美国-hk80.sanfen001.pics-631'
+    type: vmess
+    port: 443
+    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn/download
+      headers:
+        Host: a.189.cn
+    servername: a.189.cn
+    server: news.microsoft.com
+  - name: 'sni-🇯🇵-日本-hkg.mooooobai.top-634'
+    type: vmess
+    port: 5122
+    uuid: 7000f68f-cbcb-31e1-9cb4-897803f2edc3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /index
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: hkg.mooooobai.top
+  - name: 'cdn-🇯🇵-日本-jp.idcloudhost.de-635'
+    type: vmess
+    port: 443
+    uuid: a1e8f9a6-dee5-47fd-bbc9-e9307e0b0ee1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: jp.idcloudhost.de
+    servername: jp.idcloudhost.de
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸-美国-mf-do-ua-04.xncloud.xyz-638'
+    type: vmess
+    port: 443
+    uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156
+    alterId: 1
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /niaoyun
+      headers:
+        Host: mf-do-ua-04.xncloud.xyz
+    servername: mf-do-ua-04.xncloud.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-mf-do-ua-04.xncloud.xyz-638'
+    type: vmess
+    port: 443
+    uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156
+    alterId: 1
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /niaoyun
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: mf-do-ua-04.xncloud.xyz
+  - name: 'sni-🇸🇬-新加坡-sg2.vpnjantit.com-640'
+    type: vmess
+    port: 10000
+    uuid: afc3213a-59de-11ed-a057-832e943ca16e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vpnjantit
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sg2.vpnjantit.com
+  - name: 'sni-🇺🇸-美国-ssru.v2.jp01.2yun.win-641'
+    type: vmess
+    port: 3306
+    uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ssru.v2.jp01.2yun.win
+  - name: 'sni-🇺🇸-美国-ssru.v2.jp01.2yun.win-642'
+    type: vmess
+    port: 3306
+    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ssru.v2.jp01.2yun.win
+  - name: 'sni-🇺🇸-美国-paopao.v2.us06.paopaocloud.cyou-643'
+    type: vmess
+    port: 3306
+    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: paopao.v2.us06.paopaocloud.cyou
+  - name: 'cdn-🇺🇸-美国-tr01.cf.ssru7.casa-644'
+    type: vmess
+    port: 443
+    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: tr01.ssru4.fun
+    servername: tr01.ssru4.fun
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-tr01.cf.ssru7.casa-644'
+    type: vmess
+    port: 443
+    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: tr01.cf.ssru7.casa
+  - name: 'cdn-🇺🇸-美国-us02.cf.paopaocloud.cyou-646'
+    type: vmess
+    port: 443
+    uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: us02.ssru4.fun
+    servername: us02.ssru4.fun
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-us02.cf.paopaocloud.cyou-646'
+    type: vmess
+    port: 443
+    uuid: 0feb4ea9-bcaa-32c2-bbdd-b3d13dddb612
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: us02.cf.paopaocloud.cyou
+  - name: 'cdn-🇺🇸-美国-us02.cf.paopaocloud.cyou-648'
+    type: vmess
+    port: 443
+    uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: us02.ssru4.fun
+    servername: us02.ssru4.fun
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-us02.cf.paopaocloud.cyou-648'
+    type: vmess
+    port: 443
+    uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: us02.cf.paopaocloud.cyou
+  - name: 'cdn-🇺🇸-美国-us02.cf.ssru7.casa-650'
+    type: vmess
+    port: 443
+    uuid: 6a1246a9-491f-3e89-8c51-39e489f059e1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: us02.ssru4.fun
+    servername: us02.ssru4.fun
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-us02.cf.ssru7.casa-650'
+    type: vmess
+    port: 443
+    uuid: 6a1246a9-491f-3e89-8c51-39e489f059e1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: us02.cf.ssru7.casa
+  - name: 'cdn-🇺🇸-美国-v15.583181.xyz-652'
+    type: vmess
+    port: 2053
+    uuid: c0b5d759-e42d-4ead-b374-33a9b54402aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: v15.583181.xyz
+    servername: v15.583181.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-v15.583181.xyz-652'
+    type: vmess
+    port: 2053
+    uuid: c0b5d759-e42d-4ead-b374-33a9b54402aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: v15.583181.xyz
+  - name: 'cdn-🇺🇸-美国-v48.idcloudhost.de-654'
+    type: vmess
+    port: 443
+    uuid: 00974d71-032f-4f5c-941b-612fb426252a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: 
+      headers:
+        Host: v48.idcloudhost.de
+    servername: v48.idcloudhost.de
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-v48.idcloudhost.de-654'
+    type: vmess
+    port: 443
+    uuid: 00974d71-032f-4f5c-941b-612fb426252a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: 
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: v48.idcloudhost.de
+  - name: 'cdn-🇺🇸-美国-v51.idcloudhost.de-656'
+    type: vmess
+    port: 443
+    uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: v51.idcloudhost.de
+    servername: v51.idcloudhost.de
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸-美国-vfly6.xyz-657'
+    type: vmess
+    port: 443
+    uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782
+    alterId: 60
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /myblog
+      headers:
+        Host: vfly6.xyz
+    servername: vfly6.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-vfly6.xyz-657'
+    type: vmess
+    port: 443
+    uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782
+    alterId: 60
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /myblog
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: vfly6.xyz
+  - name: 'cdn-🇬🇧-英国伦敦-vipde02.ajdkjaljdj.xyz-659'
+    type: vmess
+    port: 2087
+    uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: live.bilibili.com
+    servername: live.bilibili.com
+    server: cacerts.digicert.com
+  - name: 'sni-🇬🇧-英国伦敦-vipde02.ajdkjaljdj.xyz-659'
+    type: vmess
+    port: 2087
+    uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: vipde02.ajdkjaljdj.xyz
+  - name: 'sni-🇺🇸-美国-vipus02.ajdkjaljdj.xyz-661'
+    type: vmess
+    port: 2080
+    uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: vipus02.ajdkjaljdj.xyz
+  - name: 'cdn-🇯🇵-日本-xj011.xmrthnode.com-662'
+    type: vmess
+    port: 443
+    uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: ws-aicdn.com
+    servername: ws-aicdn.com
+    server: cacerts.digicert.com
+  - name: 'sni-🇯🇵-日本-xj011.xmrthnode.com-662'
+    type: vmess
+    port: 443
+    uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: xj011.xmrthnode.com
+  - name: 'cdn-🇯🇵-日本-ycgyg.com-664'
+    type: vmess
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: 4
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ws
+      headers:
+        Host: ycgyg.com
+    servername: ycgyg.com
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-665'
+    type: vmess
+    port: 443
+    uuid: 80a5fbf0-b54a-4cbe-be3d-9c638ddbc906
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /suti/sgovh?ed=2048
+      headers:
+        Host: sgovh.guolicheng.cyou
+    servername: sgovh.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-zfc.windowsupdate1.com-665'
+    type: vmess
+    port: 443
+    uuid: 80a5fbf0-b54a-4cbe-be3d-9c638ddbc906
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /suti/sgovh?ed=2048
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: zfc.windowsupdate1.com
+  - name: 'cdn-🇸🇬-新加坡-sg80-2.sanfen001.pics-667'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    ws-opts: 
+      path: /zh-cn/download
+      headers:
+        Host: a.189.cn
+    servername: a.189.cn
+    server: cacerts.digicert.com
+  - name: 'sni-🇸🇬-新加坡-sg80-2.sanfen001.pics-667'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    ws-opts: 
+      path: /zh-cn/download
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sg80-2.sanfen001.pics
+  - name: 'sni-🇸🇬-新加坡-sg80-2.sanfen001.pics-673'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn/download
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sg80-2.sanfen001.pics
+  - name: 'cdn-🇸🇬-新加坡-sg80-2.sanfen001.pics-673'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn/download
+      headers:
+        Host: sg80-2.sanfen001.pics
+    servername: sg80-2.sanfen001.pics
+    server: news.microsoft.com
+  - name: 'sni-🇸🇬-新加坡-sggs.vpnjantit.com-675'
+    type: vmess
+    port: 10000
+    uuid: 3cd7b760-59e0-11ed-89cb-00163e099141
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vpnjantit
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sggs.vpnjantit.com
+  - name: 'sni-🇸🇬-新加坡-sggs2.vpnjantit.com-676'
+    type: vmess
+    port: 10000
+    uuid: 731567aa-59e0-11ed-900d-00163e0baf20
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vpnjantit
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sggs2.vpnjantit.com
+  - name: 'cdn-🇺🇸-美国-104.17.170.210-677'
+    type: vmess
+    port: 443
+    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+    alterId: 1
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: kycc
+      headers:
+        Host: lsb.stupidfellow.cf
+    servername: lsb.stupidfellow.cf
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-104.17.170.210-677'
+    type: vmess
+    port: 443
+    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+    alterId: 1
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: kycc
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 104.17.170.210
+  - name: 'cdn-🇺🇸-美国-104.17.2.58-679'
+    type: vmess
+    port: 443
+    uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: q.acuteclaydoll.xyz
+    servername: q.acuteclaydoll.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-104.17.2.58-679'
+    type: vmess
+    port: 443
+    uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 104.17.2.58
+  - name: 'cdn-🇺🇸-美国-104.29.64.4-681'
+    type: vmess
+    port: 443
+    uuid: 3069769e-68d2-4e2c-b1e6-2b55b469c042
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /kuainiao/rb
+      headers:
+        Host: rb.kuainiao.buzz
+    servername: rb.kuainiao.buzz
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸-美国-129.150.38.247-682'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸-美国-137.175.40.168-683'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: www.45043834.xyz
+    servername: www.45043834.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-137.175.40.168-683'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 137.175.40.168
+  - name: 'cdn-🇺🇸-美国-161.35.237.180-687'
+    type: vmess
+    port: 443
+    uuid: b9f7f486-92d2-4cf5-8e4c-f1d602ae419f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /qingzhuanduoyun
+      headers:
+        Host: a.189.cn
+    servername: a.189.cn
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-172.67.2.139-688'
+    type: vmess
+    port: 2053
+    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /10003
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 172.67.2.139
+  - name: 'cdn-🇺🇸-美国-172.67.2.139-688'
+    type: vmess
+    port: 2053
+    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /10003
+      headers:
+        Host: zz.hongkong2.tk
+    servername: zz.hongkong2.tk
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-198.41.212.122-690'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 198.41.212.122
+  - name: 'cdn-🇺🇸-美国-198.41.212.122-690'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-192.74.250.60-692'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: www.83295443.xyz
+    servername: www.83295443.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-192.74.250.60-692'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 192.74.250.60
+  - name: 'cdn-🇺🇸-美国-192.74.250.39-694'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120306182525
+      headers:
+        Host: www.83295443.xyz
+    servername: www.83295443.xyz
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-192.74.250.39-694'
+    type: vmess
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120306182525
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 192.74.250.39
+  - name: 'cdn-🇺🇸-美国-47.88.52.220-696'
+    type: vmess
+    port: 443
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-47.88.52.220-696'
+    type: vmess
+    port: 443
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 47.88.52.220
+  - name: 'cdn-🇺🇸-美国-RACKNERD.COM-698'
+    type: vmess
+    port: 2086
+    uuid: 76203202-4c53-4399-a3c9-ddaf6455fb07
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: vultrjp.cloudflare.quest
+    servername: vultrjp.cloudflare.quest
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-RACKNERD.COM-698'
+    type: vmess
+    port: 2086
+    uuid: 76203202-4c53-4399-a3c9-ddaf6455fb07
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: RACKNERD.COM
+  - name: 'sni-🇺🇸-美国-can01.cf.paopaocloud.cyou-700'
+    type: vmess
+    port: 443
+    uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: can01.cf.paopaocloud.cyou
+  - name: 'cdn-🇺🇸-美国-can01.cf.paopaocloud.cyou-700'
+    type: vmess
+    port: 443
+    uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: can01.paopaocloud.cyou
+    servername: can01.paopaocloud.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸-美国-basic-us-one.alinks.me-702'
+    type: vmess
+    port: 443
+    uuid: b2ab634e-a39c-40d5-aaa9-ac0a396aca14
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: basic-us-one.alinks.me
+    servername: basic-us-one.alinks.me
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-basic-us-one.alinks.me-702'
+    type: vmess
+    port: 443
+    uuid: b2ab634e-a39c-40d5-aaa9-ac0a396aca14
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: basic-us-one.alinks.me
+  - name: 'sni-🇺🇸-美国-buyvm.imkcp.eu.org-704'
+    type: vmess
+    port: 443
+    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /imkcpyyds
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: buyvm.imkcp.eu.org
+  - name: 'cdn-🇺🇸-美国-gg1.tanglu.xyz-705'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: ssrsub.v02.asuka.buzz
+    servername: ssrsub.v02.asuka.buzz
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-gg1.tanglu.xyz-705'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: gg1.tanglu.xyz
+  - name: 'sni-🇺🇸-美国-gg1.tanglu.xyz-707'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: gg1.tanglu.xyz
+  - name: 'cdn-🇺🇸-美国-gg1.tanglu.xyz-707'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v01.asuka.buzz
+    servername: ssrsub.v01.asuka.buzz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-gg1.tanglu.xyz-709'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: gg1.tanglu.xyz
+  - name: 'cdn-🇺🇸-美国-gg1.tanglu.xyz-709'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v02.asuka.buzz
+    servername: ssrsub.v02.asuka.buzz
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-king2.mmadserr.ml-711'
+    type: vmess
+    port: 2095
+    uuid: dabdbbec-f774-41ff-a296-18026f469a97
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fhf5hfth565fhtf
+      headers:
+        Host: king2.mmadserr.ml
+    servername: king2.mmadserr.ml
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-king2.mmadserr.ml-711'
+    type: vmess
+    port: 2095
+    uuid: dabdbbec-f774-41ff-a296-18026f469a97
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fhf5hfth565fhtf
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: king2.mmadserr.ml
+  - name: 'cdn-🇺🇸-美国-kr2.sanfen001.pics-713'
+    type: vmess
+    port: 443
+    uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: www.microsoft.com
+    servername: www.microsoft.com
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-http.download.yunzhongzhuan.com-716'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v01.asuka.buzz
+    servername: ssrsub.v01.asuka.buzz
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-http.download.yunzhongzhuan.com-717'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v03.asuka.buzz
+    servername: ssrsub.v03.asuka.buzz
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸-美国-ip125.com-720'
+    type: vmess
+    port: 2086
+    uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: kz.cloudflare.quest
+    servername: kz.cloudflare.quest
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-ip125.com-720'
+    type: vmess
+    port: 2086
+    uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /aries
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: ip125.com
+  - name: 'sni-🇺🇸-美国-main.millionaireaisle.com-722'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸-美国-main.millionaireaisle.com-722'
+    type: vmess
+    port: 443
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸-美国-sg-aws.world-in-cdn.top-726'
+    type: vmess
+    port: 2083
+    uuid: 49b6740e-2f48-4ea5-9485-ad3e0a70f615
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ws
+      headers:
+        Host: sg-aws.world-in-cdn.top
+    servername: sg-aws.world-in-cdn.top
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-sg-aws.world-in-cdn.top-726'
+    type: vmess
+    port: 2083
+    uuid: 49b6740e-2f48-4ea5-9485-ad3e0a70f615
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ws
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sg-aws.world-in-cdn.top
+  - name: 'cdn-🇺🇸-美国-sg2.sanfen001.pics-728'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: www.microsoft.com
+    servername: www.microsoft.com
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-sg2.sanfen001.pics-728'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: sg2.sanfen001.pics
+  - name: 'sni-🇺🇸-美国-pokerad.xyz-730'
+    type: vmess
+    port: 443
+    uuid: 842a57d2-3a6a-4a04-b207-98e4ed16c72e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: pokerad.xyz
+  - name: 'cdn-🇺🇸-美国-pokerad.xyz-730'
+    type: vmess
+    port: 443
+    uuid: 842a57d2-3a6a-4a04-b207-98e4ed16c72e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: pokerad.xyz
+    servername: pokerad.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-unus01.ajdkjaljdj.xyz-732'
+    type: vmess
+    port: 1083
+    uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: unus01.ajdkjaljdj.xyz
+  - name: 'cdn-🇺🇸-美国-us5.elknode.top-733'
+    type: vmess
+    port: 443
+    uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /qatjpji
+      headers:
+        Host: data.video.qiyi.com
+    servername: data.video.qiyi.com
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-us5.elknode.top-733'
+    type: vmess
+    port: 443
+    uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /qatjpji
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: us5.elknode.top
+  - name: 'sni-🇺🇸-美国-v2ray.wefuckgfw.ga-735'
+    type: vmess
+    port: 2053
+    uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: v2ray.wefuckgfw.ga
+  - name: 'cdn-🇺🇸-美国-v2ray.wefuckgfw.ga-735'
+    type: vmess
+    port: 2053
+    uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-vfly6.xyz-737'
+    type: vmess
+    port: 443
+    uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782
+    alterId: 60
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: vfly6.xyz
+  - name: 'sni-🇺🇸-美国-vipus01.ajdkjaljdj.xyz-738'
+    type: vmess
+    port: 1080
+    uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /6
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: vipus01.ajdkjaljdj.xyz
+  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-739'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/hinet?ed=2048
+      headers:
+        Host: hinet.guolicheng.cyou
+    servername: hinet.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-zfc.windowsupdate1.com-739'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/hinet?ed=2048
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: zfc.windowsupdate1.com
+  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-741'
+    type: vmess
+    port: 443
+    uuid: 8d0bbf13-e1ef-419d-b054-20815774233b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /meizhiyuan/hinet?ed=2048
+      headers:
+        Host: hinet.guolicheng.cyou
+    servername: hinet.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-zfc.windowsupdate1.com-741'
+    type: vmess
+    port: 443
+    uuid: 8d0bbf13-e1ef-419d-b054-20815774233b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /meizhiyuan/hinet?ed=2048
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: zfc.windowsupdate1.com
+  - name: 'cdn-🇦🇶-宁夏-111.51.67.188-746'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
+    server: cacerts.digicert.com
+  - name: 'sni-🇦🇶-本机地址-17v2-cdn.hyproxy.xyz-747'
+    type: vmess
+    port: 443
+    uuid: b596935c-bc36-43b1-b2f6-8a61c480b38a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /hyproxy
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 17v2-cdn.hyproxy.xyz
+  - name: 'cdn-🇦🇶-本机地址-17v2-cdn.hyproxy.xyz-747'
+    type: vmess
+    port: 443
+    uuid: b596935c-bc36-43b1-b2f6-8a61c480b38a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /hyproxy
+      headers:
+        Host: 17v2-cdn.hyproxy.xyz
+    servername: 17v2-cdn.hyproxy.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-🇦🇶-澳门-mo.loc-m.xyz-749'
+    type: vmess
+    port: 443
+    uuid: c2e48fbb-356b-469f-a898-17cc0786046b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: jp1.loc-m.xyz
+    servername: jp1.loc-m.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-🇦🇺-澳大利亚-129.154.197.225-750'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us2?ed=2048
+      headers:
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-🇦🇺-澳大利亚-129.154.215.101-751'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/hkhgc?ed=2048
+      headers:
+        Host: hkhgc.guolicheng.cyou
+    servername: hkhgc.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'sni-🇦🇺-澳大利亚-203.30.190.190-752'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 203.30.190.190
+  - name: 'cdn-🇦🇺-澳大利亚-203.30.190.190-752'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: 'cdn-🇫🇷-法国-51.75.160.126-754'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: 51.75.160.126
+    servername: 51.75.160.126
+    server: news.microsoft.com
+  - name: 'cdn-🇫🇷-法国-51.75.160.126-756'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: 51.75.160.126
+    servername: 51.75.160.126
+    server: news.microsoft.com
+  - name: 'cdn-🇫🇷-法国-51.89.127.109-757'
+    type: vmess
+    port: 443
+    uuid: 8b447c53-feda-4d92-a975-3b7287e6ec8c
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: www.55437259.xyz
+    servername: www.55437259.xyz
+    server: cacerts.digicert.com
+  - name: 'sni-🇫🇷-法国-51.89.127.109-757'
+    type: vmess
+    port: 443
+    uuid: 8b447c53-feda-4d92-a975-3b7287e6ec8c
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/243535322906
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 51.89.127.109
+  - name: 'sni-🇬🇧-英国-v68.idcloudhost.de-759'
+    type: vmess
+    port: 10000
+    uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: v68.idcloudhost.de
+  - name: 'cdn-🇬🇧-英国伦敦-vipde02.ajdkjaljdj.xyz-760'
+    type: vmess
+    port: 2087
+    uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: live.bilibili.com
+    servername: live.bilibili.com
+    server: cacerts.digicert.com
+  - name: 'sni-🇬🇧-英国伦敦-vipde02.ajdkjaljdj.xyz-760'
+    type: vmess
+    port: 2087
+    uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: vipde02.ajdkjaljdj.xyz
+  - name: 'cdn-🇭🇰-香港-219.76.13.169-762'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
+    server: news.microsoft.com
+  - name: 'cdn-🇮🇷-伊朗-tky3.nicecdns.com-763'
+    type: vmess
+    port: 443
+    uuid: 8b5d2a44-a247-4c0c-bad4-218d890acab4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /CCTV6/hd.m3u8
+      headers:
+        Host: tky3.nicecdns.com
+    servername: tky3.nicecdns.com
+    server: news.microsoft.com
+  - name: 'sni-🇮🇷-伊朗-tky3.nicecdns.com-763'
+    type: vmess
+    port: 443
+    uuid: 8b5d2a44-a247-4c0c-bad4-218d890acab4
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /CCTV6/hd.m3u8
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: tky3.nicecdns.com
+  - name: 'cdn-🇯🇵-日本-146.56.146.22-765'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: hkhgc.guolicheng.cyou
+    servername: hkhgc.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-🇯🇵-日本-185.160.26.114-767'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: tgunivstar.168-138-94-194.sslip.io
+    servername: tgunivstar.168-138-94-194.sslip.io
+    server: cacerts.digicert.com
+  - name: 'sni-🇯🇵-日本-185.160.26.114-767'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 185.160.26.114
+  - name: 'sni-🇯🇵-日本-47.74.9.15-769'
+    type: vmess
+    port: 2083
+    uuid: 9ed79552-08cf-402f-e190-91f24eda1681
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /GenshinMinecraft
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 47.74.9.15
+  - name: 'cdn-🇯🇵-日本-jp.idcloudhost.de-770'
+    type: vmess
+    port: 443
+    uuid: a1e8f9a6-dee5-47fd-bbc9-e9307e0b0ee1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: jp.idcloudhost.de
+    servername: jp.idcloudhost.de
+    server: news.microsoft.com
+  - name: 'sni-🇯🇵-日本-jp04-vm0.entry.srthdw.art-771'
+    type: vmess
+    port: 448
+    uuid: 2059e025-0be8-349c-ab1f-90fa0e66c074
+    alterId: 1
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: jp04-vm0.entry.srthdw.art
+  - name: 'sni-🇯🇵-日本-jp05-vm0.entry.srthdw.art-772'
+    type: vmess
+    port: 446
+    uuid: 12acd1d1-4618-3a24-9e10-415acb33911d
+    alterId: 1
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: jp05-vm0.entry.srthdw.art
+  - name: 'sni-🇯🇵-日本-paopao.v2.jp05.paopaocloud.cyou-773'
+    type: vmess
+    port: 3307
+    uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: paopao.v2.jp05.paopaocloud.cyou
+  - name: 'cdn-🇯🇵-日本-www.apulnion.com-774'
+    type: vmess
+    port: 443
+    uuid: 7b8c370d-8610-4988-b0a7-cde74aa0713b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: www.apulnion.com
+    servername: www.apulnion.com
+    server: cacerts.digicert.com
+  - name: 'cdn-🇯🇵-日本-xj011.xmrthnode.com-775'
+    type: vmess
+    port: 443
+    uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: ws-aicdn.com
+    servername: ws-aicdn.com
+    server: cacerts.digicert.com
+  - name: 'sni-🇯🇵-日本-xj011.xmrthnode.com-775'
+    type: vmess
+    port: 443
+    uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: xj011.xmrthnode.com
+  - name: 'cdn-🇰🇷-韩国-140.238.13.249-777'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us2?ed=2048
+      headers:
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
+    server: news.microsoft.com
+  - name: 'cdn-🇳🇱-荷兰-46.182.107.67-778'
+    type: vmess
+    port: 443
+    uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: www.19845465.xyz
+    servername: www.19845465.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇳🇱-荷兰-46.182.107.67-778'
+    type: vmess
+    port: 443
+    uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 46.182.107.67
+  - name: 'cdn-🇳🇱-荷兰-46.182.107.147-780'
+    type: vmess
+    port: 443
+    uuid: 77a48930-1e67-4a72-96be-3e584858ea4f
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /footers
+      headers:
+        Host: www.73207635.xyz
+    servername: www.73207635.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-🇳🇱-荷兰-46.182.107.166-781'
+    type: vmess
+    port: 443
+    uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: www.55321621.xyz
+    servername: www.55321621.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇳🇱-荷兰-46.182.107.166-781'
+    type: vmess
+    port: 443
+    uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 46.182.107.166
+  - name: 'sni-🇳🇱-荷兰-95.211.58.55-783'
+    type: vmess
+    port: 16418
+    uuid: 9756c7d0-4a86-4210-fad1-13d5cbd86b03
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 95.211.58.55
+  - name: 'cdn-🇰🇷-韩国-140.238.13.249-784'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/us2?ed=2048
+      headers:
+        Host: us2.guolicheng.cyou
+    servername: us2.guolicheng.cyou
+    server: cacerts.digicert.com
+  - name: 'cdn-🇳🇱-荷兰-46.182.107.67-785'
+    type: vmess
+    port: 443
+    uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: www.19845465.xyz
+    servername: www.19845465.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇳🇱-荷兰-46.182.107.67-785'
+    type: vmess
+    port: 443
+    uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 46.182.107.67
+  - name: 'cdn-🇳🇱-荷兰-46.182.107.147-787'
+    type: vmess
+    port: 443
+    uuid: 77a48930-1e67-4a72-96be-3e584858ea4f
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /footers
+      headers:
+        Host: www.73207635.xyz
+    servername: www.73207635.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-🇳🇱-荷兰-46.182.107.166-788'
+    type: vmess
+    port: 443
+    uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: www.55321621.xyz
+    servername: www.55321621.xyz
+    server: cacerts.digicert.com
+  - name: 'sni-🇳🇱-荷兰-46.182.107.166-788'
+    type: vmess
+    port: 443
+    uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/321113221131
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 46.182.107.166
+  - name: 'sni-🇳🇱-荷兰-95.211.58.55-790'
+    type: vmess
+    port: 16418
+    uuid: 9756c7d0-4a86-4210-fad1-13d5cbd86b03
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 95.211.58.55
+  - name: 'sni-US 19-796'
+    type: vmess
+    port: 443
+    uuid: 4ce21a11-44fe-4814-a639-4b7caf501031
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: zhuyong.hucloud-dns.xyz

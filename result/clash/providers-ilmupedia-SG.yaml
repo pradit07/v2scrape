@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-🇬🇧-英国-f1f3227.f3.glados-config.net-298'
+  - name: 'sni-🇬🇧-英国-f1f3227.f3.glados-config.net-306'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -15,7 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.f3.glados-config.net
-  - name: 'sni-广东省移动 2-403'
+  - name: 'sni-广东省移动 2-412'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0

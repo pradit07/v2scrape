@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-美国 034-126'
+  - name: 'sni-美国 034-132'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -15,7 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk4.sanfen001.pics
-  - name: 'cdn-美国 034-126'
+  - name: 'cdn-美国 034-132'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -31,7 +31,23 @@ proxies:
         Host: hk4.sanfen001.pics
     servername: hk4.sanfen001.pics
     server: news.microsoft.com
-  - name: 'cdn-US 7-232'
+  - name: 'sni-US 7-237'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: hk4.sanfen001.pics
+  - name: 'cdn-US 7-237'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -47,7 +63,7 @@ proxies:
         Host: hk4.sanfen001.pics
     servername: hk4.sanfen001.pics
     server: news.microsoft.com
-  - name: 'sni-US 7-232'
+  - name: 'sni-US 9-252'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -63,7 +79,23 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk4.sanfen001.pics
-  - name: 'sni-US 9-246'
+  - name: 'cdn-US 9-252'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: cacerts.digicert.com
+  - name: 'sni-🇺🇸-美国-hk4.sanfen001.pics-314'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -79,7 +111,167 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk4.sanfen001.pics
-  - name: 'cdn-US 9-246'
+  - name: 'cdn-🇺🇸-美国-hk4.sanfen001.pics-314'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: cacerts.digicert.com
+  - name: 'sni-美国Microsoft数据中心 1-509'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: hk4.sanfen001.pics
+  - name: 'cdn-美国Microsoft数据中心 1-509'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: cacerts.digicert.com
+  - name: 'sni-US 5-547'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: hk4.sanfen001.pics
+  - name: 'cdn-US 5-547'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: cacerts.digicert.com
+  - name: 'sni-🇭🇰-香港-hk12.sanfen001.pics-632'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: hk12.sanfen001.pics
+  - name: 'cdn-🇭🇰-香港-hk12.sanfen001.pics-632'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: www.microsoft.com
+    servername: www.microsoft.com
+    server: news.microsoft.com
+  - name: 'sni-🇺🇸-美国-hk4.sanfen001.pics-714'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: hk4.sanfen001.pics
+  - name: 'cdn-🇺🇸-美国-hk4.sanfen001.pics-714'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: cacerts.digicert.com
+  - name: 'sni-US 4-793'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: hk4.sanfen001.pics
+  - name: 'cdn-US 4-793'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -95,7 +287,7 @@ proxies:
         Host: hk4.sanfen001.pics
     servername: hk4.sanfen001.pics
     server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-hk4.sanfen001.pics-306'
+  - name: 'sni-US 6-804'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -111,39 +303,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk4.sanfen001.pics
-  - name: 'cdn-🇺🇸-美国-hk4.sanfen001.pics-306'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: news.microsoft.com
-  - name: 'sni-美国Microsoft数据中心 1-497'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: hk4.sanfen001.pics
-  - name: 'cdn-美国Microsoft数据中心 1-497'
+  - name: 'cdn-US 6-804'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb

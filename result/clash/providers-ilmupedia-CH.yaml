@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-美国CloudFlare节点 12-423'
+  - name: 'cdn-CH 1-791'
     type: vmess
     port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /go
+      path: /
       headers:
-        Host: lu1.gogogoo.cyou
-    servername: lu1.gogogoo.cyou
-    server: cacerts.digicert.com
-  - name: 'sni-美国CloudFlare节点 12-423'
+        Host: www.liuyiyang19891222.tk
+    servername: www.liuyiyang19891222.tk
+    server: news.microsoft.com
+  - name: 'sni-CH 1-791'
     type: vmess
     port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /go
+      path: /
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: lu1.gogogoo.cyou
+    server: www.liuyiyang19891222.tk

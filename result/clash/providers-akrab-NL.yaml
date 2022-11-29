@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_36-200'
+  - name: 'cdn-低速备用-油管阿伟科技-112'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /pkhhvws
       headers:
-        Host: 25.72img.xyz
-    servername: 25.72img.xyz
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
     server: main.millionaireaisle.com
-  - name: 'sni-快嘴科技@来源：kkzui.com_美国_36-200'
+  - name: 'sni-低速备用-油管阿伟科技-112'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /pkhhvws
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: 25.72img.xyz
+    server: amshare.jingledev.me
