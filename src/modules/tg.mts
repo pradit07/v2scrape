@@ -8,7 +8,8 @@ class Bot {
     let message: string = "Akun Gratis | Free Accounts:\n\n";
     message += `<code>${accounts[Math.floor(Math.random() * accounts.length)]}</code>\n\n`;
     message += `Config: <a href="https://github.com/dickymuliafiqri/v2scrape/tree/master/config">Config Example</a>\n`;
-    message += `Sub: <a href="https://github.com/dickymuliafiqri/v2scrape/tree/master/result">Subscription</a>\n\n`;
+    message += `Sub: <a href="https://github.com/dickymuliafiqri/v2scrape/tree/master/result">Subscription</a>\n`;
+    message += `Join: @v2scrape\n\n`;
     message += `Contact: @d_fordlalatina`;
 
     return message;
