@@ -64,14 +64,14 @@ class V2scrape {
       }
     });
 
-    await sleep(1000);
+    await sleep(200);
     const controller = new globalThis.AbortController();
     const timeout = setTimeout(() => {
       controller.abort();
-    }, 1000);
+    }, 3000);
 
     try {
-      await fetch("https://youtube.com", {
+      await fetch("https://bing.com", {
         agent: new SocksProxyAgent(`socks5://127.0.0.1:${port}`),
         signal: controller.signal,
       });
@@ -163,7 +163,7 @@ class V2scrape {
 
         for (const mode of ["sni", "cdn"]) {
           onTest.push(mode);
-          await this.test(v2Account, mode)
+          this.test(v2Account, mode)
             .then((res) => {
               if (res) connectedMode.push(res);
             })
@@ -173,7 +173,7 @@ class V2scrape {
         }
 
         do {
-          sleep(100);
+          await sleep(100);
         } while (onTest[0]);
 
         return connectedMode;
