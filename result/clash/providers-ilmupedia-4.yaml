@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-美国Linode数据中心 28'
+  - name: 'sni-美国Linode数据中心 38'
     type: vmess
     port: 443
     uuid: 927094d3-d678-4763-8591-e240d0bcae87

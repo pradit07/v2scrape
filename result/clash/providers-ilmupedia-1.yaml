@@ -1,56 +1,8 @@
 proxies:
-  - name: 'sni-US 7'
-    type: vmess
-    port: 8081
-    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 164.92.193.65
-  - name: 'cdn-美国CloudFlare公司CDN节点 4'
-    type: vmess
-    port: 8080
-    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /api/v3/download.getFile
-      headers:
-        Host: ssrsub.v01.asuka.buzz
-    servername: ssrsub.v01.asuka.buzz
-    server: news.microsoft.com
-  - name: 'sni-瑞典  8'
-    type: vmess
-    port: 80
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 5.249.160.226
-  - name: 'cdn-美国CloudFlare节点 11'
+  - name: 'cdn-美国CloudFlare节点 25'
     type: vmess
     port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
     alterId: 0
     cipher: auto
     tls: true
@@ -58,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /vmess
       headers:
-        Host: lg1.cfcdn3.xyz
-    servername: lg1.cfcdn3.xyz
-    server: cacerts.digicert.com
+        Host: v2.chigua.tk
+    servername: v2.chigua.tk
+    server: news.microsoft.com

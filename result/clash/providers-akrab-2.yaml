@@ -1,65 +1,17 @@
 proxies:
-  - name: 'sni-法国鲁贝OVH数据中心 13'
+  - name: 'sni-美国Linode数据中心 28'
     type: vmess
-    port: 80
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 51.75.160.126
-  - name: 'sni-美国  14'
-    type: vmess
-    port: 80
-    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: layanan.ruangguru.com
-    servername: layanan.ruangguru.com
-    server: 45.146.252.141
-  - name: 'sni-美国  14'
-    type: vmess
-    port: 8081
-    uuid: 0f9c108d-b0d6-4795-a331-0e27d05fb9df
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
+      path: /chat
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: 164.92.193.65
-  - name: 'sni-北美地区  21'
-    type: vmess
-    port: 12378
-    uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /@Backdor_Filter
-      headers:
-        Host: layanan.ruangguru.com
-    servername: layanan.ruangguru.com
-    server: 107.189.31.41
+    server: 172.105.138.195
