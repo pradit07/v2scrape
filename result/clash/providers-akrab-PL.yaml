@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-美国CloudFlare节点 12-158'
+  - name: 'cdn-🇦🇶-澳门-45.64.22.55-234'
     type: vmess
     port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /go
+      path: /
       headers:
-        Host: lu1.gogogoo.cyou
-    servername: lu1.gogogoo.cyou
+        Host: w.800876.xyz
+    servername: w.800876.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare节点 12-170'
+  - name: 'cdn-🇦🇶-澳门-45.64.22.55-256'
     type: vmess
     port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /go
+      path: /
       headers:
-        Host: lu1.gogogoo.cyou
-    servername: lu1.gogogoo.cyou
+        Host: w.800876.xyz
+    servername: w.800876.xyz
     server: main.millionaireaisle.com

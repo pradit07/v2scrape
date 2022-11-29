@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-低速备用-油管阿伟科技-53'
+  - name: 'cdn-🇦🇶-澳门-45.64.22.55-234'
     type: vmess
     port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /
       headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
+        Host: w.800876.xyz
+    servername: w.800876.xyz
     server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-amshare.jingledev.me-254'
+  - name: 'cdn-🇦🇶-澳门-45.64.22.55-256'
     type: vmess
     port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /
       headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
+        Host: w.800876.xyz
+    servername: w.800876.xyz
     server: news.microsoft.com

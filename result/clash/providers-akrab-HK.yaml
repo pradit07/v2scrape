@@ -1,5 +1,21 @@
 proxies:
-  - name: 'cdn-🇺🇸-美国-hk4.sanfen001.pics-27'
+  - name: 'sni-US 26-12'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk1.sanfen001.pics
+  - name: 'sni-美国 034-61'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -12,26 +28,10 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-hk4.sanfen001.pics-27'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: hk4.sanfen001.pics
-  - name: 'cdn-美国Microsoft数据中心 1-202'
+  - name: 'cdn-美国 034-61'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -47,7 +47,135 @@ proxies:
         Host: hk4.sanfen001.pics
     servername: hk4.sanfen001.pics
     server: main.millionaireaisle.com
-  - name: 'sni-美国Microsoft数据中心 1-202'
+  - name: 'cdn-CN 28-83'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'cdn-HK 5-84'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk1.sanfen001.pics
+    servername: hk1.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'sni-US 4-85'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk1.sanfen001.pics
+  - name: 'cdn-CN 36-87'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'cdn-HK 1-88'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk1.sanfen001.pics
+    servername: hk1.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'sni-US 3-89'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: hk1.sanfen001.pics
+  - name: 'cdn-CN 19-93'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'cdn-HK 4-94'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk1.sanfen001.pics
+    servername: hk1.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'sni-US 8-95'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -63,23 +191,7 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: hk4.sanfen001.pics
-  - name: 'sni-US 5-235'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: hk4.sanfen001.pics
-  - name: 'cdn-US 5-235'
+  - name: 'cdn-US 8-95'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -95,7 +207,199 @@ proxies:
         Host: hk4.sanfen001.pics
     servername: hk4.sanfen001.pics
     server: main.millionaireaisle.com
-  - name: 'sni-🇭🇰-香港-hk12.sanfen001.pics-322'
+  - name: 'sni-🇺🇸-美国-hk4.sanfen001.pics-101'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk4.sanfen001.pics
+  - name: 'cdn-🇺🇸-美国-hk4.sanfen001.pics-101'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-hk4.sanfen001.pics-148'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: hk4.sanfen001.pics
+  - name: 'cdn-🇺🇸-美国-hk4.sanfen001.pics-148'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-hk4.sanfen001.pics-163'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk4.sanfen001.pics
+  - name: 'cdn-🇺🇸-美国-hk4.sanfen001.pics-163'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'cdn-美国Microsoft数据中心 3-184'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'sni-美国Microsoft数据中心 3-184'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk4.sanfen001.pics
+  - name: 'cdn-CN 15-191'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'sni-US 2-192'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: hk1.sanfen001.pics
+  - name: 'sni-US 3-193'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: hk4.sanfen001.pics
+  - name: 'cdn-US 3-193'
+    type: vmess
+    port: 443
+    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: hk4.sanfen001.pics
+    servername: hk4.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-218'
     type: vmess
     port: 443
     uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
@@ -110,24 +414,8 @@ proxies:
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: hk12.sanfen001.pics
-  - name: 'cdn-🇭🇰-香港-hk12.sanfen001.pics-322'
-    type: vmess
-    port: 443
-    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: www.microsoft.com
-    servername: www.microsoft.com
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-hk4.sanfen001.pics-406'
+    server: hk1.sanfen001.pics
+  - name: 'sni-美国Microsoft数据中心 3-243'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -143,7 +431,7 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: hk4.sanfen001.pics
-  - name: 'cdn-🇺🇸-美国-hk4.sanfen001.pics-406'
+  - name: 'cdn-美国Microsoft数据中心 3-243'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -159,39 +447,7 @@ proxies:
         Host: hk4.sanfen001.pics
     servername: hk4.sanfen001.pics
     server: main.millionaireaisle.com
-  - name: 'sni-US 4-481'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: hk4.sanfen001.pics
-  - name: 'cdn-US 4-481'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'sni-US 6-492'
+  - name: 'sni-美国Microsoft数据中心 3-266'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -207,7 +463,7 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: hk4.sanfen001.pics
-  - name: 'cdn-US 6-492'
+  - name: 'cdn-美国Microsoft数据中心 3-266'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -223,7 +479,7 @@ proxies:
         Host: hk4.sanfen001.pics
     servername: hk4.sanfen001.pics
     server: main.millionaireaisle.com
-  - name: 'cdn-CN 20-501'
+  - name: 'cdn-美国Microsoft数据中心 1-275'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
@@ -239,218 +495,10 @@ proxies:
         Host: hk4.sanfen001.pics
     servername: hk4.sanfen001.pics
     server: main.millionaireaisle.com
-  - name: 'cdn-HK 1-502'
+  - name: 'sni-美国Microsoft数据中心 1-275'
     type: vmess
     port: 443
     uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 2-503'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 3-504'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 4-505'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 5-506'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-SG 1-510'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 1-637'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk1.sanfen001.pics
-    servername: hk1.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 3-638'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk1.sanfen001.pics
-    servername: hk1.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 4-639'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk1.sanfen001.pics
-    servername: hk1.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 2-643'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk1.sanfen001.pics
-    servername: hk1.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 3-644'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk1.sanfen001.pics
-    servername: hk1.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'sni-US 2-666'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: hk4.sanfen001.pics
-  - name: 'cdn-US 2-666'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'sni-US 26-856'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
     alterId: 0
     cipher: auto
     tls: true
@@ -462,164 +510,4 @@ proxies:
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'cdn-US 26-856'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: www.microsoft.com
-    servername: www.microsoft.com
-    server: main.millionaireaisle.com
-  - name: 'sni-美国 034-989'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
     server: hk4.sanfen001.pics
-  - name: 'cdn-美国 034-989'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-CN 28-1094'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'sni-US 4-1096'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'cdn-US 4-1096'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: www.microsoft.com
-    servername: www.microsoft.com
-    server: main.millionaireaisle.com
-  - name: 'cdn-CN 36-1104'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk4.sanfen001.pics
-    servername: hk4.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'cdn-HK 1-1105'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: hk1.sanfen001.pics
-    servername: hk1.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'sni-US 3-1106'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: hk1.sanfen001.pics
-  - name: 'cdn-US 3-1106'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: www.microsoft.com
-    servername: www.microsoft.com
-    server: main.millionaireaisle.com

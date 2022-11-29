@@ -1,37 +1,5 @@
 proxies:
-  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-73'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
-    server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-30.tehvp.xyz-73'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 30.tehvp.xyz
-  - name: 'sni-🇸🇪-瑞典-5.249.160.226-361'
+  - name: 'sni-DE 德国(youtube阿伟科技)-21'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -47,7 +15,23 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 5.249.160.226
-  - name: 'cdn-🇸🇪-瑞典-5.249.160.226-361'
+  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-110'
+    type: vmess
+    port: 2083
+    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 30.tehvp.xyz
+    servername: 30.tehvp.xyz
+    server: news.microsoft.com
+  - name: 'sni-🇸🇪-瑞典-5.249.160.226-146'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -60,10 +44,42 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: 5.249.160.226
-    servername: 5.249.160.226
-    server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-45.146.252.141-688'
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 5.249.160.226
+  - name: 'sni-🇸🇪-瑞典-5.249.160.226-147'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 5.249.160.226
+  - name: 'sni-瑞典  8-155'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 5.249.160.226
+  - name: 'sni-美国  14-160'
     type: vmess
     port: 443
     uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
@@ -79,7 +95,23 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 45.146.252.141
-  - name: 'cdn-🇺🇸-美国-45.146.252.141-688'
+  - name: 'sni-瑞典  8-168'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 5.249.160.226
+  - name: 'sni-美国  14-172'
     type: vmess
     port: 443
     uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
@@ -92,6 +124,54 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: 45.146.252.141
-    servername: 45.146.252.141
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 45.146.252.141
+  - name: 'cdn-🇺🇸-美国-news.microsoft.com-224'
+    type: vmess
+    port: 2083
+    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 30.tehvp.xyz
+    servername: 30.tehvp.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-228'
+    type: vmess
+    port: 2083
+    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 30.tehvp.xyz
+    servername: 30.tehvp.xyz
+    server: news.microsoft.com
+  - name: 'cdn-🇭🇰-香港-47.243.253.120-239'
+    type: vmess
+    port: 443
+    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /?ed=2048
+      headers:
+        Host: h1.800876.xyz
+    servername: h1.800876.xyz
     server: news.microsoft.com

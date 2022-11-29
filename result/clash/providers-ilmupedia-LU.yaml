@@ -1,8 +1,8 @@
 proxies:
-  - name: 'sni-🇦🇶-卢森堡-104.244.73.218-818'
+  - name: 'cdn-美国CloudFlare节点 12-158'
     type: vmess
     port: 443
-    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
     alterId: 0
     cipher: auto
     tls: true
@@ -10,24 +10,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /v2ray
+      path: /go
       headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 104.244.73.218
-  - name: 'cdn-🇦🇶-卢森堡-104.244.73.218-818'
-    type: vmess
-    port: 443
-    uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: 104.244.73.218
-    servername: 104.244.73.218
+        Host: lu1.gogogoo.cyou
+    servername: lu1.gogogoo.cyou
     server: cacerts.digicert.com
+  - name: 'cdn-美国CloudFlare节点 12-170'
+    type: vmess
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /go
+      headers:
+        Host: lu1.gogogoo.cyou
+    servername: lu1.gogogoo.cyou
+    server: news.microsoft.com

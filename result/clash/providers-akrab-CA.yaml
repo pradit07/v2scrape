@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-🇰🇿 KZ 1 Stark Industries Solutions LTD TG:@nodpai-58'
+  - name: 'cdn-🇨🇦 _CA_加拿大_3@16-26'
     type: vmess
     port: 443
-    uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
+    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,6 @@ proxies:
     ws-opts: 
       path: /sshocean
       headers:
-        Host: kz1.v2rayserv.com
-    servername: kz1.v2rayserv.com
+        Host: ca2.v2rayserv.com
+    servername: ca2.v2rayserv.com
     server: main.millionaireaisle.com

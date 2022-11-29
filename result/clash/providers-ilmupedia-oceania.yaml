@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-531'
+  - name: 'sni-🇦🇺 _AU_澳大利亚_0@0-25'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -15,23 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 139.99.135.182
-  - name: 'cdn-🇦🇺-澳大利亚-139.99.135.182-531'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 139.99.135.182
-    servername: 139.99.135.182
-    server: cacerts.digicert.com
-  - name: 'sni-🇦🇺 _AU_澳大利亚_0@0-903'
+  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-115'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -47,7 +31,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 139.99.135.182
-  - name: 'cdn-🇦🇺 _AU_澳大利亚_0@0-903'
+  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-122'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -60,6 +44,54 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: 139.99.135.182
-    servername: 139.99.135.182
-    server: cacerts.digicert.com
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 139.99.135.182
+  - name: 'sni-澳大利亚悉尼OVH 22-176'
+    type: vmess
+    port: 443
+    uuid: e7df0582-d168-43af-bfff-90c25af7d085
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 139.99.135.182
+  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-208'
+    type: vmess
+    port: 443
+    uuid: e7df0582-d168-43af-bfff-90c25af7d085
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 139.99.135.182
+  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-209'
+    type: vmess
+    port: 443
+    uuid: e7df0582-d168-43af-bfff-90c25af7d085
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 139.99.135.182
