@@ -2,7 +2,11 @@ import { Vless, Vmess } from "./types.mjs";
 
 function v2parse(account: string): Vmess | Vless {
   if (account.startsWith("vmess")) {
-    return JSON.parse(Buffer.from(account.replace("vmess://", ""), "base64").toString()) as Vmess;
+    try {
+      return JSON.parse(Buffer.from(account.replace("vmess://", ""), "base64").toString()) as Vmess;
+    } catch (e) {
+      return {} as Vmess;
+    }
   } else if (account.match(/^(vless|trojan)/)) {
     return {
       server: (account.match(/@(.+):/) || [""])[1],

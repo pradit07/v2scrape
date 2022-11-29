@@ -33,9 +33,8 @@ class V2scrape {
     console.log(`Result saved to ${this.path}/result/result.json`);
   }
 
-  private async test(account: V2Object, mode: "sni" | "cdn" | string = "cdn"): Promise<V2Object> {
+  private async test(account: V2Object, port: number = 10802, mode: "sni" | "cdn" | string = "cdn"): Promise<V2Object> {
     const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
-    let port: number = 10802;
     const remark = `${mode}-${account.remark}`;
 
     if (mode == "cdn") {
@@ -44,7 +43,7 @@ class V2scrape {
         return account;
       }
       account.cdn = true;
-      port = 20802;
+      port = port + 1000;
     } else {
       account.tls = "tls";
       account.cdn = false;
@@ -76,14 +75,12 @@ class V2scrape {
     }, 5000);
 
     try {
-      await fetch("http://ip-api.com/json", {
+      await fetch("https://api.myip.com/", {
         agent: new SocksProxyAgent(`socks5://127.0.0.1:${port}`),
         signal: controller.signal,
       }).then(async (res) => {
         const data = JSON.parse(await res.text());
-        if (data.status == "success") {
-          account.region = ((data.timezone as string).match(/(.+)\//) || ["Other"])[1];
-        }
+        account.region = data.cc || "Other";
       });
     } catch (e: any) {
       // console.log(e.message);
@@ -111,6 +108,7 @@ class V2scrape {
 
   private async parse(accounts: Array<string> | string) {
     if (!Array.isArray(accounts)) accounts = [accounts];
+    let port = 10800;
 
     for (let account of accounts) {
       let v2Account: V2Object;
@@ -171,16 +169,15 @@ class V2scrape {
         }`;
       }
 
-      process.stdout.write(`${v2Account.remark}: `);
-      const isConnected = await (async () => {
-        const connectMode: Array<V2Object> = [];
+      await (async (account: V2Object) => {
+        const isConnected: Array<V2Object> = [];
         const onTest: Array<string> = [];
 
         for (const mode of ["sni", "cdn"]) {
           onTest.push(mode);
-          this.test(v2Account, mode)
+          this.test(account, port, mode)
             .then((res) => {
-              if (res) connectMode.push(res);
+              if (res) isConnected.push(res);
             })
             .finally(() => {
               if (onTest[0]) onTest.shift();
@@ -192,23 +189,20 @@ class V2scrape {
           await sleep(100);
         } while (onTest[0]);
 
-        return connectMode;
-      })();
+        for (let connectMode of isConnected) {
+          if (!connectMode.error) {
+            if (!connectMode.region) connectMode.region = "Other";
+            if (!this.regions.includes(connectMode.region)) this.regions.push(connectMode.region);
 
-      for (let connectMode of isConnected) {
-        if (!connectMode.error) {
-          if (!connectMode.region) connectMode.region = "Other";
-          if (!this.regions.includes(connectMode.region)) this.regions.push(connectMode.region);
-
-          this.accounts.push(connectMode);
-          process.stdout.write(`${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.region}`);
-        } else {
-          process.stdout.write(`${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.error}`);
+            this.accounts.push(connectMode);
+            console.log(`${account.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.region}`);
+          } else {
+            console.log(`${account.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.error}`);
+          }
         }
-      }
-      process.stdout.write("\n");
+      })(v2Account);
 
-      // if (this.accounts.length > 5) break; // test purpose
+      if (this.accounts.length > 5) break; // test purpose
     }
   }
 
