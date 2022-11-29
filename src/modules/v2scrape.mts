@@ -10,6 +10,7 @@ class V2scrape {
   path = process.cwd();
   private sourceUrl = readFileSync(`${this.path}/source`).toString();
   private accounts: Array<V2Object> = [];
+  private regions: Array<string> = [];
 
   async get() {
     process.stdout.write("Fetching accounts... ");
@@ -32,13 +33,16 @@ class V2scrape {
     console.log(`Result saved to ${this.path}/result/result.json`);
   }
 
-  private async test(account: V2Object, mode: "sni" | "cdn" | string = "cdn"): Promise<false | V2Object> {
+  private async test(account: V2Object, mode: "sni" | "cdn" | string = "cdn"): Promise<V2Object> {
     const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
     let port: number = 10802;
-    let isConnected: boolean = true;
     const remark = `${mode}-${account.remark}`;
+
     if (mode == "cdn") {
-      if (!account.host) return false;
+      if (!account.host) {
+        account.error = "No Host!";
+        return account;
+      }
       account.cdn = true;
       port = 20802;
     } else {
@@ -61,7 +65,7 @@ class V2scrape {
     v2ray.stdout.on("data", (res: any) => {
       // console.log(res.toString());
       if (res.toString().match(/(context deadline exceeded|timeout|write on closed pipe)/i)) {
-        isConnected = false;
+        account.error = "Could not connect to server!";
       }
     });
 
@@ -69,16 +73,23 @@ class V2scrape {
     const controller = new globalThis.AbortController();
     const timeout = setTimeout(() => {
       controller.abort();
-    }, 1000);
+    }, 5000);
 
     try {
-      await fetch("https://bing.com", {
+      await fetch("http://ip-api.com/json", {
         agent: new SocksProxyAgent(`socks5://127.0.0.1:${port}`),
         signal: controller.signal,
+      }).then(async (res) => {
+        const data = JSON.parse(await res.text());
+        if (data.status == "success") {
+          account.region = ((data.timezone as string).match(/(.+)\//) || ["Other"])[1];
+        }
       });
     } catch (e: any) {
       // console.log(e.message);
-      isConnected = false;
+      if ((e.message as string).match("aborted")) {
+        account.error = "Timeout!";
+      }
     }
 
     await new Promise((resolve) => {
@@ -91,12 +102,11 @@ class V2scrape {
 
     clearTimeout(timeout);
 
-    if (isConnected)
-      return {
-        ...account,
-        remark,
-      };
-    else return false;
+    return {
+      ...account,
+      cdn: mode == "cdn" ? true : false,
+      remark,
+    };
   }
 
   private async parse(accounts: Array<string> | string) {
@@ -125,6 +135,7 @@ class V2scrape {
           sni: vmess.sni,
           path: vmess.path,
           remark: vmess.ps,
+          cdn: vmess.cdn,
         };
       } else if (account.match(/^(vless|trojan)/)) {
         const vless = v2parse(account) as Vless;
@@ -144,6 +155,7 @@ class V2scrape {
           sni: vless.sni,
           path: vless.path,
           remark: vless.remark,
+          cdn: vless.cdn,
         };
       } else {
         v2Account = {} as V2Object;
@@ -161,17 +173,17 @@ class V2scrape {
 
       process.stdout.write(`${v2Account.remark}: `);
       const isConnected = await (async () => {
-        const connectedMode: Array<V2Object> = [];
+        const connectMode: Array<V2Object> = [];
         const onTest: Array<string> = [];
 
         for (const mode of ["sni", "cdn"]) {
           onTest.push(mode);
           this.test(v2Account, mode)
             .then((res) => {
-              if (res) connectedMode.push(res);
+              if (res) connectMode.push(res);
             })
             .finally(() => {
-              if (onTest[0]) onTest.pop();
+              if (onTest[0]) onTest.shift();
             });
           // await sleep(500);
         }
@@ -180,20 +192,23 @@ class V2scrape {
           await sleep(100);
         } while (onTest[0]);
 
-        return connectedMode;
+        return connectMode;
       })();
 
-      if (isConnected.length > 0) {
-        for (const connectedMode of isConnected) {
-          if (connectedMode) {
-            this.accounts.push(connectedMode);
-            process.stdout.write(`${connectedMode.cdn ? " CDN" : " SNI"}`);
-          }
+      for (let connectMode of isConnected) {
+        if (!connectMode.error) {
+          if (!connectMode.region) connectMode.region = "Other";
+          if (!this.regions.includes(connectMode.region)) this.regions.push(connectMode.region);
+
+          this.accounts.push(connectMode);
+          process.stdout.write(`${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.region}`);
+        } else {
+          process.stdout.write(`${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.error}`);
         }
-        process.stdout.write("\n");
-      } else {
-        process.stdout.write("Could not connect!\n");
       }
+      process.stdout.write("\n");
+
+      // if (this.accounts.length > 5) break; // test purpose
     }
   }
 
@@ -202,6 +217,10 @@ class V2scrape {
     const clashProxies: Array<string> = ["proxies:"];
     const v2rayProxies: Array<Object> = [];
     const base64Proxies: Array<string> = [];
+    let clashRegion: Array<{
+      region: string;
+      proxy: string;
+    }> = [];
 
     for (const account of this.accounts) {
       const cdn = bugs.cdn;
@@ -211,10 +230,43 @@ class V2scrape {
       const v2rayProxy = this.toV2ray(account, sni, cdn, v2rayProxies.length + 1);
       const base64Proxy = this.toBase64(account, sni, cdn);
 
-      if (clashProxy) clashProxies.push(clashProxy);
+      if (clashProxy) {
+        clashProxies.push(clashProxy);
+        clashRegion.push({
+          region: account.region || "Other",
+          proxy: clashProxy,
+        });
+      }
       if (v2rayProxy) v2rayProxies.push(v2rayProxy);
       if (base64Proxy) base64Proxies.push(base64Proxy);
     }
+
+    // Split per region
+    do {
+      const proxiesPerFile = ["proxies:"];
+      let currentRegion = "";
+      for (let i = 0; i < clashRegion.length; i++) {
+        if (!clashRegion[i]) continue;
+        if (!currentRegion) currentRegion = clashRegion[i].region;
+
+        if (clashRegion[i].region == currentRegion) {
+          proxiesPerFile.push(clashRegion[i].proxy);
+          delete clashRegion[i];
+        }
+      }
+
+      writeFileSync(`./result/clash/providers-${bugBundle}-${currentRegion}.yaml`, proxiesPerFile.join("\n"));
+
+      clashRegion = (() => {
+        const filteredProxy = [];
+
+        for (const proxy of clashRegion) {
+          if (proxy) filteredProxy.push(proxy);
+        }
+
+        return filteredProxy;
+      })();
+    } while (clashRegion.length > 0);
 
     // Split for 4 files and write result
     let splitCount = 1;
@@ -416,6 +468,7 @@ class V2scrape {
       security: account.security,
       "skip-cert-verify": account.skipCertVerify,
       sni: account.sni,
+      cdn: account.cdn,
     };
 
     if (account.cdn) {

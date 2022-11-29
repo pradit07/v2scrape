@@ -13,7 +13,9 @@ export interface V2Object {
   skipCertVerify: boolean;
   sni: string;
   remark: string;
-  cdn?: boolean;
+  cdn: boolean;
+  region?: string;
+  error?: string;
 }
 
 export interface Vmess {
@@ -30,6 +32,7 @@ export interface Vmess {
   security: string;
   "skip-cert-verify": boolean;
   sni: string;
+  cdn: boolean;
 }
 
 export interface Vless {
@@ -44,4 +47,5 @@ export interface Vless {
   host: string;
   remark: string;
   sni: string;
+  cdn: boolean;
 }
