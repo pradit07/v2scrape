@@ -38,6 +38,7 @@ class V2scrape {
     let isConnected: boolean = true;
     const remark = `${mode}-${account.remark}`;
     if (mode == "cdn") {
+      if (!account.host) return false;
       account.cdn = true;
       port = 20802;
     } else {
