@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_152-0'
+  - name: 'cdn-🇬🇧-英国-167.172.243.247-0'
     type: vmess
     port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
       headers:
-        Host: v2ray2.ssr-free2.xyz
-    servername: v2ray2.ssr-free2.xyz
+        Host: 003kkou.pages.dev
+    servername: 003kkou.pages.dev
     server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-66.235.200.20-1'
+  - name: 'cdn-🇳🇿-新西兰-167.179.32.53-1'
     type: vmess
     port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
     alterId: 0
     cipher: auto
     tls: true
@@ -26,15 +26,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /ECTCJ0DF
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
       headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
+        Host: 005dgdf.pages.dev
+    servername: 005dgdf.pages.dev
     server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-news.microsoft.com-2'
+  - name: 'cdn-🇺🇸-美国-161.35.12.1-2'
     type: vmess
     port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
     alterId: 0
     cipher: auto
     tls: true
@@ -42,120 +42,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
       headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
+        Host: 002hngh.pages.dev
+    servername: 002hngh.pages.dev
     server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-v2ray.wefuckgfw.ga-3'
-    type: vmess
-    port: 2053
-    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /DQsafRJn/
-      headers:
-        Host: v2ray.wefuckgfw.ga
-    servername: v2ray.wefuckgfw.ga
-    server: cacerts.digicert.com
-  - name: 'cdn-🇦🇶-丹麦-185.162.228.228-4'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: news.microsoft.com
-  - name: 'cdn-🇦🇶-丹麦-185.162.228.228-5'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: cacerts.digicert.com
-  - name: 'cdn-🇦🇺-澳大利亚-203.24.108.8-6'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: cacerts.digicert.com
-  - name: 'cdn-JP 1-7'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: cacerts.digicert.com
-  - name: 'cdn-US 10-8'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: cacerts.digicert.com
-  - name: 'cdn-US 11-9'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: cacerts.digicert.com
