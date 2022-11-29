@@ -170,6 +170,7 @@ class V2scrape {
             .finally(() => {
               if (onTest[0]) onTest.shift();
             });
+          await sleep(500);
         }
 
         do {
