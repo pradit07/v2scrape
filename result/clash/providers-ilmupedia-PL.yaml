@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-🇦🇶-澳门-45.64.22.55-116'
+  - name: 'cdn-🇦🇶-澳门-45.64.22.55-61'
     type: vmess
     port: 443
     uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
@@ -15,7 +15,7 @@ proxies:
         Host: w.800876.xyz
     servername: w.800876.xyz
     server: cacerts.digicert.com
-  - name: 'cdn-🇦🇶-澳门-45.64.22.55-123'
+  - name: 'cdn-🇦🇶-澳门-45.64.22.55-73'
     type: vmess
     port: 443
     uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282

@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-cdn-🇺🇸 US 200-44-236'
+  - name: 'cdn-cdn-🇺🇸 US 200-44-201'
     type: vmess
     port: 443
     uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b

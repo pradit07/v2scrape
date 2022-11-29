@@ -1,5 +1,53 @@
 proxies:
-  - name: 'sni-🇫🇷-法国-51.75.160.126-45'
+  - name: 'cdn-aaa 231-169'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk3.v2rayserv.com
+    servername: uk3.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: 'cdn-cdn-aaa 134-27-174'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk3.v2rayserv.com
+    servername: uk3.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: 'cdn-cdn-aaa 134-27-184'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk3.v2rayserv.com
+    servername: uk3.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: 'sni-🇫🇷-法国-51.75.160.126-259'
     type: vmess
     port: 443
     uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
@@ -12,70 +60,6 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: 51.75.160.126
-  - name: 'cdn-🇫🇷-法国-51.75.160.126-45'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 51.75.160.126
-    servername: 51.75.160.126
-    server: main.millionaireaisle.com
-  - name: 'cdn-aaa 231-206'
-    type: vmess
-    port: 443
-    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: uk3.v2rayserv.com
-    servername: uk3.v2rayserv.com
-    server: main.millionaireaisle.com
-  - name: 'cdn-cdn-aaa 134-27-211'
-    type: vmess
-    port: 443
-    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: uk3.v2rayserv.com
-    servername: uk3.v2rayserv.com
-    server: main.millionaireaisle.com
-  - name: 'cdn-cdn-aaa 134-27-221'
-    type: vmess
-    port: 443
-    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: uk3.v2rayserv.com
-    servername: uk3.v2rayserv.com
-    server: main.millionaireaisle.com

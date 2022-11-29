@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-美国CloudFlare节点 24-162'
+  - name: 'cdn-美国CloudFlare节点 24-124'
     type: vmess
     port: 443
     uuid: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
@@ -15,7 +15,7 @@ proxies:
         Host: hinet.guolicheng.cyou
     servername: hinet.guolicheng.cyou
     server: cacerts.digicert.com
-  - name: 'cdn-套餐到期：2022-11-30-250'
+  - name: 'cdn-套餐到期：2022-11-30-216'
     type: vmess
     port: 443
     uuid: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb

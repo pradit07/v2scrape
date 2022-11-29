@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-10'
+  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-19'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -15,7 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
-  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-79'
+  - name: 'sni-US 4-29'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -31,7 +31,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
-  - name: 'sni-US 4-87'
+  - name: 'sni-US 5-31'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -47,7 +47,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
-  - name: 'sni-US 5-90'
+  - name: 'sni-美国Microsoft数据中心 2-107'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -63,7 +63,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
-  - name: 'sni-美国Microsoft数据中心 2-148'
+  - name: 'sni-sni-US 4-85-152'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -79,7 +79,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
-  - name: 'sni-sni-US 4-85-190'
+  - name: 'sni-US 2-161'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -95,7 +95,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
-  - name: 'sni-US 2-198'
+  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-231'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -111,7 +111,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
-  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-267'
+  - name: 'sni-US 3-246'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079

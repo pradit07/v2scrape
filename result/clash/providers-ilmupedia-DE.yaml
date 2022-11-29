@@ -1,21 +1,5 @@
 proxies:
-  - name: 'sni-🇺🇸-美国-45.146.252.141-0'
-    type: vmess
-    port: 443
-    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 45.146.252.141
-  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-21'
+  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-25'
     type: vmess
     port: 2083
     uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
@@ -31,7 +15,23 @@ proxies:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
     server: cacerts.digicert.com
-  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-114'
+  - name: 'sni-🇸🇪-瑞典-5.249.160.226-51'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 5.249.160.226
+  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-55'
     type: vmess
     port: 2083
     uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
@@ -46,24 +46,8 @@ proxies:
       headers:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
-    server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-119'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
-    server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-news.microsoft.com-137'
+    server: cacerts.digicert.com
+  - name: 'cdn-🇺🇸-美国-news.microsoft.com-92'
     type: vmess
     port: 2083
     uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
@@ -78,8 +62,8 @@ proxies:
       headers:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
-    server: news.microsoft.com
-  - name: 'sni-DE 德国(youtube科技)-166'
+    server: cacerts.digicert.com
+  - name: 'sni-DE 德国(youtube科技)-129'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -95,7 +79,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 5.249.160.226
-  - name: 'sni-sni-瑞典  8-155-175'
+  - name: 'sni-sni-瑞典  8-155-137'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -111,7 +95,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 5.249.160.226
-  - name: 'cdn-🇺🇸 美国(油管破解资源君2.0) 14-192'
+  - name: 'cdn-🇺🇸 美国(油管破解资源君2.0) 14-154'
     type: vmess
     port: 2083
     uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
@@ -127,7 +111,7 @@ proxies:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
     server: news.microsoft.com
-  - name: 'cdn-cdn-🇺🇸-美国-30.tehvp.xyz-110-193'
+  - name: 'cdn-cdn-🇺🇸-美国-30.tehvp.xyz-110-155'
     type: vmess
     port: 2083
     uuid: 1ffeca67-a2bc-471b-b138-369d6762967d

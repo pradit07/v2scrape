@@ -1,5 +1,21 @@
 proxies:
-  - name: 'cdn-cdn-低速备用-油管科技-53-239'
+  - name: 'cdn-🇺🇸-美国-amshare.jingledev.me-18'
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
+    server: cacerts.digicert.com
+  - name: 'cdn-cdn-低速备用-油管科技-53-204'
     type: vmess
     port: 443
     uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
