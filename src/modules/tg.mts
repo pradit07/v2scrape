@@ -12,7 +12,7 @@ class Bot {
     message += "Akun Gratis | Free Accounts\n";
     message += "---------------------------\n";
     message += `Jumlah/Count: ${accounts.length} 🌾\n`;
-    message += "Regional/Region: World Wide/Seluruh Dunia 🌓\n";
+    message += "Regional/Region: World Wide 🌓\n";
     message += "---------------------------\n";
     message += "Info:\n";
     message += `Remark: <code>${account.ps}</code>\n`;
