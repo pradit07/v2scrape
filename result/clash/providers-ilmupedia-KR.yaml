@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_36-200'
+  - name: 'cdn-快嘴科技@来源：kkzui.com_美国_36-194'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -14,8 +14,8 @@ proxies:
       headers:
         Host: 25.72img.xyz
     servername: 25.72img.xyz
-    server: news.microsoft.com
-  - name: 'sni-快嘴科技@来源：kkzui.com_美国_36-200'
+    server: cacerts.digicert.com
+  - name: 'sni-快嘴科技@来源：kkzui.com_美国_36-194'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e

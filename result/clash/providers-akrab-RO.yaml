@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-快嘴科技@来源：kkzui.com_160-209'
+  - name: 'cdn-快嘴科技@来源：kkzui.com_160-202'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -15,7 +15,7 @@ proxies:
         Host: 2.72img.xyz
     servername: 2.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'sni-快嘴科技@来源：kkzui.com_160-209'
+  - name: 'sni-快嘴科技@来源：kkzui.com_160-202'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -28,6 +28,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 2.72img.xyz

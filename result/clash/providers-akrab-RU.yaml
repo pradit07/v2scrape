@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-🇷🇺 RU 37-95'
+  - name: 'cdn-🇷🇺 RU 37-91'
     type: vmess
     port: 443
     uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
@@ -15,23 +15,7 @@ proxies:
         Host: ru1.v2rayserv.com
     servername: ru1.v2rayserv.com
     server: main.millionaireaisle.com
-  - name: 'sni-🇷🇺 RU 37-95'
-    type: vmess
-    port: 443
-    uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: ru1.v2rayserv.com
-  - name: 'cdn-网址@快嘴kkzui.com_32-224'
+  - name: 'cdn-网址@快嘴kkzui.com_32-217'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -47,7 +31,7 @@ proxies:
         Host: 9.72img.xyz
     servername: 9.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'sni-网址@快嘴kkzui.com_32-224'
+  - name: 'sni-网址@快嘴kkzui.com_32-217'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e

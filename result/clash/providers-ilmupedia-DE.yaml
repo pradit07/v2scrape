@@ -1,37 +1,5 @@
 proxies:
-  - name: 'sni-DE 德国(youtube阿伟科技)-28'
-    type: vmess
-    port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 5.249.160.226
-  - name: 'cdn-DE 德国(youtube阿伟科技)-28'
-    type: vmess
-    port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 5.249.160.226
-    servername: 5.249.160.226
-    server: cacerts.digicert.com
-  - name: 'cdn-DE 德国(youtube科技) 3-69'
+  - name: 'cdn-DE 德国(youtube科技) 3-65'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -46,8 +14,8 @@ proxies:
       headers:
         Host: 54.72img.xyz
     servername: 54.72img.xyz
-    server: news.microsoft.com
-  - name: 'sni-DE 德国(youtube科技) 3-69'
+    server: cacerts.digicert.com
+  - name: 'sni-DE 德国(youtube科技) 3-65'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -63,7 +31,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 54.72img.xyz
-  - name: 'cdn-快嘴科技@来源：kkzui.com_64-196'
+  - name: 'cdn-快嘴科技@来源：kkzui.com_64-189'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -78,8 +46,8 @@ proxies:
       headers:
         Host: 55.72img.xyz
     servername: 55.72img.xyz
-    server: news.microsoft.com
-  - name: 'sni-快嘴科技@来源：kkzui.com_64-196'
+    server: cacerts.digicert.com
+  - name: 'sni-快嘴科技@来源：kkzui.com_64-189'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -95,7 +63,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 55.72img.xyz
-  - name: 'cdn-快嘴科技@来源：kkzui.com_17-205'
+  - name: 'cdn-快嘴科技@来源：kkzui.com_17-199'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -110,8 +78,8 @@ proxies:
       headers:
         Host: 53.72img.xyz
     servername: 53.72img.xyz
-    server: cacerts.digicert.com
-  - name: 'sni-快嘴科技@来源：kkzui.com_17-205'
+    server: news.microsoft.com
+  - name: 'sni-快嘴科技@来源：kkzui.com_17-199'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -127,7 +95,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 53.72img.xyz
-  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-362'
+  - name: 'cdn-🇺🇸-美国-30.tehvp.xyz-346'
     type: vmess
     port: 2083
     uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
@@ -143,7 +111,7 @@ proxies:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
     server: news.microsoft.com
-  - name: 'sni-🇺🇸-美国-30.tehvp.xyz-362'
+  - name: 'sni-🇺🇸-美国-30.tehvp.xyz-346'
     type: vmess
     port: 2083
     uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
@@ -159,55 +127,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 30.tehvp.xyz
-  - name: 'cdn-🇭🇰-香港-47.243.253.120-394'
-    type: vmess
-    port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /?ed=2048
-      headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
-    server: news.microsoft.com
-  - name: 'sni-瑞典  8-416'
-    type: vmess
-    port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 5.249.160.226
-  - name: 'cdn-瑞典  8-416'
-    type: vmess
-    port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: 5.249.160.226
-    servername: 5.249.160.226
-    server: cacerts.digicert.com
-  - name: 'sni-美国  14-427'
+  - name: 'sni-美国  14-409'
     type: vmess
     port: 443
     uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
@@ -223,7 +143,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 45.146.252.141
-  - name: 'cdn-美国  14-427'
+  - name: 'cdn-美国  14-409'
     type: vmess
     port: 443
     uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
@@ -239,7 +159,7 @@ proxies:
         Host: 45.146.252.141
     servername: 45.146.252.141
     server: cacerts.digicert.com
-  - name: 'sni-🇸🇪-瑞典-5.249.160.226-670'
+  - name: 'sni-🇸🇪-瑞典-5.249.160.226-895'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -255,7 +175,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 5.249.160.226
-  - name: 'cdn-🇸🇪-瑞典-5.249.160.226-670'
+  - name: 'cdn-🇸🇪-瑞典-5.249.160.226-895'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -270,36 +190,4 @@ proxies:
       headers:
         Host: 5.249.160.226
     servername: 5.249.160.226
-    server: news.microsoft.com
-  - name: 'cdn-🇺🇸-美国-news.microsoft.com-724'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-news.microsoft.com-724'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: news.microsoft.com

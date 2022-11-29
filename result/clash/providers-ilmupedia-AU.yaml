@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-🇦🇺 _AU_澳大利亚_0@0-47'
+  - name: 'sni-🇦🇺 _AU_澳大利亚_0@0-43'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -15,7 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 139.99.135.182
-  - name: 'cdn-🇦🇺 _AU_澳大利亚_0@0-47'
+  - name: 'cdn-🇦🇺 _AU_澳大利亚_0@0-43'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -31,7 +31,7 @@ proxies:
         Host: 139.99.135.182
     servername: 139.99.135.182
     server: cacerts.digicert.com
-  - name: 'sni-澳大利亚悉尼OVH 22-438'
+  - name: 'sni-澳大利亚悉尼OVH 22-421'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -47,7 +47,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 139.99.135.182
-  - name: 'cdn-澳大利亚悉尼OVH 22-438'
+  - name: 'cdn-澳大利亚悉尼OVH 22-421'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -62,4 +62,36 @@ proxies:
       headers:
         Host: 139.99.135.182
     servername: 139.99.135.182
-    server: news.microsoft.com
+    server: cacerts.digicert.com
+  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-831'
+    type: vmess
+    port: 443
+    uuid: e7df0582-d168-43af-bfff-90c25af7d085
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 139.99.135.182
+  - name: 'cdn-🇦🇺-澳大利亚-139.99.135.182-831'
+    type: vmess
+    port: 443
+    uuid: e7df0582-d168-43af-bfff-90c25af7d085
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: 139.99.135.182
+    servername: 139.99.135.182
+    server: cacerts.digicert.com

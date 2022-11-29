@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-🇺🇸 US 200-91'
+  - name: 'cdn-🇺🇸 US 200-88'
     type: vmess
     port: 443
     uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
@@ -15,19 +15,3 @@ proxies:
         Host: br1.v2rayserv.com
     servername: br1.v2rayserv.com
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸 US 200-91'
-    type: vmess
-    port: 443
-    uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: br1.v2rayserv.com

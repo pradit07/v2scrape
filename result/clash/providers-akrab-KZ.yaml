@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-🇰🇿 KZ 1 Stark Industries Solutions LTD TG:@nodpai-126'
+  - name: 'cdn-🇰🇿 KZ 1 Stark Industries Solutions LTD TG:@nodpai-117'
     type: vmess
     port: 443
     uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
@@ -15,7 +15,7 @@ proxies:
         Host: kz1.v2rayserv.com
     servername: kz1.v2rayserv.com
     server: main.millionaireaisle.com
-  - name: 'cdn-美国  8-472'
+  - name: 'cdn-美国  8-457'
     type: vmess
     port: 443
     uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
@@ -31,7 +31,7 @@ proxies:
         Host: kz1.v2rayserv.com
     servername: kz1.v2rayserv.com
     server: main.millionaireaisle.com
-  - name: 'cdn-美国  11-519'
+  - name: 'cdn-美国  11-504'
     type: vmess
     port: 443
     uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33

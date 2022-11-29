@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-美国CloudFlare节点 12-423'
+  - name: 'cdn-美国CloudFlare节点 12-405'
     type: vmess
     port: 443
     uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
@@ -14,8 +14,8 @@ proxies:
       headers:
         Host: lu1.gogogoo.cyou
     servername: lu1.gogogoo.cyou
-    server: cacerts.digicert.com
-  - name: 'sni-美国CloudFlare节点 12-423'
+    server: news.microsoft.com
+  - name: 'sni-美国CloudFlare节点 12-405'
     type: vmess
     port: 443
     uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
@@ -31,3 +31,19 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: lu1.gogogoo.cyou
+  - name: 'cdn-🇺🇸-美国-buyvm.imkcp.eu.org-691'
+    type: vmess
+    port: 443
+    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /imkcpyyds
+      headers:
+        Host: buyvm.imkcp.eu.org
+    servername: buyvm.imkcp.eu.org
+    server: cacerts.digicert.com

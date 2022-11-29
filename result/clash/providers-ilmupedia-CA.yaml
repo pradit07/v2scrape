@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-US 美国(youtube阿伟科技)-53'
+  - name: 'cdn-US 美国(youtube阿伟科技)-49'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -14,8 +14,8 @@ proxies:
       headers:
         Host: 43.72img.xyz
     servername: 43.72img.xyz
-    server: news.microsoft.com
-  - name: 'sni-US 美国(youtube阿伟科技)-53'
+    server: cacerts.digicert.com
+  - name: 'sni-US 美国(youtube阿伟科技)-49'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -31,7 +31,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 43.72img.xyz
-  - name: 'cdn-US 美国(youtube科技) 16-85'
+  - name: 'cdn-US 美国(youtube科技) 16-82'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -46,8 +46,8 @@ proxies:
       headers:
         Host: 45.72img.xyz
     servername: 45.72img.xyz
-    server: news.microsoft.com
-  - name: 'sni-US 美国(youtube科技) 16-85'
+    server: cacerts.digicert.com
+  - name: 'sni-US 美国(youtube科技) 16-82'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -63,7 +63,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 45.72img.xyz
-  - name: 'cdn-🇺🇸 _US_美国_3_17@7-104'
+  - name: 'cdn-🇺🇸 _US_美国_3_17@7-99'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -79,7 +79,7 @@ proxies:
         Host: 46.72img.xyz
     servername: 46.72img.xyz
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸 _US_美国_3_17@7-104'
+  - name: 'sni-🇺🇸 _US_美国_3_17@7-99'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e

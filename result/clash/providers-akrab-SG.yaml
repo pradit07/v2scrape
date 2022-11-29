@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-🇬🇧-英国-f1f3227.f3.glados-config.net-306'
+  - name: 'sni-🇬🇧-英国-f1f3227.f3.glados-config.net-290'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -15,7 +15,7 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: f1f3227.f3.glados-config.net
-  - name: 'sni-广东省移动 2-412'
+  - name: 'sni-广东省移动 2-395'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -31,3 +31,67 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: f1f3227.f3.glados-config.net
+  - name: 'sni-🇺🇸-美国-sg2.sanfen001.pics-715'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: sg2.sanfen001.pics
+  - name: 'cdn-🇺🇸-美国-sg2.sanfen001.pics-715'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: www.microsoft.com
+    servername: www.microsoft.com
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇩🇪-德国-sg-v.sshmax.xyz-871'
+    type: vmess
+    port: 443
+    uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: sg-v.sshmax.xyz
+    servername: sg-v.sshmax.xyz
+    server: main.millionaireaisle.com
+  - name: 'sni-🇩🇪-德国-sg-v.sshmax.xyz-871'
+    type: vmess
+    port: 443
+    uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: sg-v.sshmax.xyz
