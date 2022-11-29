@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-美国CloudFlare节点 25'
+  - name: 'sni-GB 2'
     type: vmess
     port: 443
-    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,6 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: v2.chigua.tk
-    servername: v2.chigua.tk
-    server: news.microsoft.com
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 51.75.160.126
