@@ -79,13 +79,16 @@ dns:
 proxies:
 proxy-groups:
   - name: Telescope
-    type: url-test
+    type: select
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 1200
     tolerance: 50
-    use:
-      - Asia
+    proxies:
+      - 🇸🇬 SG
+      - 🇭🇰 HK
+      - 🇰🇷 KR
+      - 🇯🇵 JP
   - name: WA
     type: select
     proxies:
@@ -98,11 +101,54 @@ proxy-groups:
       - Telescope
       - DIRECT
       - REJECT
+  - name: 🇸🇬 SG
+    type: url-test
+    use:
+      - SG
+  - name: 🇭🇰 HK
+    type: url-test
+    use:
+      - HK
+  - name: 🇰🇷 KR
+    type: url-test
+    use:
+      - KR
+  - name: 🇯🇵 JP
+    type: url-test
+    use:
+      - JP
 proxy-providers:
-  Asia:
+  SG:
     type: http
     path: ./providers1.yaml
-    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-asia.yaml"
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-SG.yaml"
+    interval: 900
+    health-check:
+      enable: true
+      url: "http://cp.cloudflare.com/generate_204"
+      interval: 300
+  HK:
+    type: http
+    path: ./providers2.yaml
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-HK.yaml"
+    interval: 900
+    health-check:
+      enable: true
+      url: "http://cp.cloudflare.com/generate_204"
+      interval: 300
+  KR:
+    type: http
+    path: ./providers3.yaml
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-KR.yaml"
+    interval: 900
+    health-check:
+      enable: true
+      url: "http://cp.cloudflare.com/generate_204"
+      interval: 300
+  JP:
+    type: http
+    path: ./providers4.yaml
+    url: "https://raw.githubusercontent.com/dickymuliafiqri/v2scrape/master/result/clash/providers-akrab-JP.yaml"
     interval: 900
     health-check:
       enable: true
