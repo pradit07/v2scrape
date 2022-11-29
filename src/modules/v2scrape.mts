@@ -68,7 +68,7 @@ class V2scrape {
     const controller = new globalThis.AbortController();
     const timeout = setTimeout(() => {
       controller.abort();
-    }, 3000);
+    }, 1500);
 
     try {
       await fetch("https://bing.com", {
@@ -170,7 +170,7 @@ class V2scrape {
             .finally(() => {
               if (onTest[0]) onTest.shift();
             });
-          await sleep(500);
+          // await sleep(500);
         }
 
         do {
@@ -262,7 +262,7 @@ class V2scrape {
       proxy.push(`    ws-opts: `);
       proxy.push(`      path: ${account.path}`);
       proxy.push(`      headers:`);
-      if (account.remark.match(/cloudflare/i) || account.cdn) {
+      if (account.cdn) {
         proxy.push(`        Host: ${account.host}`);
         proxy.push(`    servername: ${account.sni || account.host}`);
         proxy.push(`    server: ${cdn}`);
