@@ -1,0 +1,97 @@
+proxies:
+  - name: 'sni-🇫🇷-法国-51.75.160.126-443'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 51.75.160.126
+  - name: 'cdn-🇫🇷-法国-51.75.160.126-443'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: 51.75.160.126
+    servername: 51.75.160.126
+    server: cacerts.digicert.com
+  - name: 'sni-🇫🇷-法国-51.75.160.126-445'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 51.75.160.126
+  - name: 'cdn-🇫🇷-法国-51.75.160.126-445'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: 51.75.160.126
+    servername: 51.75.160.126
+    server: news.microsoft.com
+  - name: 'cdn-aaa 134-905'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk3.v2rayserv.com
+    servername: uk3.v2rayserv.com
+    server: cacerts.digicert.com
+  - name: 'sni-aaa 134-905'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: uk3.v2rayserv.com

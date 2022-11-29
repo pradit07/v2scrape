@@ -1,5 +1,37 @@
 proxies:
-  - name: 'cdn-🇺🇸-美国-141.101.114.111-0'
+  - name: 'cdn-美国CloudFlare节点 12-168'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: 'sni-美国CloudFlare节点 12-168'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: powerservice.com
+  - name: 'cdn-美国CloudFlare节点 28-185'
     type: vmess
     port: 443
     uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
@@ -15,71 +47,7 @@ proxies:
         Host: fr1.trump2023.org
     servername: fr1.trump2023.org
     server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-141.101.114.111-0'
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 141.101.114.111
-  - name: 'cdn-🇺🇸-美国-141.101.115.111-2'
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-    servername: fr1.trump2023.org
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-141.101.115.111-2'
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 141.101.115.111
-  - name: 'cdn-🇺🇸-美国-141.101.115.111-4'
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-    servername: fr1.trump2023.org
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-141.101.115.111-4'
+  - name: 'sni-美国CloudFlare节点 28-185'
     type: vmess
     port: 443
     uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
@@ -95,3 +63,227 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: 141.101.115.111
+  - name: 'cdn-美国CloudFlare节点 28-496'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: 'sni-美国CloudFlare节点 28-496'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 141.101.115.111
+  - name: 'cdn-美国CloudFlare节点 20-664'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸-美国-104.29.64.24-669'
+    type: vmess
+    port: 443
+    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /p9Dq67Nx/
+      headers:
+        Host: fr1.cachexy.ga
+    servername: fr1.cachexy.ga
+    server: main.millionaireaisle.com
+  - name: 'cdn-aaa 269-939'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: 'sni-aaa 269-939'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 141.101.115.100
+  - name: 'cdn-1.67| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1-999'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: 'sni-1.67| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN1-999'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 141.101.115.111
+  - name: 'cdn-🇫🇷 1.42| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN13-1003'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: 'sni-🇫🇷 1.42| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN13-1003'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 198.41.212.122
+  - name: 'cdn-🇫🇷 1.75| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN12-1021'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: 'sni-🇫🇷 1.75| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN12-1021'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 141.101.114.111
+  - name: 'cdn-🇺🇸 美国 005-1027'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸 美国 005-1027'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 141.101.114.100

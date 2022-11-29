@@ -1,0 +1,33 @@
+proxies:
+  - name: 'cdn-🇷🇺 RU 37-953'
+    type: vmess
+    port: 443
+    uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: ru1.v2rayserv.com
+    servername: ru1.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: 'sni-🇷🇺 RU 37-953'
+    type: vmess
+    port: 443
+    uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: ru1.v2rayserv.com

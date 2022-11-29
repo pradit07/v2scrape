@@ -1,0 +1,49 @@
+proxies:
+  - name: 'cdn-美国  8-167'
+    type: vmess
+    port: 443
+    uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: kz1.v2rayserv.com
+    servername: kz1.v2rayserv.com
+    server: news.microsoft.com
+  - name: 'cdn-美国  11-212'
+    type: vmess
+    port: 443
+    uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: kz1.v2rayserv.com
+    servername: kz1.v2rayserv.com
+    server: cacerts.digicert.com
+  - name: 'cdn-🇰🇿 KZ 1 Stark Industries Solutions LTD TG:@nodpai-983'
+    type: vmess
+    port: 443
+    uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: kz1.v2rayserv.com
+    servername: kz1.v2rayserv.com
+    server: news.microsoft.com
