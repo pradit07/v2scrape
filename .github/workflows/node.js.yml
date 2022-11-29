@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: scrape
-      cancel-in-progress: true
+      # cancel-in-progress: true
 
     steps:
       - uses: actions/checkout@v3
