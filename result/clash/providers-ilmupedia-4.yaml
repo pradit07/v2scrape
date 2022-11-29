@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-低速备用-油管阿伟科技-9'
+  - name: 'cdn-🇺🇸 1.65| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶14CDN-18'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,31 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /ECTCJ0DF
       headers:
-        Host: 30.72img.xyz
-    servername: 30.72img.xyz
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
     server: cacerts.digicert.com
-  - name: 'cdn-2.41|CA 加拿大youtube阿伟科技-10'
+  - name: 'sni-aaa 246-19'
     type: vmess
     port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/173418141123
+      headers:
+        Host: www.17080100.xyz
+    servername: www.17080100.xyz
+    server: news.microsoft.com
+  - name: 'cdn-🇺🇸 2.08| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶11CDN-20'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +42,56 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /ECTCJ0DF
       headers:
-        Host: 46.72img.xyz
-    servername: 46.72img.xyz
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
     server: cacerts.digicert.com
+  - name: 'sni-美国 056-21'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: www.48816626.xyz
+    servername: www.48816626.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-US 美国(youtube阿伟科技)-22'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: 'cdn-🇦🇶-巴西圣保罗-188.114.99.9-23'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com

@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-🇺🇸-美国-amshare.jingledev.me-6'
+  - name: 'cdn-aaa 112-12'
     type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    port: 2053
+    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /DQsafRJn/
       headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 17-7'
+  - name: 'cdn-US 美国(youtube阿伟科技)-13'
     type: vmess
-    port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    port: 2053
+    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
     alterId: 0
     cipher: auto
     tls: true
@@ -26,15 +26,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
+      path: /DQsafRJn/
       headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com
-  - name: 'cdn-🇫🇷 FR 67-8'
+  - name: 'cdn-🇺🇸 1.01| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶111CDN-14'
     type: vmess
     port: 443
-    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -42,8 +42,56 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /ECTCJ0DF
       headers:
-        Host: ca2.v2rayserv.com
-    servername: ca2.v2rayserv.com
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: main.millionaireaisle.com
+  - name: 'cdn-US 美国(youtube科技) 5-15'
+    type: vmess
+    port: 2053
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: main.millionaireaisle.com
+  - name: 'cdn-US 美国(youtube阿伟科技)-16'
+    type: vmess
+    port: 2053
+    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: main.millionaireaisle.com
+  - name: 'cdn-低速备用-油管科技 22-17'
+    type: vmess
+    port: 2053
+    uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com
