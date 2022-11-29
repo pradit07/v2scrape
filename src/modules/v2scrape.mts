@@ -154,7 +154,9 @@ class V2scrape {
       if (v2Account.remark.match("default_name")) {
         v2Account.remark = `v2scrape-${this.accounts.length}`;
       } else {
-        v2Account.remark = v2Account.remark.replace(/^.+ - /i, "").replace(" → openitsub.com", "");
+        v2Account.remark = `${v2Account.remark.replace(/^.+ - /i, "").replace(" → openitsub.com", "")}-${
+          this.accounts.length
+        }`;
       }
 
       process.stdout.write(`${v2Account.remark}: `);
