@@ -1,8 +1,9 @@
 proxies:
-  - name: 'cdn-低速备用-油管阿伟科技-107'
+
+  - name: 'cdn-🇺🇸-美国-198.41.212.100-13'
     type: vmess
     port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -10,47 +11,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /dongtaiwang.com
       headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
-    server: news.microsoft.com
-  - name: 'sni-低速备用-油管阿伟科技-107'
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: amshare.jingledev.me
-  - name: 'cdn-🇺🇸-美国-amshare.jingledev.me-915'
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: cacerts.digicert.com
-  - name: 'sni-🇺🇸-美国-amshare.jingledev.me-915'
+  - name: 'sni-🇺🇸-美国-198.41.212.100-13'
     type: vmess
     port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -58,8 +27,40 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /dongtaiwang.com
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: amshare.jingledev.me
+    server: 198.41.212.100
+  - name: 'cdn-🇦🇺-澳大利亚-203.24.108.8-18'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: 'sni-🇦🇺-澳大利亚-203.24.108.8-18'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 203.24.108.8

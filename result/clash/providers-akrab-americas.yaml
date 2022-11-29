@@ -1,8 +1,9 @@
 proxies:
-  - name: 'cdn-低速备用-油管阿伟科技-107'
+
+  - name: 'cdn-🇺🇸-美国-198.41.212.100-13'
     type: vmess
     port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +11,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /dongtaiwang.com
       headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: main.millionaireaisle.com
-  - name: 'sni-低速备用-油管阿伟科技-107'
+  - name: 'sni-🇺🇸-美国-198.41.212.100-13'
     type: vmess
     port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -26,15 +27,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /dongtaiwang.com
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: amshare.jingledev.me
-  - name: 'cdn-🇺🇸-美国-amshare.jingledev.me-915'
+    server: 198.41.212.100
+  - name: 'cdn-🇦🇺-澳大利亚-203.24.108.8-18'
     type: vmess
     port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -42,15 +43,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /ECTCJ0DF
       headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
     server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-amshare.jingledev.me-915'
+  - name: 'sni-🇦🇺-澳大利亚-203.24.108.8-18'
     type: vmess
     port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -58,8 +59,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /pkhhvws
+      path: /ECTCJ0DF
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: amshare.jingledev.me
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 203.24.108.8
