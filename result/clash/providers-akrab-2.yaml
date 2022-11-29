@@ -1,8 +1,8 @@
 proxies:
-  - name: 'sni-瑞典  30'
+  - name: 'cdn-🇫🇷 FR 67'
     type: vmess
     port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /sshocean
       headers:
-        Host: 5.249.160.226
-    servername: 5.249.160.226
+        Host: ca2.v2rayserv.com
+    servername: ca2.v2rayserv.com
     server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 26'
+  - name: 'cdn-美国 008'
     type: vmess
     port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
     alterId: 0
     cipher: auto
     tls: true
@@ -26,31 +26,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /ray
       headers:
-        Host: uk2.v2rayserv.com
-    servername: uk2.v2rayserv.com
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
     server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸_US_美国_1'
+  - name: 'cdn-【付费推荐：goo.gs/vip】'
     type: vmess
     port: 443
-    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /path/120208301422
-      headers:
-        Host: www.48816626.xyz
-    servername: www.48816626.xyz
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸_US_美国_2'
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
     alterId: 0
     cipher: auto
     tls: true
@@ -58,15 +42,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /chat
+      path: /dongtaiwang.com
       headers:
-        Host: vus3.0bad.com
-    servername: vus3.0bad.com
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
     server: main.millionaireaisle.com
-  - name: 'sni-法国鲁贝OVH数据中心 8'
+  - name: 'cdn-🇺🇸 1.96| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶12CDN'
     type: vmess
     port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -74,15 +58,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /ECTCJ0DF
       headers:
-        Host: 51.75.160.126
-    servername: 51.75.160.126
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
     server: main.millionaireaisle.com
-  - name: 'sni-美国  9'
+  - name: 'cdn-🇺🇸 1.45| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶23CDN'
     type: vmess
     port: 443
-    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
     alterId: 0
     cipher: auto
     tls: true
@@ -90,15 +74,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /dongtaiwang.com
       headers:
-        Host: 45.146.252.141
-    servername: 45.146.252.141
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 17'
+  - name: 'cdn-🇺🇸 1.56| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶19CDN'
     type: vmess
     port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -106,15 +90,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
+      path: /ECTCJ0DF
       headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
     server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 21'
+  - name: 'cdn-ID 印尼(youtube阿伟科技)'
     type: vmess
     port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
     alterId: 0
     cipher: auto
     tls: true
@@ -122,8 +106,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /dongtaiwang.com
       headers:
-        Host: uk2.v2rayserv.com
-    servername: uk2.v2rayserv.com
+        Host: lg1.cfcdn3.xyz
+    servername: lg1.cfcdn3.xyz
     server: main.millionaireaisle.com

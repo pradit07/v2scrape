@@ -1,8 +1,8 @@
 proxies:
-  - name: 'sni-美国Linode数据中心 11'
+  - name: 'sni-US_51.81.220.195_112820224555-103'
     type: vmess
     port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /chat
+      path: /sshkit/Variu88/634dab7abadf1/
       headers:
-        Host: 
-    servername: 
-    server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 17'
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 51.81.220.195
+  - name: 'cdn-US 美国(youtube阿伟科技)'
     type: vmess
     port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -26,15 +26,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
+      path: /ECTCJ0DF
       headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
     server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare公司CDN节点 21'
+  - name: 'cdn-网址@快嘴kkzui.com_美国_10'
     type: vmess
     port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
     alterId: 0
     cipher: auto
     tls: true
@@ -44,13 +44,13 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: uk2.v2rayserv.com
-    servername: uk2.v2rayserv.com
+        Host: 4.72img.xyz
+    servername: 4.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-美国CloudFlare节点 23'
+  - name: 'cdn-🇨🇦-加拿大-167.114.67.25'
     type: vmess
     port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
     alterId: 0
     cipher: auto
     tls: true
@@ -58,15 +58,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /9JZFDTKE
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
       headers:
-        Host: fr1.trump2023.org
-    servername: fr1.trump2023.org
+        Host: 005dgdf.pages.dev
+    servername: 005dgdf.pages.dev
     server: main.millionaireaisle.com
-  - name: 'sni-瑞典  26'
+  - name: 'sni-🇷🇺-俄罗斯-f1f3227.u3.glados-config.net'
     type: vmess
-    port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
     alterId: 0
     cipher: auto
     tls: true
@@ -74,15 +74,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: 5.249.160.226
-    servername: 5.249.160.226
+        Host: tls.apple.com
+    servername: tls.apple.com
     server: main.millionaireaisle.com
-  - name: 'sni-法国鲁贝OVH数据中心 28'
+  - name: 'cdn-🇸🇪-瑞典-141.147.151.129'
     type: vmess
     port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
     alterId: 0
     cipher: auto
     tls: true
@@ -90,15 +90,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /
       headers:
-        Host: 51.75.160.126
-    servername: 51.75.160.126
+        Host: 14.72img.xyz
+    servername: 14.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-v2scrape-30'
+  - name: 'cdn-🇦🇺-澳大利亚-203.24.108.8'
     type: vmess
     port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -106,8 +106,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /ECTCJ0DF
       headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
     server: main.millionaireaisle.com
