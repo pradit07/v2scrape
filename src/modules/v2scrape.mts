@@ -1,5 +1,5 @@
 import { sleep, v2parse } from "./helper.mjs";
-import { V2Object, Vless, Vmess } from "./types.mjs";
+import { Country, V2Object, Vless, Vmess } from "./types.mjs";
 import fetch from "node-fetch";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { Bugs } from "./bugs.mjs";
@@ -80,7 +80,7 @@ class V2scrape {
         signal: controller.signal,
       }).then(async (res) => {
         const data = JSON.parse(await res.text());
-        account.region = data.cc || "Other";
+        account.cc = data.cc || "Other";
       });
     } catch (e: any) {
       // console.log(e.message);
@@ -191,31 +191,40 @@ class V2scrape {
 
         for (let connectMode of isConnected) {
           if (!connectMode.error) {
-            if (!connectMode.region) connectMode.region = "Other";
-            if (!this.regions.includes(connectMode.region)) this.regions.push(connectMode.region);
+            if (!connectMode.cc) connectMode.cc = "Other";
+            if (!this.regions.includes(connectMode.cc)) this.regions.push(connectMode.cc);
 
             this.accounts.push(connectMode);
-            console.log(`${account.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.region}`);
+            console.log(`${account.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.cc}`);
           } else {
             console.log(`${account.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.error}`);
           }
         }
       })(v2Account);
 
-      // if (this.accounts.length > 5) break; // test purpose
+      if (this.accounts.length > 50) break; // test purpose
     }
   }
 
   convert(bugs: Bugs, bugBundle: string): Array<string> {
+    const countries: Array<Country> = JSON.parse(readFileSync("./countries.json").toString());
     const v2rayConfig = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
     const clashProxies: Array<string> = ["proxies:"];
     const v2rayProxies: Array<Object> = [];
     const base64Proxies: Array<string> = [];
-    let clashRegion: Array<{
+    let clashRegion = {
+      Asia: [""],
+      Europe: [""],
+      Africa: [""],
+      Oceania: [""],
+      Americas: [""],
+    };
+    let clashCountry: Array<{
       region: string;
       proxy: string;
     }> = [];
 
+    // Convert
     for (const account of this.accounts) {
       const cdn = bugs.cdn;
       const sni = bugs.sni;
@@ -226,8 +235,18 @@ class V2scrape {
 
       if (clashProxy) {
         clashProxies.push(clashProxy);
-        clashRegion.push({
-          region: account.region || "Other",
+
+        // Push to clash region
+        for (const country of countries) {
+          if (account.cc == "Other") break;
+          if (country.code == account.cc) {
+            clashRegion[country.region].push(clashProxy);
+          }
+        }
+
+        // Push to clash country
+        clashCountry.push({
+          region: account.cc || "Other",
           proxy: clashProxy,
         });
       }
@@ -236,54 +255,39 @@ class V2scrape {
     }
 
     // Split per region
+    for (const region of Object.keys(clashRegion)) {
+      const proxiesPerFile = ["proxies:"];
+      proxiesPerFile.push(...clashRegion[region as "Asia" | "Europe" | "Africa" | "Oceania" | "Americas"]);
+
+      writeFileSync(`./result/clash/providers-${bugBundle}-${region.toLowerCase()}.yaml`, proxiesPerFile.join("\n"));
+    }
+
+    // Split per country
     do {
       const proxiesPerFile = ["proxies:"];
-      let currentRegion = "";
-      for (let i = 0; i < clashRegion.length; i++) {
-        if (!clashRegion[i]) continue;
-        if (!currentRegion) currentRegion = clashRegion[i].region;
+      let currentCountry = "";
+      for (let i = 0; i < clashCountry.length; i++) {
+        if (!clashCountry[i]) continue;
+        if (!currentCountry) currentCountry = clashCountry[i].region;
 
-        if (clashRegion[i].region == currentRegion) {
-          proxiesPerFile.push(clashRegion[i].proxy);
-          delete clashRegion[i];
+        if (clashCountry[i].region == currentCountry) {
+          proxiesPerFile.push(clashCountry[i].proxy);
+          delete clashCountry[i];
         }
       }
 
-      writeFileSync(`./result/clash/providers-${bugBundle}-${currentRegion}.yaml`, proxiesPerFile.join("\n"));
+      writeFileSync(`./result/clash/providers-${bugBundle}-${currentCountry}.yaml`, proxiesPerFile.join("\n"));
 
-      clashRegion = (() => {
+      clashCountry = (() => {
         const filteredProxy = [];
 
-        for (const proxy of clashRegion) {
+        for (const proxy of clashCountry) {
           if (proxy) filteredProxy.push(proxy);
         }
 
         return filteredProxy;
       })();
-    } while (clashRegion.length > 0);
-
-    // Split for 4 files and write result
-    let splitCount = 1;
-    let proxyPerFile = Math.round((clashProxies.length - 1) / 4);
-    let proxiesPerFile = ["proxies:"];
-    for (let i = 1; i < clashProxies.length; i++) {
-      proxiesPerFile.push(clashProxies[i]);
-
-      // Save accounts left on the last providers
-      if (clashProxies.length - 1 - i < proxyPerFile && splitCount >= 4) {
-        proxyPerFile++;
-      }
-
-      if (proxiesPerFile.length - 1 >= proxyPerFile) {
-        writeFileSync(`./result/clash/providers-${bugBundle}-${splitCount}.yaml`, proxiesPerFile.join("\n"));
-
-        proxiesPerFile = ["proxies:"];
-        splitCount++;
-      }
-    }
-    if (proxiesPerFile.length > 1) {
-      writeFileSync(`./result/clash/providers-${bugBundle}-${splitCount}.yaml`, proxiesPerFile.join("\n"));
-    }
+    } while (clashCountry.length > 0);
 
     // Write entire result
     v2rayConfig.outbounds.push(...v2rayProxies);

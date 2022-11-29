@@ -14,7 +14,7 @@ export interface V2Object {
   sni: string;
   remark: string;
   cdn: boolean;
-  region?: string;
+  cc?: string;
   error?: string;
 }
 
@@ -48,4 +48,10 @@ export interface Vless {
   remark: string;
   sni: string;
   cdn: boolean;
+}
+
+export interface Country {
+  name: string;
+  code: string;
+  region: "Asia" | "Europe" | "Africa" | "Oceania" | "Americas";
 }
