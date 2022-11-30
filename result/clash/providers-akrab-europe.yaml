@@ -31,23 +31,7 @@ proxies:
         Host: h2.800876.xyz
     servername: h2.800876.xyz
     server: main.millionaireaisle.com
-  - name: '8  ⌜すごい⌟ cdn -> 🇩🇪'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
-    server: main.millionaireaisle.com
-  - name: '9  ⌜すごい⌟ cdn -> 🇱🇺'
+  - name: '8  ⌜すごい⌟ cdn -> 🇱🇺'
     type: vmess
     port: 443
     uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
@@ -63,10 +47,10 @@ proxies:
         Host: lu1.gogogoo.cyou
     servername: lu1.gogogoo.cyou
     server: main.millionaireaisle.com
-  - name: '12  ⌜すごい⌟ sni -> 🇩🇪'
+  - name: '9  ⌜すごい⌟ sni -> 🇬🇧'
     type: vmess
     port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
     alterId: 0
     cipher: auto
     tls: true
@@ -76,9 +60,25 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 5.249.160.226
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 51.75.160.126
+  - name: '19  ⌜すごい⌟ cdn -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
+    server: main.millionaireaisle.com
   - name: '20  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
@@ -98,22 +98,6 @@ proxies:
   - name: '21  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /p9Dq67Nx/
-      headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: main.millionaireaisle.com
-  - name: '22  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
@@ -127,7 +111,7 @@ proxies:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com
-  - name: '24  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '23  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
@@ -143,7 +127,7 @@ proxies:
         Host: fr1.trump2023.org
     servername: fr1.trump2023.org
     server: main.millionaireaisle.com
-  - name: '32  ⌜すごい⌟ cdn -> 🇳🇱'
+  - name: '31  ⌜すごい⌟ cdn -> 🇳🇱'
     type: vmess
     port: 443
     uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
@@ -159,7 +143,7 @@ proxies:
         Host: nl.v2-ray.com
     servername: nl.v2-ray.com
     server: main.millionaireaisle.com
-  - name: '36  ⌜すごい⌟ sni -> 🇳🇱'
+  - name: '35  ⌜すごい⌟ sni -> 🇳🇱'
     type: vmess
     port: 443
     uuid: 45d0eb68-955c-4760-91cd-fa6bf07b693f
@@ -172,10 +156,10 @@ proxies:
     ws-opts: 
       path: /fastssh/sezarhacks/633be1a74319b/
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: 163.172.213.74
-  - name: '37  ⌜すごい⌟ sni -> 🇫🇷'
+  - name: '36  ⌜すごい⌟ sni -> 🇫🇷'
     type: vmess
     port: 443
     uuid: f72b4ccd-9bb9-4682-8401-3d8affed53f2
@@ -188,26 +172,10 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: 5.249.165.96
-  - name: '38  ⌜すごい⌟ cdn -> 🇳🇱'
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
-    server: main.millionaireaisle.com
-  - name: '45  ⌜すごい⌟ cdn -> 🇵🇱'
+  - name: '42  ⌜すごい⌟ cdn -> 🇵🇱'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
@@ -223,19 +191,3 @@ proxies:
         Host: foxpol2.fovi.tk
     servername: foxpol2.fovi.tk
     server: main.millionaireaisle.com
-  - name: '50  ⌜すごい⌟ sni -> 🇬🇧'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 51.75.160.126

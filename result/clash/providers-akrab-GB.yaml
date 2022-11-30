@@ -1,5 +1,5 @@
 proxies:
-  - name: '50  ⌜すごい⌟ sni -> 🇬🇧'
+  - name: '9  ⌜すごい⌟ sni -> 🇬🇧'
     type: vmess
     port: 443
     uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
@@ -12,6 +12,6 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 51.75.160.126

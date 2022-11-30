@@ -1,8 +1,8 @@
 proxies:
-  - name: '4  ⌜すごい⌟ cdn -> 🇩🇪'
+  - name: '50  ⌜すごい⌟ sni -> 🇮🇱'
     type: vmess
     port: 443
-    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
+    uuid: b7519a6f-c1de-4667-e606-b60c65d19078
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: h2.800876.xyz
-    servername: h2.800876.xyz
-    server: cacerts.digicert.com
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 129.159.139.101

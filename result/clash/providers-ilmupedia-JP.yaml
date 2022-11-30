@@ -1,4 +1,20 @@
 proxies:
+  - name: '47  ⌜すごい⌟ sni -> 🇯🇵'
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 141.147.181.219
   - name: '48  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 3331
@@ -15,10 +31,10 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v3.glados-config.net
-  - name: '49  ⌜すごい⌟ cdn -> 🇯🇵'
+  - name: '49  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 443
-    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +42,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /roewesu
+      path: /zh-cn
       headers:
-        Host: suzhihan.eu.org
-    servername: suzhihan.eu.org
-    server: news.microsoft.com
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: jp1.sanfen001.pics

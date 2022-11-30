@@ -79,7 +79,7 @@ proxies:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
     server: main.millionaireaisle.com
-  - name: '13  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '12  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
@@ -95,7 +95,7 @@ proxies:
         Host: lg1.cfcdn2.xyz
     servername: lg1.cfcdn2.xyz
     server: main.millionaireaisle.com
-  - name: '14  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '13  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
@@ -111,7 +111,7 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com
-  - name: '15  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '14  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
@@ -127,7 +127,7 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com
-  - name: '16  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '15  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2083
     uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
@@ -143,7 +143,7 @@ proxies:
         Host: xui.mycf.ml
     servername: xui.mycf.ml
     server: main.millionaireaisle.com
-  - name: '17  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '16  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
@@ -159,7 +159,7 @@ proxies:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
     server: main.millionaireaisle.com
-  - name: '18  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '17  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
@@ -175,7 +175,7 @@ proxies:
         Host: us.awsbest.com
     servername: us.awsbest.com
     server: main.millionaireaisle.com
-  - name: '19  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '18  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
@@ -191,7 +191,7 @@ proxies:
         Host: lg1.trump2023.us
     servername: lg1.trump2023.us
     server: main.millionaireaisle.com
-  - name: '23  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '22  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
@@ -207,7 +207,7 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com
-  - name: '26  ⌜すごい⌟ sni -> 🇺🇸'
+  - name: '24  ⌜すごい⌟ sni -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -223,7 +223,7 @@ proxies:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
     server: 51.81.220.195
-  - name: '28  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '26  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
@@ -239,7 +239,7 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com
-  - name: '29  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '27  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -255,7 +255,7 @@ proxies:
         Host: us-lb.sshkit.org
     servername: us-lb.sshkit.org
     server: main.millionaireaisle.com
-  - name: '30  ⌜すごい⌟ sni -> 🇺🇸'
+  - name: '28  ⌜すごい⌟ sni -> 🇺🇸'
     type: vmess
     port: 443
     uuid: d1478689-439c-4590-b7ce-36e786a02dc3
@@ -271,7 +271,7 @@ proxies:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
     server: youtube-bai-piao-wang-zhe-usa.98848.xyz
-  - name: '31  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '29  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 33aa57df-1c93-4318-9fce-e850437ee781
@@ -287,7 +287,7 @@ proxies:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
     server: main.millionaireaisle.com
-  - name: '33  ⌜すごい⌟ sni -> 🇺🇸'
+  - name: '32  ⌜すごい⌟ sni -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
@@ -303,7 +303,7 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: 67.21.72.41
-  - name: '34  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '33  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
@@ -319,7 +319,7 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: main.millionaireaisle.com
-  - name: '35  ⌜すごい⌟ sni -> 🇺🇸'
+  - name: '34  ⌜すごい⌟ sni -> 🇺🇸'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -332,10 +332,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: f1f3227.u1.glados-config.net
-  - name: '39  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '37  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
@@ -351,7 +351,7 @@ proxies:
         Host: foxusovz3.fovi.tk
     servername: foxusovz3.fovi.tk
     server: main.millionaireaisle.com
-  - name: '42  ⌜すごい⌟ sni -> 🇺🇸'
+  - name: '40  ⌜すごい⌟ sni -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
@@ -364,10 +364,10 @@ proxies:
     ws-opts: 
       path: /path/120208301422
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 67.21.72.44
-  - name: '43  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '41  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
@@ -383,7 +383,7 @@ proxies:
         Host: foxusovz1.fovi.tk
     servername: foxusovz1.fovi.tk
     server: main.millionaireaisle.com
-  - name: '44  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '43  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
