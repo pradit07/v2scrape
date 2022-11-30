@@ -15,7 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
-  - name: '17  ⌜すごい⌟ sni -> 🇭🇰'
+  - name: '18  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
@@ -31,3 +31,19 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
+  - name: '25  ⌜すごい⌟ cdn -> 🇯🇵'
+    type: vmess
+    port: 443
+    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: v2.chigua.tk
+    servername: v2.chigua.tk
+    server: cacerts.digicert.com

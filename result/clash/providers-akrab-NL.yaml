@@ -1,8 +1,8 @@
 proxies:
-  - name: '19  ⌜すごい⌟ sni -> 🇳🇱'
+  - name: '3  ⌜すごい⌟ cdn -> 🇳🇱'
     type: vmess
     port: 443
-    uuid: 45d0eb68-955c-4760-91cd-fa6bf07b693f
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
     tls: true
@@ -10,12 +10,28 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /fastssh/sezarhacks/633be1a74319b/
+      path: /pkhhvws
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 163.172.213.74
-  - name: '22  ⌜すごい⌟ cdn -> 🇳🇱'
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
+    server: main.millionaireaisle.com
+  - name: '29  ⌜すごい⌟ sni -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fastssh/hkgzs01/6315d407657f6/
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: nl.v2-ray.com
+  - name: '30  ⌜すごい⌟ cdn -> 🇳🇱'
     type: vmess
     port: 443
     uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
@@ -31,3 +47,19 @@ proxies:
         Host: nl.v2-ray.com
     servername: nl.v2-ray.com
     server: main.millionaireaisle.com
+  - name: '32  ⌜すごい⌟ sni -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: 45d0eb68-955c-4760-91cd-fa6bf07b693f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fastssh/sezarhacks/633be1a74319b/
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 163.172.213.74

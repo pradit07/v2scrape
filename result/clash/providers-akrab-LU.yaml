@@ -1,8 +1,8 @@
 proxies:
-  - name: '24  ⌜すごい⌟ cdn -> 🇧🇷'
+  - name: '26  ⌜すごい⌟ cdn -> 🇱🇺'
     type: vmess
     port: 443
-    uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /go
       headers:
-        Host: br1.v2rayserv.com
-    servername: br1.v2rayserv.com
+        Host: lu1.gogogoo.cyou
+    servername: lu1.gogogoo.cyou
     server: main.millionaireaisle.com

@@ -1,8 +1,8 @@
 proxies:
-  - name: '24  ⌜すごい⌟ cdn -> 🇧🇷'
+  - name: '25  ⌜すごい⌟ cdn -> 🇯🇵'
     type: vmess
     port: 443
-    uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
+    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /vmess
       headers:
-        Host: br1.v2rayserv.com
-    servername: br1.v2rayserv.com
+        Host: v2.chigua.tk
+    servername: v2.chigua.tk
     server: main.millionaireaisle.com

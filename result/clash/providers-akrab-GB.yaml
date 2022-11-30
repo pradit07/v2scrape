@@ -1,5 +1,5 @@
 proxies:
-  - name: '5  ⌜すごい⌟ sni -> 🇬🇧'
+  - name: '6  ⌜すごい⌟ sni -> 🇬🇧'
     type: vmess
     port: 443
     uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
@@ -12,10 +12,10 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 51.75.160.126
-  - name: '20  ⌜すごい⌟ cdn -> 🇬🇧'
+  - name: '19  ⌜すごい⌟ cdn -> 🇬🇧'
     type: vmess
     port: 443
     uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
@@ -30,20 +30,4 @@ proxies:
       headers:
         Host: uk3.v2rayserv.com
     servername: uk3.v2rayserv.com
-    server: main.millionaireaisle.com
-  - name: '21  ⌜すごい⌟ sni -> 🇬🇧'
-    type: vmess
-    port: 443
-    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
     server: main.millionaireaisle.com

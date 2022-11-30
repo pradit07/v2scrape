@@ -1,5 +1,5 @@
 proxies:
-  - name: '2  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '4  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 0764a598-82c4-4b41-ba10-551a625beed5
@@ -15,7 +15,7 @@ proxies:
         Host: uk2.v2rayserv.com
     servername: uk2.v2rayserv.com
     server: main.millionaireaisle.com
-  - name: '7  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '8  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
