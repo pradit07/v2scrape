@@ -215,7 +215,7 @@ class V2scrape {
         }
       })(v2Account);
 
-      // if (this.accounts.length > 50) break; // test purpose
+      if (this.accounts.length > 100) break; // test purpose
     }
   }
 
