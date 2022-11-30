@@ -111,6 +111,7 @@ class V2scrape {
 
   private async parse(accounts: Array<string> | string) {
     if (!Array.isArray(accounts)) accounts = [accounts];
+    const ids: Array<string> = [];
     let port = 10800;
 
     for (let account of accounts) {
@@ -163,6 +164,7 @@ class V2scrape {
       }
 
       if (v2Account.network != "ws") continue;
+      if (ids.includes(v2Account.id)) continue;
 
       await (async (account: V2Object) => {
         const isConnected: Array<V2Object> = [];
@@ -186,6 +188,8 @@ class V2scrape {
 
         for (let connectMode of isConnected) {
           if (!connectMode.error && connectMode.cc) {
+            if (!ids.includes(account.id)) ids.push(account.id);
+
             if (!this.regions.includes(connectMode.cc)) this.regions.push(connectMode.cc);
             connectMode.remark = `${this.accounts.length + 1}  ⌜すごい⌟ ${connectMode.cdn ? "cdn" : "sni"} -> ${
               connectMode.cc != "XX" ? countryCodeEmoji(connectMode.cc) : "🇺🇳"
