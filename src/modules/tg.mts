@@ -49,6 +49,7 @@ class Bot {
     message += `Host: <code>${account.host}</code>\n`;
     message += `Path: <code>${account.path}</code>\n`;
     message += `TLS: <code>${account.tls ? true : false}</code>\n`;
+    message += `Mode: <code>${account.cdn ? "CDN" : "SNI"}</code>\n`;
     message += `SNI: <code>${account.sni}</code>\n\n`;
     message += `⌜<code>${v2scrape.toBase64(account, account.sni, account.address)}</code>⌟\n\n`;
     message += `Config: <a href="https://github.com/dickymuliafiqri/v2scrape/tree/master/config">Config Example</a>\n`;
