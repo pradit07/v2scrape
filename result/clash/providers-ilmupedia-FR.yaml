@@ -1,37 +1,5 @@
 proxies:
-  - name: '3  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: uk2.v2rayserv.com
-    servername: uk2.v2rayserv.com
-    server: news.microsoft.com
-  - name: '7  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /p9Dq67Nx/
-      headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: news.microsoft.com
-  - name: '8  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '21  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -46,8 +14,8 @@ proxies:
       headers:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
-    server: cacerts.digicert.com
-  - name: '10  ⌜すごい⌟ cdn -> 🇫🇷'
+    server: news.microsoft.com
+  - name: '23  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
@@ -62,11 +30,11 @@ proxies:
       headers:
         Host: fr1.trump2023.org
     servername: fr1.trump2023.org
-    server: cacerts.digicert.com
-  - name: '13  ⌜すごい⌟ cdn -> 🇫🇷'
+    server: news.microsoft.com
+  - name: '36  ⌜すごい⌟ sni -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    uuid: f72b4ccd-9bb9-4682-8401-3d8affed53f2
     alterId: 0
     cipher: auto
     tls: true
@@ -74,8 +42,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /vmess
       headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 5.249.165.96
+  - name: '41  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /p9Dq67Nx/
+      headers:
+        Host: fr1.cachexy.ga
+    servername: fr1.cachexy.ga
     server: cacerts.digicert.com

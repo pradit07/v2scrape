@@ -1,8 +1,8 @@
 proxies:
-  - name: '3  ⌜すごい⌟ sni -> 🇦🇺'
+  - name: '25  ⌜すごい⌟ sni -> 🇰🇷'
     type: vmess
     port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /zh-cn
       headers:
         Host: news.microsoft.com
     servername: news.microsoft.com
-    server: 139.99.135.182
+    server: kr1.sanfen001.pics

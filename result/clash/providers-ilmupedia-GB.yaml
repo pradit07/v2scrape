@@ -1,5 +1,5 @@
 proxies:
-  - name: '5  ⌜すごい⌟ sni -> 🇬🇧'
+  - name: '8  ⌜すごい⌟ sni -> 🇬🇧'
     type: vmess
     port: 443
     uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
@@ -15,7 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 51.75.160.126
-  - name: '20  ⌜すごい⌟ cdn -> 🇬🇧'
+  - name: '16  ⌜すごい⌟ cdn -> 🇬🇧'
     type: vmess
     port: 443
     uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
@@ -30,4 +30,4 @@ proxies:
       headers:
         Host: uk3.v2rayserv.com
     servername: uk3.v2rayserv.com
-    server: cacerts.digicert.com
+    server: news.microsoft.com

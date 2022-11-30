@@ -1,8 +1,8 @@
 proxies:
-  - name: '38  ⌜すごい⌟ cdn -> 🇧🇷'
+  - name: '10  ⌜すごい⌟ cdn -> 🇰🇿'
     type: vmess
     port: 443
-    uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
+    uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,6 @@ proxies:
     ws-opts: 
       path: /sshocean
       headers:
-        Host: br1.v2rayserv.com
-    servername: br1.v2rayserv.com
-    server: cacerts.digicert.com
+        Host: kz1.v2rayserv.com
+    servername: kz1.v2rayserv.com
+    server: news.microsoft.com

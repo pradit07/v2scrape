@@ -1,5 +1,5 @@
 proxies:
-  - name: '41  ⌜すごい⌟ cdn -> 🇱🇺'
+  - name: '7  ⌜すごい⌟ cdn -> 🇱🇺'
     type: vmess
     port: 443
     uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
@@ -14,4 +14,4 @@ proxies:
       headers:
         Host: lu1.gogogoo.cyou
     servername: lu1.gogogoo.cyou
-    server: news.microsoft.com
+    server: cacerts.digicert.com
