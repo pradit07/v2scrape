@@ -1,5 +1,5 @@
 proxies:
-  - name: '8  ⌜すごい⌟ cdn -> 🇱🇺'
+  - name: '11  ⌜すごい⌟ cdn -> 🇱🇺'
     type: vmess
     port: 443
     uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
@@ -14,4 +14,20 @@ proxies:
       headers:
         Host: lu1.gogogoo.cyou
     servername: lu1.gogogoo.cyou
+    server: news.microsoft.com
+  - name: '21  ⌜すごい⌟ cdn -> 🇱🇺'
+    type: vmess
+    port: 443
+    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /imkcpyyds
+      headers:
+        Host: buyvm.imkcp.eu.org
+    servername: buyvm.imkcp.eu.org
     server: cacerts.digicert.com

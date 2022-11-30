@@ -1,5 +1,5 @@
 proxies:
-  - name: '19  ⌜すごい⌟ cdn -> 🇳🇱'
+  - name: '25  ⌜すごい⌟ cdn -> 🇳🇱'
     type: vmess
     port: 443
     uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
@@ -15,7 +15,7 @@ proxies:
         Host: amshare.jingledev.me
     servername: amshare.jingledev.me
     server: main.millionaireaisle.com
-  - name: '31  ⌜すごい⌟ cdn -> 🇳🇱'
+  - name: '37  ⌜すごい⌟ cdn -> 🇳🇱'
     type: vmess
     port: 443
     uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
@@ -31,7 +31,7 @@ proxies:
         Host: nl.v2-ray.com
     servername: nl.v2-ray.com
     server: main.millionaireaisle.com
-  - name: '35  ⌜すごい⌟ sni -> 🇳🇱'
+  - name: '42  ⌜すごい⌟ sni -> 🇳🇱'
     type: vmess
     port: 443
     uuid: 45d0eb68-955c-4760-91cd-fa6bf07b693f
@@ -44,6 +44,6 @@ proxies:
     ws-opts: 
       path: /fastssh/sezarhacks/633be1a74319b/
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: 163.172.213.74

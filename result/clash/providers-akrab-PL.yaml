@@ -15,7 +15,7 @@ proxies:
         Host: w.800876.xyz
     servername: w.800876.xyz
     server: main.millionaireaisle.com
-  - name: '42  ⌜すごい⌟ cdn -> 🇵🇱'
+  - name: '51  ⌜すごい⌟ cdn -> 🇵🇱'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
