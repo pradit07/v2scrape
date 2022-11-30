@@ -1,5 +1,5 @@
 proxies:
-  - name: '12  ⌜すごい⌟ sni -> 🇭🇰'
+  - name: '1  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -12,10 +12,10 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: hk1.sanfen001.pics
-  - name: '14  ⌜すごい⌟ sni -> 🇯🇵'
+  - name: '2  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -28,10 +28,58 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.v1.glados-config.net
+  - name: '4  ⌜すごい⌟ sni -> 🇯🇵'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.v3.glados-config.net
+  - name: '13  ⌜すごい⌟ sni -> 🇸🇬'
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/Ertusg86/635014638c264/
+      headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: f1f3227.v3.glados-config.net
-  - name: '22  ⌜すごい⌟ cdn -> 🇯🇵'
+    server: sg-lb.vhax.net
+  - name: '14  ⌜すごい⌟ sni -> 🇯🇵'
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: suzhihan.eu.org
+  - name: '15  ⌜すごい⌟ cdn -> 🇯🇵'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -47,39 +95,7 @@ proxies:
         Host: suzhihan.eu.org
     servername: suzhihan.eu.org
     server: main.millionaireaisle.com
-  - name: '23  ⌜すごい⌟ sni -> 🇯🇵'
-    type: vmess
-    port: 443
-    uuid: 0b873cff-11ab-4716-c41a-04f886135091
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /roewesu
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: suzhihan.eu.org
-  - name: '27  ⌜すごい⌟ sni -> 🇭🇰'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: hk12.sanfen001.pics
-  - name: '29  ⌜すごい⌟ sni -> 🇭🇰'
+  - name: '18  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
@@ -95,7 +111,23 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: hk3.sanfen001.pics
-  - name: '42  ⌜すごい⌟ sni -> 🇭🇰'
+  - name: '29  ⌜すごい⌟ sni -> 🇭🇰'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: hk1.sanfen001.pics
+  - name: '51  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -111,3 +143,195 @@ proxies:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
     server: hk1.sanfen001.pics
+  - name: '52  ⌜すごい⌟ sni -> 🇰🇷'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: kr1.sanfen001.pics
+  - name: '71  ⌜すごい⌟ sni -> 🇭🇰'
+    type: vmess
+    port: 443
+    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: hk1.sanfen001.pics
+  - name: '106  ⌜すごい⌟ sni -> 🇸🇬'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.f1.glados-config.net
+  - name: '119  ⌜すごい⌟ sni -> 🇭🇰'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: hk1.sanfen001.pics
+  - name: '147  ⌜すごい⌟ sni -> 🇰🇷'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: kr1.sanfen001.pics
+  - name: '164  ⌜すごい⌟ sni -> 🇯🇵'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: f1f3227.v1.glados-config.net
+  - name: '200  ⌜すごい⌟ sni -> 🇰🇷'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: kr1.sanfen001.pics
+  - name: '214  ⌜すごい⌟ sni -> 🇰🇷'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: kr1.sanfen001.pics
+  - name: '215  ⌜すごい⌟ sni -> 🇭🇰'
+    type: vmess
+    port: 443
+    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk1.sanfen001.pics
+  - name: '238  ⌜すごい⌟ sni -> 🇭🇰'
+    type: vmess
+    port: 443
+    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: hk1.sanfen001.pics
+  - name: '242  ⌜すごい⌟ sni -> 🇭🇰'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: hk1.sanfen001.pics
+  - name: '249  ⌜すごい⌟ sni -> 🇯🇵'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: f1f3227.v3.glados-config.net

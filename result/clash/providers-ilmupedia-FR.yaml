@@ -1,24 +1,8 @@
 proxies:
-  - name: '1  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 443
-    uuid: 1f4322e1-0e7e-4af2-cc09-84666ac15616
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /?ed=2048
-      headers:
-        Host: w1.800876.xyz
-    servername: w1.800876.xyz
-    server: cacerts.digicert.com
   - name: '7  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
     tls: true
@@ -26,14 +10,46 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
+      path: /IYKLD53M
       headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: cacerts.digicert.com
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
   - name: '9  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: cacerts.digicert.com
+  - name: '10  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: news.microsoft.com
+  - name: '20  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
@@ -46,8 +62,24 @@ proxies:
       headers:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
-    server: cacerts.digicert.com
-  - name: '17  ⌜すごい⌟ cdn -> 🇫🇷'
+    server: news.microsoft.com
+  - name: '21  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '24  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
@@ -63,7 +95,23 @@ proxies:
         Host: fr1.cachexy.ga
     servername: fr1.cachexy.ga
     server: cacerts.digicert.com
-  - name: '18  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '26  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: news.microsoft.com
+  - name: '27  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -79,7 +127,23 @@ proxies:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
     server: cacerts.digicert.com
-  - name: '31  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '28  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: news.microsoft.com
+  - name: '30  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -98,7 +162,7 @@ proxies:
   - name: '32  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
     alterId: 0
     cipher: auto
     tls: true
@@ -106,44 +170,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /IYKLD53M
+      path: /dongtaiwang.com
       headers:
-        Host: opfr1.v2rayfree1.xyz
-    servername: opfr1.v2rayfree1.xyz
-    server: news.microsoft.com
-  - name: '33  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 8443
-    uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: cdn2.soft98.download
-    servername: cdn2.soft98.download
-    server: news.microsoft.com
-  - name: '34  ⌜すごい⌟ sni -> 🇫🇷'
-    type: vmess
-    port: 8443
-    uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: cdn2.soft98.download
-  - name: '37  ⌜すごい⌟ cdn -> 🇫🇷'
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: cacerts.digicert.com
+  - name: '34  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
@@ -158,11 +190,75 @@ proxies:
       headers:
         Host: fr1.cachexy.ga
     servername: fr1.cachexy.ga
+    server: news.microsoft.com
+  - name: '36  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: cacerts.digicert.com
+  - name: '37  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '38  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '39  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
     server: news.microsoft.com
   - name: '40  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
     alterId: 0
     cipher: auto
     tls: true
@@ -170,15 +266,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /IYKLD53M
+      path: /9JZFDTKE
       headers:
-        Host: opfr1.v2rayfree1.xyz
-    servername: opfr1.v2rayfree1.xyz
-    server: news.microsoft.com
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: cacerts.digicert.com
   - name: '41  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
     tls: true
@@ -186,12 +282,28 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /IYKLD53M
       headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
     server: cacerts.digicert.com
-  - name: '44  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '46  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: cacerts.digicert.com
+  - name: '47  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -207,7 +319,247 @@ proxies:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
     server: news.microsoft.com
-  - name: '48  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '50  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: news.microsoft.com
+  - name: '55  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: news.microsoft.com
+  - name: '62  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: cacerts.digicert.com
+  - name: '64  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: news.microsoft.com
+  - name: '65  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '68  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: news.microsoft.com
+  - name: '70  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '73  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '74  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '77  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '81  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: news.microsoft.com
+  - name: '84  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: cacerts.digicert.com
+  - name: '89  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '96  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: cacerts.digicert.com
+  - name: '98  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: news.microsoft.com
+  - name: '107  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4679f00e-90ce-430d-9714-6a19367ba112
@@ -223,10 +575,10 @@ proxies:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
     server: cacerts.digicert.com
-  - name: '50  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '112  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
     tls: true
@@ -234,8 +586,520 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
+      path: /IYKLD53M
       headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '116  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '117  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '120  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: news.microsoft.com
+  - name: '121  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '122  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '123  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: news.microsoft.com
+  - name: '124  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '127  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '140  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: cacerts.digicert.com
+  - name: '145  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: cacerts.digicert.com
+  - name: '151  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: cacerts.digicert.com
+  - name: '162  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '163  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '174  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '177  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '178  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '179  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '180  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '184  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: cacerts.digicert.com
+  - name: '185  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '187  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: cacerts.digicert.com
+  - name: '188  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: cacerts.digicert.com
+  - name: '190  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '193  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '195  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: news.microsoft.com
+  - name: '196  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '198  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: cacerts.digicert.com
+  - name: '201  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: cacerts.digicert.com
+  - name: '211  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: news.microsoft.com
+  - name: '221  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: cacerts.digicert.com
+  - name: '236  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: news.microsoft.com
+  - name: '246  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
     server: news.microsoft.com

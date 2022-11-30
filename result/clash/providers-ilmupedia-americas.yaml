@@ -2,7 +2,7 @@ proxies:
   - name: '3  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
-    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
     alterId: 0
     cipher: auto
     tls: true
@@ -14,8 +14,40 @@ proxies:
       headers:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
-    server: news.microsoft.com
-  - name: '4  ⌜すごい⌟ cdn -> 🇺🇸'
+    server: cacerts.digicert.com
+  - name: '5  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '6  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '8  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
@@ -31,26 +63,10 @@ proxies:
         Host: lg30.cfcdn3.xyz
     servername: lg30.cfcdn3.xyz
     server: news.microsoft.com
-  - name: '10  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ECTCJ0DF
-      headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: news.microsoft.com
   - name: '11  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
     alterId: 0
     cipher: auto
     tls: true
@@ -60,10 +76,186 @@ proxies:
     ws-opts: 
       path: /dongtaiwang.com
       headers:
-        Host: clash6.ssr-free.xyz
-    servername: clash6.ssr-free.xyz
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
     server: news.microsoft.com
-  - name: '13  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '12  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: '16  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '17  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '19  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '22  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: c9d5f9f1-1bfd-4b12-97be-0fa3b05ab845
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /baipiaozhenkuaile
+      headers:
+        Host: www.jimengsro.cf
+    servername: www.jimengsro.cf
+    server: cacerts.digicert.com
+  - name: '23  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: c9d5f9f1-1bfd-4b12-97be-0fa3b05ab845
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /baipiaozhenkuaile
+      headers:
+        Host: www.jimengsro.cf
+    servername: www.jimengsro.cf
+    server: cacerts.digicert.com
+  - name: '25  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '31  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+      headers:
+        Host: 005dgdf.pages.dev
+    servername: 005dgdf.pages.dev
+    server: cacerts.digicert.com
+  - name: '33  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '35  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '42  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: cacerts.digicert.com
+  - name: '45  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
@@ -79,10 +271,10 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: news.microsoft.com
-  - name: '15  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '48  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
-    port: 443
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    port: 2053
+    uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
     alterId: 0
     cipher: auto
     tls: true
@@ -90,12 +282,28 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /ECTCJ0DF
+      path: /DQsafRJn/
       headers:
-        Host: lg1.trump2023.us
-    servername: lg1.trump2023.us
-    server: cacerts.digicert.com
-  - name: '16  ⌜すごい⌟ cdn -> 🇺🇸'
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '53  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 51.81.220.195
+  - name: '56  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
@@ -111,71 +319,7 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: news.microsoft.com
-  - name: '19  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-    servername: lg30.cfcdn3.xyz
-    server: cacerts.digicert.com
-  - name: '20  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
-    server: cacerts.digicert.com
-  - name: '21  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-    servername: lg30.cfcdn3.xyz
-    server: cacerts.digicert.com
-  - name: '24  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 2053
-    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /DQsafRJn/
-      headers:
-        Host: v2ray.wefuckgfw.ga
-    servername: v2ray.wefuckgfw.ga
-    server: news.microsoft.com
-  - name: '25  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '57  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
@@ -191,55 +335,7 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: news.microsoft.com
-  - name: '30  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 2053
-    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /DQsafRJn/
-      headers:
-        Host: v2ray.wefuckgfw.ga
-    servername: v2ray.wefuckgfw.ga
-    server: cacerts.digicert.com
-  - name: '36  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 2053
-    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /DQsafRJn/
-      headers:
-        Host: v2ray.wefuckgfw.ga
-    servername: v2ray.wefuckgfw.ga
-    server: cacerts.digicert.com
-  - name: '38  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 2053
-    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /DQsafRJn/
-      headers:
-        Host: v2ray.wefuckgfw.ga
-    servername: v2ray.wefuckgfw.ga
-    server: news.microsoft.com
-  - name: '45  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '58  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
@@ -255,10 +351,10 @@ proxies:
         Host: 005dgdf.pages.dev
     servername: 005dgdf.pages.dev
     server: news.microsoft.com
-  - name: '46  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '59  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
-    uuid: c9d5f9f1-1bfd-4b12-97be-0fa3b05ab845
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     tls: true
@@ -266,15 +362,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /baipiaozhenkuaile
+      path: /ECTCJ0DF
       headers:
-        Host: www.jimengsro.cf
-    servername: www.jimengsro.cf
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
     server: cacerts.digicert.com
-  - name: '47  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '60  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
-    uuid: c9d5f9f1-1bfd-4b12-97be-0fa3b05ab845
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
     alterId: 0
     cipher: auto
     tls: true
@@ -282,15 +378,47 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /baipiaozhenkuaile
+      path: /sshkit/Variu88/634dab7abadf1/
       headers:
-        Host: www.jimengsro.cf
-    servername: www.jimengsro.cf
+        Host: us-lb.sshkit.org
+    servername: us-lb.sshkit.org
     server: cacerts.digicert.com
-  - name: '49  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '61  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: d1478689-439c-4590-b7ce-36e786a02dc3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /YouTube@bai-piao-wang-zhe_vws
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: youtube-bai-piao-wang-zhe-usa.98848.xyz
+  - name: '63  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+      headers:
+        Host: 005dgdf.pages.dev
+    servername: 005dgdf.pages.dev
+    server: cacerts.digicert.com
+  - name: '66  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
-    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
+    uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
     alterId: 0
     cipher: auto
     tls: true
@@ -303,7 +431,55 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: news.microsoft.com
-  - name: '51  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '67  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: '69  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: news.microsoft.com
+  - name: '72  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /share
+      headers:
+        Host: us.awsbest.com
+    servername: us.awsbest.com
+    server: cacerts.digicert.com
+  - name: '76  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
@@ -319,3 +495,1603 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: news.microsoft.com
+  - name: '78  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '80  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '83  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/173418141123
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 67.21.72.41
+  - name: '85  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2083
+    uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: xui.mycf.ml
+    servername: xui.mycf.ml
+    server: news.microsoft.com
+  - name: '90  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2083
+    uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: xui.mycf.ml
+    servername: xui.mycf.ml
+    server: news.microsoft.com
+  - name: '91  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '92  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '94  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '95  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: us-lb.sshkit.org
+    servername: us-lb.sshkit.org
+    server: cacerts.digicert.com
+  - name: '97  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: f1f3227.u1.glados-config.net
+  - name: '99  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '103  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: us-lb.sshkit.org
+  - name: '105  ⌜すごい⌟ cdn -> 🇧🇷'
+    type: vmess
+    port: 443
+    uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: br1.v2rayserv.com
+    servername: br1.v2rayserv.com
+    server: news.microsoft.com
+  - name: '108  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '109  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '110  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '111  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '113  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 67.21.72.44
+  - name: '115  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: news.microsoft.com
+  - name: '118  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2083
+    uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: xui.mycf.ml
+    servername: xui.mycf.ml
+    server: cacerts.digicert.com
+  - name: '125  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: c9d5f9f1-1bfd-4b12-97be-0fa3b05ab845
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /baipiaozhenkuaile
+      headers:
+        Host: www.jimengsro.cf
+    servername: www.jimengsro.cf
+    server: news.microsoft.com
+  - name: '126  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: c9d5f9f1-1bfd-4b12-97be-0fa3b05ab845
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /baipiaozhenkuaile
+      headers:
+        Host: www.jimengsro.cf
+    servername: www.jimengsro.cf
+    server: cacerts.digicert.com
+  - name: '128  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '132  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '133  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '137  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: cacerts.digicert.com
+  - name: '138  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '139  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '141  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '142  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: cacerts.digicert.com
+  - name: '143  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '144  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '146  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '148  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '149  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 51.81.220.195
+  - name: '150  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: '152  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray2.ssr-free2.xyz
+    servername: v2ray2.ssr-free2.xyz
+    server: cacerts.digicert.com
+  - name: '153  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '154  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '155  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '156  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '157  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '158  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: cacerts.digicert.com
+  - name: '159  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: us-lb.sshkit.org
+    servername: us-lb.sshkit.org
+    server: news.microsoft.com
+  - name: '160  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: us-lb.sshkit.org
+  - name: '161  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '165  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 67.21.72.44
+  - name: '166  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/120208301422
+      headers:
+        Host: www.48816626.xyz
+    servername: www.48816626.xyz
+    server: news.microsoft.com
+  - name: '167  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '168  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '169  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '170  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: '171  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 141.101.115.121
+  - name: '172  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: us-lb.sshkit.org
+    servername: us-lb.sshkit.org
+    server: cacerts.digicert.com
+  - name: '173  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: '175  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: cacerts.digicert.com
+  - name: '176  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: cacerts.digicert.com
+  - name: '181  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: news.microsoft.com
+  - name: '182  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: news.microsoft.com
+  - name: '183  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '186  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2083
+    uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: xui.mycf.ml
+    servername: xui.mycf.ml
+    server: news.microsoft.com
+  - name: '189  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '191  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '192  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '194  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '197  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: cacerts.digicert.com
+  - name: '199  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: f1f3227.u3.glados-config.net
+  - name: '204  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: cacerts.digicert.com
+  - name: '206  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2083
+    uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: xui.mycf.ml
+    servername: xui.mycf.ml
+    server: cacerts.digicert.com
+  - name: '208  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '210  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /eisasqa
+      headers:
+        Host: foxusovz2.fovi.tk
+    servername: foxusovz2.fovi.tk
+    server: news.microsoft.com
+  - name: '212  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /eisasqa
+      headers:
+        Host: foxusovz1.fovi.tk
+    servername: foxusovz1.fovi.tk
+    server: cacerts.digicert.com
+  - name: '213  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '217  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '218  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: '219  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg1.cfcdn1.xyz
+    servername: lg1.cfcdn1.xyz
+    server: news.microsoft.com
+  - name: '220  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: news.microsoft.com
+  - name: '222  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: cacerts.digicert.com
+  - name: '223  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: cacerts.digicert.com
+  - name: '224  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '225  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '227  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: news.microsoft.com
+  - name: '228  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '229  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2083
+    uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: xui.mycf.ml
+    servername: xui.mycf.ml
+    server: cacerts.digicert.com
+  - name: '230  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '231  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: news.microsoft.com
+  - name: '232  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '234  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: f1f3227.u1.glados-config.net
+  - name: '235  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: d1478689-439c-4590-b7ce-36e786a02dc3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /YouTube@bai-piao-wang-zhe_vws
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: youtube-bai-piao-wang-zhe-usa.98848.xyz
+  - name: '237  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /share
+      headers:
+        Host: us.awsbest.com
+    servername: us.awsbest.com
+    server: cacerts.digicert.com
+  - name: '239  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '240  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '241  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2083
+    uuid: 8a21b84d-183e-450d-ec82-8d45855d8180
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: xui.mycf.ml
+    servername: xui.mycf.ml
+    server: cacerts.digicert.com
+  - name: '243  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
+    server: cacerts.digicert.com
+  - name: '244  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash6.ssr-free.xyz
+    servername: clash6.ssr-free.xyz
+    server: news.microsoft.com
+  - name: '247  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ray
+      headers:
+        Host: lg30.cfcdn3.xyz
+    servername: lg30.cfcdn3.xyz
+    server: news.microsoft.com
+  - name: '248  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: f1f3227.u1.glados-config.net
+  - name: '250  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: c9d5f9f1-1bfd-4b12-97be-0fa3b05ab845
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /baipiaozhenkuaile
+      headers:
+        Host: www.jimengsro.cf
+    servername: www.jimengsro.cf
+    server: news.microsoft.com
+  - name: '251  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /DQsafRJn/
+      headers:
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: cacerts.digicert.com
+  - name: '252  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+      headers:
+        Host: 001frg.pages.dev
+    servername: 001frg.pages.dev
+    server: cacerts.digicert.com

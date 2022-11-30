@@ -1,8 +1,8 @@
 proxies:
-  - name: '1  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '7  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 1f4322e1-0e7e-4af2-cc09-84666ac15616
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
     tls: true
@@ -10,15 +10,31 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /?ed=2048
+      path: /IYKLD53M
       headers:
-        Host: w1.800876.xyz
-    servername: w1.800876.xyz
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com
-  - name: '2  ⌜すごい⌟ cdn -> 🇩🇪'
+  - name: '9  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '10  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
     alterId: 0
     cipher: auto
     tls: true
@@ -28,26 +44,10 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: h1.800876.xyz
-    servername: h1.800876.xyz
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
     server: main.millionaireaisle.com
-  - name: '7  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /p9Dq67Nx/
-      headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: main.millionaireaisle.com
-  - name: '9  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '20  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -63,23 +63,7 @@ proxies:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com
-  - name: '17  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /p9Dq67Nx/
-      headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: main.millionaireaisle.com
-  - name: '18  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '21  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -95,7 +79,71 @@ proxies:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com
-  - name: '31  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '24  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /p9Dq67Nx/
+      headers:
+        Host: fr1.cachexy.ga
+    servername: fr1.cachexy.ga
+    server: main.millionaireaisle.com
+  - name: '26  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '27  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '28  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: main.millionaireaisle.com
+  - name: '30  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -114,7 +162,7 @@ proxies:
   - name: '32  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
     alterId: 0
     cipher: auto
     tls: true
@@ -122,44 +170,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /IYKLD53M
+      path: /dongtaiwang.com
       headers:
-        Host: opfr1.v2rayfree1.xyz
-    servername: opfr1.v2rayfree1.xyz
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
     server: main.millionaireaisle.com
-  - name: '33  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 8443
-    uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: cdn2.soft98.download
-    servername: cdn2.soft98.download
-    server: main.millionaireaisle.com
-  - name: '34  ⌜すごい⌟ sni -> 🇫🇷'
-    type: vmess
-    port: 8443
-    uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: cdn2.soft98.download
-  - name: '37  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '34  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
@@ -174,11 +190,75 @@ proxies:
       headers:
         Host: fr1.cachexy.ga
     servername: fr1.cachexy.ga
+    server: main.millionaireaisle.com
+  - name: '36  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '37  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '38  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '39  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com
   - name: '40  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
     alterId: 0
     cipher: auto
     tls: true
@@ -186,15 +266,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /IYKLD53M
+      path: /9JZFDTKE
       headers:
-        Host: opfr1.v2rayfree1.xyz
-    servername: opfr1.v2rayfree1.xyz
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
     server: main.millionaireaisle.com
   - name: '41  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
     tls: true
@@ -202,12 +282,60 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /IYKLD53M
       headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com
-  - name: '44  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '43  ⌜すごい⌟ cdn -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
+    server: main.millionaireaisle.com
+  - name: '44  ⌜すごい⌟ sni -> 🇬🇧'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 51.75.160.126
+  - name: '46  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '47  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -223,7 +351,55 @@ proxies:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com
-  - name: '48  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '49  ⌜すごい⌟ sni -> 🇬🇧'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 51.75.160.126
+  - name: '50  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '54  ⌜すごい⌟ sni -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 5.249.160.226
+  - name: '55  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4679f00e-90ce-430d-9714-6a19367ba112
@@ -239,10 +415,10 @@ proxies:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
     server: main.millionaireaisle.com
-  - name: '50  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '62  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
     alterId: 0
     cipher: auto
     tls: true
@@ -250,8 +426,1176 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
+      path: /
       headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '64  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '65  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '68  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: main.millionaireaisle.com
+  - name: '70  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '73  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '74  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '75  ⌜すごい⌟ sni -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: 45d0eb68-955c-4760-91cd-fa6bf07b693f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fastssh/sezarhacks/633be1a74319b/
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 163.172.213.74
+  - name: '77  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '79  ⌜すごい⌟ cdn -> 🇬🇧'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk3.v2rayserv.com
+    servername: uk3.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '81  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '82  ⌜すごい⌟ cdn -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fastssh/hkgzs01/6315d407657f6/
+      headers:
+        Host: nl.v2-ray.com
+    servername: nl.v2-ray.com
+    server: main.millionaireaisle.com
+  - name: '84  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '86  ⌜すごい⌟ cdn -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fastssh/hkgzs01/6315d407657f6/
+      headers:
+        Host: nl.v2-ray.com
+    servername: nl.v2-ray.com
+    server: main.millionaireaisle.com
+  - name: '87  ⌜すごい⌟ sni -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fastssh/hkgzs01/6315d407657f6/
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: nl.v2-ray.com
+  - name: '88  ⌜すごい⌟ cdn -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
+    server: main.millionaireaisle.com
+  - name: '89  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '93  ⌜すごい⌟ sni -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 5.249.160.226
+  - name: '96  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '98  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '100  ⌜すごい⌟ sni -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: 45d0eb68-955c-4760-91cd-fa6bf07b693f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fastssh/sezarhacks/633be1a74319b/
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 163.172.213.74
+  - name: '101  ⌜すごい⌟ cdn -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
+    server: main.millionaireaisle.com
+  - name: '102  ⌜すごい⌟ sni -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fastssh/hkgzs01/6315d407657f6/
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: nl.v2-ray.com
+  - name: '104  ⌜すごい⌟ cdn -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /fastssh/hkgzs01/6315d407657f6/
+      headers:
+        Host: nl.v2-ray.com
+    servername: nl.v2-ray.com
+    server: main.millionaireaisle.com
+  - name: '107  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: main.millionaireaisle.com
+  - name: '112  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '114  ⌜すごい⌟ cdn -> 🇬🇧'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk3.v2rayserv.com
+    servername: uk3.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '116  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '117  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '120  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '121  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '122  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '123  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '124  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '127  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '129  ⌜すごい⌟ sni -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 45.146.252.141
+  - name: '130  ⌜すごい⌟ cdn -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /?ed=2048
+      headers:
+        Host: h2.800876.xyz
+    servername: h2.800876.xyz
+    server: main.millionaireaisle.com
+  - name: '131  ⌜すごい⌟ sni -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 5.249.160.226
+  - name: '134  ⌜すごい⌟ sni -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 45.146.252.141
+  - name: '135  ⌜すごい⌟ cdn -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /?ed=2048
+      headers:
+        Host: h2.800876.xyz
+    servername: h2.800876.xyz
+    server: main.millionaireaisle.com
+  - name: '136  ⌜すごい⌟ sni -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 5.249.160.226
+  - name: '140  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '145  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '151  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: main.millionaireaisle.com
+  - name: '162  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '163  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '174  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '177  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '178  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '179  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '180  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '184  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '185  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '187  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '188  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '190  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '193  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '195  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '196  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '198  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '201  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '202  ⌜すごい⌟ cdn -> 🇳🇱'
+    type: vmess
+    port: 443
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /pkhhvws
+      headers:
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
+    server: main.millionaireaisle.com
+  - name: '203  ⌜すごい⌟ cdn -> 🇬🇧'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk3.v2rayserv.com
+    servername: uk3.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '205  ⌜すごい⌟ cdn -> 🇱🇺'
+    type: vmess
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /go
+      headers:
+        Host: lu1.gogogoo.cyou
+    servername: lu1.gogogoo.cyou
+    server: main.millionaireaisle.com
+  - name: '207  ⌜すごい⌟ cdn -> 🇬🇧'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk3.v2rayserv.com
+    servername: uk3.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '209  ⌜すごい⌟ cdn -> 🇵🇱'
+    type: vmess
+    port: 2053
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /eisasqa
+      headers:
+        Host: foxpol2.fovi.tk
+    servername: foxpol2.fovi.tk
+    server: main.millionaireaisle.com
+  - name: '211  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
+    server: main.millionaireaisle.com
+  - name: '216  ⌜すごい⌟ sni -> 🇬🇧'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 51.75.160.126
+  - name: '221  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '226  ⌜すごい⌟ cdn -> 🇩🇪'
+    type: vmess
+    port: 2083
+    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 30.tehvp.xyz
+    servername: 30.tehvp.xyz
+    server: main.millionaireaisle.com
+  - name: '233  ⌜すごい⌟ cdn -> 🇩🇪'
+    type: vmess
+    port: 2083
+    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 30.tehvp.xyz
+    servername: 30.tehvp.xyz
+    server: main.millionaireaisle.com
+  - name: '236  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '245  ⌜すごい⌟ cdn -> 🇱🇺'
+    type: vmess
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /go
+      headers:
+        Host: lu1.gogogoo.cyou
+    servername: lu1.gogogoo.cyou
+    server: main.millionaireaisle.com
+  - name: '246  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com

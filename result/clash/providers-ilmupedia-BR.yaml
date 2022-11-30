@@ -1,0 +1,17 @@
+proxies:
+  - name: '105  ⌜すごい⌟ cdn -> 🇧🇷'
+    type: vmess
+    port: 443
+    uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: br1.v2rayserv.com
+    servername: br1.v2rayserv.com
+    server: news.microsoft.com
