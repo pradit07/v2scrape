@@ -27,6 +27,7 @@ jobs:
           echo ${{ secrets.SOURCE }} > ./source
       - name: Install v2ray
         run: |
+          mkdir ./bin
           curl "https://github.com/v2fly/v2ray-core/releases/download/v5.1.0/v2ray-linux-64.zip" -L -o ./bin/v2ray.zip
           unzip ./bin/v2ray.zip -d ./bin/
           rm -rf ./bin/v2ray.zip
