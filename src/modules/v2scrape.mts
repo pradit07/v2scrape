@@ -51,6 +51,9 @@ class V2scrape {
       if (account.port == 80) account.port = 443;
     }
 
+    account.cc = "XX";
+    account.remark = `🇺🇳 ${account.remark}`;
+
     config.inbounds[0].port = port - 1; // tproxy port
     config.inbounds[1].port = port; // socks port
     config.routing.rules[0].port = port - 2; // dns port
@@ -83,9 +86,6 @@ class V2scrape {
         if (data.cc) {
           account.cc = data.cc;
           account.remark = `${countryCodeEmoji(data.cc)} ${account.remark}`;
-        } else {
-          account.cc = "XX";
-          account.remark = `🇺🇳 ${account.remark}`;
         }
       });
     } catch (e: any) {
@@ -173,8 +173,14 @@ class V2scrape {
 
         for (const mode of ["sni", "cdn"]) {
           onTest.push(mode);
-          account.remark = `${account.remark}-${mode}`;
-          this.test(account, port, mode)
+          this.test(
+            {
+              ...account,
+              remark: `${account.remark}-${mode}`,
+            },
+            port,
+            mode
+          )
             .then((res) => {
               if (res) isConnected.push(res);
             })
@@ -190,9 +196,11 @@ class V2scrape {
 
         for (let connectMode of isConnected) {
           if (!connectMode.error) {
-            if (!connectMode.cc) connectMode.cc = "Other";
-            if (!this.regions.includes(connectMode.cc)) this.regions.push(connectMode.cc);
+            if (connectMode.cc) {
+              if (!this.regions.includes(connectMode.cc)) this.regions.push(connectMode.cc);
+            }
 
+            connectMode.remark = `${this.accounts.length + 1} ${connectMode}`;
             this.accounts.push(connectMode);
             console.log(`${account.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.cc}`);
           } else {
@@ -237,7 +245,7 @@ class V2scrape {
 
         // Push to clash region
         for (const country of countries) {
-          if (account.cc == "Other") break;
+          if (account.cc == "XX") break;
           if (country.code == account.cc) {
             clashRegion[country.region].push(clashProxy);
           }
@@ -245,7 +253,7 @@ class V2scrape {
 
         // Push to clash country
         clashCountry.push({
-          region: account.cc || "Other",
+          region: account.cc as string,
           proxy: clashProxy,
         });
       }
