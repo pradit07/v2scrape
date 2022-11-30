@@ -38,10 +38,6 @@ class V2scrape {
     const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
 
     if (mode == "cdn") {
-      if (!account.host) {
-        account.error = "No Host!";
-        return account;
-      }
       account.cdn = true;
       port = port + 1000;
     } else {
@@ -111,7 +107,7 @@ class V2scrape {
 
   private async parse(accounts: Array<string> | string) {
     if (!Array.isArray(accounts)) accounts = [accounts];
-    const ids: Array<string> = [];
+    const ids: any = {};
     let port = 10800;
 
     for (let account of accounts) {
@@ -164,13 +160,22 @@ class V2scrape {
       }
 
       if (v2Account.network != "ws") continue;
-      if (ids.includes(v2Account.id)) continue;
 
       await (async (account: V2Object) => {
         const isConnected: Array<V2Object> = [];
         const onTest: Array<string> = [];
 
         for (const mode of ["sni", "cdn"]) {
+          let server = account.address;
+          if (mode == "cdn") {
+            if (!account.host) continue;
+            server = account.host;
+          }
+
+          if (ids[server]) {
+            if (ids[server].includes(account.id)) continue;
+          }
+
           onTest.push(mode);
           this.test(account, port, mode)
             .then((res) => {
@@ -188,7 +193,14 @@ class V2scrape {
 
         for (let connectMode of isConnected) {
           if (!connectMode.error && connectMode.cc) {
-            if (!ids.includes(account.id)) ids.push(account.id);
+            let server = connectMode.address;
+            if (connectMode.cdn) server = connectMode.host;
+
+            if (ids[server]) {
+              if (!ids[server].includes(account.id)) ids[server].push(account.id);
+            } else {
+              ids[server] = [account.id];
+            }
 
             if (!this.regions.includes(connectMode.cc)) this.regions.push(connectMode.cc);
             connectMode.remark = `${this.accounts.length + 1}  ⌜すごい⌟ ${connectMode.cdn ? "cdn" : "sni"} -> ${
