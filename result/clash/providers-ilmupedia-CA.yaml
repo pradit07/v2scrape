@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-cdn-🇺🇸 US 200-44-201'
+  - name: 'cdn-🇨🇦 _CA_加拿大_4@16-232'
     type: vmess
     port: 443
-    uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
+    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
     alterId: 0
     cipher: auto
     tls: true
@@ -12,6 +12,6 @@ proxies:
     ws-opts: 
       path: /sshocean
       headers:
-        Host: br1.v2rayserv.com
-    servername: br1.v2rayserv.com
-    server: news.microsoft.com
+        Host: ca2.v2rayserv.com
+    servername: ca2.v2rayserv.com
+    server: cacerts.digicert.com

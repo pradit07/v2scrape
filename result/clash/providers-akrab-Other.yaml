@@ -1,485 +1,5 @@
 proxies:
-  - name: 'cdn-🇺🇸-美国-can01.cf.ssru7.casa-1'
-    type: vmess
-    port: 443
-    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: can01.paopaocloud.cyou
-    servername: can01.paopaocloud.cyou
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-2'
-    type: vmess
-    port: 10034
-    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: ah.yd01.ssru7.casa
-  - name: 'cdn-🇯🇵-日本-tw1.sanfen001.pics-6'
-    type: vmess
-    port: 443
-    uuid: 82ece5db-34f5-4b86-a469-01df94d15bbb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: tw1.sanfen001.pics
-    servername: tw1.sanfen001.pics
-    server: main.millionaireaisle.com
-  - name: 'sni-🇸🇪-瑞典-uk01.paopaocloud.cyou-7'
-    type: vmess
-    port: 443
-    uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: uk01.paopaocloud.cyou
-  - name: 'cdn-🇺🇸-美国-170.178.164.3-9'
-    type: vmess
-    port: 443
-    uuid: ffac8901-3c85-4af5-870a-8cd97a8e10fd
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /path/321113221131
-      headers:
-        Host: www.53145029.xyz
-    servername: www.53145029.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-131.186.17.60-12'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-161.35.12.1-14'
-    type: vmess
-    port: 443
-    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
-      headers:
-        Host: 002hngh.pages.dev
-    servername: 002hngh.pages.dev
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-172.67.138.210-15'
-    type: vmess
-    port: 443
-    uuid: 3dacbaa8-784b-430c-9c1e-57d33648981d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /pq/ru1?ed=2048
-      headers:
-        Host: ru1.pqjca.top
-    servername: ru1.pqjca.top
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-192.74.250.60-16'
-    type: vmess
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 192.74.250.60
-    servername: 192.74.250.60
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-can01.cf.ssru7.casa-17'
-    type: vmess
-    port: 443
-    uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: can01.cf.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-20'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us2?ed=2048
-      headers:
-        Host: us2.guolicheng.cyou
-    servername: us2.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇦🇶-希腊-aop.ssfree.ru-37'
-    type: vmess
-    port: 443
-    uuid: 23ec5d56-6a1a-11ed-b4b4-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: aop.ssfree.ru
-    servername: aop.ssfree.ru
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇦🇶-希腊-aop.ssfree.ru-38'
-    type: vmess
-    port: 443
-    uuid: a4b9436c-67be-11ed-a2cb-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: aop.ssfree.ru
-    servername: aop.ssfree.ru
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-ah.yd01.ssru7.casa-39'
-    type: vmess
-    port: 10033
-    uuid: ea1f391c-4452-3fb6-845d-67d33fbafe73
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: ah.yd01.ssru7.casa
-  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-40'
-    type: vmess
-    port: 10017
-    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: az.hk01.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-db01.cf.ssru7.casa-41'
-    type: vmess
-    port: 443
-    uuid: 6a1246a9-491f-3e89-8c51-39e489f059e1
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: db01.paopaocloud.cyou
-    servername: db01.paopaocloud.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-uk01.cf.ssru7.casa-47'
-    type: vmess
-    port: 443
-    uuid: 6773375e-4add-3bad-85fa-8f92c3263a01
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: uk01.ssru4.fun
-    servername: uk01.ssru4.fun
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇸🇬-新加坡-43.134.185.190-48'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇦🇶-希腊-144.24.72.33-49'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇦🇺-澳大利亚-139.99.135.182-50'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: false
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 139.99.135.182
-    servername: 139.99.135.182
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-172.64.150.170-53'
-    type: vmess
-    port: 443
-    uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
-      headers:
-        Host: 001frg.pages.dev
-    servername: 001frg.pages.dev
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-172.67.2.139-54'
-    type: vmess
-    port: 2053
-    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: 172.67.2.139
-  - name: 'sni-🇺🇸-美国-amshare.jingledev.me-56'
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: amshare.jingledev.me
-  - name: 'sni-🇺🇸-美国-vfly6.xyz-59'
-    type: vmess
-    port: 443
-    uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782
-    alterId: 60
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: vfly6.xyz
-  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-60'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/fr?ed=2048
-      headers:
-        Host: fr.guolicheng.cyou
-    servername: fr.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'sni-🇩🇪-德国-v63.idcloudhost.de-62'
-    type: vmess
-    port: 10000
-    uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: v63.idcloudhost.de
-  - name: 'cdn-🇺🇸-美国-hk4.sanfen001.pics-67'
-    type: vmess
-    port: 443
-    uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: www.microsoft.com
-    servername: www.microsoft.com
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-http.download.yunzhongzhuan.com-68'
-    type: vmess
-    port: 8080
-    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: ssrsub.v02.asuka.buzz
-    servername: ssrsub.v02.asuka.buzz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-69'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/fr?ed=2048
-      headers:
-        Host: fr.guolicheng.cyou
-    servername: fr.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-70'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /guolicheng/us1?ed=2048
-      headers:
-        Host: us1.guolicheng.cyou
-    servername: us1.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇦🇶-北美地区-23.237.58.50-71'
+  - name: 'cdn-🇦🇶-宁夏-111.51.67.188-0'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -495,119 +15,7 @@ proxies:
         Host: tgunivstar.168-138-94-194.sslip.io
     servername: tgunivstar.168-138-94-194.sslip.io
     server: main.millionaireaisle.com
-  - name: 'cdn-🇦🇶-希腊-aop.ssfree.ru-72'
-    type: vmess
-    port: 443
-    uuid: 22329942-6ed1-11ed-8a37-000017022008
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /getweather
-      headers:
-        Host: aop.ssfree.ru
-    servername: aop.ssfree.ru
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇯🇵-日本-146.56.168.154-75'
-    type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇰🇷-韩国首尔-193.122.118.125-76'
-    type: vmess
-    port: 443
-    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: us2.guolicheng.cyou
-    servername: us2.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇳🇱-荷兰-46.182.107.166-78'
-    type: vmess
-    port: 443
-    uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /path/321113221131
-      headers:
-        Host: www.55321621.xyz
-    servername: www.55321621.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇳🇱-荷兰-46.182.107.2-79'
-    type: vmess
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /path/321113221131
-      headers:
-        Host: www.62209088.xyz
-    servername: www.62209088.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-@SSRSUB-V02-付费推荐:v2cross.com-106'
-    type: vmess
-    port: 2082
-    uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /aries
-      headers:
-        Host: vu1.cloudflare.quest
-    servername: vu1.cloudflare.quest
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-220'
-    type: vmess
-    port: 10007
-    uuid: 96723dfa-6ae4-38c7-ac83-e3bd67b9e12d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: az.hk01.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-uk01.cf.ssru7.casa-233'
+  - name: 'cdn-🇺🇸-美国-uk01.cf.ssru7.casa-4'
     type: vmess
     port: 443
     uuid: a0b07b0b-1ee2-3104-bdaa-9f4a9852ee20
@@ -623,7 +31,23 @@ proxies:
         Host: uk01.ssru4.fun
     servername: uk01.ssru4.fun
     server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-104.17.2.58-235'
+  - name: 'cdn-🇸🇬-新加坡-sg11.cloudfast.vn-6'
+    type: vmess
+    port: 443
+    uuid: 7aa90c37-8928-4b27-adbe-8e7157fff7a2
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /cloudfast
+      headers:
+        Host: sg11.cloudfast.vn
+    servername: sg11.cloudfast.vn
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸-美国-104.17.2.58-7'
     type: vmess
     port: 443
     uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
@@ -639,10 +63,10 @@ proxies:
         Host: q.acuteclaydoll.xyz
     servername: q.acuteclaydoll.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-130.162.141.104-236'
+  - name: 'sni-🇺🇸-美国-172.67.212.68-8'
     type: vmess
-    port: 443
-    uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+    port: 2096
+    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
     alterId: 0
     cipher: auto
     tls: true
@@ -652,26 +76,10 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: 130.162.141.104
-    servername: 130.162.141.104
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-aus01.cf.ssru7.casa-238'
-    type: vmess
-    port: 443
-    uuid: 33e1c72d-3cfb-37ee-9bc8-b54c7d235b86
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: aus01.cf.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-basic-us-one.alinks.me-239'
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 172.67.212.68
+  - name: 'cdn-🇺🇸-美国-basic-us-one.alinks.me-10'
     type: vmess
     port: 443
     uuid: b2ab634e-a39c-40d5-aaa9-ac0a396aca14
@@ -687,10 +95,10 @@ proxies:
         Host: basic-us-one.alinks.me
     servername: basic-us-one.alinks.me
     server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-www.jimengsro.cf-241'
+  - name: 'sni-🇺🇸-美国-speed.cloudflare.com-24'
     type: vmess
     port: 443
-    uuid: c9d5f9f1-1bfd-4b12-97be-0fa3b05ab845
+    uuid: 64b24ab5-239d-47a4-9e7a-6cbc44aca92d
     alterId: 0
     cipher: auto
     tls: true
@@ -698,44 +106,28 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: 
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: www.jimengsro.cf
-  - name: 'cdn-🇦🇶-希腊-144.24.72.33-242'
+    server: speed.cloudflare.com
+  - name: 'sni-🇺🇸-美国加利福尼亚州洛杉矶-us1nhg-node.aiqiche123.com-25'
     type: vmess
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
+    port: 13723
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+    alterId: 10
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: ray
       headers:
-        Host: 14.72img.xyz
-    servername: 14.72img.xyz
-    server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-250'
-    type: vmess
-    port: 10007
-    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /v2ray
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: az.hk01.ssru7.casa
-  - name: 'cdn-🇺🇸-美国-xu001.xmrthnode.com-254'
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: us1nhg-node.aiqiche123.com
+  - name: 'cdn-🇭🇰-香港-xh001.xmrthnode.com-26'
     type: vmess
     port: 443
     uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
@@ -751,10 +143,10 @@ proxies:
         Host: ws-aicdn.com
     servername: ws-aicdn.com
     server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-xu001.xmrthnode.com-254'
+  - name: 'cdn-🇺🇸-美国加利福尼亚州硅谷-43.155.86.208-27'
     type: vmess
     port: 443
-    uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
     alterId: 0
     cipher: auto
     tls: true
@@ -762,31 +154,15 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /
+      path: /guolicheng/de?ed=2048
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: xu001.xmrthnode.com
-  - name: 'cdn-🇫🇷-法国-xs012.xmrthnode.com-260'
-    type: vmess
-    port: 443
-    uuid: a6c72103-b2a0-3e7f-9d49-cf378209e73b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: ws-aicdn.com
-    servername: ws-aicdn.com
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
     server: main.millionaireaisle.com
-  - name: 'sni-🇺🇸-美国-news.microsoft.com-275'
+  - name: 'sni-🇺🇸-美国-paopao.v2.us06.paopaocloud.cyou-29'
     type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    port: 3306
+    uuid: dbd5ea6f-eea7-3490-85bb-580c26ecf57b
     alterId: 0
     cipher: auto
     tls: true
@@ -798,8 +174,40 @@ proxies:
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: news.microsoft.com
-  - name: 'cdn-🇦🇶-希腊-144.24.72.33-276'
+    server: paopao.v2.us06.paopaocloud.cyou
+  - name: 'cdn-🇺🇸-美国-v24.idcloudhost.de-30'
+    type: vmess
+    port: 443
+    uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: v24.idcloudhost.de
+    servername: v24.idcloudhost.de
+    server: main.millionaireaisle.com
+  - name: 'cdn-网址@快嘴kkzui.com_32-47'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 9.72img.xyz
+    servername: 9.72img.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸-美国-130.162.137.210-48'
     type: vmess
     port: 443
     uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -815,11 +223,11 @@ proxies:
         Host: 14.72img.xyz
     servername: 14.72img.xyz
     server: main.millionaireaisle.com
-  - name: 'cdn-低速备用-来源：kkzui.com_3-280'
+  - name: 'cdn-🇺🇸-美国-172.64.201.253-49'
     type: vmess
     port: 443
-    uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
-    alterId: 64
+    uuid: ef21cf46-bf59-40af-8300-113db1e5f40b
+    alterId: 0
     cipher: auto
     tls: true
     udp: true
@@ -828,6 +236,470 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: vn3.thanhhaivpn.name.vn
-    servername: vn3.thanhhaivpn.name.vn
+        Host: 172.64.201.253
+    servername: 172.64.201.253
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸-美国-47.88.52.220-50'
+    type: vmess
+    port: 443
+    uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /?ed=2048
+      headers:
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇦🇶-希腊-144.24.72.33-52'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 14.72img.xyz
+    servername: 14.72img.xyz
+    server: main.millionaireaisle.com
+  - name: 'sni-🇨🇳_油管：全网最强白嫖-57'
+    type: vmess
+    port: 43960
+    uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c
+    alterId: 1
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /j20-hgc3
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: pp1.zhengzhongfeizhu.xyz
+  - name: 'cdn-网址@快嘴kkzui.com_24-58'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 14.72img.xyz
+    servername: 14.72img.xyz
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-172.67.35.247-64'
+    type: vmess
+    port: 2053
+    uuid: 59122d35-8622-46b6-938c-adfab92d46bb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /hongkong
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 172.67.35.247
+  - name: 'cdn-🇯🇵-日本-185.160.24.45-65'
+    type: vmess
+    port: 443
+    uuid: 7150bb4d-2016-4032-ba6b-7cc228d34eef
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /images
+      headers:
+        Host: shoutingtoutiao3.10010.com
+    servername: shoutingtoutiao3.10010.com
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇳🇱-荷兰-46.182.107.147-66'
+    type: vmess
+    port: 443
+    uuid: 77a48930-1e67-4a72-96be-3e584858ea4f
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /footers
+      headers:
+        Host: www.73207635.xyz
+    servername: www.73207635.xyz
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-172.67.37.7-73'
+    type: vmess
+    port: 2053
+    uuid: ff839ac3-bfea-4c8a-a761-fbbb58c51c83
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /10001
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 172.67.37.7
+  - name: 'cdn-🇯🇵-日本-185.160.24.45-74'
+    type: vmess
+    port: 443
+    uuid: 7150bb4d-2016-4032-ba6b-7cc228d34eef
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /images
+      headers:
+        Host: shoutingtoutiao3.10010.com
+    servername: shoutingtoutiao3.10010.com
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸-美国-gg1.tanglu.xyz-78'
+    type: vmess
+    port: 8080
+    uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /api/v3/download.getFile
+      headers:
+        Host: ssrsub.v02.asuka.buzz
+    servername: ssrsub.v02.asuka.buzz
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-80'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/sgovh?ed=2048
+      headers:
+        Host: sgovh.guolicheng.cyou
+    servername: sgovh.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-82'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: de.guolicheng.cyou
+    servername: de.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-zfc.windowsupdate1.com-82'
+    type: vmess
+    port: 443
+    uuid: 8078dd51-d4d9-4024-89df-50e358a00a54
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /guolicheng/de?ed=2048
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: zfc.windowsupdate1.com
+  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-88'
+    type: vmess
+    port: 10037
+    uuid: d755513d-8f37-3678-adbd-c9d4e86bc468
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'cdn-🇺🇸-美国-er2.mybestjj.com-90'
+    type: vmess
+    port: 443
+    uuid: c4639c0f-49fc-4b33-8d7f-e27575c16d7a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /1653531
+      headers:
+        Host: er1.mybestjj.com
+    servername: er1.mybestjj.com
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇯🇵-日本-v31.idcloudhost.de-93'
+    type: vmess
+    port: 443
+    uuid: df41e23a-78ab-47ad-9e71-89c221b06d0c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: v31.idcloudhost.de
+    servername: v31.idcloudhost.de
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-can01.cf.paopaocloud.cyou-95'
+    type: vmess
+    port: 443
+    uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: can01.cf.paopaocloud.cyou
+  - name: 'cdn-🇺🇸-美国-can01.cf.paopaocloud.cyou-95'
+    type: vmess
+    port: 443
+    uuid: d62a116e-c014-33e5-9458-d1b6e271e7a5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: can01.paopaocloud.cyou
+    servername: can01.paopaocloud.cyou
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-vipus05.ajdkjaljdj.xyz-101'
+    type: vmess
+    port: 5081
+    uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /6
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: vipus05.ajdkjaljdj.xyz
+  - name: 'cdn-🇯🇵-日本-jp2.elknode.top-104'
+    type: vmess
+    port: 443
+    uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /qatjpji
+      headers:
+        Host: data.video.qiyi.com
+    servername: data.video.qiyi.com
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-az.hk01.ssru7.casa-105'
+    type: vmess
+    port: 10010
+    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: az.hk01.ssru7.casa
+  - name: 'sni-🇺🇸-美国-kr.vnklwwv.com-110'
+    type: vmess
+    port: 443
+    uuid: d9883c4d-2bc2-4737-be75-a65c2e63d61a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /Danhuang/Jiang
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: kr.vnklwwv.com
+  - name: 'cdn-🇺🇸-美国-kr1.sanfen001.pics-111'
+    type: vmess
+    port: 443
+    uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: kr1.sanfen001.pics
+    servername: kr1.sanfen001.pics
+    server: main.millionaireaisle.com
+  - name: 'sni-🇬🇧-英国-paopao.v2.mol01.paopaocloud.cyou-112'
+    type: vmess
+    port: 3306
+    uuid: 63b80ebe-c4b1-3b7c-b98b-4f56047bbd46
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: paopao.v2.mol01.paopaocloud.cyou
+  - name: 'cdn-🇺🇸-美国-131.186.23.71-114'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 14.72img.xyz
+    servername: 14.72img.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇯🇵-日本-146.56.168.154-122'
+    type: vmess
+    port: 443
+    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 14.72img.xyz
+    servername: 14.72img.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇩🇪_DE_德国-144'
+    type: vmess
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /chat
+      headers:
+        Host: vde2.0bad.com
+    servername: vde2.0bad.com
+    server: main.millionaireaisle.com
+  - name: 'cdn-cdn-cdn-美国CloudFlare节点 9-156-164-227'
+    type: vmess
+    port: 443
+    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /VHONOFZ3
+      headers:
+        Host: lg1.cfcdn2.xyz
+    servername: lg1.cfcdn2.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-aaa 303-243'
+    type: vmess
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+    servername: lg1.trump2023.us
     server: main.millionaireaisle.com

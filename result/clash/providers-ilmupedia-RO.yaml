@@ -1,7 +1,7 @@
 proxies:
-  - name: 'cdn-v2scrape-82'
+  - name: 'cdn-US 14-61'
     type: vmess
-    port: 8443
+    port: 443
     uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
     alterId: 0
     cipher: auto
@@ -10,14 +10,14 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /home
+      path: /
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz
     server: cacerts.digicert.com
-  - name: 'cdn-v2scrape-95'
+  - name: 'cdn-US 12-106'
     type: vmess
-    port: 8443
+    port: 443
     uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
     alterId: 0
     cipher: auto
@@ -26,7 +26,23 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /home
+      path: /
+      headers:
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
+    server: cacerts.digicert.com
+  - name: 'cdn-US 13-107'
+    type: vmess
+    port: 443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
       headers:
         Host: ca.0112233.xyz
     servername: ca.0112233.xyz

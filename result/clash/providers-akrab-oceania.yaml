@@ -1,21 +1,5 @@
 proxies:
-  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-22'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 139.99.135.182
-  - name: 'sni-🇦🇺_AU_澳大利亚-83'
+  - name: 'sni-🇦🇺_AU_澳大利亚-145'
     type: vmess
     port: 443
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -28,38 +12,6 @@ proxies:
     ws-opts: 
       path: /chat
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: vau1.0bad.com
-  - name: 'sni-🇦🇺_AU_澳大利亚-96'
-    type: vmess
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /chat
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: vau1.0bad.com
-  - name: 'sni-🇦🇺-澳大利亚-139.99.135.182-219'
-    type: vmess
-    port: 443
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 139.99.135.182
