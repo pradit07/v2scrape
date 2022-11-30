@@ -202,9 +202,9 @@ class V2scrape {
 
             connectMode.remark = `${this.accounts.length + 1} ${connectMode}`;
             this.accounts.push(connectMode);
-            console.log(`${account.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.cc}`);
+            console.log(`${connectMode.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> OK`);
           } else {
-            console.log(`${account.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.error}`);
+            console.log(`${connectMode.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> ${connectMode.error}`);
           }
         }
       })(v2Account);
