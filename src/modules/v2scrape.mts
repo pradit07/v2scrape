@@ -82,6 +82,8 @@ class V2scrape {
         const data = JSON.parse(await res.text());
         if (data.cc) {
           account.cc = data.cc;
+        } else {
+          account.cc = "XX";
         }
       });
     } catch (e: any) {
@@ -183,13 +185,11 @@ class V2scrape {
         } while (onTest[0]);
 
         for (let connectMode of isConnected) {
-          if (!connectMode.error) {
-            if (connectMode.cc) {
-              if (!this.regions.includes(connectMode.cc)) this.regions.push(connectMode.cc);
-              connectMode.remark = `${this.accounts.length + 1}  ⌜すごい⌟ ${
-                connectMode.cdn ? "cdn" : "sni"
-              } -> ${countryCodeEmoji(connectMode.cc)}`;
-            }
+          if (!connectMode.error && connectMode.cc) {
+            if (!this.regions.includes(connectMode.cc)) this.regions.push(connectMode.cc);
+            connectMode.remark = `${this.accounts.length + 1}  ⌜すごい⌟ ${connectMode.cdn ? "cdn" : "sni"} -> ${
+              connectMode.cc != "XX" ? countryCodeEmoji(connectMode.cc) : "🇺🇳"
+            }`;
 
             this.accounts.push(connectMode);
             console.log(`${connectMode.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> OK`);
