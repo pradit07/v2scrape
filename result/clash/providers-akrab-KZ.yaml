@@ -1,5 +1,5 @@
 proxies:
-  - name: '10  ⌜すごい⌟ cdn -> 🇰🇿'
+  - name: '11  ⌜すごい⌟ cdn -> 🇰🇿'
     type: vmess
     port: 443
     uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33

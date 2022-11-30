@@ -1,8 +1,8 @@
 proxies:
-  - name: '25  ⌜すごい⌟ cdn -> 🇨🇳'
+  - name: '46  ⌜すごい⌟ cdn -> 🇨🇭'
     type: vmess
     port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+    uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /dongtaiwang.com
+      path: /
       headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
+        Host: www.liuyiyang19891222.tk
+    servername: www.liuyiyang19891222.tk
     server: main.millionaireaisle.com

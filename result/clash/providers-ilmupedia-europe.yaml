@@ -1,5 +1,21 @@
 proxies:
-  - name: '4  ⌜すごい⌟ cdn -> 🇩🇪'
+  - name: '1  ⌜すごい⌟ cdn -> 🇵🇱'
+    type: vmess
+    port: 443
+    uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: cacerts.digicert.com
+  - name: '5  ⌜すごい⌟ cdn -> 🇩🇪'
     type: vmess
     port: 443
     uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
@@ -14,7 +30,7 @@ proxies:
       headers:
         Host: h2.800876.xyz
     servername: h2.800876.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '7  ⌜すごい⌟ cdn -> 🇱🇺'
     type: vmess
     port: 443
@@ -31,7 +47,7 @@ proxies:
         Host: lu1.gogogoo.cyou
     servername: lu1.gogogoo.cyou
     server: cacerts.digicert.com
-  - name: '8  ⌜すごい⌟ sni -> 🇬🇧'
+  - name: '9  ⌜すごい⌟ sni -> 🇬🇧'
     type: vmess
     port: 443
     uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
@@ -47,7 +63,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 51.75.160.126
-  - name: '11  ⌜すごい⌟ sni -> 🇩🇪'
+  - name: '12  ⌜すごい⌟ sni -> 🇩🇪'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -63,7 +79,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 5.249.160.226
-  - name: '16  ⌜すごい⌟ cdn -> 🇬🇧'
+  - name: '17  ⌜すごい⌟ cdn -> 🇬🇧'
     type: vmess
     port: 443
     uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
@@ -78,7 +94,7 @@ proxies:
       headers:
         Host: uk3.v2rayserv.com
     servername: uk3.v2rayserv.com
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '21  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
@@ -95,10 +111,10 @@ proxies:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
     server: news.microsoft.com
-  - name: '23  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '29  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    port: 8443
+    uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
     alterId: 0
     cipher: auto
     tls: true
@@ -106,28 +122,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /9JZFDTKE
+      path: /
       headers:
-        Host: fr1.trump2023.org
-    servername: fr1.trump2023.org
-    server: news.microsoft.com
-  - name: '31  ⌜すごい⌟ cdn -> 🇳🇱'
-    type: vmess
-    port: 443
-    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /fastssh/hkgzs01/6315d407657f6/
-      headers:
-        Host: nl.v2-ray.com
-    servername: nl.v2-ray.com
-    server: news.microsoft.com
-  - name: '36  ⌜すごい⌟ sni -> 🇫🇷'
+        Host: cdn2.soft98.download
+    servername: cdn2.soft98.download
+    server: cacerts.digicert.com
+  - name: '34  ⌜すごい⌟ sni -> 🇫🇷'
     type: vmess
     port: 443
     uuid: f72b4ccd-9bb9-4682-8401-3d8affed53f2
@@ -143,10 +143,10 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 5.249.165.96
-  - name: '41  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '35  ⌜すごい⌟ cdn -> 🇳🇱'
     type: vmess
     port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
     tls: true
@@ -154,12 +154,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
+      path: /pkhhvws
       headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
-    server: cacerts.digicert.com
-  - name: '45  ⌜すごい⌟ cdn -> 🇵🇱'
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
+    server: news.microsoft.com
+  - name: '42  ⌜すごい⌟ cdn -> 🇵🇱'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
@@ -175,3 +175,51 @@ proxies:
         Host: foxpol2.fovi.tk
     servername: foxpol2.fovi.tk
     server: cacerts.digicert.com
+  - name: '46  ⌜すごい⌟ cdn -> 🇨🇭'
+    type: vmess
+    port: 443
+    uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: www.liuyiyang19891222.tk
+    servername: www.liuyiyang19891222.tk
+    server: cacerts.digicert.com
+  - name: '48  ⌜すごい⌟ cdn -> 🇷🇴'
+    type: vmess
+    port: 8443
+    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /home
+      headers:
+        Host: ca.0112233.xyz
+    servername: ca.0112233.xyz
+    server: cacerts.digicert.com
+  - name: '49  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: news.microsoft.com

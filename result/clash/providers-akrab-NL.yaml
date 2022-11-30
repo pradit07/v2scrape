@@ -1,8 +1,8 @@
 proxies:
-  - name: '31  ⌜すごい⌟ cdn -> 🇳🇱'
+  - name: '35  ⌜すごい⌟ cdn -> 🇳🇱'
     type: vmess
     port: 443
-    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /fastssh/hkgzs01/6315d407657f6/
+      path: /pkhhvws
       headers:
-        Host: nl.v2-ray.com
-    servername: nl.v2-ray.com
+        Host: amshare.jingledev.me
+    servername: amshare.jingledev.me
     server: main.millionaireaisle.com

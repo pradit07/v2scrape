@@ -15,10 +15,10 @@ proxies:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com
-  - name: '23  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '29  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    port: 8443
+    uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
     alterId: 0
     cipher: auto
     tls: true
@@ -26,12 +26,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /9JZFDTKE
+      path: /
       headers:
-        Host: fr1.trump2023.org
-    servername: fr1.trump2023.org
+        Host: cdn2.soft98.download
+    servername: cdn2.soft98.download
     server: main.millionaireaisle.com
-  - name: '36  ⌜すごい⌟ sni -> 🇫🇷'
+  - name: '34  ⌜すごい⌟ sni -> 🇫🇷'
     type: vmess
     port: 443
     uuid: f72b4ccd-9bb9-4682-8401-3d8affed53f2
@@ -44,13 +44,13 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 5.249.165.96
-  - name: '41  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '49  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
-    uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
     alterId: 0
     cipher: auto
     tls: true
@@ -58,8 +58,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /p9Dq67Nx/
+      path: /sshocean
       headers:
-        Host: fr1.cachexy.ga
-    servername: fr1.cachexy.ga
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
     server: main.millionaireaisle.com

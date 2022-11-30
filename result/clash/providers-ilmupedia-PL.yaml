@@ -1,5 +1,21 @@
 proxies:
-  - name: '45  ⌜すごい⌟ cdn -> 🇵🇱'
+  - name: '1  ⌜すごい⌟ cdn -> 🇵🇱'
+    type: vmess
+    port: 443
+    uuid: c13be7b9-bb72-4424-bb2f-00c468f4f282
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: w.800876.xyz
+    servername: w.800876.xyz
+    server: cacerts.digicert.com
+  - name: '42  ⌜すごい⌟ cdn -> 🇵🇱'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa

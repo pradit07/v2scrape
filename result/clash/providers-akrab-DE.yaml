@@ -1,5 +1,5 @@
 proxies:
-  - name: '4  ⌜すごい⌟ cdn -> 🇩🇪'
+  - name: '5  ⌜すごい⌟ cdn -> 🇩🇪'
     type: vmess
     port: 443
     uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
@@ -15,7 +15,7 @@ proxies:
         Host: h2.800876.xyz
     servername: h2.800876.xyz
     server: main.millionaireaisle.com
-  - name: '11  ⌜すごい⌟ sni -> 🇩🇪'
+  - name: '12  ⌜すごい⌟ sni -> 🇩🇪'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
