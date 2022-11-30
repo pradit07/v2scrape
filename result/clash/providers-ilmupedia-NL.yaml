@@ -1,5 +1,5 @@
 proxies:
-  - name: '3  ⌜すごい⌟ cdn -> 🇳🇱'
+  - name: '2  ⌜すごい⌟ cdn -> 🇳🇱'
     type: vmess
     port: 443
     uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
@@ -14,8 +14,8 @@ proxies:
       headers:
         Host: amshare.jingledev.me
     servername: amshare.jingledev.me
-    server: news.microsoft.com
-  - name: '29  ⌜すごい⌟ sni -> 🇳🇱'
+    server: cacerts.digicert.com
+  - name: '26  ⌜すごい⌟ sni -> 🇳🇱'
     type: vmess
     port: 443
     uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
@@ -31,7 +31,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: nl.v2-ray.com
-  - name: '30  ⌜すごい⌟ cdn -> 🇳🇱'
+  - name: '27  ⌜すごい⌟ cdn -> 🇳🇱'
     type: vmess
     port: 443
     uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
@@ -46,20 +46,4 @@ proxies:
       headers:
         Host: nl.v2-ray.com
     servername: nl.v2-ray.com
-    server: cacerts.digicert.com
-  - name: '32  ⌜すごい⌟ sni -> 🇳🇱'
-    type: vmess
-    port: 443
-    uuid: 45d0eb68-955c-4760-91cd-fa6bf07b693f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /fastssh/sezarhacks/633be1a74319b/
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 163.172.213.74
+    server: news.microsoft.com

@@ -12,8 +12,8 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: hk1.sanfen001.pics
   - name: '18  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess

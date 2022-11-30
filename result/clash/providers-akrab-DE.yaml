@@ -1,8 +1,8 @@
 proxies:
-  - name: '5  ⌜すごい⌟ sni -> 🇬🇧'
+  - name: '29  ⌜すごい⌟ sni -> 🇩🇪'
     type: vmess
     port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
     alterId: 0
     cipher: auto
     tls: true
@@ -14,11 +14,11 @@ proxies:
       headers:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
-    server: 51.75.160.126
-  - name: '20  ⌜すごい⌟ cdn -> 🇬🇧'
+    server: 5.249.160.226
+  - name: '40  ⌜すごい⌟ cdn -> 🇩🇪'
     type: vmess
     port: 443
-    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /
       headers:
-        Host: uk3.v2rayserv.com
-    servername: uk3.v2rayserv.com
+        Host: h2.800876.xyz
+    servername: h2.800876.xyz
     server: main.millionaireaisle.com

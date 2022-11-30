@@ -1,8 +1,8 @@
 proxies:
-  - name: '25  ⌜すごい⌟ cdn -> 🇯🇵'
+  - name: '35  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 443
-    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,24 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /roewesu
       headers:
-        Host: v2.chigua.tk
-    servername: v2.chigua.tk
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: suzhihan.eu.org
+  - name: '36  ⌜すごい⌟ cdn -> 🇯🇵'
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: suzhihan.eu.org
+    servername: suzhihan.eu.org
     server: main.millionaireaisle.com
