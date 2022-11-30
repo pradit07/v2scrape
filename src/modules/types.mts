@@ -16,6 +16,7 @@ export interface V2Object {
   cdn: boolean;
   cc?: string;
   error?: string;
+  countryName?: string;
 }
 
 export interface Vmess {
@@ -50,8 +51,9 @@ export interface Vless {
   cdn: boolean;
 }
 
+export type Region = "Asia" | "Europe" | "Africa" | "Oceania" | "Americas";
 export interface Country {
   name: string;
   code: string;
-  region: "Asia" | "Europe" | "Africa" | "Oceania" | "Americas";
+  region: Region;
 }

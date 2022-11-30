@@ -24,6 +24,7 @@
   "homepage": "https://github.com/dickymuliafiqri/v2scrape#readme",
   "dependencies": {
     "base64-js": "^1.5.1",
+    "country-code-emoji": "^2.3.0",
     "grammy": "^1.12.0",
     "node-fetch": "^3.3.0",
     "socks-proxy-agent": "^7.0.0",

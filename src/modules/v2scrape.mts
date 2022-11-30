@@ -1,10 +1,11 @@
 import { sleep, v2parse } from "./helper.mjs";
-import { Country, V2Object, Vless, Vmess } from "./types.mjs";
+import { Country, Region, V2Object, Vless, Vmess } from "./types.mjs";
 import fetch from "node-fetch";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { Bugs } from "./bugs.mjs";
 import { spawn } from "child_process";
 import { SocksProxyAgent } from "socks-proxy-agent";
+import { countryCodeEmoji } from "country-code-emoji";
 
 class V2scrape {
   path = process.cwd();
@@ -33,7 +34,7 @@ class V2scrape {
     console.log(`Result saved to ${this.path}/result/result.json`);
   }
 
-  private async test(account: V2Object, port: number = 10802, mode: "sni" | "cdn" | string = "cdn"): Promise<V2Object> {
+  async test(account: V2Object, port: number = 10802, mode: "sni" | "cdn" | string = "cdn"): Promise<V2Object> {
     const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
     const remark = `${mode}-${account.remark}`;
 
@@ -80,7 +81,13 @@ class V2scrape {
         signal: controller.signal,
       }).then(async (res) => {
         const data = JSON.parse(await res.text());
-        account.cc = data.cc || "Other";
+        if (data.cc) {
+          account.cc = data.cc;
+          account.remark = `${countryCodeEmoji(data.cc)} ${account.remark}`;
+        } else {
+          account.cc = "XX";
+          account.remark = `🇺🇳 ${account.remark}`;
+        }
       });
     } catch (e: any) {
       // console.log(e.message);
@@ -160,14 +167,7 @@ class V2scrape {
       }
 
       if (v2Account.network != "ws") continue;
-
-      if (v2Account.remark.match("default_name")) {
-        v2Account.remark = `v2scrape-${this.accounts.length}`;
-      } else {
-        v2Account.remark = `${v2Account.remark.replace(/^.+ - /i, "").replace(" → openitsub.com", "")}-${
-          this.accounts.length
-        }`;
-      }
+      v2Account.remark = `すごい`;
 
       await (async (account: V2Object) => {
         const isConnected: Array<V2Object> = [];
@@ -202,7 +202,7 @@ class V2scrape {
         }
       })(v2Account);
 
-      // if (this.accounts.length > 50) break; // test purpose
+      if (this.accounts.length > 50) break; // test purpose
     }
   }
 
@@ -257,8 +257,8 @@ class V2scrape {
     // Split per region
     for (const region of Object.keys(clashRegion)) {
       const proxiesPerFile = ["proxies:"];
-      clashRegion[region as "Asia" | "Europe" | "Africa" | "Oceania" | "Americas"].shift(); // Remove blank space
-      proxiesPerFile.push(...clashRegion[region as "Asia" | "Europe" | "Africa" | "Oceania" | "Americas"]);
+      clashRegion[region as Region].shift(); // Remove blank space
+      proxiesPerFile.push(...clashRegion[region as Region]);
 
       writeFileSync(`./result/clash/providers-${bugBundle}-${region.toLowerCase()}.yaml`, proxiesPerFile.join("\n"));
     }

@@ -22,9 +22,9 @@ const bugBundleList = readdirSync(`${v2scrape.path}/bugs`);
     base64Proxies.push(...v2scrape.convert(bugs, bug));
   }
 
-  if (base64Proxies) {
-    await bot.send(base64Proxies);
+  // Write entire result in base64 encoded
+  writeFileSync("./result/base64", Buffer.from(base64Proxies.join("\n")).toString("base64"));
 
-    writeFileSync("./result/base64", Buffer.from(base64Proxies.join("\n")).toString("base64"));
-  }
+  // Send sample result to telegram channel
+  await bot.send();
 })();

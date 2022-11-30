@@ -1,29 +1,56 @@
 import { readFileSync } from "fs";
 import { Bot as TgBot, InlineKeyboard } from "grammy";
-import { Vmess } from "./types.mjs";
+import { Country, Region, V2Object } from "./types.mjs";
+import { v2scrape } from "./v2scrape.mjs";
+import { countryCodeEmoji } from "country-code-emoji";
 
 class Bot {
   bot = new TgBot(readFileSync("./bot_token").toString());
 
-  private make(accounts: Array<string>) {
-    const vpn: string = accounts[Math.floor(Math.random() * accounts.length)];
-    const account: Vmess = JSON.parse(Buffer.from(vpn.replace(/^.+:\/\//, ""), "base64").toString()) as Vmess;
+  private async make(region: Region) {
+    const result: Array<V2Object> = JSON.parse(readFileSync("./result/result.json").toString());
+    const countries: Array<Country> = JSON.parse(readFileSync("./countries.json").toString());
+    const account: V2Object = await (async () => {
+      for (const account of result) {
+        if (account.cc) {
+          for (const country of countries) {
+            if (account.cc == country.code) {
+              if (country.region == region) {
+                const isConnected = await v2scrape.test(account, 10203, "sni");
+                if (isConnected.error) continue;
+                return {
+                  ...isConnected,
+                  countryName: country.name,
+                };
+              }
+            }
+          }
+        }
+      }
+
+      return { error: "Account not found!" } as V2Object;
+    })();
+
+    if (account.error) {
+      return console.log(account.error);
+    }
+
     let message: string = "---------------------------\n";
     message += "Akun Gratis | Free Accounts\n";
     message += "---------------------------\n";
-    message += `Jumlah/Count: ${accounts.length} 🌾\n`;
-    message += "Regional/Region: World Wide 🌓\n";
+    message += `Jumlah/Count: ${result.length} 🌾\n`;
+    message += `Regional/Region: ${account.countryName} ${countryCodeEmoji(account.cc as string)}\n`;
     message += "---------------------------\n";
     message += "Info:\n";
-    message += `Remark: <code>${account.ps}</code>\n`;
-    message += `Address: <code>${account.add}</code>\n`;
+    message += `Remark: <code>${account.remark}</code>\n`;
+    message += `Address: <code>${account.address}</code>\n`;
     message += `Port: <code>${account.port}</code>\n`;
-    message += `Network: <code>${account.net}</code>\n`;
+    message += `Network: <code>${account.network}</code>\n`;
     message += `Host: <code>${account.host}</code>\n`;
     message += `Path: <code>${account.path}</code>\n`;
     message += `TLS: <code>${account.tls ? true : false}</code>\n`;
     message += `SNI: <code>${account.sni}</code>\n\n`;
-    message += `⌜<code>${vpn}</code>⌟\n\n`;
+    message += `⌜<code>${v2scrape.toBase64(account, account.sni, account.address)}</code>⌟\n\n`;
     message += `Config: <a href="https://github.com/dickymuliafiqri/v2scrape/tree/master/config">Config Example</a>\n`;
     message += `Sub: <a href="https://github.com/dickymuliafiqri/v2scrape/tree/master/result">Subscription</a>\n`;
     message += `Join: @v2scrape\n\n`;
@@ -32,10 +59,11 @@ class Bot {
     return message;
   }
 
-  async send(accounts: Array<string>) {
-    const message = this.make(accounts);
+  async send(region: Region = "Asia") {
+    const message = await this.make(region);
+    if (!message) return;
 
-    await this.bot.api.sendMessage("-1001509827144", message, {
+    await this.bot.api.sendMessage("732796378", message, {
       disable_web_page_preview: true,
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
