@@ -51,9 +51,6 @@ class V2scrape {
       if (account.port == 80) account.port = 443;
     }
 
-    account.cc = "XX";
-    account.remark = `🇺🇳 ${account.remark}`;
-
     config.inbounds[0].port = port - 1; // tproxy port
     config.inbounds[1].port = port; // socks port
     config.routing.rules[0].port = port - 2; // dns port
@@ -67,7 +64,7 @@ class V2scrape {
     v2ray.stdout.on("data", (res: any) => {
       // console.log(res.toString());
       if (res.toString().match(/(context deadline exceeded|timeout|write on closed pipe)/i)) {
-        account.error = "Could not connect to server!";
+        account.error = "No Internet!";
       }
     });
 
@@ -85,7 +82,6 @@ class V2scrape {
         const data = JSON.parse(await res.text());
         if (data.cc) {
           account.cc = data.cc;
-          account.remark = `${countryCodeEmoji(data.cc)} ${account.remark}`;
         }
       });
     } catch (e: any) {
@@ -165,7 +161,6 @@ class V2scrape {
       }
 
       if (v2Account.network != "ws") continue;
-      v2Account.remark = `すごい`;
 
       await (async (account: V2Object) => {
         const isConnected: Array<V2Object> = [];
@@ -173,14 +168,7 @@ class V2scrape {
 
         for (const mode of ["sni", "cdn"]) {
           onTest.push(mode);
-          this.test(
-            {
-              ...account,
-              remark: `${account.remark}-${mode}`,
-            },
-            port,
-            mode
-          )
+          this.test(account, port, mode)
             .then((res) => {
               if (res) isConnected.push(res);
             })
@@ -198,9 +186,11 @@ class V2scrape {
           if (!connectMode.error) {
             if (connectMode.cc) {
               if (!this.regions.includes(connectMode.cc)) this.regions.push(connectMode.cc);
+              connectMode.remark = `${this.accounts.length + 1}  ⌜すごい⌟ ${
+                connectMode.cdn ? "cdn" : "sni"
+              } -> ${countryCodeEmoji(connectMode.cc)}`;
             }
 
-            connectMode.remark = `${this.accounts.length + 1} ${connectMode}`;
             this.accounts.push(connectMode);
             console.log(`${connectMode.remark}: ${connectMode.cdn ? " CDN" : " SNI"} -> OK`);
           } else {

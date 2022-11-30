@@ -109,3 +109,4 @@ app/
 test*
 source
 bot_token
+bin/
