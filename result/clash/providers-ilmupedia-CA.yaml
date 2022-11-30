@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-🇨🇦 _CA_加拿大_4@16-164'
+  - name: 'cdn-🇨🇦 _CA_加拿大_4@16-118'
     type: vmess
     port: 443
     uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
@@ -14,4 +14,4 @@ proxies:
       headers:
         Host: ca2.v2rayserv.com
     servername: ca2.v2rayserv.com
-    server: cacerts.digicert.com
+    server: news.microsoft.com

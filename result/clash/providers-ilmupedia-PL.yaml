@@ -1,5 +1,5 @@
 proxies:
-  - name: 'cdn-快嘴科技@来源：kkzui.com_39-265'
+  - name: 'cdn-快嘴科技@来源：kkzui.com_39-205'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa

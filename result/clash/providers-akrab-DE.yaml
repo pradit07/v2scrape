@@ -1,69 +1,5 @@
 proxies:
-  - name: 'cdn-🇺🇸-美国-news.microsoft.com-9'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-16'
-    type: vmess
-    port: 443
-    uuid: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /meizhiyuan/nl1?ed=2048
-      headers:
-        Host: nl1.guolicheng.cyou
-    servername: nl1.guolicheng.cyou
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-news.microsoft.com-21'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
-    server: main.millionaireaisle.com
-  - name: 'cdn-🇺🇸-美国-news.microsoft.com-32'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
-    server: main.millionaireaisle.com
-  - name: 'sni-🇸🇪-瑞典-5.249.160.226-47'
+  - name: 'sni-🇸🇪-瑞典-5.249.160.226-12'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -79,7 +15,7 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: 5.249.160.226
-  - name: 'sni-🇸🇪-瑞典-5.249.160.226-48'
+  - name: 'sni-🇸🇪-瑞典-5.249.160.226-13'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -95,7 +31,7 @@ proxies:
         Host: click.zoom.us
     servername: click.zoom.us
     server: 5.249.160.226
-  - name: 'cdn-cdn-🇺🇸-美国-30.tehvp.xyz-55-83'
+  - name: 'cdn-cdn-🇺🇸-美国-30.tehvp.xyz-55-46'
     type: vmess
     port: 2083
     uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
@@ -111,7 +47,7 @@ proxies:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
     server: main.millionaireaisle.com
-  - name: 'sni-🇸🇪 瑞典 001-97'
+  - name: 'sni-🇸🇪 瑞典 001-58'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -124,10 +60,10 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 5.249.160.226
-  - name: 'sni-sni-🇸🇪-瑞典-5.249.160.226-51-147'
+  - name: 'sni-sni-🇸🇪-瑞典-5.249.160.226-51-103'
     type: vmess
     port: 443
     uuid: c721b258-e101-41e1-9574-ad171e502ab8
@@ -140,10 +76,26 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: 5.249.160.226
-  - name: 'cdn-🇺🇸-美国-news.microsoft.com-284'
+  - name: 'sni-🇺🇸-美国-45.146.252.141-191'
+    type: vmess
+    port: 443
+    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: 45.146.252.141
+  - name: 'cdn-🇺🇸-美国-news.microsoft.com-228'
     type: vmess
     port: 2083
     uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
@@ -158,4 +110,20 @@ proxies:
       headers:
         Host: 30.tehvp.xyz
     servername: 30.tehvp.xyz
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇦🇶-澳门-45.64.22.6-250'
+    type: vmess
+    port: 443
+    uuid: 1197321c-eb59-4159-959f-5d81f53c1792
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: h1.800876.xyz
+    servername: h1.800876.xyz
     server: main.millionaireaisle.com

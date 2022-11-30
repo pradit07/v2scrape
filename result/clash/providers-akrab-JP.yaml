@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-美国CloudFlare公司CDN节点 7-0'
+  - name: 'sni-日本东京Linode数据中心 6-18'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -12,10 +12,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: f1f3227.v1.glados-config.net
-  - name: 'sni-日本东京Linode数据中心 6-53'
+  - name: 'sni-日本东京Linode数据中心 10-19'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -28,10 +28,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: f1f3227.v1.glados-config.net
-  - name: 'sni-日本东京Linode数据中心 10-54'
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.v3.glados-config.net
+  - name: 'sni-sni-🇯🇵-日本-f1f3227.v2.glados-config.net-28-43'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -46,24 +46,8 @@ proxies:
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
-    server: f1f3227.v3.glados-config.net
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v2.glados-config.net-28-80'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
     server: f1f3227.v2.glados-config.net
-  - name: 'sni-sni-美国CloudFlare公司CDN节点 7-90-111'
+  - name: 'sni-sni-美国CloudFlare公司CDN节点 7-90-70'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -76,10 +60,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: f1f3227.v1.glados-config.net
-  - name: 'cdn-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-117'
+  - name: 'cdn-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-77'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -95,7 +79,7 @@ proxies:
         Host: suzhihan.eu.org
     servername: suzhihan.eu.org
     server: main.millionaireaisle.com
-  - name: 'sni-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-117'
+  - name: 'sni-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-77'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -108,42 +92,10 @@ proxies:
     ws-opts: 
       path: /roewesu
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: suzhihan.eu.org
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v3.glados-config.net-42-143'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: f1f3227.v3.glados-config.net
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v4.glados-config.net-24-180'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: f1f3227.v4.glados-config.net
-  - name: 'sni-🇯🇵-日本-f1f3227.v1.glados-config.net-219'
+  - name: 'sni-sni-🇯🇵-日本-f1f3227.v4.glados-config.net-24-134'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -158,24 +110,8 @@ proxies:
       headers:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
-    server: f1f3227.v1.glados-config.net
-  - name: 'cdn-🇭🇰-香港-219.76.13.180-231'
-    type: vmess
-    port: 443
-    uuid: 4583b01d-a954-4c3e-aff3-bd2931f931fd
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /YgLXB4
-      headers:
-        Host: pages-riven.pages.dev
-    servername: pages-riven.pages.dev
-    server: main.millionaireaisle.com
-  - name: 'sni-🇯🇵-日本-f1f3227.v2.glados-config.net-275'
+    server: f1f3227.v4.glados-config.net
+  - name: 'sni-🇯🇵-日本-f1f3227.v1.glados-config.net-174'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -190,4 +126,52 @@ proxies:
       headers:
         Host: click.zoom.us
     servername: click.zoom.us
+    server: f1f3227.v1.glados-config.net
+  - name: 'sni-🇯🇵-日本-f1f3227.v2.glados-config.net-215'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: f1f3227.v2.glados-config.net
+  - name: 'sni-日本东京Linode数据中心 2-261'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.v1.glados-config.net
+  - name: 'sni-日本东京Linode数据中心 5-263'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: f1f3227.v3.glados-config.net

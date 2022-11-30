@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-🇨🇦 _CA_加拿大_4@16-118'
+  - name: 'cdn-cdn-v2scrape-32-60'
     type: vmess
     port: 443
-    uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /dongtaiwang.com
       headers:
-        Host: ca2.v2rayserv.com
-    servername: ca2.v2rayserv.com
+        Host: v2ray1.zhujicn2.org
+    servername: v2ray1.zhujicn2.org
     server: main.millionaireaisle.com
