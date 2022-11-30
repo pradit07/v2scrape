@@ -1,8 +1,8 @@
 proxies:
-  - name: 'cdn-US 14-61'
+  - name: 'cdn-🇨🇭 _CH_瑞士-46'
     type: vmess
     port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
     alterId: 0
     cipher: auto
     tls: true
@@ -12,13 +12,13 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: ca.0112233.xyz
-    servername: ca.0112233.xyz
+        Host: www.liuyiyang19891222.tk
+    servername: www.liuyiyang19891222.tk
     server: cacerts.digicert.com
-  - name: 'cdn-US 12-106'
+  - name: 'cdn-CH 1-49'
     type: vmess
     port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
     alterId: 0
     cipher: auto
     tls: true
@@ -28,13 +28,13 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: ca.0112233.xyz
-    servername: ca.0112233.xyz
+        Host: www.liuyiyang19891222.tk
+    servername: www.liuyiyang19891222.tk
     server: cacerts.digicert.com
-  - name: 'cdn-US 13-107'
+  - name: 'cdn-aaa 305-172'
     type: vmess
     port: 443
-    uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+    uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
     alterId: 0
     cipher: auto
     tls: true
@@ -44,6 +44,6 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: ca.0112233.xyz
-    servername: ca.0112233.xyz
-    server: news.microsoft.com
+        Host: www.liuyiyang19891222.tk
+    servername: www.liuyiyang19891222.tk
+    server: cacerts.digicert.com

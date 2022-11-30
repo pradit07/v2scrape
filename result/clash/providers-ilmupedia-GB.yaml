@@ -1,37 +1,5 @@
 proxies:
-  - name: 'sni-🇫🇷-法国-51.75.160.126-34'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 51.75.160.126
-  - name: 'cdn-cdn-aaa 231-169-178'
-    type: vmess
-    port: 443
-    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: uk3.v2rayserv.com
-    servername: uk3.v2rayserv.com
-    server: news.microsoft.com
-  - name: 'cdn-cdn-aaa 231-169-205'
+  - name: 'cdn-cdn-aaa 231-169-108'
     type: vmess
     port: 443
     uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
@@ -47,7 +15,7 @@ proxies:
         Host: uk3.v2rayserv.com
     servername: uk3.v2rayserv.com
     server: cacerts.digicert.com
-  - name: 'cdn-cdn-cdn-aaa 134-27-184-206'
+  - name: 'cdn-cdn-aaa 231-169-137'
     type: vmess
     port: 443
     uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
@@ -62,8 +30,24 @@ proxies:
       headers:
         Host: uk3.v2rayserv.com
     servername: uk3.v2rayserv.com
-    server: news.microsoft.com
-  - name: 'sni-🇬🇧白嫖-115-219'
+    server: cacerts.digicert.com
+  - name: 'cdn-cdn-cdn-aaa 134-27-184-138'
+    type: vmess
+    port: 443
+    uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /sshocean
+      headers:
+        Host: uk3.v2rayserv.com
+    servername: uk3.v2rayserv.com
+    server: cacerts.digicert.com
+  - name: 'sni-🇬🇧白嫖-115-151'
     type: vmess
     port: 443
     uuid: 927094d3-d678-4763-8591-e240d0bcae87
@@ -79,7 +63,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: vuk2.0bad.com
-  - name: 'sni-sni-🇫🇷-法国-51.75.160.126-259-223'
+  - name: 'sni-sni-🇫🇷-法国-51.75.160.126-259-155'
     type: vmess
     port: 443
     uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
@@ -95,7 +79,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 51.75.160.126
-  - name: 'cdn-aaa 273-266'
+  - name: 'cdn-aaa 273-197'
     type: vmess
     port: 443
     uuid: 15fbb202-7a7c-49e3-9a53-e88aaf15686f
@@ -110,4 +94,4 @@ proxies:
       headers:
         Host: uk3.v2rayserv.com
     servername: uk3.v2rayserv.com
-    server: news.microsoft.com
+    server: cacerts.digicert.com

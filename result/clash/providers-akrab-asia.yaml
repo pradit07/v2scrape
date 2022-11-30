@@ -1,53 +1,5 @@
 proxies:
-  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-2'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'sni-US 3-15'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: hk1.sanfen001.pics
-  - name: 'sni-🇯🇵-日本-f1f3227.v2.glados-config.net-22'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: f1f3227.v2.glados-config.net
-  - name: 'sni-美国CloudFlare公司CDN节点 7-59'
+  - name: 'sni-美国CloudFlare公司CDN节点 7-0'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -63,7 +15,23 @@ proxies:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
     server: f1f3227.v1.glados-config.net
-  - name: 'sni-US 4-92'
+  - name: 'sni-US 4-28'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: hk1.sanfen001.pics
+  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-31'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -79,7 +47,7 @@ proxies:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
     server: hk1.sanfen001.pics
-  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-99'
+  - name: 'sni-US 6-51'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -92,26 +60,10 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: hk1.sanfen001.pics
-  - name: 'sni-US 6-123'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: hk1.sanfen001.pics
-  - name: 'sni-日本东京Linode数据中心 6-125'
+  - name: 'sni-日本东京Linode数据中心 6-53'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -124,10 +76,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: f1f3227.v1.glados-config.net
-  - name: 'sni-日本东京Linode数据中心 10-126'
+  - name: 'sni-日本东京Linode数据中心 10-54'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -140,26 +92,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: f1f3227.v3.glados-config.net
-  - name: 'sni-美国惠普公司 12-128'
-    type: vmess
-    port: 443
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshkit/Ertusg86/635014638c264/
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: sg-lb.vhax.net
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v2.glados-config.net-28-153'
+  - name: 'sni-sni-🇯🇵-日本-f1f3227.v2.glados-config.net-28-80'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -175,7 +111,7 @@ proxies:
         Host: options.teams.microsoft.com
     servername: options.teams.microsoft.com
     server: f1f3227.v2.glados-config.net
-  - name: 'sni-sni-美国CloudFlare公司CDN节点 7-90-181'
+  - name: 'sni-sni-美国CloudFlare公司CDN节点 7-90-111'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -188,10 +124,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: f1f3227.v1.glados-config.net
-  - name: 'cdn-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-188'
+  - name: 'cdn-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-117'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -207,7 +143,7 @@ proxies:
         Host: suzhihan.eu.org
     servername: suzhihan.eu.org
     server: main.millionaireaisle.com
-  - name: 'sni-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-188'
+  - name: 'sni-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-117'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -220,10 +156,10 @@ proxies:
     ws-opts: 
       path: /roewesu
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: suzhihan.eu.org
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v3.glados-config.net-42-211'
+  - name: 'sni-sni-🇯🇵-日本-f1f3227.v3.glados-config.net-42-143'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -236,10 +172,26 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: f1f3227.v3.glados-config.net
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v4.glados-config.net-24-251'
+  - name: 'sni-sni-🇯🇵-日本-f1f3227.v4.glados-config.net-24-180'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: f1f3227.v4.glados-config.net
+  - name: 'sni-🇯🇵-日本-f1f3227.v1.glados-config.net-219'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -254,4 +206,196 @@ proxies:
       headers:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
-    server: f1f3227.v4.glados-config.net
+    server: f1f3227.v1.glados-config.net
+  - name: 'sni-🇺🇸-美国-kr1.sanfen001.pics-225'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: kr1.sanfen001.pics
+  - name: 'sni-🇺🇸-美国-kr1.sanfen001.pics-226'
+    type: vmess
+    port: 443
+    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: kr1.sanfen001.pics
+  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-227'
+    type: vmess
+    port: 443
+    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: hk1.sanfen001.pics
+  - name: 'cdn-🇺🇸-美国-zfc.windowsupdate1.com-228'
+    type: vmess
+    port: 443
+    uuid: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /meizhiyuan/hinet?ed=2048
+      headers:
+        Host: hinet.guolicheng.cyou
+    servername: hinet.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'cdn-🇭🇰-香港-219.76.13.180-231'
+    type: vmess
+    port: 443
+    uuid: 4583b01d-a954-4c3e-aff3-bd2931f931fd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /YgLXB4
+      headers:
+        Host: pages-riven.pages.dev
+    servername: pages-riven.pages.dev
+    server: main.millionaireaisle.com
+  - name: 'sni-美国Microsoft数据中心 2-243'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: hk1.sanfen001.pics
+  - name: 'cdn-美国CloudFlare节点 24-244'
+    type: vmess
+    port: 443
+    uuid: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /meizhiyuan/hinet?ed=2048
+      headers:
+        Host: hinet.guolicheng.cyou
+    servername: hinet.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-245'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk1.sanfen001.pics
+  - name: 'sni-美国Microsoft数据中心 2-258'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: hk1.sanfen001.pics
+  - name: 'cdn-美国CloudFlare节点 24-260'
+    type: vmess
+    port: 443
+    uuid: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /meizhiyuan/hinet?ed=2048
+      headers:
+        Host: hinet.guolicheng.cyou
+    servername: hinet.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: 'sni-US 5-272'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk1.sanfen001.pics
+  - name: 'sni-🇯🇵-日本-f1f3227.v2.glados-config.net-275'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: f1f3227.v2.glados-config.net

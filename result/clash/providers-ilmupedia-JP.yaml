@@ -1,21 +1,5 @@
 proxies:
-  - name: 'sni-🇯🇵-日本-f1f3227.v2.glados-config.net-22'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v2.glados-config.net
-  - name: 'sni-美国CloudFlare公司CDN节点 7-59'
+  - name: 'sni-美国CloudFlare公司CDN节点 7-0'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -31,7 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v1.glados-config.net
-  - name: 'sni-日本东京Linode数据中心 6-125'
+  - name: 'sni-日本东京Linode数据中心 6-53'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -47,7 +31,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v1.glados-config.net
-  - name: 'sni-日本东京Linode数据中心 10-126'
+  - name: 'sni-日本东京Linode数据中心 10-54'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -63,7 +47,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v3.glados-config.net
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v2.glados-config.net-28-153'
+  - name: 'sni-sni-🇯🇵-日本-f1f3227.v2.glados-config.net-28-80'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -79,7 +63,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v2.glados-config.net
-  - name: 'sni-sni-美国CloudFlare公司CDN节点 7-90-181'
+  - name: 'sni-sni-美国CloudFlare公司CDN节点 7-90-111'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -95,7 +79,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v1.glados-config.net
-  - name: 'cdn-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-188'
+  - name: 'cdn-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-117'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -111,7 +95,7 @@ proxies:
         Host: suzhihan.eu.org
     servername: suzhihan.eu.org
     server: news.microsoft.com
-  - name: 'sni-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-188'
+  - name: 'sni-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-117'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -127,7 +111,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: suzhihan.eu.org
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v3.glados-config.net-42-211'
+  - name: 'sni-sni-🇯🇵-日本-f1f3227.v3.glados-config.net-42-143'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -143,7 +127,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v3.glados-config.net
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v4.glados-config.net-24-251'
+  - name: 'sni-sni-🇯🇵-日本-f1f3227.v4.glados-config.net-24-180'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -159,3 +143,51 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v4.glados-config.net
+  - name: 'sni-🇯🇵-日本-f1f3227.v1.glados-config.net-219'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: f1f3227.v1.glados-config.net
+  - name: 'cdn-🇭🇰-香港-219.76.13.180-231'
+    type: vmess
+    port: 443
+    uuid: 4583b01d-a954-4c3e-aff3-bd2931f931fd
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /YgLXB4
+      headers:
+        Host: pages-riven.pages.dev
+    servername: pages-riven.pages.dev
+    server: news.microsoft.com
+  - name: 'sni-🇯🇵-日本-f1f3227.v2.glados-config.net-275'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: f1f3227.v2.glados-config.net
