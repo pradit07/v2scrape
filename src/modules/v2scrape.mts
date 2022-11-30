@@ -36,7 +36,6 @@ class V2scrape {
 
   async test(account: V2Object, port: number = 10802, mode: "sni" | "cdn" | string = "cdn"): Promise<V2Object> {
     const config = JSON.parse(readFileSync("./config/v2ray/config.json").toString());
-    const remark = `${mode}-${account.remark}`;
 
     if (mode == "cdn") {
       if (!account.host) {
@@ -109,7 +108,6 @@ class V2scrape {
     return {
       ...account,
       cdn: mode == "cdn" ? true : false,
-      remark,
     };
   }
 
@@ -175,6 +173,7 @@ class V2scrape {
 
         for (const mode of ["sni", "cdn"]) {
           onTest.push(mode);
+          account.remark = `${account.remark}-${mode}`;
           this.test(account, port, mode)
             .then((res) => {
               if (res) isConnected.push(res);
