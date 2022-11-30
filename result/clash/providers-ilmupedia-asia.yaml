@@ -1,5 +1,5 @@
 proxies:
-  - name: 'sni-US 6-16'
+  - name: '12  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -15,23 +15,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk1.sanfen001.pics
-  - name: 'sni-日本东京Linode数据中心 6-18'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v1.glados-config.net
-  - name: 'sni-日本东京Linode数据中心 10-19'
+  - name: '14  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -47,55 +31,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: f1f3227.v3.glados-config.net
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v2.glados-config.net-28-43'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v2.glados-config.net
-  - name: 'cdn-cdn-v2scrape-32-60'
-    type: vmess
-    port: 443
-    uuid: 4679f00e-90ce-430d-9714-6a19367ba112
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray1.zhujicn2.org
-    servername: v2ray1.zhujicn2.org
-    server: cacerts.digicert.com
-  - name: 'sni-sni-美国CloudFlare公司CDN节点 7-90-70'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v1.glados-config.net
-  - name: 'cdn-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-77'
+  - name: '22  ⌜すごい⌟ cdn -> 🇯🇵'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -110,8 +46,8 @@ proxies:
       headers:
         Host: suzhihan.eu.org
     servername: suzhihan.eu.org
-    server: cacerts.digicert.com
-  - name: 'sni-🇯🇵 JP 6 Oracle Corporation TG:@nodpai-77'
+    server: news.microsoft.com
+  - name: '23  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -127,231 +63,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: suzhihan.eu.org
-  - name: 'sni-sni-🇯🇵-日本-f1f3227.v4.glados-config.net-24-134'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v4.glados-config.net
-  - name: 'sni-🇯🇵-日本-f1f3227.v1.glados-config.net-174'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v1.glados-config.net
-  - name: 'sni-🇺🇸-美国-kr1.sanfen001.pics-176'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: kr1.sanfen001.pics
-  - name: 'sni-🇺🇸-美国-kr1.sanfen001.pics-177'
-    type: vmess
-    port: 443
-    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: kr1.sanfen001.pics
-  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-178'
-    type: vmess
-    port: 443
-    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'sni-美国Microsoft数据中心 2-190'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'sni-🇺🇸-美国-hk1.sanfen001.pics-192'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'sni-美国Microsoft数据中心 2-201'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'sni-US 5-212'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'sni-🇯🇵-日本-f1f3227.v2.glados-config.net-215'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v2.glados-config.net
-  - name: 'sni-US 2-244'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'sni-美国Microsoft数据中心 1-260'
-    type: vmess
-    port: 443
-    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /zh-cn
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: hk1.sanfen001.pics
-  - name: 'sni-日本东京Linode数据中心 2-261'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v1.glados-config.net
-  - name: 'sni-日本东京Linode数据中心 5-263'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.v3.glados-config.net
-  - name: 'sni-🇺🇸-美国-hk12.sanfen001.pics-280'
+  - name: '27  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -367,7 +79,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk12.sanfen001.pics
-  - name: 'sni-🇺🇸-美国-hk3.sanfen001.pics-282'
+  - name: '29  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
@@ -383,7 +95,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: hk3.sanfen001.pics
-  - name: 'sni-US 7-296'
+  - name: '42  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079

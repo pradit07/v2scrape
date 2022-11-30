@@ -1,0 +1,81 @@
+proxies:
+  - name: '🇺🇸-美国-az.hk01.ssru7.casa'
+    type: vmess
+    port: 10025
+    uuid: f350e3f4-df5f-3ad8-bc81-cb667a81d053
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /v2ray
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: az.hk01.ssru7.casa
+  - name: '🇺🇸-美国-hk12.sanfen001.pics'
+    type: vmess
+    port: 443
+    uuid: e7e73e1d-2418-4766-8831-d1b3b83cc877
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: www.microsoft.com
+    servername: www.microsoft.com
+    server: main.millionaireaisle.com
+  - name: '🇨🇳 _US_美国->🇹🇼_TW_台湾'
+    type: vmess
+    port: 443
+    uuid: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /meizhiyuan/hinet?ed=2048
+      headers:
+        Host: hinet.guolicheng.cyou
+    servername: hinet.guolicheng.cyou
+    server: main.millionaireaisle.com
+  - name: '🇩🇪 _DE_德国->🇬🇧_GB_英国'
+    type: vmess
+    port: 443
+    uuid: 0c5e33e9-74fe-4435-9ec1-e8d2223ed16a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk3.iranz.me
+    servername: uk3.iranz.me
+    server: main.millionaireaisle.com
+  - name: '🇺🇸-美国-aus01.cf.ssru7.casa'
+    type: vmess
+    port: 443
+    uuid: 6773375e-4add-3bad-85fa-8f92c3263a01
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: aus01.cf.ssru7.casa
