@@ -14,4 +14,4 @@ proxies:
       headers:
         Host: kz1.v2rayserv.com
     servername: kz1.v2rayserv.com
-    server: cacerts.digicert.com
+    server: news.microsoft.com

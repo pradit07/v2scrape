@@ -1,5 +1,5 @@
 proxies:
-  - name: '50  ⌜すごい⌟ sni -> 🇯🇵'
+  - name: '48  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -12,13 +12,13 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
+        Host: click.zoom.us
+    servername: click.zoom.us
     server: f1f3227.v3.glados-config.net
-  - name: '51  ⌜すごい⌟ sni -> 🇯🇵'
+  - name: '49  ⌜すごい⌟ cdn -> 🇯🇵'
     type: vmess
     port: 443
-    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
     alterId: 0
     cipher: auto
     tls: true
@@ -26,8 +26,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /zh-cn
+      path: /roewesu
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: jp1.sanfen001.pics
+        Host: suzhihan.eu.org
+    servername: suzhihan.eu.org
+    server: main.millionaireaisle.com

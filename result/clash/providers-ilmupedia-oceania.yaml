@@ -1,5 +1,5 @@
 proxies:
-  - name: '4  ⌜すごい⌟ sni -> 🇦🇺'
+  - name: '51  ⌜すごい⌟ sni -> 🇦🇺'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085

@@ -1,5 +1,5 @@
 proxies:
-  - name: '44  ⌜すごい⌟ sni -> 🇭🇰'
+  - name: '46  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -12,10 +12,10 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: hk4.sanfen001.pics
-  - name: '45  ⌜すごい⌟ cdn -> 🇭🇰'
+  - name: '47  ⌜すごい⌟ cdn -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079

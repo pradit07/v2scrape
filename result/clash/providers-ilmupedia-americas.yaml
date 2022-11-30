@@ -31,7 +31,39 @@ proxies:
         Host: v2ray2.ssr-free2.xyz
     servername: v2ray2.ssr-free2.xyz
     server: cacerts.digicert.com
+  - name: '5  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: v2.chigua.tk
+    servername: v2.chigua.tk
+    server: news.microsoft.com
   - name: '6  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 443
+    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /dongtaiwang.com
+      headers:
+        Host: clash1.trump2023.net
+    servername: clash1.trump2023.net
+    server: cacerts.digicert.com
+  - name: '7  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
@@ -62,7 +94,7 @@ proxies:
       headers:
         Host: lg1.cfcdn2.xyz
     servername: lg1.cfcdn2.xyz
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '14  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
@@ -78,7 +110,7 @@ proxies:
       headers:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
-    server: cacerts.digicert.com
+    server: news.microsoft.com
   - name: '15  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
@@ -94,7 +126,7 @@ proxies:
       headers:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
-    server: news.microsoft.com
+    server: cacerts.digicert.com
   - name: '16  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2083
@@ -110,8 +142,8 @@ proxies:
       headers:
         Host: xui.mycf.ml
     servername: xui.mycf.ml
-    server: news.microsoft.com
-  - name: '18  ⌜すごい⌟ cdn -> 🇺🇸'
+    server: cacerts.digicert.com
+  - name: '17  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
@@ -126,8 +158,8 @@ proxies:
       headers:
         Host: lg1.cfcdn1.xyz
     servername: lg1.cfcdn1.xyz
-    server: cacerts.digicert.com
-  - name: '19  ⌜すごい⌟ cdn -> 🇺🇸'
+    server: news.microsoft.com
+  - name: '18  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
@@ -142,8 +174,8 @@ proxies:
       headers:
         Host: us.awsbest.com
     servername: us.awsbest.com
-    server: cacerts.digicert.com
-  - name: '20  ⌜すごい⌟ cdn -> 🇺🇸'
+    server: news.microsoft.com
+  - name: '19  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
@@ -158,8 +190,8 @@ proxies:
       headers:
         Host: lg1.trump2023.us
     servername: lg1.trump2023.us
-    server: cacerts.digicert.com
-  - name: '22  ⌜すごい⌟ cdn -> 🇺🇸'
+    server: news.microsoft.com
+  - name: '23  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: ce02a636-88ac-4c29-963d-e09961ec3b3d
@@ -174,8 +206,8 @@ proxies:
       headers:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
-    server: cacerts.digicert.com
-  - name: '24  ⌜すごい⌟ sni -> 🇺🇸'
+    server: news.microsoft.com
+  - name: '26  ⌜すごい⌟ sni -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -191,7 +223,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 51.81.220.195
-  - name: '26  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '28  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92
@@ -207,7 +239,7 @@ proxies:
         Host: v2ray.wefuckgfw.ga
     servername: v2ray.wefuckgfw.ga
     server: cacerts.digicert.com
-  - name: '27  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '29  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -222,8 +254,8 @@ proxies:
       headers:
         Host: us-lb.sshkit.org
     servername: us-lb.sshkit.org
-    server: cacerts.digicert.com
-  - name: '28  ⌜すごい⌟ sni -> 🇺🇸'
+    server: news.microsoft.com
+  - name: '30  ⌜すごい⌟ sni -> 🇺🇸'
     type: vmess
     port: 443
     uuid: d1478689-439c-4590-b7ce-36e786a02dc3
@@ -239,55 +271,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: youtube-bai-piao-wang-zhe-usa.98848.xyz
-  - name: '30  ⌜すごい⌟ sni -> 🇺🇸'
-    type: vmess
-    port: 443
-    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
-    alterId: 64
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /path/173418141123
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: 67.21.72.41
   - name: '31  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 2053
-    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /DQsafRJn/
-      headers:
-        Host: v2ray.wefuckgfw.ga
-    servername: v2ray.wefuckgfw.ga
-    server: cacerts.digicert.com
-  - name: '32  ⌜すごい⌟ sni -> 🇺🇸'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: f1f3227.u1.glados-config.net
-  - name: '33  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 33aa57df-1c93-4318-9fce-e850437ee781
@@ -303,10 +287,26 @@ proxies:
         Host: lg1.cfcdn3.xyz
     servername: lg1.cfcdn3.xyz
     server: news.microsoft.com
-  - name: '37  ⌜すごい⌟ cdn -> 🇧🇷'
+  - name: '33  ⌜すごい⌟ sni -> 🇺🇸'
     type: vmess
     port: 443
-    uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /path/173418141123
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 67.21.72.41
+  - name: '34  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: 2c23eb31-1133-4807-818e-484d9a473b9b
     alterId: 0
     cipher: auto
     tls: true
@@ -314,12 +314,44 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /DQsafRJn/
       headers:
-        Host: br1.v2rayserv.com
-    servername: br1.v2rayserv.com
-    server: cacerts.digicert.com
-  - name: '39  ⌜すごい⌟ sni -> 🇺🇸'
+        Host: v2ray.wefuckgfw.ga
+    servername: v2ray.wefuckgfw.ga
+    server: news.microsoft.com
+  - name: '35  ⌜すごい⌟ sni -> 🇺🇸'
+    type: vmess
+    port: 3331
+    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /s/f1f3227.fm.apple.com:111548
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: f1f3227.u1.glados-config.net
+  - name: '39  ⌜すごい⌟ cdn -> 🇺🇸'
+    type: vmess
+    port: 2053
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /eisasqa
+      headers:
+        Host: foxusovz3.fovi.tk
+    servername: foxusovz3.fovi.tk
+    server: news.microsoft.com
+  - name: '42  ⌜すごい⌟ sni -> 🇺🇸'
     type: vmess
     port: 443
     uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
@@ -335,23 +367,7 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 67.21.72.44
-  - name: '40  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 443
-    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: v2.chigua.tk
-    servername: v2.chigua.tk
-    server: news.microsoft.com
-  - name: '41  ⌜すごい⌟ cdn -> 🇺🇸'
+  - name: '43  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
@@ -366,8 +382,8 @@ proxies:
       headers:
         Host: foxusovz1.fovi.tk
     servername: foxusovz1.fovi.tk
-    server: news.microsoft.com
-  - name: '43  ⌜すごい⌟ cdn -> 🇺🇸'
+    server: cacerts.digicert.com
+  - name: '44  ⌜すごい⌟ cdn -> 🇺🇸'
     type: vmess
     port: 2053
     uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
@@ -382,20 +398,4 @@ proxies:
       headers:
         Host: foxusovz2.fovi.tk
     servername: foxusovz2.fovi.tk
-    server: news.microsoft.com
-  - name: '47  ⌜すごい⌟ cdn -> 🇺🇸'
-    type: vmess
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-    servername: clash1.trump2023.net
     server: news.microsoft.com
