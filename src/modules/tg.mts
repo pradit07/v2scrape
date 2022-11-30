@@ -64,7 +64,7 @@ class Bot {
     const message = await this.make(region);
     if (!message) return;
 
-    await this.bot.api.sendMessage("732796378", message, {
+    await this.bot.api.sendMessage("-1001509827144", message, {
       disable_web_page_preview: true,
       parse_mode: "HTML",
       reply_markup: new InlineKeyboard()
