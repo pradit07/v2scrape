@@ -1,5 +1,5 @@
 proxies:
-  - name: '26  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '28  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 0764a598-82c4-4b41-ba10-551a625beed5
@@ -15,39 +15,7 @@ proxies:
         Host: uk2.v2rayserv.com
     servername: uk2.v2rayserv.com
     server: main.millionaireaisle.com
-  - name: '27  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 443
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /IYKLD53M
-      headers:
-        Host: opfr1.v2rayfree1.xyz
-    servername: opfr1.v2rayfree1.xyz
-    server: main.millionaireaisle.com
   - name: '29  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 443
-    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /9JZFDTKE
-      headers:
-        Host: fr1.trump2023.org
-    servername: fr1.trump2023.org
-    server: main.millionaireaisle.com
-  - name: '40  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
@@ -63,7 +31,55 @@ proxies:
         Host: fr1.cachexy.ga
     servername: fr1.cachexy.ga
     server: main.millionaireaisle.com
-  - name: '43  ⌜すごい⌟ sni -> 🇫🇷'
+  - name: '30  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+    servername: opfr1.v2rayfree1.xyz
+    server: main.millionaireaisle.com
+  - name: '32  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+    servername: fr1.trump2023.org
+    server: main.millionaireaisle.com
+  - name: '43  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 8443
+    uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: cdn2.soft98.download
+    servername: cdn2.soft98.download
+    server: main.millionaireaisle.com
+  - name: '49  ⌜すごい⌟ sni -> 🇫🇷'
     type: vmess
     port: 443
     uuid: f72b4ccd-9bb9-4682-8401-3d8affed53f2
@@ -76,6 +92,6 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 5.249.165.96

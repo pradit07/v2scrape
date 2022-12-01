@@ -1,0 +1,33 @@
+proxies:
+  - name: '35  ⌜すごい⌟ sni -> 🇭🇰'
+    type: vmess
+    port: 443
+    uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: hk1.sanfen001.pics
+  - name: '42  ⌜すごい⌟ sni -> 🇭🇰'
+    type: vmess
+    port: 443
+    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: hk1.sanfen001.pics

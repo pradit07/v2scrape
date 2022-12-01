@@ -1,5 +1,5 @@
 proxies:
-  - name: '9  ⌜すごい⌟ sni -> 🇸🇬'
+  - name: '8  ⌜すごい⌟ sni -> 🇸🇬'
     type: vmess
     port: 443
     uuid: 6fea1649-425b-4092-bf53-29792152c925
@@ -15,7 +15,23 @@ proxies:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
     server: 15.235.147.186
-  - name: '13  ⌜すごい⌟ sni -> 🇸🇬'
+  - name: '9  ⌜すごい⌟ sni -> 🇸🇬'
+    type: vmess
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /chat
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: vsg1.0bad.com
+  - name: '11  ⌜すごい⌟ sni -> 🇸🇬'
     type: vmess
     port: 3331
     uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
@@ -28,10 +44,10 @@ proxies:
     ws-opts: 
       path: /s/f1f3227.fm.apple.com:111548
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: f1f3227.f3.glados-config.net
-  - name: '14  ⌜すごい⌟ cdn -> 🇰🇿'
+  - name: '12  ⌜すごい⌟ cdn -> 🇰🇿'
     type: vmess
     port: 443
     uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
@@ -47,22 +63,6 @@ proxies:
         Host: kz1.v2rayserv.com
     servername: kz1.v2rayserv.com
     server: main.millionaireaisle.com
-  - name: '22  ⌜すごい⌟ sni -> 🇯🇵'
-    type: vmess
-    port: 443
-    uuid: 0b873cff-11ab-4716-c41a-04f886135091
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /roewesu
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: suzhihan.eu.org
   - name: '23  ⌜すごい⌟ cdn -> 🇯🇵'
     type: vmess
     port: 443
@@ -79,7 +79,23 @@ proxies:
         Host: suzhihan.eu.org
     servername: suzhihan.eu.org
     server: main.millionaireaisle.com
-  - name: '30  ⌜すごい⌟ sni -> 🇰🇷'
+  - name: '24  ⌜すごい⌟ sni -> 🇯🇵'
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: suzhihan.eu.org
+  - name: '35  ⌜すごい⌟ sni -> 🇭🇰'
     type: vmess
     port: 443
     uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079
@@ -92,10 +108,10 @@ proxies:
     ws-opts: 
       path: /zh-cn
       headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: kr1.sanfen001.pics
-  - name: '32  ⌜すごい⌟ cdn -> 🇨🇳'
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: hk1.sanfen001.pics
+  - name: '37  ⌜すごい⌟ cdn -> 🇨🇳'
     type: vmess
     port: 443
     uuid: 4679f00e-90ce-430d-9714-6a19367ba112
@@ -111,7 +127,23 @@ proxies:
         Host: v2ray1.zhujicn2.org
     servername: v2ray1.zhujicn2.org
     server: main.millionaireaisle.com
-  - name: '44  ⌜すごい⌟ sni -> 🇯🇵'
+  - name: '42  ⌜すごい⌟ sni -> 🇭🇰'
+    type: vmess
+    port: 443
+    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /zh-cn
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
+    server: hk1.sanfen001.pics
+  - name: '50  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -124,38 +156,6 @@ proxies:
     ws-opts: 
       path: /roewesu
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 141.147.181.219
-  - name: '46  ⌜すごい⌟ sni -> 🇸🇬'
-    type: vmess
-    port: 443
-    uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 194.233.81.125
-  - name: '47  ⌜すごい⌟ sni -> 🇸🇬'
-    type: vmess
-    port: 3331
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /s/f1f3227.fm.apple.com:111548
-      headers:
         Host: promo.ruangguru.com
     servername: promo.ruangguru.com
-    server: f1f3227.f1.glados-config.net
+    server: 141.147.181.219

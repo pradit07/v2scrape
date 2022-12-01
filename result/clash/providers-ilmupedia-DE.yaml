@@ -1,5 +1,5 @@
 proxies:
-  - name: '4  ⌜すごい⌟ cdn -> 🇩🇪'
+  - name: '3  ⌜すごい⌟ cdn -> 🇩🇪'
     type: vmess
     port: 443
     uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
@@ -14,24 +14,8 @@ proxies:
       headers:
         Host: h2.800876.xyz
     servername: h2.800876.xyz
-    server: news.microsoft.com
-  - name: '10  ⌜すごい⌟ cdn -> 🇩🇪'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
     server: cacerts.digicert.com
-  - name: '15  ⌜すごい⌟ sni -> 🇩🇪'
+  - name: '13  ⌜すごい⌟ sni -> 🇩🇪'
     type: vmess
     port: 443
     uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
@@ -47,3 +31,51 @@ proxies:
         Host: news.microsoft.com
     servername: news.microsoft.com
     server: 45.146.252.141
+  - name: '14  ⌜すごい⌟ sni -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: 5.249.160.226
+  - name: '33  ⌜すごい⌟ cdn -> 🇩🇪'
+    type: vmess
+    port: 2083
+    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: 30.tehvp.xyz
+    servername: 30.tehvp.xyz
+    server: cacerts.digicert.com
+  - name: '34  ⌜すごい⌟ sni -> 🇩🇪'
+    type: vmess
+    port: 2083
+    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: main.millionaireaisle.com

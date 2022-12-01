@@ -1,20 +1,4 @@
 proxies:
-  - name: '22  ⌜すごい⌟ sni -> 🇯🇵'
-    type: vmess
-    port: 443
-    uuid: 0b873cff-11ab-4716-c41a-04f886135091
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /roewesu
-      headers:
-        Host: promo.ruangguru.com
-    servername: promo.ruangguru.com
-    server: suzhihan.eu.org
   - name: '23  ⌜すごい⌟ cdn -> 🇯🇵'
     type: vmess
     port: 443
@@ -31,7 +15,7 @@ proxies:
         Host: suzhihan.eu.org
     servername: suzhihan.eu.org
     server: main.millionaireaisle.com
-  - name: '44  ⌜すごい⌟ sni -> 🇯🇵'
+  - name: '24  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
@@ -44,6 +28,22 @@ proxies:
     ws-opts: 
       path: /roewesu
       headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: suzhihan.eu.org
+  - name: '50  ⌜すごい⌟ sni -> 🇯🇵'
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: promo.ruangguru.com
+    servername: promo.ruangguru.com
     server: 141.147.181.219

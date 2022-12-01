@@ -1,20 +1,4 @@
 proxies:
-  - name: '22  ⌜すごい⌟ sni -> 🇯🇵'
-    type: vmess
-    port: 443
-    uuid: 0b873cff-11ab-4716-c41a-04f886135091
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /roewesu
-      headers:
-        Host: news.microsoft.com
-    servername: news.microsoft.com
-    server: suzhihan.eu.org
   - name: '23  ⌜すごい⌟ cdn -> 🇯🇵'
     type: vmess
     port: 443
@@ -30,8 +14,24 @@ proxies:
       headers:
         Host: suzhihan.eu.org
     servername: suzhihan.eu.org
-    server: news.microsoft.com
-  - name: '44  ⌜すごい⌟ sni -> 🇯🇵'
+    server: cacerts.digicert.com
+  - name: '24  ⌜すごい⌟ sni -> 🇯🇵'
+    type: vmess
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /roewesu
+      headers:
+        Host: news.microsoft.com
+    servername: news.microsoft.com
+    server: suzhihan.eu.org
+  - name: '50  ⌜すごい⌟ sni -> 🇯🇵'
     type: vmess
     port: 443
     uuid: 0b873cff-11ab-4716-c41a-04f886135091
