@@ -1,8 +1,8 @@
 proxies:
-  - name: '12  ⌜すごい⌟ cdn -> 🇰🇿'
+  - name: '8  ⌜すごい⌟ cdn -> 🇨🇭'
     type: vmess
     port: 443
-    uuid: 2e9b8445-2eed-48e6-89f2-f8b20cbb6e33
+    uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
     alterId: 0
     cipher: auto
     tls: true
@@ -10,8 +10,8 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts: 
-      path: /sshocean
+      path: /
       headers:
-        Host: kz1.v2rayserv.com
-    servername: kz1.v2rayserv.com
+        Host: www.liuyiyang19891222.tk
+    servername: www.liuyiyang19891222.tk
     server: main.millionaireaisle.com

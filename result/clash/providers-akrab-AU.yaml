@@ -1,5 +1,5 @@
 proxies:
-  - name: '1  ⌜すごい⌟ sni -> 🇦🇺'
+  - name: '37  ⌜すごい⌟ sni -> 🇦🇺'
     type: vmess
     port: 443
     uuid: e7df0582-d168-43af-bfff-90c25af7d085
@@ -12,6 +12,6 @@ proxies:
     ws-opts: 
       path: /vmess
       headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
     server: 139.99.135.182

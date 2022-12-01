@@ -1,8 +1,24 @@
 proxies:
-  - name: '3  ⌜すごい⌟ cdn -> 🇩🇪'
+  - name: '6  ⌜すごい⌟ cdn -> 🇵🇱'
+    type: vmess
+    port: 2053
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /eisasqa
+      headers:
+        Host: foxpol2.fovi.tk
+    servername: foxpol2.fovi.tk
+    server: main.millionaireaisle.com
+  - name: '8  ⌜すごい⌟ cdn -> 🇨🇭'
     type: vmess
     port: 443
-    uuid: d217db0c-0faa-4270-ea38-e6093d9774e3
+    uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
     alterId: 0
     cipher: auto
     tls: true
@@ -12,122 +28,10 @@ proxies:
     ws-opts: 
       path: /
       headers:
-        Host: h2.800876.xyz
-    servername: h2.800876.xyz
+        Host: www.liuyiyang19891222.tk
+    servername: www.liuyiyang19891222.tk
     server: main.millionaireaisle.com
-  - name: '7  ⌜すごい⌟ cdn -> 🇱🇺'
-    type: vmess
-    port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /go
-      headers:
-        Host: lu1.gogogoo.cyou
-    servername: lu1.gogogoo.cyou
-    server: main.millionaireaisle.com
-  - name: '10  ⌜すごい⌟ sni -> 🇬🇧'
-    type: vmess
-    port: 443
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: 51.75.160.126
-  - name: '13  ⌜すごい⌟ sni -> 🇩🇪'
-    type: vmess
-    port: 443
-    uuid: b29defe7-36ee-47bf-b731-c4cccabc4200
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 45.146.252.141
-  - name: '14  ⌜すごい⌟ sni -> 🇩🇪'
-    type: vmess
-    port: 443
-    uuid: c721b258-e101-41e1-9574-ad171e502ab8
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 5.249.160.226
-  - name: '22  ⌜すごい⌟ cdn -> 🇱🇺'
-    type: vmess
-    port: 443
-    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /imkcpyyds
-      headers:
-        Host: buyvm.imkcp.eu.org
-    servername: buyvm.imkcp.eu.org
-    server: main.millionaireaisle.com
-  - name: '27  ⌜すごい⌟ cdn -> 🇳🇱'
-    type: vmess
-    port: 443
-    uuid: 532a5f12-cadb-46e4-963f-ee7c075e40f0
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /pkhhvws
-      headers:
-        Host: amshare.jingledev.me
-    servername: amshare.jingledev.me
-    server: main.millionaireaisle.com
-  - name: '28  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 443
-    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /sshocean
-      headers:
-        Host: uk2.v2rayserv.com
-    servername: uk2.v2rayserv.com
-    server: main.millionaireaisle.com
-  - name: '29  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '10  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4e21574f-1796-4f0a-86c0-4430fe99d3a1
@@ -143,7 +47,23 @@ proxies:
         Host: fr1.cachexy.ga
     servername: fr1.cachexy.ga
     server: main.millionaireaisle.com
-  - name: '30  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '12  ⌜すごい⌟ cdn -> 🇫🇷'
+    type: vmess
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /
+      headers:
+        Host: uk2.v2rayserv.com
+    servername: uk2.v2rayserv.com
+    server: main.millionaireaisle.com
+  - name: '13  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
@@ -159,7 +79,71 @@ proxies:
         Host: opfr1.v2rayfree1.xyz
     servername: opfr1.v2rayfree1.xyz
     server: main.millionaireaisle.com
-  - name: '32  ⌜すごい⌟ cdn -> 🇫🇷'
+  - name: '25  ⌜すごい⌟ cdn -> 🇱🇺'
+    type: vmess
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /go
+      headers:
+        Host: lu1.gogogoo.cyou
+    servername: lu1.gogogoo.cyou
+    server: main.millionaireaisle.com
+  - name: '29  ⌜すごい⌟ cdn -> 🇱🇺'
+    type: vmess
+    port: 443
+    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /imkcpyyds
+      headers:
+        Host: buyvm.imkcp.eu.org
+    servername: buyvm.imkcp.eu.org
+    server: main.millionaireaisle.com
+  - name: '32  ⌜すごい⌟ sni -> 🇩🇪'
+    type: vmess
+    port: 443
+    uuid: c721b258-e101-41e1-9574-ad171e502ab8
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: options.teams.microsoft.com
+    servername: options.teams.microsoft.com
+    server: 5.249.160.226
+  - name: '34  ⌜すごい⌟ sni -> 🇬🇧'
+    type: vmess
+    port: 443
+    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+    alterId: 0
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers:
+        Host: click.zoom.us
+    servername: click.zoom.us
+    server: 51.75.160.126
+  - name: '40  ⌜すごい⌟ cdn -> 🇫🇷'
     type: vmess
     port: 443
     uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
@@ -175,99 +159,3 @@ proxies:
         Host: fr1.trump2023.org
     servername: fr1.trump2023.org
     server: main.millionaireaisle.com
-  - name: '33  ⌜すごい⌟ cdn -> 🇩🇪'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: 30.tehvp.xyz
-    servername: 30.tehvp.xyz
-    server: main.millionaireaisle.com
-  - name: '34  ⌜すごい⌟ sni -> 🇩🇪'
-    type: vmess
-    port: 2083
-    uuid: 1ffeca67-a2bc-471b-b138-369d6762967d
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: click.zoom.us
-    servername: click.zoom.us
-    server: main.millionaireaisle.com
-  - name: '43  ⌜すごい⌟ cdn -> 🇫🇷'
-    type: vmess
-    port: 8443
-    uuid: 41e41e46-9bdb-4666-ae89-754c4cc8255b
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /
-      headers:
-        Host: cdn2.soft98.download
-    servername: cdn2.soft98.download
-    server: main.millionaireaisle.com
-  - name: '44  ⌜すごい⌟ sni -> 🇳🇱'
-    type: vmess
-    port: 443
-    uuid: 45d0eb68-955c-4760-91cd-fa6bf07b693f
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /fastssh/sezarhacks/633be1a74319b/
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 163.172.213.74
-  - name: '45  ⌜すごい⌟ cdn -> 🇳🇱'
-    type: vmess
-    port: 443
-    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /fastssh/hkgzs01/6315d407657f6/
-      headers:
-        Host: nl.v2-ray.com
-    servername: nl.v2-ray.com
-    server: main.millionaireaisle.com
-  - name: '49  ⌜すごい⌟ sni -> 🇫🇷'
-    type: vmess
-    port: 443
-    uuid: f72b4ccd-9bb9-4682-8401-3d8affed53f2
-    alterId: 0
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers:
-        Host: options.teams.microsoft.com
-    servername: options.teams.microsoft.com
-    server: 5.249.165.96
